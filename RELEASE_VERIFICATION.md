@@ -1,3 +1,33 @@
+# Public v0.1 publication-state verification
+
+**PUBLIC v0.1 RELEASED — 2026-09-23**
+
+Exclusive parent `a92f903627faae248a7f917c76b247d471086867` passed the complete hard baseline gate.
+The transition modifies authorized publication-state metadata/prose only; prior
+freeze/correction records remain historical. All 71 equations, 14 formal statements,
+14 proofs, 181 scope rows, mathematical code/certificates/expected results, bibliography,
+V3 authority and priority qualifications remain unchanged. README scientific and
+AI-workflow prose and all five Conjecture-1 note files are preserved.
+
+Clean build and visual check: PASS; 16 pages, only page 15 visibly changes.
+Pre-visibility public replay: **9/9 PASS**. Public paper snapshot: PASS.
+CFF 1.2.0 YAML/schema, JSON, repository-relative Markdown links and local leakage
+checks pass; machine-readable evidence is in release_verification/PUBLICATION_CHECKS.json.
+The public ZIP and manifests are regenerated from the exact publication tree.
+
+SCIENTIFIC DELTA: NONE
+
+The frozen pre-publication commit is retained; a new child commit on main records
+this transition. Author/committer: `Dehao Lin <115764367+LeoLam233@users.noreply.github.com>`. Trailer: `Co-authored-by: Codex <noreply@openai.com>`.
+Remote integrity is checked while private before public visibility, followed by
+public asset-download and fresh ZIP reproduction checks. Their actual results and
+the publication commit SHA are reported externally in FINAL_PUBLICATION_REPORT.md
+and FINAL_PUBLICATION_REPORT.json. No author contact, email or submission is included.
+
+---
+
+## Historical pre-publication verification (retained verbatim)
+
 # Final release-state sentence verification
 
 **FINAL PUBLIC v0.1 PACKAGE RE-FROZEN WITH CONJECTURE-1 COMMUNICATION NOTE — NOT YET PUBLISHED**

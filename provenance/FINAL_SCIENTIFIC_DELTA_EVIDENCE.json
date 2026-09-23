@@ -4,12 +4,21 @@
   "baseline_rc1_sha256": "82d7092dbecb7f3b795f2f92b1222f1196adc4f23489bf36a2e8cd5f8daa218a",
   "v3_sha256": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
   "changed_tex_files": [
-    "paper/sections/01_introduction.tex"
+    "paper/main.tex",
+    "paper/sections/appendix_reproducibility.tex"
   ],
   "approved_substitution_files": [
-    "paper/sections/01_introduction.tex"
+    "README.md",
+    "CITATION.cff",
+    "RELEASE_NOTES.md",
+    "CHANGELOG.md",
+    "REPRODUCIBILITY.md",
+    "PUBLIC_PRIVATE_BOUNDARY.md",
+    "release_assets/README.md",
+    "paper/main.tex",
+    "paper/sections/appendix_reproducibility.tex"
   ],
-  "entire_tex_and_bibliography_comparison": "Every manuscript source byte equals the preceding freeze after exactly the recorded Introduction sentence replacement. All mathematical/substantive scientific prose, main.tex/AI disclosure, BibTeX and clean rebuilt main.bbl remain byte-identical. Note Markdown/TeX/PDF/source map/check record and full README remain byte-identical.",
+  "entire_tex_and_bibliography_comparison": "Every manuscript source byte equals the baseline after only the approved PDF subject and Appendix C historical sentence replacements. All 71 equations, 14 formal statements, 14 proof blocks and 181 scope rows are unchanged; BibTeX and freshly generated main.bbl are byte-identical.",
   "display_count": 71,
   "display_records": [
     {
@@ -946,10 +955,10 @@
       "source": "V3::current_final/Krylov_remaining_attack/requirements.txt"
     }
   ],
-  "novelty_positioning": "Only the user-supplied release-state sentence now records the already completed final sweep. Absolute priority remains unclaimed; all scientific novelty/scope positioning and historical search qualifications remain unchanged. No new search.",
+  "novelty_positioning": "UNCHANGED from hard-gated pre-publication freeze; finite sweep cutoff, qualifications and absolute-priority disclaimer preserved. No new search.",
   "public_nested_archives": {
     "release_assets/paper-source.zip": {
-      "sha256": "b83e63c929269e677890e90a067caff66d6e3d95b2cab0f90ce5e3e9d26e3f6b",
+      "sha256": "b129175942aa9de2f64849cc91fa91aad0da9074b21805021811ec7affe352c5",
       "members": 12,
       "forbidden_members": []
     },
@@ -962,23 +971,34 @@
   "paper_author": "Dehao Lin",
   "pdf_pages": 16,
   "original_inputs_and_internal_extraction_unchanged": true,
-  "limitation": "Release-state prose correction and mechanical preservation only. No new mathematical audit, research, search, proof development, scope strengthening, claim or publication.",
-  "comparison_baseline": "Immediately preceding final-public v0.1 freeze; one user-authorized Introduction release-state sentence replacement",
+  "limitation": "Publication-state transition only; prior scientific audits and historical provenance are retained, not recharacterized as new research, fresh audits or human peer review.",
+  "comparison_baseline": "Exclusive hard-gated pre-publication freeze; publication-state metadata transition only",
   "baseline_public_freeze": {
     "status": "PASS",
-    "baseline_commit": "9a5440d292b61db07df36fcd8bc2f5dae12542c1",
-    "baseline_zip_sha256": "99a603aca80f4264e003e9b1d40f6dcc30b0664a17833234ff18eb49b0f4b12f",
-    "baseline_pdf_sha256": "8c6b6183d8375cc0a87146809e7efa4799194da24d01d6eb95f17112a0695dbe",
+    "baseline_commit": "a92f903627faae248a7f917c76b247d471086867",
+    "baseline_zip_sha256": "a38ed17c121fda3e262ea0e5e7c6687277a56b9e1e519e1f102ce0cce0c68b90",
+    "baseline_pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
     "standalone_note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
     "public_files": 114,
     "manifest_entries": 113,
     "git_clean": true,
+    "branch": "main",
     "author_and_committer": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
     "git_coauthor_trailer": "Co-authored-by: Codex <noreply@openai.com>",
-    "git_remotes": [],
-    "git_tags": []
+    "remotes": [],
+    "tags": [],
+    "scientific_counts": {
+      "equations": 71,
+      "formal_statements": 14,
+      "proof_blocks": 14
+    },
+    "public_reproduction": "9/9 PASS",
+    "scientific_delta": "SCIENTIFIC DELTA: NONE",
+    "v3_authority_sha256": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+    "note_frozen": true,
+    "all_tree_zip_git_bytes_identical": true
   },
-  "paper_pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
+  "paper_pdf_sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f",
   "historical_disclosure_correction": {
     "only_scientific_document_prose_change": "Deletion of one additional detailed workflow paragraph from paper/main.tex.",
     "removed_paragraph_sha256": "e1676108ebba43ce6320617029f22678c4f8b879227bb89180513dc4c86366d2",
@@ -1066,7 +1086,7 @@
     "mathematical_code_certificates_expected_results_byte_identical": true,
     "new_scientific_audit_or_research": false
   },
-  "release_state_sentence_correction": {
+  "historical_release_state_sentence_correction": {
     "path": "paper/sections/01_introduction.tex",
     "before": "A broad\npublic-prior-art search recorded with the underlying certificates found no\nmatching counterexample or ratio no-go result, but no absolute priority claim\nis made; a fresh search remains necessary before public release.",
     "after": "A final fresh\npublic-prior-art sweep before release found no matching\npublic prior result; absolute priority\nis not claimed.",
@@ -1110,5 +1130,46 @@
     ],
     "note_source_map_baseline_fingerprints": "Historical note-creation source fingerprints retained; only this separately recorded non-scientific Introduction sentence changes.",
     "full_rendered_body_exact_after_authorized_replacement": true
+  },
+  "publication_transition": {
+    "repository_url": "https://github.com/LeoLam233/krylov-purification-comparisons",
+    "release_url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1",
+    "tag": "v0.1",
+    "release_date": "2026-09-23",
+    "baseline_preserved_as_parent": true,
+    "no_amendment_of_prepublication_commit": true,
+    "authorized_substitution_count": 9,
+    "counts_byte_identical": {
+      "displayed_equations": 71,
+      "formal_statements": 14,
+      "proof_blocks": 14
+    },
+    "scope_rows_and_positions_unchanged": 181,
+    "readme_science_and_ai_workflow_unchanged": true,
+    "readme_only_change": "Approved status and repository/release links.",
+    "standalone_note_files_byte_identical": [
+      {
+        "path": "docs/CONJECTURE1_COUNTEREXAMPLES.md",
+        "sha256": "f664e0fc228c5a8966294118d0bef664eacbb66308a50ceb72cf3bc6ed3826af"
+      },
+      {
+        "path": "docs/conjecture1_counterexamples.tex",
+        "sha256": "b7a5dda0c753c37cc15d1b5393385705c67b6f30ef000fcd3d069a5cba0bca1a"
+      },
+      {
+        "path": "release_assets/Conjecture1_exact_counterexamples.pdf",
+        "sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de"
+      },
+      {
+        "path": "provenance/CONJECTURE1_NOTE_SOURCE_MAP.md",
+        "sha256": "620efb2e5eff49f33a43354c05a5d1fbb909711e5d9d981f3dac2cf8704587eb"
+      },
+      {
+        "path": "release_verification/CONJECTURE1_NOTE_CHECK.json",
+        "sha256": "497a9660c65887b74068d959a40fa7de54834ff8cae24d4953a53bb5f2da36c9"
+      }
+    ],
+    "new_research_search_audit_or_scientific_claim": false,
+    "actual_publication_commit_and_remote_checks": "Reported externally in FINAL_PUBLICATION_REPORT.json/.md, avoiding tracked self-reference."
   }
 }

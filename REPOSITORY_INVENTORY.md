@@ -85,6 +85,7 @@ release_verification/CONJECTURE1_NOTE_CHECK.json
 release_verification/ENVIRONMENT.json
 release_verification/PAPER_CHECK.json
 release_verification/PDF_INSPECTION.json
+release_verification/PUBLICATION_CHECKS.json
 release_verification/PUBLIC_REPRODUCTION.json
 release_verification/WRAPPER_TESTS.json
 requirements.txt

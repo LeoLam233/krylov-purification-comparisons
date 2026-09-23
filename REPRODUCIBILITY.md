@@ -103,4 +103,5 @@ supplied for this package. Full original private-mode checks require a separatel
 provisioned private layout and are not required for the default public replay.
 The final assembly is a metadata-only delta audit, clean build and engineering
 replay. It does not repeat research, hostile audits, clean-room certification or
-priority searching. No publication action has been performed.
+priority searching. Publication is external to the reproduction workflow; these commands perform no
+repository, release, author-contact, email, or submission actions.

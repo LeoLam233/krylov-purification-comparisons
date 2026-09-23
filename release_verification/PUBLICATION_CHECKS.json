@@ -1,0 +1,107 @@
+{
+  "status": "PASS",
+  "scope": "Local pre-visibility checks; actual remote/public results are recorded in the outer publication report.",
+  "hard_baseline_gate": {
+    "status": "PASS",
+    "baseline_commit": "a92f903627faae248a7f917c76b247d471086867",
+    "baseline_zip_sha256": "a38ed17c121fda3e262ea0e5e7c6687277a56b9e1e519e1f102ce0cce0c68b90",
+    "baseline_pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
+    "standalone_note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+    "public_files": 114,
+    "manifest_entries": 113,
+    "git_clean": true,
+    "branch": "main",
+    "author_and_committer": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
+    "git_coauthor_trailer": "Co-authored-by: Codex <noreply@openai.com>",
+    "remotes": [],
+    "tags": [],
+    "scientific_counts": {
+      "equations": 71,
+      "formal_statements": 14,
+      "proof_blocks": 14
+    },
+    "public_reproduction": "9/9 PASS",
+    "scientific_delta": "SCIENTIFIC DELTA: NONE",
+    "v3_authority_sha256": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+    "note_frozen": true,
+    "all_tree_zip_git_bytes_identical": true
+  },
+  "scientific_counts_unchanged": {
+    "displayed_equations": 71,
+    "formal_statements": 14,
+    "proof_blocks": 14
+  },
+  "scope_rows_unchanged": 181,
+  "source_changes_exactly_authorized": true,
+  "old_historical_substitutions_preserved": true,
+  "readme_scientific_headlines_ai_workflow_and_note_links_preserved": true,
+  "standalone_note_files_byte_identical": [
+    {
+      "path": "docs/CONJECTURE1_COUNTEREXAMPLES.md",
+      "sha256": "f664e0fc228c5a8966294118d0bef664eacbb66308a50ceb72cf3bc6ed3826af"
+    },
+    {
+      "path": "docs/conjecture1_counterexamples.tex",
+      "sha256": "b7a5dda0c753c37cc15d1b5393385705c67b6f30ef000fcd3d069a5cba0bca1a"
+    },
+    {
+      "path": "release_assets/Conjecture1_exact_counterexamples.pdf",
+      "sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de"
+    },
+    {
+      "path": "provenance/CONJECTURE1_NOTE_SOURCE_MAP.md",
+      "sha256": "620efb2e5eff49f33a43354c05a5d1fbb909711e5d9d981f3dac2cf8704587eb"
+    },
+    {
+      "path": "release_verification/CONJECTURE1_NOTE_CHECK.json",
+      "sha256": "497a9660c65887b74068d959a40fa7de54834ff8cae24d4953a53bb5f2da36c9"
+    }
+  ],
+  "clean_build": "PASS",
+  "visual_inspection": "PASS: only page 15 changed; all other pages pixel-identical",
+  "public_reproduction": "9/9 PASS",
+  "scientific_delta": "SCIENTIFIC DELTA: NONE",
+  "format_links_leakage": {
+    "status": "PASS",
+    "cff_version": "1.2.0",
+    "cff_schema_source": "https://github.com/citation-file-format/citation-file-format/blob/1.2.0/schema.json",
+    "cff_schema_sha256": "0b8d22140da702d766df318dcff3a91af2f39521298dcf36d76315fd99cc169b",
+    "cff_yaml_and_schema": "PASS",
+    "json_files_valid": 28,
+    "markdown_files_checked": 39,
+    "repository_relative_markdown_links_checked": 29,
+    "broken_links": [],
+    "leakage_check": "PASS",
+    "secret_or_local_absolute_path_hits": [],
+    "pdf_paths": [
+      "paper/main.pdf",
+      "release_assets/Conjecture1_exact_counterexamples.pdf",
+      "release_assets/manuscript.pdf"
+    ],
+    "archive_paths_and_member_counts": {
+      "release_assets/paper-source.zip": 12,
+      "release_assets/v3-reproduction-view.zip": 21
+    },
+    "handoff_or_private_prompt_mentions_in_frozen_boundary_or_fingerprint_records": [
+      "PUBLIC_PRIVATE_BOUNDARY.md",
+      "README.md",
+      "RELEASE_ASSET_MAP.md",
+      "REPRODUCIBILITY.md",
+      "provenance/FINAL_APPROVED_PROSE_CHANGES.json",
+      "provenance/INPUT_ANCHORS.json",
+      "provenance/PRIVATE_ASSETS.sha256",
+      "provenance/V3_SOURCE_HASHES.json",
+      "scripts/reproduce.py",
+      "certificates/current/TARGET2_PURITY_NOGO.md",
+      "scripts/paper_stage/integrity_check.py",
+      "src/frozen/current/scripts/clean_room_1r_search.py",
+      "src/frozen/current/scripts/verify_target2_exact.py"
+    ],
+    "private_material_assessment": "Only provenance/boundary/path mentions and cryptographic fingerprints; no raw prompts, handoffs, private archives or third-party PDF binaries included.",
+    "validation_packages": {
+      "PyYAML": "6.0.3",
+      "jsonschema": "4.25.1",
+      "markdown-it-py": "3.0.0"
+    }
+  }
+}

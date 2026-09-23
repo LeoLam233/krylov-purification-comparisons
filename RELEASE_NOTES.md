@@ -1,4 +1,19 @@
-# v0.1 final public package
+# v0.1 public release
+
+**PUBLIC v0.1 RELEASED — 2026-09-23**
+
+v0.1 was publicly released on GitHub on 2026-09-23 at
+[https://github.com/LeoLam233/krylov-purification-comparisons](https://github.com/LeoLam233/krylov-purification-comparisons). Tag: **v0.1**.
+Release: [https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1).
+
+The publication-state transition changes only authorized metadata and release-state
+prose. The audited scientific content and Conjecture-1 communication note are unchanged.
+Public reproduction: **9/9 PASS**. **SCIENTIFIC DELTA: NONE**.
+No matching public prior result was found in that finite sweep; absolute priority
+is not claimed. The existing cutoff and search qualifications remain in effect.
+No new research, priority search or human peer review is claimed.
+
+## Historical local freeze and correction records
 
 **FINAL PUBLIC v0.1 PACKAGE RE-FROZEN WITH CONJECTURE-1 COMMUNICATION NOTE — NOT YET PUBLISHED**
 

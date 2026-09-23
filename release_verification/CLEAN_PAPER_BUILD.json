@@ -41,10 +41,10 @@
       "<verified tooling cache>",
       "--offline"
     ],
-    "pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe"
+    "pdf_sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f"
   },
   "staged_manuscript_not_replaced": false,
-  "limit": "New empty compiler source/build directory admits only final TeX and unchanged BibTeX; no old PDF, .aux or .bbl input. Only the authorized Introduction release-state sentence changes. The existing verified tool environment is reused.",
+  "limit": "Empty compiler source/build directory; only final TeX and unchanged BibTeX admitted, with no old PDF/aux/bbl. Publication changes only PDF subject metadata and the authorized Appendix C historical sentence. Existing pinned tool environment reused.",
   "integrity_after": {
     "status": "PASS",
     "byte_identical_copies": 47,
@@ -54,5 +54,5 @@
     "paper_source_archive_matches": true
   },
   "final_pdf_installed_after_successful_build": true,
-  "comparison_baseline_commit": "9a5440d292b61db07df36fcd8bc2f5dae12542c1"
+  "comparison_baseline_commit": "a92f903627faae248a7f917c76b247d471086867"
 }

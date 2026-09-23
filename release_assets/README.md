@@ -1,4 +1,4 @@
-# Final public v0.1 assets — not yet published
+# Public v0.1 release assets
 
 - v3-reproduction-view.zip is the unchanged RC1 curated view of byte-identical V3
   verifiers and expected results. It is not the complete V3 archive or a new freeze.

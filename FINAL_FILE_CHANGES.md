@@ -1,3 +1,58 @@
+# Exact publication-state transition files
+
+Pre-publication parent: `a92f903627faae248a7f917c76b247d471086867`. It is retained, not amended.
+**25 existing files changed, 1 derived file added, 89 files byte-identical**;
+no files removed or moved. Final public tree: 115 files.
+
+| Changed public path | Authorized/derived reason |
+|---|---|
+| `CHANGELOG.md` | Prepend public release entry; earlier entries unchanged. |
+| `CITATION.cff` | Valid CFF 1.2.0 public v0.1 repository/release/date metadata; preferred manuscript remains not journal-published; no DOI/ORCID invented. |
+| `FINAL_FILE_CHANGES.md` | Prepend exact publication delta, retaining previous change inventory verbatim. |
+| `FINAL_SCIENTIFIC_DELTA_AUDIT.md` | Prepend publication transition and NONE verdict, retaining previous audit verbatim. |
+| `PUBLIC_PRIVATE_BOUNDARY.md` | Identify curated tree/ZIP as release artifacts; archival boundary unchanged. |
+| `PUBLIC_TREE.sha256` | Refresh hashes and cover the one new derived file. |
+| `README.md` | Publish status and repository/release links only; scientific headlines, generic AI workflow, quick-note links and prior-art qualifications unchanged. |
+| `RELEASE_METADATA.json` | Set public state, known URLs/date/tag; preserve historical correction/freeze records and avoid a final-commit self-reference. |
+| `RELEASE_NOTES.md` | Prepend public release record; retain prior local records as history. |
+| `RELEASE_VERIFICATION.md` | Prepend publication validation summary, retaining previous verification verbatim. |
+| `REPOSITORY_INVENTORY.md` | Add the one derived publication-validation record path. |
+| `REPRODUCIBILITY.md` | Replace only the stale publication assertion with durable commands-perform-no-publication wording. |
+| `paper/checks/REVIEWED_CONTENT.json` | Refresh the two changed source fingerprints and append metadata-transition record; scientific records unchanged. |
+| `paper/main.pdf` | Clean rebuild for approved PDF subject and Appendix C sentence changes. |
+| `paper/main.tex` | Change only PDF subject metadata to public release wording. |
+| `paper/sections/appendix_reproducibility.tex` | Replace only the authorized historical certification/publication-state sentence. |
+| `provenance/FINAL_APPROVED_PROSE_CHANGES.json` | Append exact authorized substitutions and structured metadata changes; retain historical before/after records. |
+| `provenance/FINAL_SCIENTIFIC_DELTA_EVIDENCE.json` | Record scientific preservation and publication metadata transition against the hard-gated parent. |
+| `release_assets/README.md` | Replace only stale not-yet-published asset heading. |
+| `release_assets/RELEASE_ASSETS.sha256` | Refresh asset README, manuscript PDF and source ZIP hashes; note and mathematical ZIP unchanged. |
+| `release_assets/manuscript.pdf` | Identical distributed copy of the clean rebuilt PDF. |
+| `release_assets/paper-source.zip` | Refresh source archive; only main.tex and Appendix C member bytes change. |
+| `release_verification/CLEAN_PAPER_BUILD.json` | Record clean publication-source build. |
+| `release_verification/PDF_INSPECTION.json` | Record final PDF subject, changed-page inspection and unchanged other-page pixels. |
+| `release_verification/PUBLIC_REPRODUCTION.json` | Record requested pre-visibility 9/9 public replay under unchanged policies. |
+
+| Added public path | Reason |
+|---|---|
+| `release_verification/PUBLICATION_CHECKS.json` | Machine-readable baseline/preservation/CFF/JSON/link/leakage validation for the publication transition. |
+
+All scientific equations/statements/proofs/code/certificates/results, licenses,
+historical audits/clean rooms, V3 anchors and all five note files remain unchanged.
+The only manuscript edits are PDF subject metadata and one historical Appendix C
+sentence. README changes only status/links; no scientific or AI disclosure rewrite.
+Historical prose-transition entries are preserved. The existing final-sweep cutoff
+and absolute-priority caveat remain effective; no new search occurs.
+
+Outside the Git tree, the final ZIP/checksum and companion assembly/publication
+reports are regenerated. The publication commit is a new child, with its actual
+SHA and remote/asset checks recorded externally. Origin, annotated tag and GitHub
+release are created only under this run's explicit authorization. Author contact,
+email and manuscript submission are excluded.
+
+---
+
+## Historical pre-publication file-change record (retained verbatim)
+
 # Exact release-state sentence correction changes
 
 Baseline commit: `9a5440d292b61db07df36fcd8bc2f5dae12542c1`.

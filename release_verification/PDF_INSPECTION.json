@@ -1,9 +1,9 @@
 {
   "status": "PASS",
-  "pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
+  "pdf_sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f",
   "pages": 16,
-  "rendering": "Poppler pdftoppm, PNG, 95 dpi; all 16 pages rendered. Changed pages 2–9 directly inspected; pages 1 and 10–16 pixel-identical to the inspected baseline.",
-  "inspection": "PASS: the supplied final-sweep sentence appears in the Introduction. The shorter sentence causes pagination reflow through page 9; all changed pages are clean, with no clipping, overlap or missing glyph. Full extracted body text equals baseline after only the authorized sentence replacement, ignoring page footers, ligatures and whitespace.",
+  "rendering": "Poppler pdftoppm, PNG, 95 dpi; all 16 pages rendered. Changed page 15 directly inspected; pages 1–14 and 16 pixel-identical to inspected baseline.",
+  "inspection": "PASS: only authorized Appendix C sentence changes visibly; full extracted body equals baseline after that exact replacement. PDF subject is Public v0.1 release; authoritative V3 scientific freeze. No clipping, overlap, missing glyph or overfull box.",
   "latex_errors": [],
   "undefined_references_or_citations": [],
   "overfull_boxes": [],
@@ -69,7 +69,7 @@
     },
     {
       "page": 15,
-      "sha256": "994c32454a992ea3ffd2c773ff8a1b139450445da74877ba7eabb64f71057392"
+      "sha256": "5932b3f61f14d66eb5c8821cf29878eae2dfdd0d9d1da81f99b701f4f285e44e"
     },
     {
       "page": 16,
@@ -78,15 +78,6 @@
   ],
   "pixel_identical_baseline_pages": [
     1,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16
-  ],
-  "changed_pages_directly_visually_inspected": [
     2,
     3,
     4,
@@ -94,11 +85,21 @@
     6,
     7,
     8,
-    9
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16
+  ],
+  "changed_pages_directly_visually_inspected": [
+    15
   ],
   "full_concise_statement_verified": true,
   "additional_workflow_paragraph_absent": true,
   "disclosure_text_unchanged_after_pdf_extraction_normalization": true,
-  "full_pdf_body_exact_after_authorized_sentence_replacement": true,
-  "pdf_text_normalization": "Remove page-number footer; normalize Unicode ligatures and whitespace only."
+  "pdf_text_normalization": "Omit page footer; normalize ligatures, line-end hyphenation and whitespace.",
+  "full_pdf_body_exact_after_appendix_substitution": true,
+  "pdf_subject": "Public v0.1 release; authoritative V3 scientific freeze"
 }

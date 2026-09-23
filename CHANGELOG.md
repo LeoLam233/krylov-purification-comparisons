@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1 public release — 2026-09-23
+
+The audited public package was released at https://github.com/LeoLam233/krylov-purification-comparisons; tag **v0.1** identifies
+the release. This transition changes metadata/release-state prose only. Scientific
+content remains unchanged, and the Conjecture-1 communication note is included.
+**SCIENTIFIC DELTA: NONE**.
+
 ## v0.1 final-sweep release-state sentence correction, local re-freeze
 
 Replaced only the stale Introduction search-status sentence with the supplied

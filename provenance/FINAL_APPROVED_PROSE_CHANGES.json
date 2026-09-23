@@ -120,6 +120,60 @@
       "before": "A broad\npublic-prior-art search recorded with the underlying certificates found no\nmatching counterexample or ratio no-go result, but no absolute priority claim\nis made; a fresh search remains necessary before public release.",
       "after": "A final fresh\npublic-prior-art sweep before release found no matching\npublic prior result; absolute priority\nis not claimed.",
       "reason": "User-authorized release-state correction reflecting the already recorded final sweep; no new search or absolute-priority claim."
+    },
+    {
+      "path": "README.md",
+      "before": "**FINAL PUBLIC v0.1 PACKAGE FROZEN — NOT YET PUBLISHED**",
+      "after": "**PUBLIC v0.1 RELEASED — 2026-09-23**\n\nRepository: [https://github.com/LeoLam233/krylov-purification-comparisons](https://github.com/LeoLam233/krylov-purification-comparisons)  \nRelease: [v0.1](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1)",
+      "reason": "Authorized current publication status and repository/release links; all existing scientific, AI-workflow and priority prose retained."
+    },
+    {
+      "path": "CITATION.cff",
+      "before": "cff-version: 1.2.0\nmessage: \"Please cite the manuscript using preferred-citation. This v0.1 package is frozen locally and not yet published. Code: MIT; original manuscript/documentation: CC BY 4.0.\"\ntitle: \"Exact limits of Krylov-complexity comparisons under purification\"\ntype: software\nversion: \"0.1\"\nauthors:\n  - family-names: Lin\n    given-names: Dehao\n    affiliation: \"School of Physics, Sun Yat-sen University, Guangzhou, China\"\nlicense: MIT\npreferred-citation:\n  type: generic\n  title: \"Exact limits of Krylov-complexity comparisons under purification\"\n  authors:\n    - family-names: Lin\n      given-names: Dehao\n      affiliation: \"School of Physics, Sun Yat-sen University, Guangzhou, China\"\n  year: 2026\n  version: \"0.1\"\n  notes: \"Unpublished manuscript. Original manuscript and documentation licensed CC BY 4.0. No DOI or public repository URL assigned.\"\n",
+      "after": "cff-version: 1.2.0\nmessage: \"Please cite the manuscript using preferred-citation. Public v0.1 was released on 2026-09-23. Code: MIT; original manuscript/documentation: CC BY 4.0.\"\ntitle: \"Exact limits of Krylov-complexity comparisons under purification\"\ntype: software\nversion: \"0.1\"\nrepository-code: \"https://github.com/LeoLam233/krylov-purification-comparisons\"\nurl: \"https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1\"\ndate-released: \"2026-09-23\"\nauthors:\n  - family-names: Lin\n    given-names: Dehao\n    affiliation: \"School of Physics, Sun Yat-sen University, Guangzhou, China\"\nlicense: MIT\npreferred-citation:\n  type: generic\n  title: \"Exact limits of Krylov-complexity comparisons under purification\"\n  authors:\n    - family-names: Lin\n      given-names: Dehao\n      affiliation: \"School of Physics, Sun Yat-sen University, Guangzhou, China\"\n  year: 2026\n  url: \"https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1\"\n  version: \"0.1\"\n  notes: \"Manuscript not yet journal-published. Original manuscript and documentation licensed CC BY 4.0. No DOI is assigned. The public v0.1 repository is available at https://github.com/LeoLam233/krylov-purification-comparisons.\"\n",
+      "reason": "Publish CFF repository/release/date metadata; preserve human author, affiliation, version, MIT and preferred manuscript citation, with no DOI/ORCID."
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "before": "# v0.1 final public package\n\n",
+      "after": "# v0.1 public release\n\n**PUBLIC v0.1 RELEASED — 2026-09-23**\n\nv0.1 was publicly released on GitHub on 2026-09-23 at\n[https://github.com/LeoLam233/krylov-purification-comparisons](https://github.com/LeoLam233/krylov-purification-comparisons). Tag: **v0.1**.\nRelease: [https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1).\n\nThe publication-state transition changes only authorized metadata and release-state\nprose. The audited scientific content and Conjecture-1 communication note are unchanged.\nPublic reproduction: **9/9 PASS**. **SCIENTIFIC DELTA: NONE**.\nNo matching public prior result was found in that finite sweep; absolute priority\nis not claimed. The existing cutoff and search qualifications remain in effect.\nNo new research, priority search or human peer review is claimed.\n\n## Historical local freeze and correction records\n\n",
+      "reason": "Prepend actual public-release record and label earlier entries as history; retain all prior freeze/correction prose unchanged."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "before": "# Changelog\n\n",
+      "after": "# Changelog\n\n## v0.1 public release — 2026-09-23\n\nThe audited public package was released at https://github.com/LeoLam233/krylov-purification-comparisons; tag **v0.1** identifies\nthe release. This transition changes metadata/release-state prose only. Scientific\ncontent remains unchanged, and the Conjecture-1 communication note is included.\n**SCIENTIFIC DELTA: NONE**.\n\n",
+      "reason": "Prepend public-release entry without rewriting historical entries."
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "before": "No publication action has been performed.",
+      "after": "Publication is external to the reproduction workflow; these commands perform no\nrepository, release, author-contact, email, or submission actions.",
+      "reason": "Durable publication-independent workflow wording; commands, tolerances, classifications and semantics unchanged."
+    },
+    {
+      "path": "PUBLIC_PRIVATE_BOUNDARY.md",
+      "before": "Only this curated Git root and its matching public ZIP are publication candidates.",
+      "after": "This curated Git root and its matching public ZIP are the public v0.1 release artifacts.",
+      "reason": "Current public release status only; archival boundary unchanged."
+    },
+    {
+      "path": "release_assets/README.md",
+      "before": "# Final public v0.1 assets — not yet published",
+      "after": "# Public v0.1 release assets",
+      "reason": "Durable public asset heading; meanings and licensing scope unchanged."
+    },
+    {
+      "path": "paper/main.tex",
+      "before": "Final public v0.1 package; not yet published; authoritative V3 scientific freeze",
+      "after": "Public v0.1 release; authoritative V3 scientific freeze",
+      "reason": "PDF subject metadata only; visible main.tex manuscript text unchanged."
+    },
+    {
+      "path": "paper/sections/appendix_reproducibility.tex",
+      "before": "No public\r\nrepository, release, submission, or author-contact action is part of this\r\npaper-stage package.",
+      "after": "The certification package described here did not itself\r\nperform any public-release, submission, or author-contact\r\naction.",
+      "reason": "Authorized Appendix C durable historical wording only; certification claims, archive authority and certificate map unchanged."
     }
   ],
   "disclosure_correction_baseline": {
@@ -163,5 +217,69 @@
     "git_coauthor_trailer": "Co-authored-by: Codex <noreply@openai.com>",
     "git_remotes": [],
     "git_tags": []
+  },
+  "publication_transition": {
+    "baseline": {
+      "status": "PASS",
+      "baseline_commit": "a92f903627faae248a7f917c76b247d471086867",
+      "baseline_zip_sha256": "a38ed17c121fda3e262ea0e5e7c6687277a56b9e1e519e1f102ce0cce0c68b90",
+      "baseline_pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
+      "standalone_note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+      "public_files": 114,
+      "manifest_entries": 113,
+      "git_clean": true,
+      "branch": "main",
+      "author_and_committer": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
+      "git_coauthor_trailer": "Co-authored-by: Codex <noreply@openai.com>",
+      "remotes": [],
+      "tags": [],
+      "scientific_counts": {
+        "equations": 71,
+        "formal_statements": 14,
+        "proof_blocks": 14
+      },
+      "public_reproduction": "9/9 PASS",
+      "scientific_delta": "SCIENTIFIC DELTA: NONE",
+      "v3_authority_sha256": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+      "note_frozen": true,
+      "all_tree_zip_git_bytes_identical": true
+    },
+    "repository_url": "https://github.com/LeoLam233/krylov-purification-comparisons",
+    "release_url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1",
+    "date": "2026-09-23",
+    "structured_release_metadata_changes": [
+      {
+        "field": "status",
+        "before": "FINAL PUBLIC v0.1 PACKAGE RE-FROZEN WITH CONJECTURE-1 COMMUNICATION NOTE — NOT YET PUBLISHED",
+        "after": "PUBLIC v0.1 RELEASED — 2026-09-23"
+      },
+      {
+        "field": "repository_url",
+        "before": null,
+        "after": "https://github.com/LeoLam233/krylov-purification-comparisons"
+      },
+      {
+        "field": "published",
+        "before": false,
+        "after": true
+      },
+      {
+        "field": "release_date",
+        "before": null,
+        "after": "2026-09-23"
+      },
+      {
+        "field": "tag",
+        "before": null,
+        "after": "v0.1"
+      },
+      {
+        "field": "release_url",
+        "before": null,
+        "after": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1"
+      }
+    ],
+    "historical_substitutions_retained_verbatim": true,
+    "new_scientific_content": false
   }
 }

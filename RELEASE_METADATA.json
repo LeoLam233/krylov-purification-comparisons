@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "status": "FINAL PUBLIC v0.1 PACKAGE RE-FROZEN WITH CONJECTURE-1 COMMUNICATION NOTE — NOT YET PUBLISHED",
+  "status": "PUBLIC v0.1 RELEASED — 2026-09-23",
   "assembly_date": "2026-09-23",
   "author": "Dehao Lin",
   "affiliation": "School of Physics, Sun Yat-sen University, Guangzhou, China",
@@ -8,8 +8,8 @@
   "funding": "No specific funding",
   "acknowledgements": null,
   "doi": null,
-  "repository_url": null,
-  "published": false,
+  "repository_url": "https://github.com/LeoLam233/krylov-purification-comparisons",
+  "published": true,
   "code_license": "MIT",
   "original_manuscript_documentation_license": "CC-BY-4.0",
   "scientific_authority_v3_sha256": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
@@ -59,5 +59,16 @@
     "existing_sweep_cutoff_renewed": false,
     "readme_and_note_unchanged": true,
     "scientific_delta": "NONE"
+  },
+  "release_date": "2026-09-23",
+  "tag": "v0.1",
+  "release_url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1",
+  "publication_transition": {
+    "prepublication_commit": "a92f903627faae248a7f917c76b247d471086867",
+    "prepublication_zip_sha256": "a38ed17c121fda3e262ea0e5e7c6687277a56b9e1e519e1f102ce0cce0c68b90",
+    "prepublication_manuscript_pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
+    "scientific_delta": "NONE",
+    "scope": "Authorized publication-state metadata/prose only; prior freezes/corrections and scientific authority retained.",
+    "publication_commit_sha_location": "Outer FINAL_PUBLICATION_REPORT.json/.md, avoiding a tracked self-reference."
   }
 }

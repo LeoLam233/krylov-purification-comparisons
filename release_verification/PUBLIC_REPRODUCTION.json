@@ -10,7 +10,7 @@
       "phase": "exact",
       "returncode": 0,
       "script_sha256": "0280aad0a2d138fd88412352ffa8983ea0ac84b88f5c47e3dd6fefde86d08ccc",
-      "seconds": 0.094,
+      "seconds": 0.109,
       "status": "PASS",
       "result": "results/clean_room_1r_search.json",
       "matches_frozen_result": true
@@ -20,7 +20,7 @@
       "phase": "exact",
       "returncode": 0,
       "script_sha256": "b9b54171d4cdfe5b5ed550241619130ab799d858637b1877a597847fbc88dcd1",
-      "seconds": 1.109,
+      "seconds": 1.016,
       "status": "PASS",
       "result": "results/target1r_exact.json",
       "matches_frozen_result": true
@@ -30,7 +30,7 @@
       "phase": "exact",
       "returncode": 0,
       "script_sha256": "e05c4da438f1867c011b699f998199a82717faf16246e5b63ae3be853914f750",
-      "seconds": 1.031,
+      "seconds": 0.813,
       "status": "PASS",
       "result": "results/short_time_symmetric.json",
       "matches_frozen_result": true
@@ -40,7 +40,7 @@
       "phase": "exact",
       "returncode": 0,
       "script_sha256": "fc45d0a8de10fa19a092d5ca4567e927d1f7112ac6b7b8167500e611184ba9cf",
-      "seconds": 0.906,
+      "seconds": 0.812,
       "status": "PASS",
       "result": "results/target2_exact.json",
       "matches_frozen_result": true
@@ -50,7 +50,7 @@
       "phase": "exact",
       "returncode": 0,
       "script_sha256": "a2abac9d38c4c0f9adc216bb58eace6c5c5da4815e5b2fb43023198b82b158ef",
-      "seconds": 0.938,
+      "seconds": 0.844,
       "status": "PASS",
       "result": "results/restricted_survivors.json",
       "matches_frozen_result": true
@@ -60,7 +60,7 @@
       "phase": "legacy_mixed_exact_and_numerical",
       "returncode": 0,
       "script_sha256": "cbe4f75b004d24e76ef1a97e7524d80d12ef530586e63bd97c02a83bf5bfd9c0",
-      "seconds": 1.468,
+      "seconds": 1.25,
       "status": "PASS",
       "result": "verification_results.json",
       "matches_frozen_result": true
@@ -70,7 +70,7 @@
       "phase": "legacy_mixed_exact_and_numerical",
       "returncode": 0,
       "script_sha256": "ce5e3c73c15e99ea08974032f020b038cdadad6c7146c2e2b2efb58214fb1ca0",
-      "seconds": 0.953,
+      "seconds": 0.859,
       "status": "PASS",
       "result": "results/target1r_bootstrap.json",
       "matches_frozen_result": true
@@ -80,7 +80,7 @@
       "phase": "legacy_mixed_exact_and_numerical",
       "returncode": 0,
       "script_sha256": "e6b7c7eb6ff49c6b2eae6182fc3694f1de17fba5ce8c2e4bfc107ed8a0ff91b6",
-      "seconds": 1.11,
+      "seconds": 1.016,
       "status": "PASS",
       "result": "results/factor_two_verification.json",
       "matches_frozen_result": true
@@ -90,7 +90,7 @@
       "phase": "numerical_nonrigorous",
       "returncode": 0,
       "script_sha256": "dccc107043c5d4114f6ee62af40ac0ad6e01871497de0b7b370222804135f6da",
-      "seconds": 2.594,
+      "seconds": 2.14,
       "status": "PASS",
       "result": "results/target2_numerical.json",
       "matches_frozen_result": true

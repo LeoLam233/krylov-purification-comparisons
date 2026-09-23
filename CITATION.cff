@@ -1,8 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite the manuscript using preferred-citation. This v0.1 package is frozen locally and not yet published. Code: MIT; original manuscript/documentation: CC BY 4.0."
+message: "Please cite the manuscript using preferred-citation. Public v0.1 was released on 2026-09-23. Code: MIT; original manuscript/documentation: CC BY 4.0."
 title: "Exact limits of Krylov-complexity comparisons under purification"
 type: software
 version: "0.1"
+repository-code: "https://github.com/LeoLam233/krylov-purification-comparisons"
+url: "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1"
+date-released: "2026-09-23"
 authors:
   - family-names: Lin
     given-names: Dehao
@@ -16,5 +19,6 @@ preferred-citation:
       given-names: Dehao
       affiliation: "School of Physics, Sun Yat-sen University, Guangzhou, China"
   year: 2026
+  url: "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1"
   version: "0.1"
-  notes: "Unpublished manuscript. Original manuscript and documentation licensed CC BY 4.0. No DOI or public repository URL assigned."
+  notes: "Manuscript not yet journal-published. Original manuscript and documentation licensed CC BY 4.0. No DOI is assigned. The public v0.1 repository is available at https://github.com/LeoLam233/krylov-purification-comparisons."

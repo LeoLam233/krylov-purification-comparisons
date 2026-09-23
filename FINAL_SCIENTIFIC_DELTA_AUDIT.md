@@ -1,3 +1,62 @@
+# Publication-state scientific delta audit
+
+**PUBLIC v0.1 RELEASED — 2026-09-23**
+
+SCIENTIFIC DELTA: NONE
+
+Repository: https://github.com/LeoLam233/krylov-purification-comparisons. Release: https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1. Tag: v0.1.
+
+The exclusive pre-publication parent is `a92f903627faae248a7f917c76b247d471086867`; ZIP SHA-256
+`a38ed17c121fda3e262ea0e5e7c6687277a56b9e1e519e1f102ce0cce0c68b90` and manuscript PDF SHA-256
+`dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe`. The complete hard baseline gate passed before
+edits or public action, including clean Git state, identity/trailer, absent remote/tag,
+114 matching tree/ZIP/Git files, 71/14/14 counts, 9/9 replay record, frozen note and
+unchanged V3 authority. Its commit is retained as the publication commit's parent.
+
+The completed pre-publication scientific audit remains historical evidence.
+This transition applies only the authorized public status/URLs/date/tag, CFF metadata,
+durable reproduction/boundary/asset wording, PDF subject metadata and one Appendix C
+historical sentence. Old freeze/correction and prose-substitution entries are retained.
+No DOI, ORCID, funding, acknowledgement or additional author is introduced.
+
+| Required check | Result |
+|---|---|
+| Displayed equations | 71/71 raw-byte blocks unchanged |
+| Formal statements | 14/14 raw-byte theorem/proposition/lemma/corollary blocks unchanged |
+| Proof blocks | 14/14 raw-byte blocks unchanged |
+| Constants/ranges/quantifiers/witnesses/families | Unchanged; complete source identity outside the two approved non-scientific replacements; 181 scope rows and locations unchanged |
+| Verifiers/certificates/expected outputs/tolerances | All scripts/, src/, certificates/ and the mathematical ZIP byte-identical |
+| Bibliography | BibTeX and clean rebuilt main.bbl byte-identical; all five entries resolve |
+| README science, detailed AI workflow and quick-note links | Byte-identical after reversing only the authorized status/link replacement |
+| Standalone note | All five Markdown/TeX/PDF/source-map/check-record files byte-identical |
+| Historical audits, clean rooms, V3 and priority positioning | Preserved; no new search, scientific audit or human peer-review claim |
+| CFF, JSON and repository-relative Markdown links | Locally validated; see release_verification/PUBLICATION_CHECKS.json |
+| Private-material leakage | Local checks pass; only curated assets are distributed. Provenance filenames/fingerprints and unchanged private-mode locators are not private payloads |
+
+Clean offline manuscript build: **PASS**, Tectonic 0.17.0, new empty compiler
+source/build directory with only final TeX and unchanged BibTeX, no old PDF/aux/bbl.
+All 16 pages rendered. Page 15 directly inspected; other pages pixel-identical.
+Only the approved Appendix C sentence changes the extracted visible body. PDF subject
+now records public release. Human author and full AI contribution statement are unchanged.
+New manuscript PDF SHA-256: `9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f`.
+
+Pre-visibility public reproduction: **9/9 PASS**, with unchanged expectations and
+policies. Existing exact/mixed/numerical classifications remain unchanged. The public
+paper checker also passes and its identical summary is retained. The note remains
+DERIVATIVE SCIENTIFIC CONTENT ONLY — NO NEW CLAIM; it is not rebuilt.
+
+The new child commit uses `Dehao Lin <115764367+LeoLam233@users.noreply.github.com>` for author and committer and exact trailer
+`Co-authored-by: Codex <noreply@openai.com>`. Actual publication commit, remote/tag checks, downloaded asset hashes,
+visibility/release confirmation and the fresh public-ZIP replay are recorded in the
+outer publication report, without a Git hash cycle. GitHub publication alone is
+authorized; author contact, email and submission remain separate actions.
+
+SCIENTIFIC DELTA: NONE
+
+---
+
+## Historical pre-publication audit (retained verbatim)
+
 # Final scientific delta audit: one release-state sentence
 
 SCIENTIFIC DELTA: NONE

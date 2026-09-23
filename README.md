@@ -3,7 +3,10 @@
 Final public v0.1 reproducibility package for the [release-audited manuscript](paper/main.pdf),
 using the authoritative V3 scientific freeze.
 
-**FINAL PUBLIC v0.1 PACKAGE FROZEN — NOT YET PUBLISHED**
+**PUBLIC v0.1 RELEASED — 2026-09-23**
+
+Repository: [https://github.com/LeoLam233/krylov-purification-comparisons](https://github.com/LeoLam233/krylov-purification-comparisons)  
+Release: [v0.1](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1)
 
 Author: **Dehao Lin**. Affiliation: School of Physics, Sun Yat-sen University,
 Guangzhou, China. No ORCID; no specific funding; no acknowledgements.

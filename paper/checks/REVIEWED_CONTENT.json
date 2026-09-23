@@ -1719,7 +1719,7 @@
   "section_files": [
     {
       "path": "main.tex",
-      "sha256": "3f5aed70ec251706f80f7587afde2979358951439c18fa8b34bbc421661c7081",
+      "sha256": "1a368b3d66e1a1cb41018ca738f6f2019f82ff5df11014282c2e9019da282eaa",
       "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
     },
     {
@@ -1769,7 +1769,7 @@
     },
     {
       "path": "sections/appendix_reproducibility.tex",
-      "sha256": "de814d04884918170e08c74c9f17fa6dc79c2ccb8e80921585a35307c7b915a5",
+      "sha256": "f0ea6537f8407f030a08e349198782320f43b9a4fabe60eae3217ab741a9528c",
       "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
     }
   ],
@@ -3131,6 +3131,24 @@
         "path": "sections/01_introduction.tex",
         "before": "ee013ae13df5f4b9d5f2b22fcfb524f51c3f4673641047ffc1b9a5955815d87d",
         "after": "54a2878bfe8b9a4c9423bee0ffda938643453fafa8c683accd74dc63d001368a"
+      }
+    ],
+    "new_scientific_review": false,
+    "new_priority_search": false
+  },
+  "publication_transition_update": {
+    "baseline_commit": "a92f903627faae248a7f917c76b247d471086867",
+    "scope": "PDF subject metadata and one Appendix C historical publication-state sentence only.",
+    "changed_section_hashes": [
+      {
+        "path": "main.tex",
+        "before": "3f5aed70ec251706f80f7587afde2979358951439c18fa8b34bbc421661c7081",
+        "after": "1a368b3d66e1a1cb41018ca738f6f2019f82ff5df11014282c2e9019da282eaa"
+      },
+      {
+        "path": "sections/appendix_reproducibility.tex",
+        "before": "de814d04884918170e08c74c9f17fa6dc79c2ccb8e80921585a35307c7b915a5",
+        "after": "f0ea6537f8407f030a08e349198782320f43b9a4fabe60eae3217ab741a9528c"
       }
     ],
     "new_scientific_review": false,
