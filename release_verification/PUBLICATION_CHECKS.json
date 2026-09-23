@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "scope": "Local pre-visibility checks; actual remote/public results are recorded in the outer publication report.",
+  "scope": "Local v0.1 pre-visibility checks; actual remote/public results are inspectable in public-safe derivatives at release_verification/PUBLICATION_VERIFICATION_REPORT.md and .json; original outer reports remain private.",
   "hard_baseline_gate": {
     "status": "PASS",
     "baseline_commit": "a92f903627faae248a7f917c76b247d471086867",

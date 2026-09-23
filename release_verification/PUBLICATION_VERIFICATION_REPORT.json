@@ -1,0 +1,754 @@
+{
+  "status": "PUBLIC v0.1 RELEASE COMPLETE",
+  "repository_url": "https://github.com/LeoLam233/krylov-purification-comparisons",
+  "release_url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1",
+  "release_date": "2026-09-23",
+  "github_published_at": "2026-09-23T12:55:53Z",
+  "publication_commit": "4a637eaf0cd6beeaab72afca62f8069fa01793be",
+  "prepublication_parent": "a92f903627faae248a7f917c76b247d471086867",
+  "new_child_commit_not_amendment": true,
+  "branch": "main",
+  "git_clean": true,
+  "tag": "v0.1",
+  "annotated_tag_sha": "febe223baebd782d2f02fa0de96a06aef7c13e20",
+  "tag_target": "4a637eaf0cd6beeaab72afca62f8069fa01793be",
+  "public_zip_sha256": "db0f26e3c0a46c56f7dbf1200ade839164710f32e8e3e0265060be19936b608e",
+  "manuscript_pdf_sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f",
+  "standalone_note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+  "paper_source_zip_sha256": "b129175942aa9de2f64849cc91fa91aad0da9074b21805021811ec7affe352c5",
+  "public_tree_manifest_sha256": "367acb5488ff2939744891ec0156da4c6acfcefe3b977dd18e68433ea7d78280",
+  "repository_visibility": "PUBLIC",
+  "release_draft": false,
+  "release_prerelease": false,
+  "repository_description": "Exact counterexamples and structural limits for Krylov-complexity comparisons under purification, with reproducible certificates and audits.",
+  "repository_topics": [
+    "krylov-complexity",
+    "quantum-complexity",
+    "quantum-information",
+    "reproducible-research",
+    "theoretical-physics"
+  ],
+  "success_conditions": {
+    "PUBLIC REPOSITORY": "PASS",
+    "MAIN PUSH": "PASS",
+    "TAG v0.1": "PASS",
+    "GITHUB RELEASE v0.1": "PASS",
+    "RELEASE ASSET HASHES": "PASS",
+    "PUBLIC TREE LEAKAGE CHECK": "PASS",
+    "PUBLIC ZIP REPRODUCTION": "9/9 PASS",
+    "SCIENTIFIC DELTA": "NONE"
+  },
+  "hard_baseline_gate": {
+    "status": "PASS",
+    "baseline_commit": "a92f903627faae248a7f917c76b247d471086867",
+    "baseline_zip_sha256": "a38ed17c121fda3e262ea0e5e7c6687277a56b9e1e519e1f102ce0cce0c68b90",
+    "baseline_pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
+    "standalone_note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+    "public_files": 114,
+    "manifest_entries": 113,
+    "git_clean": true,
+    "branch": "main",
+    "author_and_committer": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
+    "git_coauthor_trailer": "Co-authored-by: Codex <noreply@openai.com>",
+    "remotes": [],
+    "tags": [],
+    "scientific_counts": {
+      "equations": 71,
+      "formal_statements": 14,
+      "proof_blocks": 14
+    },
+    "public_reproduction": "9/9 PASS",
+    "scientific_delta": "SCIENTIFIC DELTA: NONE",
+    "v3_authority_sha256": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+    "note_frozen": true,
+    "all_tree_zip_git_bytes_identical": true
+  },
+  "private_remote_gate": "PASS: refs, full tree, rendered README, CFF, draft and all downloaded asset hashes verified while private.",
+  "final_remote_verification": "PASS: independent anonymous HTTPS verification of public refs/tree/release, all six downloads, public pages and 23 README/required-file links.",
+  "release_assets": [
+    {
+      "name": "Conjecture1_exact_counterexamples.pdf",
+      "sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+      "bytes": 42910,
+      "public_download_verified": true,
+      "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/Conjecture1_exact_counterexamples.pdf",
+      "github_asset_id": 583770112
+    },
+    {
+      "name": "Exact_limits_of_Krylov-complexity_comparisons_under_purification_v0.1.pdf",
+      "sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f",
+      "bytes": 147540,
+      "public_download_verified": true,
+      "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/Exact_limits_of_Krylov-complexity_comparisons_under_purification_v0.1.pdf",
+      "github_asset_id": 583770125
+    },
+    {
+      "name": "Krylov_purification_v0.1_PUBLIC.zip",
+      "sha256": "db0f26e3c0a46c56f7dbf1200ade839164710f32e8e3e0265060be19936b608e",
+      "bytes": 656283,
+      "public_download_verified": true,
+      "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/Krylov_purification_v0.1_PUBLIC.zip",
+      "github_asset_id": 583770111
+    },
+    {
+      "name": "Krylov_purification_v0.1_PUBLIC.zip.sha256",
+      "sha256": "383293d04708319a7d29cf15f5299ad0423b9e3aba93f711d811cd4869750263",
+      "bytes": 102,
+      "public_download_verified": true,
+      "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/Krylov_purification_v0.1_PUBLIC.zip.sha256",
+      "github_asset_id": 583770121
+    },
+    {
+      "name": "paper-source.zip",
+      "sha256": "b129175942aa9de2f64849cc91fa91aad0da9074b21805021811ec7affe352c5",
+      "bytes": 25183,
+      "public_download_verified": true,
+      "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/paper-source.zip",
+      "github_asset_id": 583770120
+    },
+    {
+      "name": "PUBLIC_TREE.sha256",
+      "sha256": "367acb5488ff2939744891ec0156da4c6acfcefe3b977dd18e68433ea7d78280",
+      "bytes": 11321,
+      "public_download_verified": true,
+      "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/PUBLIC_TREE.sha256",
+      "github_asset_id": 583770153
+    }
+  ],
+  "zip_crc": "PASS",
+  "zip_tree_byte_identity": "PASS",
+  "manifest_entries_verified": 114,
+  "public_tree_files": 115,
+  "clean_manuscript_build": "PASS: fresh empty compiler directory, offline Tectonic 0.17.0.",
+  "pdf_inspection": "PASS: all 16 pages rendered; changed page 15 directly inspected, pages 1–14 and 16 pixel-identical to baseline.",
+  "cff_yaml_and_schema": "PASS: official CFF 1.2.0 schema.",
+  "json_files_valid": 28,
+  "repository_relative_markdown_links_valid": 29,
+  "scientific_preservation": {
+    "raw_byte_blocks_unchanged": {
+      "displayed_equations": 71,
+      "formal_statements": 14,
+      "proof_blocks": 14
+    },
+    "scope_rows_unchanged": 181,
+    "constants_ranges_quantifiers_witnesses_families_proofs": "UNCHANGED",
+    "verifiers_certificates_expected_outputs_tolerances": "UNCHANGED",
+    "bibliography_v3_authority_and_priority_positioning": "UNCHANGED",
+    "readme_scientific_and_ai_workflow_prose": "UNCHANGED",
+    "five_standalone_note_files": "BYTE-IDENTICAL",
+    "note_classification": "DERIVATIVE SCIENTIFIC CONTENT ONLY — NO NEW CLAIM"
+  },
+  "previsibility_public_reproduction": "9/9 PASS",
+  "downloaded_public_zip_reproduction": {
+    "status": "PASS",
+    "mode": "public_curated_view",
+    "scientific_authority": "V3 aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "jobs": [
+      {
+        "id": "current-clean_room_1r_search",
+        "phase": "exact",
+        "returncode": 0,
+        "script_sha256": "0280aad0a2d138fd88412352ffa8983ea0ac84b88f5c47e3dd6fefde86d08ccc",
+        "seconds": 0.078,
+        "status": "PASS",
+        "result": "results/clean_room_1r_search.json",
+        "matches_frozen_result": true
+      },
+      {
+        "id": "current-verify_1r",
+        "phase": "exact",
+        "returncode": 0,
+        "script_sha256": "b9b54171d4cdfe5b5ed550241619130ab799d858637b1877a597847fbc88dcd1",
+        "seconds": 0.969,
+        "status": "PASS",
+        "result": "results/target1r_exact.json",
+        "matches_frozen_result": true
+      },
+      {
+        "id": "current-derive_short_time",
+        "phase": "exact",
+        "returncode": 0,
+        "script_sha256": "e05c4da438f1867c011b699f998199a82717faf16246e5b63ae3be853914f750",
+        "seconds": 0.828,
+        "status": "PASS",
+        "result": "results/short_time_symmetric.json",
+        "matches_frozen_result": true
+      },
+      {
+        "id": "current-verify_target2_exact",
+        "phase": "exact",
+        "returncode": 0,
+        "script_sha256": "fc45d0a8de10fa19a092d5ca4567e927d1f7112ac6b7b8167500e611184ba9cf",
+        "seconds": 0.812,
+        "status": "PASS",
+        "result": "results/target2_exact.json",
+        "matches_frozen_result": true
+      },
+      {
+        "id": "current-verify_restricted_survivors",
+        "phase": "exact",
+        "returncode": 0,
+        "script_sha256": "a2abac9d38c4c0f9adc216bb58eace6c5c5da4815e5b2fb43023198b82b158ef",
+        "seconds": 0.766,
+        "status": "PASS",
+        "result": "results/restricted_survivors.json",
+        "matches_frozen_result": true
+      },
+      {
+        "id": "left-verify",
+        "phase": "legacy_mixed_exact_and_numerical",
+        "returncode": 0,
+        "script_sha256": "cbe4f75b004d24e76ef1a97e7524d80d12ef530586e63bd97c02a83bf5bfd9c0",
+        "seconds": 1.312,
+        "status": "PASS",
+        "result": "verification_results.json",
+        "matches_frozen_result": true
+      },
+      {
+        "id": "current-verify_1r_bootstrap",
+        "phase": "legacy_mixed_exact_and_numerical",
+        "returncode": 0,
+        "script_sha256": "ce5e3c73c15e99ea08974032f020b038cdadad6c7146c2e2b2efb58214fb1ca0",
+        "seconds": 0.844,
+        "status": "PASS",
+        "result": "results/target1r_bootstrap.json",
+        "matches_frozen_result": true
+      },
+      {
+        "id": "current-verify_factor_two",
+        "phase": "legacy_mixed_exact_and_numerical",
+        "returncode": 0,
+        "script_sha256": "e6b7c7eb6ff49c6b2eae6182fc3694f1de17fba5ce8c2e4bfc107ed8a0ff91b6",
+        "seconds": 1.016,
+        "status": "PASS",
+        "result": "results/factor_two_verification.json",
+        "matches_frozen_result": true
+      },
+      {
+        "id": "current-verify_target2_numerical",
+        "phase": "numerical_nonrigorous",
+        "returncode": 0,
+        "script_sha256": "dccc107043c5d4114f6ee62af40ac0ad6e01871497de0b7b370222804135f6da",
+        "seconds": 2.172,
+        "status": "PASS",
+        "result": "results/target2_numerical.json",
+        "matches_frozen_result": true
+      }
+    ],
+    "exact_comparison": "Strings, integers, booleans and structures identical.",
+    "numerical_comparison": "Float fields abs/rel 1e-9, inherited from frozen second-run replay; explicit 90-digit diagnostic strings abs 1e-75. Frozen internal tolerances also run.",
+    "scope": "Engineering replay of supplied evidence. Numerical cross-checks are non-rigorous; no new claim, hostile audit, clean-room run or human validation.",
+    "integrity_before": {
+      "status": "PASS",
+      "byte_identical_copies": 47,
+      "public_assets": 5,
+      "private_assets": null,
+      "curated_view_matches_sources": true,
+      "paper_source_archive_matches": true
+    },
+    "dependencies": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.0",
+      "sympy": "1.14.0",
+      "mpmath": "1.3.0"
+    },
+    "disposable_work_directory_removed": true,
+    "integrity_after": {
+      "status": "PASS",
+      "byte_identical_copies": 47,
+      "public_assets": 5,
+      "private_assets": null,
+      "curated_view_matches_sources": true,
+      "paper_source_archive_matches": true
+    },
+    "pristine_assets_unchanged": true
+  },
+  "public_zip_reproduction": "9/9 PASS",
+  "scientific_delta": "SCIENTIFIC DELTA: NONE",
+  "leakage_check": {
+    "status": "PASS",
+    "public_tree_and_preserved_parent_checked": true,
+    "git_history_commits": 2,
+    "patterns_checked": [
+      "local_windows_absolute_path",
+      "mnt_data",
+      "github_secret",
+      "aws_access_key",
+      "private_key",
+      "assigned_secret_literal"
+    ],
+    "hits": [],
+    "pdfs_checked": [
+      {
+        "history_state": "publication",
+        "path": "paper/main.pdf",
+        "pages": 16,
+        "sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f"
+      },
+      {
+        "history_state": "publication",
+        "path": "release_assets/Conjecture1_exact_counterexamples.pdf",
+        "pages": 2,
+        "sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de"
+      },
+      {
+        "history_state": "publication",
+        "path": "release_assets/manuscript.pdf",
+        "pages": 16,
+        "sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f"
+      },
+      {
+        "history_state": "frozen_parent",
+        "path": "paper/main.pdf",
+        "pages": 16,
+        "sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe"
+      },
+      {
+        "history_state": "frozen_parent",
+        "path": "release_assets/Conjecture1_exact_counterexamples.pdf",
+        "pages": 2,
+        "sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de"
+      },
+      {
+        "history_state": "frozen_parent",
+        "path": "release_assets/manuscript.pdf",
+        "pages": 16,
+        "sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe"
+      }
+    ],
+    "nested_archive_text_members_checked": 66,
+    "private_material_published": false,
+    "third_party_source_pdf_published": false,
+    "boundary_note": "Historical filenames/fingerprints and frozen private-mode locator references are documented provenance, not redistributed private payloads."
+  },
+  "git_author": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
+  "git_committer": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
+  "git_coauthor_trailer": "Co-authored-by: Codex <noreply@openai.com>",
+  "exact_file_changes_relative_to_prepublication_parent": {
+    "changed": [
+      {
+        "path": "CHANGELOG.md",
+        "before_sha256": "0af274f5c85cd90ca27cc8b33752b73e92c07b743422fe8220ace9b5901ce97a",
+        "after_sha256": "8ee41414edac910c49dd058bd60215515fbc2d26af4f1d4fd173b415bb5ee1e9",
+        "reason": "Prepend public release entry; earlier entries unchanged."
+      },
+      {
+        "path": "CITATION.cff",
+        "before_sha256": "47d2ef34461891d6094eae629be0fea9f357689283d0f02257734381223f7838",
+        "after_sha256": "71de87520e7d13d39422d8b26ed7e77c36422c68c9a8a9cb263e73efa1db2d21",
+        "reason": "Valid CFF 1.2.0 public v0.1 repository/release/date metadata; preferred manuscript remains not journal-published; no DOI/ORCID invented."
+      },
+      {
+        "path": "FINAL_FILE_CHANGES.md",
+        "before_sha256": "ec8d3a6d2828dee1650ed0ce7418c526e56f27429b40802694e4a12bd4918a6f",
+        "after_sha256": "fbd94fa7e4789f3d06713f2a8c633861ec1c9031d72e111ccab6b4e89e08955f",
+        "reason": "Prepend exact publication delta, retaining previous change inventory verbatim."
+      },
+      {
+        "path": "FINAL_SCIENTIFIC_DELTA_AUDIT.md",
+        "before_sha256": "b2c632597bd87d9e7acd6bcf21173f93c6eceadb612ef88ce8d21791c0e208b2",
+        "after_sha256": "1ab81101e4d69d0d1d33fb7be9d3b0364469b71179cce8187df99051ea72315a",
+        "reason": "Prepend publication transition and NONE verdict, retaining previous audit verbatim."
+      },
+      {
+        "path": "PUBLIC_PRIVATE_BOUNDARY.md",
+        "before_sha256": "a01c2583fa0440a2f9f6ad195a2324795ba3d00c9a1de17cee4574916846a035",
+        "after_sha256": "f664b6a44a28076dc96080837d6ddcb78ac9452b6d90b2879c446c5895bd3baa",
+        "reason": "Identify curated tree/ZIP as release artifacts; archival boundary unchanged."
+      },
+      {
+        "path": "PUBLIC_TREE.sha256",
+        "before_sha256": "ec281ff61264aa6f2b47d6debb08cf6bb423a03dad4561a267ef5bb114bc1948",
+        "after_sha256": "367acb5488ff2939744891ec0156da4c6acfcefe3b977dd18e68433ea7d78280",
+        "reason": "Refresh hashes and cover the one new derived file."
+      },
+      {
+        "path": "README.md",
+        "before_sha256": "94e97a1a00a929538e6d89da631335fb069153013a113a74a6579ce9aeb5bcc5",
+        "after_sha256": "d8674b9ff57416c4236d3133352472250d6b58f51232252b0bdaa45528229df4",
+        "reason": "Publish status and repository/release links only; scientific headlines, generic AI workflow, quick-note links and prior-art qualifications unchanged."
+      },
+      {
+        "path": "RELEASE_METADATA.json",
+        "before_sha256": "e1037c3a8613e9625d4612dd9503ed84fde1e60eb508062127f28a392d546b62",
+        "after_sha256": "1a7a3df2847b01806d26429883e9f10b91fbc5f9fd6692ededdcad417e816fa9",
+        "reason": "Set public state, known URLs/date/tag; preserve historical correction/freeze records and avoid a final-commit self-reference."
+      },
+      {
+        "path": "RELEASE_NOTES.md",
+        "before_sha256": "77360c863ac72faa8396e6077b2522c75d5e4f4b0ae908d7cbb3c0cfe052cf29",
+        "after_sha256": "7e9742d9c8387b557001c5ab593db5e8c89a4405de03f2dc927e97aeb6ca9156",
+        "reason": "Prepend public release record; retain prior local records as history."
+      },
+      {
+        "path": "RELEASE_VERIFICATION.md",
+        "before_sha256": "80f242e44f6f7add5ed2f750708a3938b259a4b007fd0fdcd59bbbf35a354a8b",
+        "after_sha256": "1e38a3bc53180998357b0e9c65c269f3307bbcbdb54d92d683e16b841551444a",
+        "reason": "Prepend publication validation summary, retaining previous verification verbatim."
+      },
+      {
+        "path": "REPOSITORY_INVENTORY.md",
+        "before_sha256": "5a057d7cb6154d2074323000f102622482368cb8414789b27c7ee06ae70a68b6",
+        "after_sha256": "9614a12b50a591e91d942baef0d5c26ec30a18a53b9b5500897362e852bd33b5",
+        "reason": "Add the one derived publication-validation record path."
+      },
+      {
+        "path": "REPRODUCIBILITY.md",
+        "before_sha256": "9dce8bb853e3b9fa5e7496f2842f00cfeedebaf2141159f612b7bb1e2c7b2242",
+        "after_sha256": "19a915fc67caac00e99e2917a5f62962a700570e9e010ed635eb40ef510f59f5",
+        "reason": "Replace only the stale publication assertion with durable commands-perform-no-publication wording."
+      },
+      {
+        "path": "paper/checks/REVIEWED_CONTENT.json",
+        "before_sha256": "84aab95a343b175eba16c8110e54d1a793be0c2032930b0c3973ec65d61f6382",
+        "after_sha256": "1ce7491ff97fc3fb35d5bc650897d929cc8ed8e8b21b76d67f017d6444b3c746",
+        "reason": "Refresh the two changed source fingerprints and append metadata-transition record; scientific records unchanged."
+      },
+      {
+        "path": "paper/main.pdf",
+        "before_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
+        "after_sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f",
+        "reason": "Clean rebuild for approved PDF subject and Appendix C sentence changes."
+      },
+      {
+        "path": "paper/main.tex",
+        "before_sha256": "3f5aed70ec251706f80f7587afde2979358951439c18fa8b34bbc421661c7081",
+        "after_sha256": "1a368b3d66e1a1cb41018ca738f6f2019f82ff5df11014282c2e9019da282eaa",
+        "reason": "Change only PDF subject metadata to public release wording."
+      },
+      {
+        "path": "paper/sections/appendix_reproducibility.tex",
+        "before_sha256": "67760ec040e833bd0cfd35c197e2e85a4bc9edda40cbf35e94678f0bffad8479",
+        "after_sha256": "99008f7126408a5c6689ccf1a755f55718c2f08bb5a04a96b279f5f9ebc0df74",
+        "reason": "Replace only the authorized historical certification/publication-state sentence."
+      },
+      {
+        "path": "provenance/FINAL_APPROVED_PROSE_CHANGES.json",
+        "before_sha256": "ae8c71a35baf2ca21817294d37386b633911fb95a5faf9913ae86b62df87beb3",
+        "after_sha256": "9eb89a20ffc2953e1217a4d04853f1ea0365287deea9b365264fc83f7ee12c45",
+        "reason": "Append exact authorized substitutions and structured metadata changes; retain historical before/after records."
+      },
+      {
+        "path": "provenance/FINAL_SCIENTIFIC_DELTA_EVIDENCE.json",
+        "before_sha256": "20d7938c0f85f8f4662e98947c176ad75af0933ecef19fdb6c88509d00f289ff",
+        "after_sha256": "3fb30e0c0d67b3f3ae97bf63fb23375cdb85e96413821488c6d4ca659caa5592",
+        "reason": "Record scientific preservation and publication metadata transition against the hard-gated parent."
+      },
+      {
+        "path": "release_assets/README.md",
+        "before_sha256": "c32cda72ca62f02e1cf61f155ff59761bb618452d36ebedca31db6aa99c9f4a8",
+        "after_sha256": "3ac20f614353074a9f1c4d9548bdd7f70dacbdb81bea8079ffcf860a25f96049",
+        "reason": "Replace only stale not-yet-published asset heading."
+      },
+      {
+        "path": "release_assets/RELEASE_ASSETS.sha256",
+        "before_sha256": "8e0dcd7a79c8ef5fc76398e67f88dc278cfcc5e0b968f19c1a1bfc2c24916b28",
+        "after_sha256": "ccf9b6d2b35047d6a2b68a23cef074cf222f9103afe75f8b454414b18490d1f5",
+        "reason": "Refresh asset README, manuscript PDF and source ZIP hashes; note and mathematical ZIP unchanged."
+      },
+      {
+        "path": "release_assets/manuscript.pdf",
+        "before_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
+        "after_sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f",
+        "reason": "Identical distributed copy of the clean rebuilt PDF."
+      },
+      {
+        "path": "release_assets/paper-source.zip",
+        "before_sha256": "b83e63c929269e677890e90a067caff66d6e3d95b2cab0f90ce5e3e9d26e3f6b",
+        "after_sha256": "b129175942aa9de2f64849cc91fa91aad0da9074b21805021811ec7affe352c5",
+        "reason": "Refresh source archive; only main.tex and Appendix C member bytes change."
+      },
+      {
+        "path": "release_verification/CLEAN_PAPER_BUILD.json",
+        "before_sha256": "327cd641362799d9d2a31eee31466ee453e61b87dc6760165505ff430cdbdd31",
+        "after_sha256": "c6a34456455a370c836b64eb80e53cff03bcfa71c27b1a1b5aa13295f17f6c4d",
+        "reason": "Record clean publication-source build."
+      },
+      {
+        "path": "release_verification/PDF_INSPECTION.json",
+        "before_sha256": "7dee1e5ed4dfb09e4a3543cac54f3b8ffc28d70be1f1f58a40d0d6ab74edec9a",
+        "after_sha256": "6ba78d3b616fa53871c1341f3d8a4b6b927b2cd60f45d3c39638df40411fa573",
+        "reason": "Record final PDF subject, changed-page inspection and unchanged other-page pixels."
+      },
+      {
+        "path": "release_verification/PUBLIC_REPRODUCTION.json",
+        "before_sha256": "538cc2b6cdd058cbfa87e3e0f781aa274dff483e77f538cab159ea1725435a88",
+        "after_sha256": "efd07ff8374762526f586479d3dcfd4db2a18ea2161d0fb62fcd852ce1b35ccc",
+        "reason": "Record requested pre-visibility 9/9 public replay under unchanged policies."
+      }
+    ],
+    "added": [
+      {
+        "path": "release_verification/PUBLICATION_CHECKS.json",
+        "sha256": "9b6d5c6615bebf36677a5bb288634c4ea37d641e19b21fb266d563b063c442a6",
+        "reason": "Machine-readable baseline/preservation/CFF/JSON/link/leakage validation for the publication transition."
+      }
+    ],
+    "unchanged": 89,
+    "removed": []
+  },
+  "public_verification_detail": {
+    "status": "PASS",
+    "method": "Anonymous HTTPS with no Authorization header or cookies, independently of authenticated CLI checks.",
+    "repository_url": "https://github.com/LeoLam233/krylov-purification-comparisons",
+    "release_url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1",
+    "visibility": "PUBLIC",
+    "default_branch": "main",
+    "topics": [
+      "krylov-complexity",
+      "quantum-complexity",
+      "quantum-information",
+      "reproducible-research",
+      "theoretical-physics"
+    ],
+    "publication_commit": "4a637eaf0cd6beeaab72afca62f8069fa01793be",
+    "remote_main": "4a637eaf0cd6beeaab72afca62f8069fa01793be",
+    "tag": "v0.1",
+    "annotated_tag_sha": "febe223baebd782d2f02fa0de96a06aef7c13e20",
+    "tag_target": "4a637eaf0cd6beeaab72afca62f8069fa01793be",
+    "repository_tree_matches_local": true,
+    "files": 115,
+    "git_history_commits": 2,
+    "frozen_parent_is_root": true,
+    "release_id": 394657896,
+    "draft": false,
+    "prerelease": false,
+    "release_target": "4a637eaf0cd6beeaab72afca62f8069fa01793be",
+    "published_at": "2026-09-23T12:55:53Z",
+    "assets": [
+      {
+        "name": "Conjecture1_exact_counterexamples.pdf",
+        "sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+        "bytes": 42910,
+        "public_download_verified": true,
+        "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/Conjecture1_exact_counterexamples.pdf",
+        "github_asset_id": 583770112
+      },
+      {
+        "name": "Exact_limits_of_Krylov-complexity_comparisons_under_purification_v0.1.pdf",
+        "sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f",
+        "bytes": 147540,
+        "public_download_verified": true,
+        "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/Exact_limits_of_Krylov-complexity_comparisons_under_purification_v0.1.pdf",
+        "github_asset_id": 583770125
+      },
+      {
+        "name": "Krylov_purification_v0.1_PUBLIC.zip",
+        "sha256": "db0f26e3c0a46c56f7dbf1200ade839164710f32e8e3e0265060be19936b608e",
+        "bytes": 656283,
+        "public_download_verified": true,
+        "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/Krylov_purification_v0.1_PUBLIC.zip",
+        "github_asset_id": 583770111
+      },
+      {
+        "name": "Krylov_purification_v0.1_PUBLIC.zip.sha256",
+        "sha256": "383293d04708319a7d29cf15f5299ad0423b9e3aba93f711d811cd4869750263",
+        "bytes": 102,
+        "public_download_verified": true,
+        "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/Krylov_purification_v0.1_PUBLIC.zip.sha256",
+        "github_asset_id": 583770121
+      },
+      {
+        "name": "paper-source.zip",
+        "sha256": "b129175942aa9de2f64849cc91fa91aad0da9074b21805021811ec7affe352c5",
+        "bytes": 25183,
+        "public_download_verified": true,
+        "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/paper-source.zip",
+        "github_asset_id": 583770120
+      },
+      {
+        "name": "PUBLIC_TREE.sha256",
+        "sha256": "367acb5488ff2939744891ec0156da4c6acfcefe3b977dd18e68433ea7d78280",
+        "bytes": 11321,
+        "public_download_verified": true,
+        "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/PUBLIC_TREE.sha256",
+        "github_asset_id": 583770153
+      }
+    ],
+    "all_public_asset_hashes_match": true,
+    "zip_crc": "PASS",
+    "zip_tree_byte_identity": true,
+    "manifest_entries_verified": 114,
+    "zip_sidecar": "PASS",
+    "all_five_note_files_byte_identical": true,
+    "readme_render": "PASS",
+    "public_readme_relative_links_and_required_files": [
+      {
+        "path": "CITATION.cff",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/CITATION.cff",
+        "status": 200,
+        "sha256": "71de87520e7d13d39422d8b26ed7e77c36422c68c9a8a9cb263e73efa1db2d21"
+      },
+      {
+        "path": "CLAIMS.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/CLAIMS.md",
+        "status": 200,
+        "sha256": "754faa28f77fef684bf8e531ebb5e9c25380f7947231fb0dacc74c03f60647ff"
+      },
+      {
+        "path": "FINAL_FILE_CHANGES.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/FINAL_FILE_CHANGES.md",
+        "status": 200,
+        "sha256": "fbd94fa7e4789f3d06713f2a8c633861ec1c9031d72e111ccab6b4e89e08955f"
+      },
+      {
+        "path": "FINAL_SCIENTIFIC_DELTA_AUDIT.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/FINAL_SCIENTIFIC_DELTA_AUDIT.md",
+        "status": 200,
+        "sha256": "1ab81101e4d69d0d1d33fb7be9d3b0364469b71179cce8187df99051ea72315a"
+      },
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/LICENSE",
+        "status": 200,
+        "sha256": "8d77404df3fe9d155bac174cf7e04a72c6a8faf6724d75373bb454d15b16e41d"
+      },
+      {
+        "path": "LICENSE-CC-BY-4.0.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/LICENSE-CC-BY-4.0.md",
+        "status": 200,
+        "sha256": "ba7a68775980b95a2cd2d2deb0fe1ca833ff70745f18a1f398bbf9b3e6121999"
+      },
+      {
+        "path": "LICENSING.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/LICENSING.md",
+        "status": 200,
+        "sha256": "38aa9b1553013d6dfe202f714e9b1c2c4e71c4bb311a01c752b734e3da579a9d"
+      },
+      {
+        "path": "PUBLIC_PRIVATE_BOUNDARY.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/PUBLIC_PRIVATE_BOUNDARY.md",
+        "status": 200,
+        "sha256": "f664b6a44a28076dc96080837d6ddcb78ac9452b6d90b2879c446c5895bd3baa"
+      },
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/README.md",
+        "status": 200,
+        "sha256": "d8674b9ff57416c4236d3133352472250d6b58f51232252b0bdaa45528229df4"
+      },
+      {
+        "path": "RELEASE_ASSET_MAP.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/RELEASE_ASSET_MAP.md",
+        "status": 200,
+        "sha256": "b90bf7575ae607430a322570516ff1319956ab39929b87974445db17f2d804d5"
+      },
+      {
+        "path": "RELEASE_AUDIT_CHANGES.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/RELEASE_AUDIT_CHANGES.md",
+        "status": 200,
+        "sha256": "652f5bcc4fe7e44e13b4d02c4d2257be23a91ba9f4a9952918b4ba4c90d413e4"
+      },
+      {
+        "path": "RELEASE_NOTES.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/RELEASE_NOTES.md",
+        "status": 200,
+        "sha256": "7e9742d9c8387b557001c5ab593db5e8c89a4405de03f2dc927e97aeb6ca9156"
+      },
+      {
+        "path": "REPOSITORY_INVENTORY.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/REPOSITORY_INVENTORY.md",
+        "status": 200,
+        "sha256": "9614a12b50a591e91d942baef0d5c26ec30a18a53b9b5500897362e852bd33b5"
+      },
+      {
+        "path": "REPRODUCIBILITY.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/REPRODUCIBILITY.md",
+        "status": 200,
+        "sha256": "19a915fc67caac00e99e2917a5f62962a700570e9e010ed635eb40ef510f59f5"
+      },
+      {
+        "path": "audits/README.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/audits/README.md",
+        "status": 200,
+        "sha256": "251081502ce55de7edff51c903efd87c6a22f8fd1799e267c4468ed2f49c51dd"
+      },
+      {
+        "path": "audits/RELEASE_GATES.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/audits/RELEASE_GATES.md",
+        "status": 200,
+        "sha256": "03cb34c06d79bc33c5b1e77d8e0f53485ce36f0cc74c2e8d9180464eff510be6"
+      },
+      {
+        "path": "clean_room/README.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/clean_room/README.md",
+        "status": 200,
+        "sha256": "6f9cffa900cf824a20acf62f66658d306abf7239432321afcc365770699a42ae"
+      },
+      {
+        "path": "docs/CONJECTURE1_COUNTEREXAMPLES.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/docs/CONJECTURE1_COUNTEREXAMPLES.md",
+        "status": 200,
+        "sha256": "f664e0fc228c5a8966294118d0bef664eacbb66308a50ceb72cf3bc6ed3826af"
+      },
+      {
+        "path": "docs/STAGING_PATHS.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/docs/STAGING_PATHS.md",
+        "status": 200,
+        "sha256": "898b0f3b14ccbc5c40d182c360427fb59f5fb799699a09405c4812c3eb27ffae"
+      },
+      {
+        "path": "paper/CLAIM_SOURCE_MAP.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/paper/CLAIM_SOURCE_MAP.md",
+        "status": 200,
+        "sha256": "9a1fa80dc7e6eed080b46c198a9752ad38d6eb0bcd4d431403d3ad0150db9a6d"
+      },
+      {
+        "path": "paper/main.pdf",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/paper/main.pdf",
+        "status": 200,
+        "sha256": "9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f"
+      },
+      {
+        "path": "provenance/SOURCE_PAPERS.md",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/provenance/SOURCE_PAPERS.md",
+        "status": 200,
+        "sha256": "a94232f58416b3c1d62c01645e64f108c67136782f70ef8deeca34655d52d0bd"
+      },
+      {
+        "path": "release_assets/Conjecture1_exact_counterexamples.pdf",
+        "url": "https://raw.githubusercontent.com/LeoLam233/krylov-purification-comparisons/main/release_assets/Conjecture1_exact_counterexamples.pdf",
+        "status": 200,
+        "sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de"
+      }
+    ],
+    "public_pages": {
+      "repository": {
+        "url": "https://github.com/LeoLam233/krylov-purification-comparisons",
+        "status": 200
+      },
+      "release": {
+        "url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1",
+        "status": 200
+      }
+    },
+    "scientific_delta": "SCIENTIFIC DELTA: NONE",
+    "checked_at_utc": "2026-09-23T12:58:07Z",
+    "extracted_public_zip_source": "Anonymously downloaded v0.1 public ZIP; transient local extraction path removed."
+  },
+  "no_doi_or_orcid_added": true,
+  "author_contact_performed": false,
+  "email_sent": false,
+  "manuscript_submitted": false,
+  "new_research_or_novelty_search": false,
+  "residual_issues": [],
+  "report_is_external_to_git": true,
+  "completed_at_utc": "2026-09-23T13:03:26Z",
+  "public_v0_1_tree_url": "https://github.com/LeoLam233/krylov-purification-comparisons/tree/v0.1",
+  "public_v0_1_zip_asset_url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/download/v0.1/Krylov_purification_v0.1_PUBLIC.zip",
+  "public_safe_derivative_provenance": {
+    "statement": "This is a public-safe derivative of the contemporaneous outer publication report generated during the v0.1 release. Verification results have not been reconstructed or rerun for this document. Machine-local absolute paths and transient workspace locations were removed. The SHA-256 fingerprints of the retained original outer reports are recorded below.",
+    "original_outer_markdown_sha256": "8a1dd7618b5b64e3ac2d2a4511abf413269e64922ddaae891ca8459d0e1b8225",
+    "original_outer_json_sha256": "9958007505a0cbe8594185eec8b0aa3f42d6f1a43c53073f00d8af29e7938796",
+    "original_outer_reports_remain_private_and_immutable": true,
+    "v0_1_verification_time": "2026-09-23T12:55:53Z",
+    "machine_local_fields_replaced": [
+      "public_tree_path",
+      "public_zip_path",
+      "public_verification_detail.extracted_public_zip_directory"
+    ],
+    "historical_main_urls": "URLs naming main in contemporaneous checks record the public state at v0.1 publication time; the v0.1 tag is the immutable locator."
+  }
+}

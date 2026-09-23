@@ -1,7 +1,7 @@
 # Third-party source papers (metadata only)
 
 Copied from the verified V3 metadata and completed bibliography. No fresh literature or
-priority search is claimed. PDFs are absent from the proposed public tree and public ZIPs.
+priority search is claimed. PDFs are absent from the curated public tree and public ZIPs.
 
 | Paper | Frozen version / links | Frozen PDF SHA-256 |
 |---|---|---|

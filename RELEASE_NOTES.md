@@ -1,3 +1,13 @@
+# v0.1.1 documentation/provenance patch — 2026-09-24
+
+**PUBLIC v0.1.1 RELEASED — 2026-09-24** at [the same repository](https://github.com/LeoLam233/krylov-purification-comparisons); [release v0.1.1](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1).
+
+This patch addresses the frozen independent public v0.1 hostile-audit findings A01–A04 through public-safe publication evidence and historically qualified provenance wording. A05 receives no action: the README intentionally retains both the concise primary/largest AI contribution statement and detailed workflow disclosure. See the [closure record](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md) and [public-safe v0.1 verification report](release_verification/PUBLICATION_VERIFICATION_REPORT.md) ([JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json)). The originals remain private/local, with fingerprints in the derivatives.
+
+The two A02-edited paper documentation files are recorded in the [copy-map delta](provenance/V0_1_1_COPY_MAP_DELTA.json), rather than being presented as unchanged original-draft copies. The manuscript PDF, source archive, note PDF and scientific payload remain byte-identical to public v0.1. Public reproduction: **9/9 PASS**. **SCIENTIFIC DELTA: NONE**. **DOCUMENTATION / PROVENANCE PATCH ONLY**. No new mathematical review or priority search is claimed, and no independent regression audit of v0.1.1 is claimed.
+
+## Historical v0.1 and local-freeze records (retained)
+
 # v0.1 public release
 
 **PUBLIC v0.1 RELEASED — 2026-09-23**

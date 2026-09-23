@@ -2,12 +2,12 @@
 
 **DERIVATIVE SCIENTIFIC CONTENT ONLY — NO NEW CLAIM**
 
-This is a communication derivative of the exclusive final-public v0.1 baseline,
+This communication note was created against the communication-note pre-publication baseline,
 commit `8f8262809efd6f270fce6cf4e3aa9c6fd38747bc`, public ZIP SHA-256
 `4c8799f281dbbfd5db5349176578020d93099e0fa3017036f55234190a9279e6`,
 manuscript PDF SHA-256
 `c50bb26e723ce5c287c182c05e01745accd355b27e8691e6a4313e784af5657c`.
-All three were verified before editing. No external source, private archive,
+All three were verified before editing. The note Markdown, TeX, and PDF remained byte-identical through the eventual public v0.1 release at commit `4a637eaf0cd6beeaab72afca62f8069fa01793be`. No external source, private archive,
 new research, new proof, strengthened statement or new calculation supplies a claim.
 
 The note is [Markdown](../docs/CONJECTURE1_COUNTEREXAMPLES.md),

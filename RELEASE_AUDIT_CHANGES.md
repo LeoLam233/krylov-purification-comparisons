@@ -1,7 +1,10 @@
-# Release-audit wording repairs (local, unreleased)
+# Historical pre-publication release-audit wording repairs
 
-This copy applies the two repairs recorded before editing in RELEASE_CLAIM_AUDIT.md,
-RELEASE_CLAIM_LEDGER.json and REQUIRED_REPAIRS.md in the accompanying audit outputs.
+These repairs were recorded before editing in private, non-distributed pre-publication
+audit outputs (RELEASE_CLAIM_AUDIT.md, RELEASE_CLAIM_LEDGER.json and
+REQUIRED_REPAIRS.md). This public repair summary and the [release-gate summary](audits/RELEASE_GATES.md)
+are available here; the raw audit outputs remain outside the curated public release.
+See the [public/private boundary](PUBLIC_PRIVATE_BOUNDARY.md).
 
 - RR-01: paper/sections/04_factor_two.tex:52 now names C_K and C_S as the complexities
   with coefficients 2v and v. The displayed sides C_K and 2 C_S have equal leading coefficients.

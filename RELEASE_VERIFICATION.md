@@ -1,3 +1,22 @@
+# v0.1.1 documentation/provenance patch verification
+
+**PUBLIC v0.1.1 RELEASED — 2026-09-24**. This is a documentation/provenance patch to the public v0.1 commit `4a637eaf0cd6beeaab72afca62f8069fa01793be`. See the [A01–A05 closure record](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md).
+
+The authentic contemporaneous v0.1 outer reports remain private/local. Their [public-safe Markdown](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json) derivatives expose the original publication commit, tag, assets, hashes, anonymous downloads, fresh public-ZIP 9/9 replay and leakage checks, with original report fingerprints. Those v0.1 results were not reconstructed or rerun to create the derivatives.
+
+The current copy map has 45 byte-identical source rows; two historical paper-documentation rows moved to the [copy-map delta](provenance/V0_1_1_COPY_MAP_DELTA.json) after their approved A02 edits. The v0.1 copy map and repair history remain in the unchanged v0.1 commit.
+
+For this v0.1.1 patch, repository-relative links, JSON, CFF 1.2.0 and sanitized paths were validated; the public reproduction interface passes 9/9. The unchanged manuscript and source archive were not rebuilt. All 71 displayed equations, 14 formal statements and 14 proof blocks are byte-identical to v0.1, as are scientific code, certificates, expected results, V3 authority, README AI disclosure and all note mathematical content.
+
+**SCIENTIFIC DELTA: NONE**
+
+**DOCUMENTATION / PROVENANCE PATCH ONLY**
+
+The new patch commit SHA and final remote/asset checks are recorded in the outer `V0_1_1_PUBLICATION_REPORT.md` and `.json` after publication, avoiding a tracked self-reference. The historical v0.1 record follows unchanged except for the A01 public-pointer repair.
+
+---
+
+## Historical v0.1 verification
 # Public v0.1 publication-state verification
 
 **PUBLIC v0.1 RELEASED — 2026-09-23**
@@ -20,9 +39,7 @@ SCIENTIFIC DELTA: NONE
 The frozen pre-publication commit is retained; a new child commit on main records
 this transition. Author/committer: `Dehao Lin <115764367+LeoLam233@users.noreply.github.com>`. Trailer: `Co-authored-by: Codex <noreply@openai.com>`.
 Remote integrity is checked while private before public visibility, followed by
-public asset-download and fresh ZIP reproduction checks. Their actual results and
-the publication commit SHA are reported externally in FINAL_PUBLICATION_REPORT.md
-and FINAL_PUBLICATION_REPORT.json. No author contact, email or submission is included.
+public asset-download and fresh ZIP reproduction checks. Their actual results and the v0.1 publication commit SHA are inspectable in the [public-safe Markdown](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json) derivatives of the contemporaneous private outer reports. No author contact, email or submission is included.
 
 ---
 

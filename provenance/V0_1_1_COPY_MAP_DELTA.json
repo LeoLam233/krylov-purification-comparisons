@@ -1,0 +1,27 @@
+{
+  "classification": "DOCUMENTATION / PROVENANCE PATCH ONLY",
+  "v0_1_publication_commit": "4a637eaf0cd6beeaab72afca62f8069fa01793be",
+  "reason": "A02 historical-status corrections changed two paper documentation files. They are no longer described as byte-identical copies of the original draft. The mathematical source, bibliography, verifiers and certificates remain unchanged.",
+  "v0_1_copy_map_sha256": "62415275b02f478eccf10be362e3348774cd2f8dad3c573113e0cb58e2c747a7",
+  "v0_1_byte_identical_rows": 47,
+  "v0_1_1_byte_identical_rows": 45,
+  "removed_rows_from_current_copy_map": [
+    {
+      "path": "paper/BIBLIOGRAPHY_PROVENANCE.md",
+      "historical_source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/BIBLIOGRAPHY_PROVENANCE.md",
+      "v0_1_and_original_source_sha256": "401a281c75d9777710e82e2fd9803f600cb99fc260a3076cfdb169af5c8e3ca6",
+      "v0_1_1_sha256": "dabf8ba354e0cdb5eec48116363cdd8e3f54720c0589c1dbeeab3e5bee8d8022",
+      "exact_before_after": "audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md, A02 ledger"
+    },
+    {
+      "path": "paper/CLAIM_SOURCE_MAP.md",
+      "historical_source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/CLAIM_SOURCE_MAP.md",
+      "v0_1_and_original_source_sha256": "9a1fa80dc7e6eed080b46c198a9752ad38d6eb0bcd4d431403d3ad0150db9a6d",
+      "v0_1_1_sha256": "9b69799662e9aa404b1bd30676da6ad22d5dca8d8ae71f920f702deb43c3b703",
+      "exact_before_after": "audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md, A02 ledger"
+    }
+  ],
+  "historical_v0_1_copy_map_remains_in_unchanged_v0_1_git_commit": true,
+  "historical_RELEASE_REPAIR_MAP_json_unchanged": true,
+  "scientific_delta": "SCIENTIFIC DELTA: NONE"
+}

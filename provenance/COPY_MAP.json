@@ -1,18 +1,8 @@
 [
   {
-    "path": "paper/BIBLIOGRAPHY_PROVENANCE.md",
-    "sha256": "401a281c75d9777710e82e2fd9803f600cb99fc260a3076cfdb169af5c8e3ca6",
-    "source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/BIBLIOGRAPHY_PROVENANCE.md"
-  },
-  {
     "path": "paper/checks/DISPLAY_AND_QUANTIFIER_AUDIT.md",
     "sha256": "c5949e652b26b920fbcc3dfc9e9ccdd9d301ea313918c5e56baf4623a7f78210",
     "source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/checks/DISPLAY_AND_QUANTIFIER_AUDIT.md"
-  },
-  {
-    "path": "paper/CLAIM_SOURCE_MAP.md",
-    "sha256": "9a1fa80dc7e6eed080b46c198a9752ad38d6eb0bcd4d431403d3ad0150db9a6d",
-    "source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/CLAIM_SOURCE_MAP.md"
   },
   {
     "path": "paper/main.bbl",

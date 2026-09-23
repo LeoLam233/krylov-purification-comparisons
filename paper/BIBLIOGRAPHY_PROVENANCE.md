@@ -12,4 +12,4 @@ Metadata verification date: 2026-09-23. Web access was limited to bibliographic 
 
 These five URLs are the complete list of bibliographic URLs newly consulted in this run. DOI URLs embedded in the bibliography were read as metadata on these pages, not separately fetched. Source scientific definitions were read from the supplied PDF, especially pages 2, 5, 7-10 and 11-12. The factor-two prior-art mapping was taken from V3 and the supplied Murugan-van Zyl PDF, not from a new literature search.
 
-No unverified bibliographic metadata remains. This is not the required future fresh priority sweep.
+No unverified bibliographic metadata remained at this pre-publication bibliography stage. The required final fresh priority sweep was completed later, before v0.1; see the [release-gate summary](../audits/RELEASE_GATES.md).

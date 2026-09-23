@@ -1,3 +1,24 @@
+# v0.1.1 scientific delta audit
+
+**DOCUMENTATION / PROVENANCE PATCH ONLY**
+
+**SCIENTIFIC DELTA: NONE**
+
+Comparison baseline: public v0.1 publication commit `4a637eaf0cd6beeaab72afca62f8069fa01793be`, annotated tag `febe223baebd782d2f02fa0de96a06aef7c13e20`. The v0.1 tree and historical release remain intact.
+
+The v0.1.1 patch corrects public availability of contemporaneous publication evidence, historical provenance wording, the communication-note creation baseline label and the private raw-audit boundary. It introduces no new research, mathematical review, novelty claim or independent human peer-review claim. See [the finding closure](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md).
+
+The two A02-edited paper-documentation copies are transparently recorded in [the copy-map delta](provenance/V0_1_1_COPY_MAP_DELTA.json); the unchanged 45 rows remain in `provenance/COPY_MAP.json`. Historical v0.1 copy-map and repair-map data stay in the v0.1 tag.
+
+Every manuscript TeX/BibTeX source byte, the manuscript PDF, source ZIP, note Markdown/TeX/PDF, mathematical script, certificate, expected result and claim statement is unchanged. The note source map changes only its historical baseline terminology. All 71 displayed equations, 14 formal statements, 14 proof blocks, 181 scope rows, theorem hypotheses, constants, ranges and quantifiers remain unchanged. V3 authority and novelty/priority positioning remain unchanged. README retains both AI disclosure passages verbatim.
+
+Manuscript PDF SHA-256: `9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f`. Note PDF SHA-256: `cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de`. Manuscript source ZIP SHA-256: `b129175942aa9de2f64849cc91fa91aad0da9074b21805021811ec7affe352c5`.
+
+Local public reproduction: **9/9 PASS**. The current v0.1.1 Git tree is sealed by `PUBLIC_TREE.sha256` and the versioned release ZIP/sidecar. Final publication commit and asset/download checks are in the outer v0.1.1 publication report. The earlier v0.1 scientific delta audit follows as a historical record.
+
+---
+
+## Historical v0.1 scientific delta audit
 # Publication-state scientific delta audit
 
 **PUBLIC v0.1 RELEASED — 2026-09-23**
@@ -47,8 +68,7 @@ DERIVATIVE SCIENTIFIC CONTENT ONLY — NO NEW CLAIM; it is not rebuilt.
 
 The new child commit uses `Dehao Lin <115764367+LeoLam233@users.noreply.github.com>` for author and committer and exact trailer
 `Co-authored-by: Codex <noreply@openai.com>`. Actual publication commit, remote/tag checks, downloaded asset hashes,
-visibility/release confirmation and the fresh public-ZIP replay are recorded in the
-outer publication report, without a Git hash cycle. GitHub publication alone is
+visibility/release confirmation and the fresh public-ZIP replay are recorded in the contemporaneous outer publication reports and made inspectable here through [public-safe Markdown](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json) derivatives, without a Git hash cycle. GitHub publication alone is
 authorized; author contact, email and submission remain separate actions.
 
 SCIENTIFIC DELTA: NONE

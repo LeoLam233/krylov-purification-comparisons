@@ -1170,6 +1170,6 @@
       }
     ],
     "new_research_search_audit_or_scientific_claim": false,
-    "actual_publication_commit_and_remote_checks": "Reported externally in FINAL_PUBLICATION_REPORT.json/.md, avoiding tracked self-reference."
+    "actual_publication_commit_and_remote_checks": "The original contemporaneous outer reports remain private; public-safe derivatives at release_verification/PUBLICATION_VERIFICATION_REPORT.md and .json make v0.1 publication checks inspectable without a tracked self-reference."
   }
 }

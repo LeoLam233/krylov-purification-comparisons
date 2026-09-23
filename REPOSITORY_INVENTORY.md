@@ -1,4 +1,4 @@
-# Curated public v0.1 file inventory
+# Curated public v0.1.1 file inventory
 
 This list is the distributable Git tree. It excludes .git/, .local/, .venv/ and
 __pycache__/. PUBLIC_TREE.sha256 hashes every listed file except itself.
@@ -27,6 +27,7 @@ REPOSITORY_INVENTORY.md
 REPRODUCIBILITY.md
 audits/README.md
 audits/RELEASE_GATES.md
+audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md
 certificates/README.md
 certificates/current/FACTOR_TWO_THEOREM.md
 certificates/current/RESTRICTED_SURVIVORS.md
@@ -73,6 +74,7 @@ provenance/INPUT_ANCHORS.json
 provenance/PRIVATE_ASSETS.sha256
 provenance/RELEASE_REPAIR_MAP.json
 provenance/SOURCE_PAPERS.md
+provenance/V0_1_1_COPY_MAP_DELTA.json
 provenance/V3_SOURCE_HASHES.json
 release_assets/Conjecture1_exact_counterexamples.pdf
 release_assets/README.md
@@ -86,6 +88,8 @@ release_verification/ENVIRONMENT.json
 release_verification/PAPER_CHECK.json
 release_verification/PDF_INSPECTION.json
 release_verification/PUBLICATION_CHECKS.json
+release_verification/PUBLICATION_VERIFICATION_REPORT.json
+release_verification/PUBLICATION_VERIFICATION_REPORT.md
 release_verification/PUBLIC_REPRODUCTION.json
 release_verification/WRAPPER_TESTS.json
 requirements.txt

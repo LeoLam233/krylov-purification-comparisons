@@ -1,12 +1,13 @@
 # Exact limits of Krylov-complexity comparisons under purification
 
-Final public v0.1 reproducibility package for the [release-audited manuscript](paper/main.pdf),
-using the authoritative V3 scientific freeze.
+Public v0.1.1 reproducibility package for the [release-audited manuscript](paper/main.pdf),
+using the authoritative V3 scientific freeze. The manuscript and Conjecture-1 note are byte-identical to v0.1.
 
-**PUBLIC v0.1 RELEASED — 2026-09-23**
+**PUBLIC v0.1.1 RELEASED — 2026-09-24**
 
 Repository: [https://github.com/LeoLam233/krylov-purification-comparisons](https://github.com/LeoLam233/krylov-purification-comparisons)  
-Release: [v0.1](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1)
+Release: [v0.1.1](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1) ([v0.1 history](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1)).
+Documentation/provenance patch: [hostile-audit closure](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md); v0.1 publication evidence: [public-safe report](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json).
 
 Author: **Dehao Lin**. Affiliation: School of Physics, Sun Yat-sen University,
 Guangzhou, China. No ORCID; no specific funding; no acknowledgements.

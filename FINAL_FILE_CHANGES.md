@@ -1,3 +1,44 @@
+# Exact v0.1.1 documentation/provenance patch files
+
+Baseline: public v0.1 commit `4a637eaf0cd6beeaab72afca62f8069fa01793be`. The v0.1 commit/tag/release remain historical. No scientific payload file changes. The current patch is **DOCUMENTATION / PROVENANCE PATCH ONLY**; **SCIENTIFIC DELTA: NONE**.
+
+| Changed path | Reason |
+|---|---|
+| `CHANGELOG.md` | Prepend v0.1.1 patch entry; retain historical v0.1 entries verbatim. |
+| `CITATION.cff` | Update repository version, date and release URL; preferred manuscript citation unchanged. |
+| `provenance/COPY_MAP.json` | Remove the two A02-edited documentation rows from the current byte-identical-copy map; historical v0.1 map unchanged. |
+| `FINAL_FILE_CHANGES.md` | Derived exact patch path inventory. |
+| `FINAL_SCIENTIFIC_DELTA_AUDIT.md` | Prepend v0.1.1 preservation record and correct A01 pointer. |
+| `PUBLIC_PRIVATE_BOUNDARY.md` | State v0.1 and v0.1.1 public artifacts without changing archive boundary. |
+| `PUBLIC_TREE.sha256` | Derived current public file fingerprints. |
+| `README.md` | Update current v0.1.1 release status/links and link public-safe v0.1 evidence; both AI disclosure passages unchanged. |
+| `RELEASE_ASSET_MAP.md` | Current v0.1.1 asset index; correct A03 terminology and A01 public-safe verification pointer. |
+| `RELEASE_AUDIT_CHANGES.md` | A02 mark the record historical and A04 identify raw repair audit outputs as private. |
+| `RELEASE_METADATA.json` | Record v0.1.1 release metadata and public-safe v0.1 evidence pointers; preserve v0.1 freeze history. |
+| `RELEASE_NOTES.md` | Prepend v0.1.1 patch record; retain v0.1/local history as suffix. |
+| `RELEASE_VERIFICATION.md` | Prepend v0.1.1 checks and correct A01 pointer in historical v0.1 summary. |
+| `REPOSITORY_INVENTORY.md` | Derived current file inventory. |
+| `audits/RELEASE_GATES.md` | A02 mark gate-stage nonauthorization as historical. |
+| `paper/BIBLIOGRAPHY_PROVENANCE.md` | A02 historical bibliography/priority stage clarification. |
+| `paper/CLAIM_SOURCE_MAP.md` | A02 historical source-audit sweep status qualification; scientific map unchanged. |
+| `provenance/CONJECTURE1_NOTE_SOURCE_MAP.md` | A03 identify the pre-publication note baseline and actual v0.1 commit; math map unchanged. |
+| `provenance/FINAL_SCIENTIFIC_DELTA_EVIDENCE.json` | A01 correct current evidence locator, preserving scientific data. |
+| `provenance/SOURCE_PAPERS.md` | A02 refer to the curated public tree instead of a proposed tree. |
+| `release_verification/PUBLICATION_CHECKS.json` | A01 point historical local checks to inspectable public-safe publication evidence. |
+
+| Added path | Reason |
+|---|---|
+| `audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md` | Independent-audit A01–A05 closure with exact A02 before/after ledger. |
+| `release_verification/PUBLICATION_VERIFICATION_REPORT.json` | Public-safe derivative of authentic contemporaneous v0.1 outer report. |
+| `release_verification/PUBLICATION_VERIFICATION_REPORT.md` | Public-safe derivative of authentic contemporaneous v0.1 outer report. |
+| `provenance/V0_1_1_COPY_MAP_DELTA.json` | Record the two former copy rows, historical source SHA-256 and new documentation SHA-256. |
+
+All unchanged paths, including PDFs, source archive, mathematical code/certificates, expected results, claims, note source/content and bibliography, remain byte-identical to v0.1. Exact before/after hashes and new commit SHA are in the outer v0.1.1 publication report.
+
+---
+
+## Historical v0.1 file-change record
+
 # Exact publication-state transition files
 
 Pre-publication parent: `a92f903627faae248a7f917c76b247d471086867`. It is retained, not amended.

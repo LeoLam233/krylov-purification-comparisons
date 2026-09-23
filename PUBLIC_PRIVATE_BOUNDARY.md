@@ -32,6 +32,6 @@ private bundle. Retained hash-only manifests do not authorize redistribution of
 the files they identify. Historical scientific/certification records retain their
 dated meaning and are not instructions to perform new research or publication.
 
-This curated Git root and its matching public ZIP are the public v0.1 release artifacts.
+The tagged v0.1 Git tree and matching ZIP remain the public v0.1 release artifacts. The current Git root and matching v0.1.1 ZIP are documentation/provenance patch artifacts.
 The ZIP excludes .git/, transient .local/ data, caches, and all internal archives.
 Third-party material is not silently relicensed: see LICENSING.md.

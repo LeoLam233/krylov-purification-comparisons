@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.1 documentation/provenance audit patch — 2026-09-24
+
+Published public-safe derivatives of the contemporaneous v0.1 publication reports, clarified the dated pre-publication priority and source-map language, and marked the private repair-audit outputs accurately. A01–A04 are closed in [the finding ledger](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md). A05 receives no action because the two README AI disclosures serve distinct intended purposes. The manuscript, note, source archive, mathematical code/certificates and scientific claims remain unchanged. **SCIENTIFIC DELTA: NONE**; **DOCUMENTATION / PROVENANCE PATCH ONLY**.
+
+## Historical v0.1 changelog (retained verbatim)
+
 ## v0.1 public release — 2026-09-23
 
 The audited public package was released at https://github.com/LeoLam233/krylov-purification-comparisons; tag **v0.1** identifies

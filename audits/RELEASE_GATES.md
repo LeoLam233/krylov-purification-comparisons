@@ -21,7 +21,7 @@ The source-motivated qualified C2 scope, separate LEFT/RIGHT witnesses, all froz
 novelty wording and historical audit/clean-room outcomes are unchanged. Access and
 indexing limits in the original sweep still apply. A material delay or later relevant
 public result lies outside its cutoff and needs a publication-stage gate decision.
-This assembly does not renew that cutoff or authorize publication.
+At the pre-publication gate stage, this assembly did not renew that cutoff or itself authorize publication.
 
 Exact hashes of all three attached priority outputs and the final audit report are
 in ../provenance/FINAL_INPUT_INTEGRITY.json. Original hostile-audit summaries in
