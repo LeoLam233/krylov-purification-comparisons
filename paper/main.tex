@@ -1,0 +1,86 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\renewcommand{\rmdefault}{lmr}
+\renewcommand{\ttdefault}{lmtt}
+\usepackage[margin=27mm]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{array,longtable}
+\usepackage[hidelinks]{hyperref}
+\usepackage{url}
+\setlength{\emergencystretch}{2em}
+\numberwithin{equation}{section}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\diag}{diag}
+\DeclareMathOperator{\spanof}{span}
+\DeclareMathOperator{\Var}{Var}
+\DeclareMathOperator{\CV}{CV}
+\newcommand{\CK}{\mathcal C_K}
+\newcommand{\CS}{\mathcal C_S}
+\newcommand{\CM}{C_{\mathrm M}}
+\newcommand{\SU}{S_{U^*}}
+\newcommand{\SI}{S_I}
+\newcommand{\KI}{K_I}
+\newcommand{\KU}{K_{U^*}}
+\newcommand{\HS}{\mathrm{HS}}
+\newcommand{\vecr}{\operatorname{vec}_{\mathrm r}}
+\newcommand{\eps}{\epsilon}
+\newcommand{\avg}[1]{\left\langle #1\right\rangle_T}
+\newcommand{\ket}[1]{\lvert #1\rangle}
+\newcommand{\bra}[1]{\langle #1\rvert}
+\newcommand{\norm}[1]{\left\lVert #1\right\rVert}
+\title{Exact limits of Krylov-complexity comparisons under purification}
+% Human author; no ORCID supplied.
+\author{Dehao Lin\\{\small School of Physics, Sun Yat-sen University, Guangzhou, China}}
+\date{}
+\hypersetup{pdftitle={Exact limits of Krylov-complexity comparisons under purification},pdfauthor={Dehao Lin},pdfsubject={Final public v0.1 package; not yet published; authoritative V3 scientific freeze}}
+\begin{document}
+\maketitle
+\begin{abstract}
+Purification relates mixed quantum states to pure states on a larger Hilbert
+space, but it changes the spectral weights that determine Krylov complexity.
+We examine the comparison conjectures of Das and Mori using their normalized
+Hilbert--Schmidt and spread-complexity conventions. Each side of their
+two-sided hierarchy admits an exact full-rank qutrit counterexample, with
+separate rational finite-time certificates. The hierarchy holds for every
+qubit, so physical dimension three is minimal for failure of either side.
+At fixed dimension four and fixed Hamiltonian, two different full-rank
+families have unbounded recurrence-period coefficients of variation for the
+purification-to-mixed complexity ratio and its reciprocal, respectively.
+A third family has fixed purity and an unbounded ratio and temporal mean.
+These are no-go theorems for explicit universal concentration and purity-only
+control formulations motivated by the qualitative second conjecture.
+In contrast, the pure-density factor-two inequality holds in finite dimension;
+we give a self-contained proof and identify it as a corollary of existing
+tensor-product superadditivity. A qubit concentration bound and
+state-dependent return bounds delimit the surviving comparisons. The common
+mechanism is the distinct weighting of coherent sectors by the density matrix
+and its positive square root.
+\end{abstract}
+\input{sections/01_introduction}
+\input{sections/02_framework}
+\input{sections/03_hierarchy}
+\input{sections/04_factor_two}
+\input{sections/05_ratios}
+\input{sections/06_survivors}
+\input{sections/07_discussion}
+\appendix
+\input{sections/appendix_certificates}
+\input{sections/appendix_bounds}
+\input{sections/appendix_reproducibility}
+\section*{AI contribution statement}
+AI systems played the primary and largest role in the scientific work reported here. They identified the source paper as a research target, developed the attacks on its conjectures, constructed the counterexamples, derived the proofs and auxiliary results, produced and checked the computational certificates, and assisted in the adversarial audits, clean-room reproductions, and preparation of the manuscript. Dehao Lin designed and supervised the overall research workflow, made the project and release decisions, reviewed the resulting artifacts, and assumes responsibility for the final manuscript.
+
+\paragraph{Funding.} This research received no specific funding.
+\paragraph{Acknowledgements.} None.
+\paragraph{License.} The original manuscript is licensed under
+\href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International (CC BY 4.0)}.
+This notice does not relicense third-party material.
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

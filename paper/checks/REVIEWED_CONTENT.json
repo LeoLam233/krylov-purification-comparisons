@@ -1,0 +1,3139 @@
+{
+  "authority": "V3 aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+  "review_method": "Manual drafting-agent correspondence review plus separately executed exact arithmetic and automated coverage checks. This is not independent human review or a new scientific audit.",
+  "displays": [
+    {
+      "label": "eq:source-hierarchy",
+      "file": "sections/01_introduction.tex",
+      "line": 17,
+      "sha256": "154c21ab8046d74f86e90ac17fe9e9dfdd31623981eca814579f507b25826e5f",
+      "group": "definitions",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/sources/V4_INSPECTED_SOURCE_EXTRACT.md",
+          "sha256": "e2740bdb5c76d5bb2eb0c7bd1c7aa7c5e59b5673371c8452ae75b617ac2ca2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/REPORT.md",
+          "sha256": "8767fdab25fbf9110a2aeb3b7168dae8531b111716b529f887747dfc13ac4322"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Source definitions; finite dimension; correct normalized seeds and generators; no new quantitative claim.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:evolution",
+      "file": "sections/02_framework.tex",
+      "line": 6,
+      "sha256": "4f5e403e4115c013abe02aed6521d984a678f82b2289a6e8a6217aad0a61cb6b",
+      "group": "definitions",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/sources/V4_INSPECTED_SOURCE_EXTRACT.md",
+          "sha256": "e2740bdb5c76d5bb2eb0c7bd1c7aa7c5e59b5673371c8452ae75b617ac2ca2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/REPORT.md",
+          "sha256": "8767fdab25fbf9110a2aeb3b7168dae8531b111716b529f887747dfc13ac4322"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Source definitions; finite dimension; correct normalized seeds and generators; no new quantitative claim.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:general-complexity",
+      "file": "sections/02_framework.tex",
+      "line": 13,
+      "sha256": "1eeaf7f566a6d36ca49e49b73a890c82d0b20759a3da6069efd81d923a9b66ba",
+      "group": "definitions",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/sources/V4_INSPECTED_SOURCE_EXTRACT.md",
+          "sha256": "e2740bdb5c76d5bb2eb0c7bd1c7aa7c5e59b5673371c8452ae75b617ac2ca2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/REPORT.md",
+          "sha256": "8767fdab25fbf9110a2aeb3b7168dae8531b111716b529f887747dfc13ac4322"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Source definitions; finite dimension; correct normalized seeds and generators; no new quantitative claim.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:purification",
+      "file": "sections/02_framework.tex",
+      "line": 29,
+      "sha256": "1a7e4ef950badee7e5bec5eb97c038de8a3a55013e4a783cd019af387b236b7d",
+      "group": "definitions",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/sources/V4_INSPECTED_SOURCE_EXTRACT.md",
+          "sha256": "e2740bdb5c76d5bb2eb0c7bd1c7aa7c5e59b5673371c8452ae75b617ac2ca2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/REPORT.md",
+          "sha256": "8767fdab25fbf9110a2aeb3b7168dae8531b111716b529f887747dfc13ac4322"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Source definitions; finite dimension; correct normalized seeds and generators; no new quantitative claim.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:abbreviations",
+      "file": "sections/02_framework.tex",
+      "line": 42,
+      "sha256": "39f7a9bbc3ff3387827e40312098c2311b3514c33c4bbf171d429d4d67cf84db",
+      "group": "definitions",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/sources/V4_INSPECTED_SOURCE_EXTRACT.md",
+          "sha256": "e2740bdb5c76d5bb2eb0c7bd1c7aa7c5e59b5673371c8452ae75b617ac2ca2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/REPORT.md",
+          "sha256": "8767fdab25fbf9110a2aeb3b7168dae8531b111716b529f887747dfc13ac4322"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Source definitions; finite dimension; correct normalized seeds and generators; no new quantitative claim.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:spectral-formula",
+      "file": "sections/02_framework.tex",
+      "line": 58,
+      "sha256": "bb1b6e9c8dce0064c26e0cc3da119d0efcb5f809c0e6fb6ba8da3293a40f29c9",
+      "group": "definitions",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/sources/V4_INSPECTED_SOURCE_EXTRACT.md",
+          "sha256": "e2740bdb5c76d5bb2eb0c7bd1c7aa7c5e59b5673371c8452ae75b617ac2ca2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/REPORT.md",
+          "sha256": "8767fdab25fbf9110a2aeb3b7168dae8531b111716b529f887747dfc13ac4322"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Source definitions; finite dimension; correct normalized seeds and generators; no new quantitative claim.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:gap-measures",
+      "file": "sections/02_framework.tex",
+      "line": 64,
+      "sha256": "2a8b8f669fc46a294f750f3d7247cb5e9998e87d38f7bbf12fc3e9acd205135d",
+      "group": "definitions",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/sources/V4_INSPECTED_SOURCE_EXTRACT.md",
+          "sha256": "e2740bdb5c76d5bb2eb0c7bd1c7aa7c5e59b5673371c8452ae75b617ac2ca2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/REPORT.md",
+          "sha256": "8767fdab25fbf9110a2aeb3b7168dae8531b111716b529f887747dfc13ac4322"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Source definitions; finite dimension; correct normalized seeds and generators; no new quantitative claim.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:difference-convolution",
+      "file": "sections/02_framework.tex",
+      "line": 73,
+      "sha256": "3776eb64773af7e2f553179570931395f325213a1976b05203dd8be33cfc48a4",
+      "group": "definitions",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/sources/V4_INSPECTED_SOURCE_EXTRACT.md",
+          "sha256": "e2740bdb5c76d5bb2eb0c7bd1c7aa7c5e59b5673371c8452ae75b617ac2ca2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/REPORT.md",
+          "sha256": "8767fdab25fbf9110a2aeb3b7168dae8531b111716b529f887747dfc13ac4322"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Source definitions; finite dimension; correct normalized seeds and generators; no new quantitative claim.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:three-function",
+      "file": "sections/02_framework.tex",
+      "line": 86,
+      "sha256": "940b5101012c5f12f6b15d8a62050aa8c11f5468edabcf612f935e426633e4f7",
+      "group": "three",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        }
+      ],
+      "review": "Three-atom exact formula, coefficients and endpoint termination; frequency gap rescaling only.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:three-amplitudes",
+      "file": "sections/02_framework.tex",
+      "line": 96,
+      "sha256": "55fb474e3227f2a97c1140af7e652163436ed26d84eea11d5f57db505817d1ea",
+      "group": "three",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        }
+      ],
+      "review": "Three-atom exact formula, coefficients and endpoint termination; frequency gap rescaling only.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:return-bound",
+      "file": "sections/02_framework.tex",
+      "line": 107,
+      "sha256": "3574b2ff5dba214bed97521a4dcd0bb571ad2f9289e83b495b1464bd372612e7",
+      "group": "return",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        }
+      ],
+      "review": "Finite chains; positive-matrix returns in [0,1]; length <=5 only for the factor 8 bound.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:loss-bound",
+      "file": "sections/02_framework.tex",
+      "line": 112,
+      "sha256": "ab35869d11d9bc97a75718105d9ec9746a4eb3f9a98f74e45b4902ad94d3d9cd",
+      "group": "return",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        }
+      ],
+      "review": "Finite chains; positive-matrix returns in [0,1]; length <=5 only for the factor 8 bound.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:left-state",
+      "file": "sections/03_hierarchy.tex",
+      "line": 5,
+      "sha256": "dbcdb2eb34e5e7aa902cb62f310c574432178a3e2d5a0b0304ed7f3046d1fb3a",
+      "group": "left",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi; every displayed rational and matrix checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:left-values",
+      "file": "sections/03_hierarchy.tex",
+      "line": 10,
+      "sha256": "746c29e8f484fc7c4c28d46f48b3eed55ab04a411b68de3a187944a9664ddccb",
+      "group": "left",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi; every displayed rational and matrix checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:left-root",
+      "file": "sections/03_hierarchy.tex",
+      "line": 18,
+      "sha256": "3eeece40d6ba089c4baba6032b8f7bb330559ae17abc428c05549d0489d8cb91",
+      "group": "left",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi; every displayed rational and matrix checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:left-weights",
+      "file": "sections/03_hierarchy.tex",
+      "line": 26,
+      "sha256": "f86232ac8702645d441e469e9b1ffc5b62205efd341f19c91e2fc46bde6d9017",
+      "group": "left",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi; every displayed rational and matrix checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:right-state",
+      "file": "sections/03_hierarchy.tex",
+      "line": 44,
+      "sha256": "0de576eeca43a204d8e1d7693ce002d4b32475e64e11cf460fcddc83e32aa4b3",
+      "group": "right",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_ONE_PAGE.md",
+          "sha256": "221c23dfd7aa251b9faf1fad6c85bb8d01966f4818b7ab7ca89835ace4902064"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_exact.json",
+          "sha256": "e0ce6cdc2254f556a1095c499d593229c2b30adbb7cb674cae56c3b72d9ac364"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi/3; weights, probabilities, coefficients and V3 short-time interval checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:right-values",
+      "file": "sections/03_hierarchy.tex",
+      "line": 49,
+      "sha256": "24c474b61b2668510152ccd1ca94ea2f055ecdb38f2b8d396c8b14c3c9d57362",
+      "group": "right",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_ONE_PAGE.md",
+          "sha256": "221c23dfd7aa251b9faf1fad6c85bb8d01966f4818b7ab7ca89835ace4902064"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_exact.json",
+          "sha256": "e0ce6cdc2254f556a1095c499d593229c2b30adbb7cb674cae56c3b72d9ac364"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi/3; weights, probabilities, coefficients and V3 short-time interval checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:right-measures",
+      "file": "sections/03_hierarchy.tex",
+      "line": 60,
+      "sha256": "7d3873e543101bc775c8b4bc81398f566881709dff61563db4212e8fff9ce3eb",
+      "group": "right",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_ONE_PAGE.md",
+          "sha256": "221c23dfd7aa251b9faf1fad6c85bb8d01966f4818b7ab7ca89835ace4902064"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_exact.json",
+          "sha256": "e0ce6cdc2254f556a1095c499d593229c2b30adbb7cb674cae56c3b72d9ac364"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi/3; weights, probabilities, coefficients and V3 short-time interval checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:right-curvatures",
+      "file": "sections/03_hierarchy.tex",
+      "line": 76,
+      "sha256": "3a3b0b990b9a5854110ef6ad47f659a207894f007fd738cb541b55c9fd3cf272",
+      "group": "right",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_ONE_PAGE.md",
+          "sha256": "221c23dfd7aa251b9faf1fad6c85bb8d01966f4818b7ab7ca89835ace4902064"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_exact.json",
+          "sha256": "e0ce6cdc2254f556a1095c499d593229c2b30adbb7cb674cae56c3b72d9ac364"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi/3; weights, probabilities, coefficients and V3 short-time interval checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:right-interval",
+      "file": "sections/03_hierarchy.tex",
+      "line": 83,
+      "sha256": "e071e78d0c43ff78817d8ba68bde9315c5d7041e0ace13407cccb0d8590a4dcf",
+      "group": "right",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_ONE_PAGE.md",
+          "sha256": "221c23dfd7aa251b9faf1fad6c85bb8d01966f4818b7ab7ca89835ace4902064"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_exact.json",
+          "sha256": "e0ce6cdc2254f556a1095c499d593229c2b30adbb7cb674cae56c3b72d9ac364"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi/3; weights, probabilities, coefficients and V3 short-time interval checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:qubit-mus",
+      "file": "sections/03_hierarchy.tex",
+      "line": 107,
+      "sha256": "1f57315abd32c149eae60ff78dc237ec389f8958f23ae05dad67c1bb17d13fba",
+      "group": "qubit",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Every qubit, Hermitian time-independent H, every real time; coefficients in [0,1/2]; no division by stationary zero.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:qubit-order",
+      "file": "sections/03_hierarchy.tex",
+      "line": 116,
+      "sha256": "9c1f58a246456b4df26937fdd25df13c19df4ad3eb4d61cd0d7a9aaaaf31babf",
+      "group": "qubit",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Every qubit, Hermitian time-independent H, every real time; coefficients in [0,1/2]; no division by stationary zero.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:perturbed-H",
+      "file": "sections/03_hierarchy.tex",
+      "line": 137,
+      "sha256": "592716a36ff91b6c7f34d9928b95a1c9f19117967f4ad2eca24d59421233658a",
+      "group": "robust",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/scripts/verify_1r_bootstrap.py",
+          "sha256": "ce5e3c73c15e99ea08974032f020b038cdadad6c7146c2e2b2efb58214fb1ca0"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_bootstrap.json",
+          "sha256": "934ce377d2f81d345453038fb233189bd92953c2835685ff5a4433ed7ae60e5b"
+        }
+      ],
+      "review": "0<abs(delta)<1/sqrt(135); sufficiently small positive time per parameter; explicit delta and time retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:robust-gap",
+      "file": "sections/03_hierarchy.tex",
+      "line": 143,
+      "sha256": "fa27c0d3f41947f14dc566e331cedf27084243dd77b1aa25b8c57a845ca19661",
+      "group": "robust",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/scripts/verify_1r_bootstrap.py",
+          "sha256": "ce5e3c73c15e99ea08974032f020b038cdadad6c7146c2e2b2efb58214fb1ca0"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_bootstrap.json",
+          "sha256": "934ce377d2f81d345453038fb233189bd92953c2835685ff5a4433ed7ae60e5b"
+        }
+      ],
+      "review": "0<abs(delta)<1/sqrt(135); sufficiently small positive time per parameter; explicit delta and time retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:robust-curvature",
+      "file": "sections/03_hierarchy.tex",
+      "line": 149,
+      "sha256": "b39ae9aaca2c959eef6ff562992e9da1a3e8466477a5fc308ee1c79ef5c03dd3",
+      "group": "robust",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/scripts/verify_1r_bootstrap.py",
+          "sha256": "ce5e3c73c15e99ea08974032f020b038cdadad6c7146c2e2b2efb58214fb1ca0"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_bootstrap.json",
+          "sha256": "934ce377d2f81d345453038fb233189bd92953c2835685ff5a4433ed7ae60e5b"
+        }
+      ],
+      "review": "0<abs(delta)<1/sqrt(135); sufficiently small positive time per parameter; explicit delta and time retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:factor-two",
+      "file": "sections/04_factor_two.tex",
+      "line": 12,
+      "sha256": "8dd4a195c7d6ecefa2f13c2ba37cd5c63779f9cab4ae5692b01649b8c9cd36b5",
+      "group": "factor",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/FACTOR_TWO_THEOREM.md",
+          "sha256": "67766ac6af232c6e0dff1f04505b844d4280aa3c333df195961430a8640cb489"
+        }
+      ],
+      "review": "Finite-dimensional theorem only; normalized pure seed; all real times; flag gap applied to evolved cyclic vector; prior art acknowledged.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:factor-vectorization",
+      "file": "sections/04_factor_two.tex",
+      "line": 20,
+      "sha256": "53f9031df90f7adf160ce84aa2f3282d0c2166fa607e28bdac9223a5d99cd61c",
+      "group": "factor",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/FACTOR_TWO_THEOREM.md",
+          "sha256": "67766ac6af232c6e0dff1f04505b844d4280aa3c333df195961430a8640cb489"
+        }
+      ],
+      "review": "Finite-dimensional theorem only; normalized pure seed; all real times; flag gap applied to evolved cyclic vector; prior art acknowledged.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:flags",
+      "file": "sections/04_factor_two.tex",
+      "line": 26,
+      "sha256": "05c9741e6bdd8a1e0cfee3691b8b6ef833a32ddaa2eb39609ecdeef18e13a396",
+      "group": "factor",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/FACTOR_TWO_THEOREM.md",
+          "sha256": "67766ac6af232c6e0dff1f04505b844d4280aa3c333df195961430a8640cb489"
+        }
+      ],
+      "review": "Finite-dimensional theorem only; normalized pure seed; all real times; flag gap applied to evolved cyclic vector; prior art acknowledged.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:tail-domination",
+      "file": "sections/04_factor_two.tex",
+      "line": 39,
+      "sha256": "3f8445965388b5b2bdd0ad74ade6e9162c8acc597c89653efd7d54f38e3b3e69",
+      "group": "factor",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/FACTOR_TWO_THEOREM.md",
+          "sha256": "67766ac6af232c6e0dff1f04505b844d4280aa3c333df195961430a8640cb489"
+        }
+      ],
+      "review": "Finite-dimensional theorem only; normalized pure seed; all real times; flag gap applied to evolved cyclic vector; prior art acknowledged.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:tail-sum",
+      "file": "sections/04_factor_two.tex",
+      "line": 46,
+      "sha256": "b9779d83380671d82bc7fd64202d3e98a505c5fee02e4159cd412539dc7c5fac",
+      "group": "factor",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/FACTOR_TWO_THEOREM.md",
+          "sha256": "67766ac6af232c6e0dff1f04505b844d4280aa3c333df195961430a8640cb489"
+        }
+      ],
+      "review": "Finite-dimensional theorem only; normalized pure seed; all real times; flag gap applied to evolved cyclic vector; prior art acknowledged.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:flag-gap",
+      "file": "sections/04_factor_two.tex",
+      "line": 58,
+      "sha256": "d66e1f46b550be984ccc2ef8a1dc6f9acfa7803a914548d59e64528db1842aa2",
+      "group": "factor",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/FACTOR_TWO_THEOREM.md",
+          "sha256": "67766ac6af232c6e0dff1f04505b844d4280aa3c333df195961430a8640cb489"
+        }
+      ],
+      "review": "Finite-dimensional theorem only; normalized pure seed; all real times; flag gap applied to evolved cyclic vector; prior art acknowledged.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:branches",
+      "file": "sections/04_factor_two.tex",
+      "line": 70,
+      "sha256": "ac38e6668cbe77971298abb19676d123c396982495254fdf769e92e8c856c03f",
+      "group": "factor",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/FACTOR_TWO_THEOREM.md",
+          "sha256": "67766ac6af232c6e0dff1f04505b844d4280aa3c333df195961430a8640cb489"
+        }
+      ],
+      "review": "Finite-dimensional theorem only; normalized pure seed; all real times; flag gap applied to evolved cyclic vector; prior art acknowledged.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:ratios",
+      "file": "sections/05_ratios.tex",
+      "line": 4,
+      "sha256": "c732994d14c64297c2953918b22944230b44bc3702c53f7cbd210d9ea5442466",
+      "group": "ratios",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/TARGET2_SOURCE_CONTRACT.md",
+          "sha256": "d60885a49ff05375065ba3b6af6e1f157038c4339ce5f12b00d196e5390b2500"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        }
+      ],
+      "review": "r, q and R distinct; positive recurrence-continuable ratios; universal strengthenings explicitly separated from qualitative source.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:cv-definition",
+      "file": "sections/05_ratios.tex",
+      "line": 14,
+      "sha256": "f1bc4404f44c00c6fda9115f7d7c804b4c8a09cb106d4082e7bbdad2a4d1f622",
+      "group": "ratios",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/TARGET2_SOURCE_CONTRACT.md",
+          "sha256": "d60885a49ff05375065ba3b6af6e1f157038c4339ce5f12b00d196e5390b2500"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        }
+      ],
+      "review": "r, q and R distinct; positive recurrence-continuable ratios; universal strengthenings explicitly separated from qualitative source.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:main-family",
+      "file": "sections/05_ratios.tex",
+      "line": 37,
+      "sha256": "d5045c43750cd039ef30cf30f2d5ce862811f73300fae13840c878eb81bae00c",
+      "group": "main",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-r: 0<epsilon<=1/4; fixed d=4,H; mean on full 2pi period; V3 coefficient 289/132710400 and finite threshold >80.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:main-cv",
+      "file": "sections/05_ratios.tex",
+      "line": 45,
+      "sha256": "10c6451a0adc4bbc74f89335b86e5c8aa3f1797a075adca979b251c4b0ec68ad",
+      "group": "main",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-r: 0<epsilon<=1/4; fixed d=4,H; mean on full 2pi period; V3 coefficient 289/132710400 and finite threshold >80.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:main-losses",
+      "file": "sections/05_ratios.tex",
+      "line": 56,
+      "sha256": "0dbee889257d0ebb13ed5b722999eb2233acab4a1c851fc33479e9205faeebe6",
+      "group": "main",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-r: 0<epsilon<=1/4; fixed d=4,H; mean on full 2pi period; V3 coefficient 289/132710400 and finite threshold >80.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:main-f",
+      "file": "sections/05_ratios.tex",
+      "line": 67,
+      "sha256": "6132af91a640cf8bf66c0a85f1de1b4c96de12286071a87f2cc6725296a86f11",
+      "group": "main",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-r: 0<epsilon<=1/4; fixed d=4,H; mean on full 2pi period; V3 coefficient 289/132710400 and finite threshold >80.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:main-mean",
+      "file": "sections/05_ratios.tex",
+      "line": 78,
+      "sha256": "3e2a56dafc8eb1b85fd8f02680f62a288a1166a169a0497bdcc64a75279bf019",
+      "group": "main",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-r: 0<epsilon<=1/4; fixed d=4,H; mean on full 2pi period; V3 coefficient 289/132710400 and finite threshold >80.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:main-window",
+      "file": "sections/05_ratios.tex",
+      "line": 85,
+      "sha256": "101adac063ea2de1ac4a5a071422cfa14ada1707a620b7770077681f5993816f",
+      "group": "main",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-r: 0<epsilon<=1/4; fixed d=4,H; mean on full 2pi period; V3 coefficient 289/132710400 and finite threshold >80.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:reciprocal-family",
+      "file": "sections/05_ratios.tex",
+      "line": 109,
+      "sha256": "fde619f1c04513a78e73c56bb44100561de9fbef662b0011a6559f017906b180",
+      "group": "reciprocal",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-q: eta>0, epsilon=eta^2 in (0,1/16]; fixed d=4,H; V3 coefficient 1/1679616; CV(Pq)=CV(q), finite threshold >40.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:reciprocal-cv",
+      "file": "sections/05_ratios.tex",
+      "line": 116,
+      "sha256": "656ff4e2da6a750eaf4662259d6e7deb4ad1c89f9fa728564bd4eb7b105d59a9",
+      "group": "reciprocal",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-q: eta>0, epsilon=eta^2 in (0,1/16]; fixed d=4,H; V3 coefficient 1/1679616; CV(Pq)=CV(q), finite threshold >40.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:reciprocal-traces",
+      "file": "sections/05_ratios.tex",
+      "line": 126,
+      "sha256": "425b032f69efc55a32b6135cf96305f02a8a492fc49a68b82c510bc663297f9c",
+      "group": "reciprocal",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-q: eta>0, epsilon=eta^2 in (0,1/16]; fixed d=4,H; V3 coefficient 1/1679616; CV(Pq)=CV(q), finite threshold >40.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:reciprocal-losses",
+      "file": "sections/05_ratios.tex",
+      "line": 133,
+      "sha256": "481bb44fffbeeb1c7e040460ecbc5edc8e517df6fa3b784b4df2db16c6400c31",
+      "group": "reciprocal",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-q: eta>0, epsilon=eta^2 in (0,1/16]; fixed d=4,H; V3 coefficient 1/1679616; CV(Pq)=CV(q), finite threshold >40.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:reciprocal-g",
+      "file": "sections/05_ratios.tex",
+      "line": 139,
+      "sha256": "320f786a7c2b66c5e9ae9fafc032644bc7dc26655579bb492d7a27cb4d960928",
+      "group": "reciprocal",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-q: eta>0, epsilon=eta^2 in (0,1/16]; fixed d=4,H; V3 coefficient 1/1679616; CV(Pq)=CV(q), finite threshold >40.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:reciprocal-mean",
+      "file": "sections/05_ratios.tex",
+      "line": 145,
+      "sha256": "e0eff6b08cab90041a1af4e3c99f6fd1dde7b12be93808101174e1cc24b6c112",
+      "group": "reciprocal",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-q: eta>0, epsilon=eta^2 in (0,1/16]; fixed d=4,H; V3 coefficient 1/1679616; CV(Pq)=CV(q), finite threshold >40.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:reciprocal-window",
+      "file": "sections/05_ratios.tex",
+      "line": 151,
+      "sha256": "d5f33d52191f4b23edd50dcb0d6debfb1e1fde84efa4130b4d94681673aa7ed6",
+      "group": "reciprocal",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-q: eta>0, epsilon=eta^2 in (0,1/16]; fixed d=4,H; V3 coefficient 1/1679616; CV(Pq)=CV(q), finite threshold >40.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:purity-family",
+      "file": "sections/05_ratios.tex",
+      "line": 180,
+      "sha256": "ba5fb32bb9dce3f96a6f0be2278af5bd4ca02c28b4455edcc27ad3e9b04dc193",
+      "group": "purity",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "0<epsilon<5/18; fixed d=4,P=1/2,H; all real times after removable continuation; V3 lower bound retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:purity-bounds",
+      "file": "sections/05_ratios.tex",
+      "line": 187,
+      "sha256": "60deb01e9c4c962dacd3535e4b942016c29520b68f59ffafd5dde6b6a75e0130",
+      "group": "purity",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "0<epsilon<5/18; fixed d=4,P=1/2,H; all real times after removable continuation; V3 lower bound retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:purity-positive",
+      "file": "sections/05_ratios.tex",
+      "line": 197,
+      "sha256": "d52051458e2cc28e14891abe1a2034e0285054c33ed608ffa9f6929185a58a4f",
+      "group": "purity",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "0<epsilon<5/18; fixed d=4,P=1/2,H; all real times after removable continuation; V3 lower bound retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:purity-ratio",
+      "file": "sections/05_ratios.tex",
+      "line": 204,
+      "sha256": "4e7ede6ab8b18a77da5702be13f305e81055858f76ab10b0dfc719bfcd09d69c",
+      "group": "purity",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "0<epsilon<5/18; fixed d=4,P=1/2,H; all real times after removable continuation; V3 lower bound retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:qubit-cv",
+      "file": "sections/06_survivors.tex",
+      "line": 10,
+      "sha256": "36578accd08adc78202342e096bd3f411caf1cc8a4dc4e3ac92306656bfede40",
+      "group": "qubitcv",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/restricted_survivors.json",
+          "sha256": "65f7d9d882e2db7403bfb327a8236c8d1a07388102b15676e8e83b075d6c6322"
+        }
+      ],
+      "review": "Nonstationary qubits only; y in [0,1), h>0, nonzero gap; any probability-weighted time average; upper bound not attainment.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:qubit-range",
+      "file": "sections/06_survivors.tex",
+      "line": 22,
+      "sha256": "5e335e94e7fcb862be3d0884fd45fb02349bb659ee137f45e08047d6be112be0",
+      "group": "qubitcv",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/restricted_survivors.json",
+          "sha256": "65f7d9d882e2db7403bfb327a8236c8d1a07388102b15676e8e83b075d6c6322"
+        }
+      ],
+      "review": "Nonstationary qubits only; y in [0,1), h>0, nonzero gap; any probability-weighted time average; upper bound not attainment.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:kappa-max",
+      "file": "sections/06_survivors.tex",
+      "line": 29,
+      "sha256": "51ea01b3a04a6610ae5b78b5dc84a28d4b0c7d4eb427aec2479da90a310f1e7d",
+      "group": "qubitcv",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/restricted_survivors.json",
+          "sha256": "65f7d9d882e2db7403bfb327a8236c8d1a07388102b15676e8e83b075d6c6322"
+        }
+      ],
+      "review": "Nonstationary qubits only; y in [0,1), h>0, nonzero gap; any probability-weighted time average; upper bound not attainment.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:bounded-variance",
+      "file": "sections/06_survivors.tex",
+      "line": 37,
+      "sha256": "f2b2e651044003f81f93ba57a2a9626bc7b12fc785fbb558ab6cd72980d721d8",
+      "group": "qubitcv",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/restricted_survivors.json",
+          "sha256": "65f7d9d882e2db7403bfb327a8236c8d1a07388102b15676e8e83b075d6c6322"
+        }
+      ],
+      "review": "Nonstationary qubits only; y in [0,1), h>0, nonzero gap; any probability-weighted time average; upper bound not attainment.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:returns",
+      "file": "sections/06_survivors.tex",
+      "line": 56,
+      "sha256": "42e2bdee6cc65974af502b21e93b71194e276afde17a11d323b08dd3e2e1589e",
+      "group": "return",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        }
+      ],
+      "review": "Finite chains; positive-matrix returns in [0,1]; length <=5 only for the factor 8 bound.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:state-dependent",
+      "file": "sections/06_survivors.tex",
+      "line": 62,
+      "sha256": "6cd9d9c31b4e769b342ddde62f8b456c5525b7dc4a96744acd02072cca2a532f",
+      "group": "return",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        }
+      ],
+      "review": "Finite chains; positive-matrix returns in [0,1]; length <=5 only for the factor 8 bound.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:curvature-necessary",
+      "file": "sections/06_survivors.tex",
+      "line": 76,
+      "sha256": "8c864378a7abd4573b5013a1dd476411d2682024ebc9087c6cd5a143454ec73c",
+      "group": "mechanism",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/REPORT.md",
+          "sha256": "8767fdab25fbf9110a2aeb3b7168dae8531b111716b529f887747dfc13ac4322"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Necessary short-time comparisons, not sufficient all-time ordering; rho versus sqrt(rho) mechanism.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:taylor-norm",
+      "file": "sections/appendix_bounds.tex",
+      "line": 6,
+      "sha256": "528e1109ed8eed69dc512a8851689d61d866f570ce185cd69352007d1e316040",
+      "group": "right",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_ONE_PAGE.md",
+          "sha256": "221c23dfd7aa251b9faf1fad6c85bb8d01966f4818b7ab7ca89835ace4902064"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_exact.json",
+          "sha256": "e0ce6cdc2254f556a1095c499d593229c2b30adbb7cb674cae56c3b72d9ac364"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi/3; weights, probabilities, coefficients and V3 short-time interval checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:perturbed-remainder",
+      "file": "sections/appendix_bounds.tex",
+      "line": 19,
+      "sha256": "3bf485c3611101ae94a53e4b70b42310e28becbcc9c6533e2bb1b8fe4e575169",
+      "group": "robust",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/scripts/verify_1r_bootstrap.py",
+          "sha256": "ce5e3c73c15e99ea08974032f020b038cdadad6c7146c2e2b2efb58214fb1ca0"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_bootstrap.json",
+          "sha256": "934ce377d2f81d345453038fb233189bd92953c2835685ff5a4433ed7ae60e5b"
+        }
+      ],
+      "review": "0<abs(delta)<1/sqrt(135); sufficiently small positive time per parameter; explicit delta and time retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:integral",
+      "file": "sections/appendix_bounds.tex",
+      "line": 30,
+      "sha256": "66f06da1e41aa7aec3376f8595d8d791e9cc829569e1bd0ea56a1090975fbb22",
+      "group": "main",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-r: 0<epsilon<=1/4; fixed d=4,H; mean on full 2pi period; V3 coefficient 289/132710400 and finite threshold >80.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:purity-endpoint",
+      "file": "sections/appendix_bounds.tex",
+      "line": 54,
+      "sha256": "85a10674f5afc48096ca4cf8c3b86ce28c2722149aedd8228b00267466619206",
+      "group": "purity",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "0<epsilon<5/18; fixed d=4,P=1/2,H; all real times after removable continuation; V3 lower bound retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:left-probabilities",
+      "file": "sections/appendix_certificates.tex",
+      "line": 4,
+      "sha256": "dd4a6857426ffefdd1ef74155850385c208a579fb40aefe1dae91d724d56eec0",
+      "group": "left",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi; every displayed rational and matrix checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:right-lanczos",
+      "file": "sections/appendix_certificates.tex",
+      "line": 13,
+      "sha256": "af4af9cebb7835cfe3947f555ad77d5eb051c42bed762621972460a48179f196",
+      "group": "right",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_ONE_PAGE.md",
+          "sha256": "221c23dfd7aa251b9faf1fad6c85bb8d01966f4818b7ab7ca89835ace4902064"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_exact.json",
+          "sha256": "e0ce6cdc2254f556a1095c499d593229c2b30adbb7cb674cae56c3b72d9ac364"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi/3; weights, probabilities, coefficients and V3 short-time interval checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:right-probabilities",
+      "file": "sections/appendix_certificates.tex",
+      "line": 20,
+      "sha256": "f2ac0a731af9dfcbd1e39805aa6e6f0cee7fc313b64ad5cfe20cf4c3c07c099c",
+      "group": "right",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_ONE_PAGE.md",
+          "sha256": "221c23dfd7aa251b9faf1fad6c85bb8d01966f4818b7ab7ca89835ace4902064"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_exact.json",
+          "sha256": "e0ce6cdc2254f556a1095c499d593229c2b30adbb7cb674cae56c3b72d9ac364"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi/3; weights, probabilities, coefficients and V3 short-time interval checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:m-family",
+      "file": "sections/appendix_certificates.tex",
+      "line": 40,
+      "sha256": "148072d5650043da23414df32162c9a2ad0059076571bad8d40af36b02e52bef",
+      "group": "mfamily",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Real m>=4, finite full-rank members; all t outside 2pi integers; asymptotic at fixed t=pi, not a limiting-state witness.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:m-asymptotic",
+      "file": "sections/appendix_certificates.tex",
+      "line": 46,
+      "sha256": "3e48fac9a031d900ac7934f652e305ed10ac4abcdc5364179386b17d2edafc58",
+      "group": "mfamily",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Real m>=4, finite full-rank members; all t outside 2pi integers; asymptotic at fixed t=pi, not a limiting-state witness.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:m-weights",
+      "file": "sections/appendix_certificates.tex",
+      "line": 55,
+      "sha256": "e26cde308fdda5a2863b14e029385c082e89a407353b558cb92f8990b0e82729",
+      "group": "mfamily",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Real m>=4, finite full-rank members; all t outside 2pi integers; asymptotic at fixed t=pi, not a limiting-state witness.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:F-difference",
+      "file": "sections/appendix_certificates.tex",
+      "line": 62,
+      "sha256": "c46e9ca8c40963fe679658b1e3fc03806245f1d30cafbc16d69d6c3952f926ba",
+      "group": "mfamily",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Real m>=4, finite full-rank members; all t outside 2pi integers; asymptotic at fixed t=pi, not a limiting-state witness.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "eq:purity-anchor",
+      "file": "sections/appendix_certificates.tex",
+      "line": 74,
+      "sha256": "a4b4c33cad96d5090a1bf1a34147fe606f5ae1e90219f4b4bf0f3f20abf45eea",
+      "group": "purity",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "0<epsilon<5/18; fixed d=4,P=1/2,H; all real times after removable continuation; V3 lower bound retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    }
+  ],
+  "theorems": [
+    {
+      "label": "lem:three",
+      "file": "sections/02_framework.tex",
+      "line": 82,
+      "sha256": "20e5f1c1cf0e81e6b4efa158b62eba41f5e5550450cfc8c85cf05c4758792c73",
+      "group": "three",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        }
+      ],
+      "review": "Three-atom exact formula, coefficients and endpoint termination; frequency gap rescaling only.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "lem:return",
+      "file": "sections/02_framework.tex",
+      "line": 105,
+      "sha256": "ec627602e6f2a8a320561815a54bde139d70677a423a361c7230ca4f1c2b76e2",
+      "group": "return",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        }
+      ],
+      "review": "Finite chains; positive-matrix returns in [0,1]; length <=5 only for the factor 8 bound.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "prop:left",
+      "file": "sections/03_hierarchy.tex",
+      "line": 3,
+      "sha256": "9c60c8fefa756cd3fcfbee5366402a7cd406e732591252faf2953e04baac6784",
+      "group": "left",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi; every displayed rational and matrix checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "prop:right",
+      "file": "sections/03_hierarchy.tex",
+      "line": 42,
+      "sha256": "403f44eaccb7eba19baa51e28b7b9243e30e05eae7db1d948819ea907365cffa",
+      "group": "right",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_ONE_PAGE.md",
+          "sha256": "221c23dfd7aa251b9faf1fad6c85bb8d01966f4818b7ab7ca89835ace4902064"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_exact.json",
+          "sha256": "e0ce6cdc2254f556a1095c499d593229c2b30adbb7cb674cae56c3b72d9ac364"
+        }
+      ],
+      "review": "Exact full-rank qutrit, t=pi/3; weights, probabilities, coefficients and V3 short-time interval checked.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "thm:qubit",
+      "file": "sections/03_hierarchy.tex",
+      "line": 94,
+      "sha256": "3f0b7e2a49a6952e4c25cd047940f5c8b2592994429f29519df15a7c9cd9c06e",
+      "group": "qubit",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        }
+      ],
+      "review": "Every qubit, Hermitian time-independent H, every real time; coefficients in [0,1/2]; no division by stationary zero.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "prop:robust",
+      "file": "sections/03_hierarchy.tex",
+      "line": 135,
+      "sha256": "be7df5f59650fecd1ca9b9a5e3006b6135e768176a4dc6d58788a49ead1dff9f",
+      "group": "robust",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RIGHT_BOUND_DETAILS.md",
+          "sha256": "9da70a773092d6df9cf2eee45903a4f54c2235bbdc468f5163a61ceb7a36ccf4"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/scripts/verify_1r_bootstrap.py",
+          "sha256": "ce5e3c73c15e99ea08974032f020b038cdadad6c7146c2e2b2efb58214fb1ca0"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target1r_bootstrap.json",
+          "sha256": "934ce377d2f81d345453038fb233189bd92953c2835685ff5a4433ed7ae60e5b"
+        }
+      ],
+      "review": "0<abs(delta)<1/sqrt(135); sufficiently small positive time per parameter; explicit delta and time retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "thm:factor",
+      "file": "sections/04_factor_two.tex",
+      "line": 6,
+      "sha256": "8b585c25ec8daef2ce6eea93394ba7ce49963603ea90819e94c885c4c1166af8",
+      "group": "factor",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/FACTOR_TWO_THEOREM.md",
+          "sha256": "67766ac6af232c6e0dff1f04505b844d4280aa3c333df195961430a8640cb489"
+        }
+      ],
+      "review": "Finite-dimensional theorem only; normalized pure seed; all real times; flag gap applied to evolved cyclic vector; prior art acknowledged.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "cor:branches",
+      "file": "sections/04_factor_two.tex",
+      "line": 67,
+      "sha256": "6aa33686153e7116d9de8c96e47ea77887782b9bbc09897af02e66c62a437eec",
+      "group": "factor",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/FACTOR_TWO_THEOREM.md",
+          "sha256": "67766ac6af232c6e0dff1f04505b844d4280aa3c333df195961430a8640cb489"
+        }
+      ],
+      "review": "Finite-dimensional theorem only; normalized pure seed; all real times; flag gap applied to evolved cyclic vector; prior art acknowledged.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "thm:main-ratio",
+      "file": "sections/05_ratios.tex",
+      "line": 35,
+      "sha256": "f16e5df1f9a6f80613e536ab4d8216de5d419f829b541456135b45a4844402c8",
+      "group": "main",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-r: 0<epsilon<=1/4; fixed d=4,H; mean on full 2pi period; V3 coefficient 289/132710400 and finite threshold >80.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "thm:reciprocal",
+      "file": "sections/05_ratios.tex",
+      "line": 106,
+      "sha256": "302dd2a854195a38c09fc9bf412b46242201a9aaea7edd6be55b8b49c2c0110d",
+      "group": "reciprocal",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "A-q: eta>0, epsilon=eta^2 in (0,1/16]; fixed d=4,H; V3 coefficient 1/1679616; CV(Pq)=CV(q), finite threshold >40.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "thm:purity",
+      "file": "sections/05_ratios.tex",
+      "line": 178,
+      "sha256": "ff06b468709c8eda40d4019d861ae3e44cd26834fc03f082d2b40164ed71b445",
+      "group": "purity",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_PURITY_NOGO.md",
+          "sha256": "c4e2b95a39af97c4f4eaadf8eaf623e544ccb4baf3d2fd3043447b1628441114"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/target2_exact.json",
+          "sha256": "9bb53adf7057d92c451cbe660806ad1fc1bd71ed2feddb96451dbffbce6e10da"
+        }
+      ],
+      "review": "0<epsilon<5/18; fixed d=4,P=1/2,H; all real times after removable continuation; V3 lower bound retained.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "prop:qubit-cv",
+      "file": "sections/06_survivors.tex",
+      "line": 6,
+      "sha256": "73537554c1efcd2308d2426224b74cf94deac3753f614e660d81d05c1a590457",
+      "group": "qubitcv",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/results/restricted_survivors.json",
+          "sha256": "65f7d9d882e2db7403bfb327a8236c8d1a07388102b15676e8e83b075d6c6322"
+        }
+      ],
+      "review": "Nonstationary qubits only; y in [0,1), h>0, nonzero gap; any probability-weighted time average; upper bound not attainment.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "cor:return-comparison",
+      "file": "sections/06_survivors.tex",
+      "line": 60,
+      "sha256": "afa208dcfb618f1e2e1a28500ad6a928e8e614ab0f719fc682c6cac22957927a",
+      "group": "return",
+      "sources": [
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/TARGET2_TEMPORAL_NOGO.md",
+          "sha256": "05f83b7ce0c48809a14150e3ae52750217366655e22ecbf0fb3f59bed17cc2a8"
+        },
+        {
+          "path": "current_final/Krylov_remaining_attack/certificates/RESTRICTED_SURVIVORS.md",
+          "sha256": "7deef393398dff7cec6e8dd95d298003255976ebd594fe2f0ae44838e6072cab"
+        }
+      ],
+      "review": "Finite chains; positive-matrix returns in [0,1]; length <=5 only for the factor 8 bound.",
+      "status": "REVIEWED_MATCHES_V3"
+    },
+    {
+      "label": "prop:unbounded-left",
+      "file": "sections/appendix_certificates.tex",
+      "line": 38,
+      "sha256": "fba5c639f7dc7833fe31e72aa107dd8bdedf681134475977d7a70f3c1045da12",
+      "group": "mfamily",
+      "sources": [
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/report_zh.md",
+          "sha256": "bf64eaa977f80068cdeae658c1f9c27df7cbdc91d2558e740dcfea72425f7726"
+        },
+        {
+          "path": "prior_left/P2_3_Krylov_certificate/verification_results.json",
+          "sha256": "1999c642c3af34b77a8b05c75d5125403d380ec4dc0c752f1c9d822a06460146"
+        }
+      ],
+      "review": "Real m>=4, finite full-rank members; all t outside 2pi integers; asymptotic at fixed t=pi, not a limiting-state witness.",
+      "status": "REVIEWED_MATCHES_V3"
+    }
+  ],
+  "section_files": [
+    {
+      "path": "main.tex",
+      "sha256": "3f5aed70ec251706f80f7587afde2979358951439c18fa8b34bbc421661c7081",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/01_introduction.tex",
+      "sha256": "54a2878bfe8b9a4c9423bee0ffda938643453fafa8c683accd74dc63d001368a",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/02_framework.tex",
+      "sha256": "3322d0e00b9f295fc6a9bf89198205a305c27de0ffd9b537b27a9e1164ec9f02",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/03_hierarchy.tex",
+      "sha256": "3d20d667307028454036f014c5e73520a978cd5fd52416a939f56826447fc412",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/04_factor_two.tex",
+      "sha256": "3b9f7851a2ee490240057ea164bafb2d57e4b1f8fd5d2f648303efa45a3a04a8",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/05_ratios.tex",
+      "sha256": "4a8f3147da7c70282de81ea3987521ffb1f7acd5729a8496115428d69d2f9eb2",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/06_survivors.tex",
+      "sha256": "75b598939b39e3d8681ec7be415c4ff4e5049aeca055e0d338657c960bf9c873",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/07_discussion.tex",
+      "sha256": "6261d43a1ad3e0dee693fc5de46abe7c5373cc6836b97180e511acf589b63146",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/appendix_bounds.tex",
+      "sha256": "f46af5ee0eedfcb6020c8a3e7095350bd4b35d58d90a717d7546d8349d51573c",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/appendix_certificates.tex",
+      "sha256": "e9787c42ced44789e7ae22af6b317497833823af04ebef3808612231d4f2d84d",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    },
+    {
+      "path": "sections/appendix_reproducibility.tex",
+      "sha256": "de814d04884918170e08c74c9f17fa6dc79c2ccb8e80921585a35307c7b915a5",
+      "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
+    }
+  ],
+  "quantifier_inventory": [
+    {
+      "file": "main.tex",
+      "line": 49,
+      "text": "two-sided hierarchy admits an exact full-rank qutrit counterexample, with",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "main.tex",
+      "line": 50,
+      "text": "separate rational finite-time certificates. The hierarchy holds for every",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "main.tex",
+      "line": 51,
+      "text": "qubit, so physical dimension three is minimal for failure of either side.",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "main.tex",
+      "line": 52,
+      "text": "At fixed dimension four and fixed Hamiltonian, two different full-rank",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "main.tex",
+      "line": 55,
+      "text": "A third family has fixed purity and an unbounded ratio and temporal mean.",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "main.tex",
+      "line": 58,
+      "text": "In contrast, the pure-density factor-two inequality holds in finite dimension;",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "main.tex",
+      "line": 63,
+      "text": "and its positive square root.",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 19,
+      "text": " \\ \\le\\ \\CK\\bigl(\\rho(t)\\bigr)",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 20,
+      "text": " \\ \\le\\ \\CK\\bigl(\\Psi_\\rho^I(t)\\bigr).",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 30,
+      "text": "qualitative: it specifies neither a uniform tolerance nor an exact function",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 38,
+      "text": "a smaller physical dimension. For temporal ratios, we state and rule out",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 39,
+      "text": "three universal formulations: a finite uniform recurrence-period coefficient",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 41,
+      "text": "and finite purity-only upper control of the main ratio or its mean. The",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 43,
+      "text": "families. All counterexamples use strictly positive density matrices at every",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 49,
+      "text": "rank-one projector. We give the needed finite-dimensional proof in terms of",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 55,
+      "text": "Our focus is finite-dimensional, time-independent unitary dynamics. The",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/01_introduction.tex",
+      "line": 64,
+      "text": "the spectral mechanism. Exact finite certificates and technical estimates",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 4,
+      "text": "of dimension $d$, and let $\\rho$ be positive semidefinite with trace one.",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 18,
+      "text": "The integer $m$ is the cyclic dimension, not the physical dimension. The",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 28,
+      "text": "For full-rank $\\rho$, fix row vectorization and define",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 46,
+      "text": " \\quad X\\in\\{I,U^*\\}.",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 49,
+      "text": "$[G_X,\\cdot]$. The source hierarchy is $\\SU\\le\\CM\\le\\KI$.",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 51,
+      "text": "use the actual normalized pure seed and its generator on a fixed enlarged",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 62,
+      "text": "the number of distinct atoms with positive weight is the exact chain length.",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 94,
+      "text": "$b_2^2=1-\\mu$, and all diagonal coefficients vanish. The Jacobi matrix",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 106,
+      "text": "For a normalized finite chain of length $m$ with return amplitude $A(t)$,",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 108,
+      "text": " 1-|A(t)|^2\\le C(t)\\le(m-1)\\bigl(1-|A(t)|^2\\bigr).",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 110,
+      "text": "For the positive-matrix flows of $\\rho$ or $\\sqrt\\rho$, $A(t)$ is real",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 113,
+      "text": " D(t)\\le C(t)\\le8D(t).",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/02_framework.tex",
+      "line": 119,
+      "text": "Cauchy--Schwarz give $0\\le A\\le1$ in the stated flows. Finally,",
+      "review_group": "definitions",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 3,
+      "text": "\\begin{proposition}[Full-rank qutrit lower-side witness]\\label{prop:left}",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 17,
+      "text": "The eigenvalues of $\\rho_L$ are $16/21,4/21,1/21$, all positive, and",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 37,
+      "text": "embeds it in a full-rank qutrit family for which $\\SU(\\pi)/\\CM(\\pi)$ is",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 38,
+      "text": "unbounded, ruling out a repair of the lower side by a fixed positive",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 42,
+      "text": "\\begin{proposition}[Full-rank qutrit upper-side witness]\\label{prop:right}",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 57,
+      "text": "The state is strictly positive, has purity $P_R=1/2$, and has positive",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 69,
+      "text": "All weights are positive, so the chains terminate exactly at lengths three",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 72,
+      "text": "Appendix~\\ref{app:certificates}; their weighted sums prove the finite-time",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 84,
+      "text": " \\CM(t)-\\KI(t)\\ge\\frac4{169}t^2-64t^3>0,",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 90,
+      "text": "made that one displayed state violates both sides, or that every mixed state",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 93,
+      "text": "\\subsection{Qubits and minimal physical dimension}",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 95,
+      "text": "For every qubit density matrix, every time-independent Hermitian Hamiltonian,",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 96,
+      "text": "and every real time, $\\SU(t)\\le\\CM(t)\\le\\KI(t)$. Consequently, physical",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 97,
+      "text": "dimension three is minimal for failure of either side of",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 114,
+      "text": "All three parameters lie in $[0,1/2]$. The lower ordering follows, for",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 126,
+      "text": "This proves the hierarchy. Pure, maximally mixed, zero-gap, and stationary",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 128,
+      "text": "terminated chains. In particular, stationary mixed dynamics need not imply",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 129,
+      "text": "stationary $I$-purification dynamics, but the ordering still holds.",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 130,
+      "text": "Dimension one is stationary, and Propositions~\\ref{prop:left} and",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 131,
+      "text": "\\ref{prop:right} supply the dimension-three failures.",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 136,
+      "text": "Keep $\\rho_R$ fixed and replace $H_R$ by",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 141,
+      "text": "projection and the upper inequality fails at sufficiently small positive",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 144,
+      "text": " \\CM(t)-\\KI(t)\\ge\\frac{378247}{21125000000000000}>0.",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 152,
+      "text": "Finite-dimensional analyticity proves the short-time statement. Since",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 154,
+      "text": "subset of its eigenvectors. Every off-diagonal entry of $H_\\delta$ is",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/03_hierarchy.tex",
+      "line": 155,
+      "text": "nonzero, so no proper nonempty subset reduces it. The finite-time estimate",
+      "review_group": "qubit",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 6,
+      "text": "\\begin{theorem}[Finite-dimensional factor-two inequality]\\label{thm:factor}",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 7,
+      "text": "Let $G$ be a Hermitian matrix and $\\psi$ a unit vector in a finite-dimensional",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 11,
+      "text": "$([G,\\cdot],\\sigma(0))$, for every real $t$,",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 15,
+      "text": "The coefficient two is sharp. Stationary seeds, repeated eigenvalues, and",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 27,
+      "text": " V_n=\\spanof\\{L^k\\chi:0\\le k\\le n\\},\\qquad",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 28,
+      "text": " W_n=\\spanof\\{K_i\\otimes\\bar K_j:i+j\\le n\\}.",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 47,
+      "text": " \\CK(\\sigma(t))\\ge\\sum_{i,j}(i+j)p_i p_j",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 50,
+      "text": "For any nonstationary finite-dimensional seed, with",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 53,
+      "text": "so no larger universal multiplier is possible. A stationary seed gives",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 62,
+      "text": "In finite dimension the sum terminates. Its positivity is an assertion",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 68,
+      "text": "For either of the source's unitary purification schemes on a fixed finite",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 72,
+      "text": " \\qquad(t\\in\\mathbb R).",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 79,
+      "text": "The theorem itself does not require full rank of the original density matrix.",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/04_factor_two.tex",
+      "line": 88,
+      "text": "to finite dimension; no infinite-dimensional extension is required for any",
+      "review_group": "factor",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 3,
+      "text": "For nonstationary dynamics define, wherever the denominators are nonzero,",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 13,
+      "text": "For a positive time series with common recurrence period $T$, use",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 20,
+      "text": "particular Werner-state scan, not a uniform theorem. Its tabulated relative",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 25,
+      "text": "fixed dimension and fixed Hamiltonian, could one finite constant bound",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 26,
+      "text": "$\\CV(r)$ for every admissible nonstationary full-rank state? Second, could",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 27,
+      "text": "such a constant bound $\\CV(q)$, and hence $\\CV(R)$? Third, at fixed",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 28,
+      "text": "dimension, purity, and Hamiltonian, could $r$ or its period mean have a",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 29,
+      "text": "finite upper bound determined by purity alone? A separate construction",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 32,
+      "text": "value to every possible reading of the qualitative conjecture.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 41,
+      "text": " \\quad 0<\\eps\\le\\frac14.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 43,
+      "text": "These states are full rank. With the uniform time average over $T=2\\pi$,",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 46,
+      "text": " \\CV(r)^2\\ge\\frac{289}{132710400\\pi\\eps}-1",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 64,
+      "text": "Both chains have exactly the five frequencies $0,\\pm1,\\pm2$ with positive",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 65,
+      "text": "weights. Lemma~\\ref{lem:return} yields $f_\\eps/8\\le r\\le8f_\\eps$,",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 81,
+      "text": " \\le\\frac{68}{81}<1,\\qquad \\avg r\\le8.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 83,
+      "text": "On the window $|t-\\pi|\\le\\eps$, one has $c\\le\\eps^2/4$ and",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 86,
+      "text": " f_\\eps\\ge\\frac{17}{180\\eps},\\qquad",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 87,
+      "text": " r\\ge\\frac{17}{1440\\eps},\\qquad",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 88,
+      "text": " \\avg{r^2}\\ge\\frac{289}{2073600\\pi\\eps}.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 99,
+      "text": "to rule out any finite uniform coefficient of variation.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 115,
+      "text": "For these full-rank states, using $T=2\\pi$ and removable recurrence values,",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 117,
+      "text": " \\CV(q)^2\\ge\\frac1{1679616\\pi\\eps}-1",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 124,
+      "text": "which are positive in the stated range. Its normalization and fourth trace",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 131,
+      "text": "The positive square root of $\\rho_\\eta$ is $A_\\eta/\\sqrt N$. Write",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 137,
+      "text": "Again both chains have five positive-weight atoms. Thus",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 138,
+      "text": "$g_\\eps/8\\le q\\le8g_\\eps$, with",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 144,
+      "text": "On the specified range, $2\\le N,T_4\\le3$, and the period integral yields",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 150,
+      "text": "On $|t-\\pi|\\le\\eps$, where $c\\le\\eps^2/4$,",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 152,
+      "text": " g_\\eps\\ge\\frac{2N}{T_4}\\ge\\frac43,\\qquad",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 153,
+      "text": " q\\ge\\frac16,\\qquad \\avg{q^2}\\ge\\frac{\\eps}{36\\pi}.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 156,
+      "text": "the finite rational witness. Finally $P$ is positive and independent of",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 160,
+      "text": "Here the mean becomes small while finite excursions persist in a narrowing",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 165,
+      "text": "In both temporal families, the return losses are positive combinations of",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 167,
+      "text": "$t\\in2\\pi\\mathbb Z$. For positive-matrix returns, the lower bound in",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 170,
+      "text": "positive quadratic coefficients, so the ratio has a finite positive",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 172,
+      "text": "block remains active for every allowed positive parameter. Each temporal",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 173,
+      "text": "integral is finite at each fixed parameter. The divergence conclusions use",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 177,
+      "text": "\\subsection{Fixed purity}",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 178,
+      "text": "\\begin{theorem}[No finite purity-only upper control]\\label{thm:purity}",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 184,
+      "text": "with $B$ as in Eq.~\\eqref{eq:main-family}. These states are full rank and",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 185,
+      "text": "have exactly the specified purity. Their main ratio satisfies, at every",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 189,
+      "text": " \\le r_\\eps(t)\\le\\frac5{18\\eps}.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 191,
+      "text": "Thus $r_\\eps$ and its recurrence-period mean diverge uniformly as",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 192,
+      "text": "$\\eps\\to0^+$, whereas $q_\\eps$ and $Pq_\\eps$ tend uniformly to zero.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 195,
+      "text": "The eigenvalues are $a_+,a_-,4\\eps/5,\\eps/5$. The radicand is positive,",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 197,
+      "text": "\\begin{equation}\\label{eq:purity-positive}",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 213,
+      "text": "The reduced denominator is positive. For the stated parameter interval",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 214,
+      "text": "the last fraction decreases with $x\\in[0,1]$; its endpoint estimates",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 216,
+      "text": "value is $5/(18\\eps)$. The uniform bounds also apply to the period mean.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 219,
+      "text": "Because dimension, purity, and Hamiltonian are all fixed, the family",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 220,
+      "text": "excludes even a finite upper bound allowed to depend on those fixed data.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 221,
+      "text": "In particular it excludes finite purity-only upper control of $r$ or its",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/05_ratios.tex",
+      "line": 222,
+      "text": "mean and positive purity-only lower control of $q$ or $Pq$.",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 2,
+      "text": "\\subsection{A uniform qubit bound for relative variation}",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 3,
+      "text": "The failure of uniform concentration in dimension four coexists with a",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 7,
+      "text": "For a nonstationary qubit under a time-independent Hermitian Hamiltonian,",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 8,
+      "text": "extend $r,q,R$ through their removable recurrence values. For any",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 12,
+      "text": " \\ \\le\\ \\frac{\\kappa_*-1}{2\\sqrt{\\kappa_*}},",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 19,
+      "text": "Put $y=2\\sqrt{p_1p_2}\\in[0,1)$ and $h=\\sin^2\\theta>0$; nonstationarity",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 30,
+      "text": " \\kappa\\le\\frac{(1+y)(2-y^2)}2",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 31,
+      "text": " \\le\\frac{17+7\\sqrt7}{27},\\qquad",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 35,
+      "text": "endpoint values are one. For a positive random variable $X\\in[m,M]$,",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 38,
+      "text": " \\Var(X)\\le(M-\\mathbb EX)(\\mathbb EX-m),\\qquad",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 39,
+      "text": " \\CV(X)\\le\\frac{M-m}{2\\sqrt{mM}}",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 46,
+      "text": "Completely stationary $0/0$ ratios are excluded from this proposition.",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 47,
+      "text": "Dimension four suffices for the temporal no-go constructions, while the",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 48,
+      "text": "qubit bound excludes dimension two. Whether dimension three suffices for",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 49,
+      "text": "unbounded temporal variation is not settled here. No minimum-dimension",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 50,
+      "text": "claim is made for the fixed-purity no-go theorem.",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 54,
+      "text": "measures. Let $m_S,m_K$ be the finite lengths of the $\\SU$ and $\\CM$",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 64,
+      "text": " \\le r(t)\\le",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 78,
+      "text": " \\le\\frac{\\norm{[H,\\rho]}_{\\HS}^2}{P}",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 84,
+      "text": "sufficient for an all-time hierarchy.",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 90,
+      "text": "stationary sector can suppress mixed-state operator complexity more strongly",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/06_survivors.tex",
+      "line": 93,
+      "text": "purity fixed does not fix the distribution of population among these sectors.",
+      "review_group": "qubitcv",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/07_discussion.tex",
+      "line": 4,
+      "text": "each side of the mixed/purification hierarchy fails in an exact full-rank",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/07_discussion.tex",
+      "line": 5,
+      "text": "qutrit example. The qubit theorem fixes the minimum physical dimension",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/07_discussion.tex",
+      "line": 9,
+      "text": "The ratio results delimit a different issue. Uniform temporal",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/07_discussion.tex",
+      "line": 11,
+      "text": "families, and fixed purity cannot supply finite universal upper control",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/07_discussion.tex",
+      "line": 27,
+      "text": "All decisive constructions are finite dimensional. The temporal",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/07_discussion.tex",
+      "line": 28,
+      "text": "minimum-dimension question between three and four remains open within",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/07_discussion.tex",
+      "line": 31,
+      "text": "stated finite results directly checkable without treating numerical plots",
+      "review_group": "ratios",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 2,
+      "text": "\\subsection{Controlled finite-time Taylor remainders}",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 3,
+      "text": "For a complexity written in its finite cyclic space as",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 7,
+      "text": " |C'''(t)|\\le(2\\norm L)^3\\norm N,\\qquad",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 8,
+      "text": " |C(t)-kt^2|\\le\\frac{(2\\norm L)^3\\norm N}{6}|t|^3,",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 21,
+      "text": " \\ge\\frac{53}{3380}t^2-\\frac{21296}{125}|t|^3.",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 23,
+      "text": "At $t=1/20000$ this is exactly the positive rational lower bound in",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 24,
+      "text": "Eq.~\\eqref{eq:robust-gap}. These are conservative finite-time bounds,",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 42,
+      "text": "For the reciprocal family, the positive coefficients in",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 43,
+      "text": "Eq.~\\eqref{eq:reciprocal-traces} show that $2\\le N,T_4\\le3$ on",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_bounds.tex",
+      "line": 50,
+      "text": "\\subsection{The fixed-purity endpoint bound}",
+      "review_group": "return",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 1,
+      "text": "\\section{Exact finite certificates}\\label{app:certificates}",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 19,
+      "text": "All diagonal coefficients vanish. At $t=\\pi/3$ the full probabilities are",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 28,
+      "text": "For a direct finite check, each row sums to one and its index-weighted",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 35,
+      "text": "calculations of every probability.",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 38,
+      "text": "\\begin{proposition}[No fixed positive multiplier for the lower side]\\label{prop:unbounded-left}",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 39,
+      "text": "For every real $m\\ge4$, keep $H_L=\\diag(2,0,1)$ and take",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 44,
+      "text": "The state is full rank, and $\\SU(t)>\\CM(t)$ for every",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 50,
+      "text": "Thus no constant $c>0$ can make $c\\SU\\le\\CM$ hold for all full-rank",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 60,
+      "text": "Their difference has numerator $m^4-9m^2-28$, which is positive for",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 66,
+      "text": "Here $a=\\mu_S>b=\\mu_K$ and $a+b<1$, proving the all-time strict",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 68,
+      "text": "which gives Eq.~\\eqref{eq:m-asymptotic}. Every finite $m$ is an admissible",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 69,
+      "text": "full-rank state; the limiting rank-deficient state is not used as a witness.",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 72,
+      "text": "\\subsection{A rational fixed-purity anchor}",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 79,
+      "text": "This supplies a finite rational comparison state at the same dimension,",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_certificates.tex",
+      "line": 81,
+      "text": "fixed-purity conclusion with an effect obtained solely by changing purity.",
+      "review_group": "right",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_reproducibility.tex",
+      "line": 20,
+      "text": "and \\path{TARGET2_PURITY_NOGO.md} supply the ratio families and all",
+      "review_group": "validation",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_reproducibility.tex",
+      "line": 30,
+      "text": "Both clean-room runs reproduce the two finite qutrit certificates,",
+      "review_group": "validation",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_reproducibility.tex",
+      "line": 31,
+      "text": "the qubit hierarchy, the finite-dimensional factor-two result, and",
+      "review_group": "validation",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    },
+    {
+      "file": "sections/appendix_reproducibility.tex",
+      "line": 39,
+      "text": "only in \\path{PROPOSED_NONAUTHORITATIVE_IMPROVEMENTS.md}. All theorem",
+      "review_group": "validation",
+      "status": "REVIEWED_IN_CONTEXT_NO_SCOPE_STRENGTHENING"
+    }
+  ],
+  "global_scope": "Finite-dimensional time-independent unitary dynamics. Original source Conjecture 2 remains qualitative. No priority or human-validation claim.",
+  "parameter_review": [
+    "Three-atom lemma 0<mu<1 with direct terminating endpoints 0 and 1.",
+    "Qubit z,c in [0,1], ordered mu in [0,1/2], every real time and every Hermitian qubit H.",
+    "Right witness positive interval 0<t<1/2704; finite certificate at pi/3.",
+    "Perturbation 0<|delta|<1/sqrt(135); sufficiently small positive t per delta, not a uniform interval.",
+    "Factor-two every finite Hermitian G and normalized pure seed, every real t; no infinite-dimensional theorem.",
+    "A-r 0<epsilon<=1/4 with fixed d=4,H and full recurrence average T=2pi.",
+    "A-q eta>0, epsilon=eta^2, 0<epsilon<=1/16; same fixed d,H,T.",
+    "Fixed-purity 0<epsilon<5/18, fixed d=4,P=1/2,H; all real times after removable continuation.",
+    "Qubit CV nonstationary; y in [0,1), h>0 and nonzero gap; arbitrary probability time weights.",
+    "Return ratio finite chains, both return losses nonzero.",
+    "m-family real m>=4, strict away from 2pi integers, unbounded at fixed pi.",
+    "Positive-period integral identity requires a,b>0. Singular endpoint not used as an input state."
+  ],
+  "release_audit_update": {
+    "repairs": [
+      "RR-01",
+      "RR-02"
+    ],
+    "basis": "Separate release-level audit recorded before repairs; all original display and formal-statement hashes remain unchanged.",
+    "original_snapshot_sha256": "3e448613a7723e62b0738e43f656e792aa8ea462124b69718060aecdd188dc99"
+  },
+  "final_metadata_update": {
+    "baseline": "Frozen audited RC1",
+    "baseline_snapshot_sha256": "eaac69221d38d71737501c1cd3ebeac81d2126eeeed9e915b3f2395158d3579b",
+    "scope": "Only main.tex and approved Appendix C packaging source hashes refreshed; original scientific review records unchanged.",
+    "new_scientific_review": false,
+    "changed_section_hashes": [
+      {
+        "path": "main.tex",
+        "before": "587e9db79c625c690cdac6758e7680df98e5e33654cc816937672d60099b8c00",
+        "after": "b4dd2a729f3ac09f5a1c5f07ebc5293b2c133e0ad1e9dec2539b9acba37f1ec8"
+      },
+      {
+        "path": "sections/appendix_reproducibility.tex",
+        "before": "cf1dfe1e76c8ee421bbf4b371e075758f2720d37f9db4ad451d78fdeb20dd170",
+        "after": "de814d04884918170e08c74c9f17fa6dc79c2ccb8e80921585a35307c7b915a5"
+      }
+    ]
+  },
+  "disclosure_correction_update": {
+    "baseline_commit": "8ecd1b92eda2d7b14dee1a1d3faebbd6ede99e1f",
+    "baseline_snapshot_sha256": "f3665b8f87a5d3d831c0d26ce6495e0206e4ae20ce9861523493e6e10b07e48c",
+    "scope": "Remove only the additional detailed workflow paragraph from paper/main.tex; concise AI contribution statement and README unchanged.",
+    "changed_section_hashes": [
+      {
+        "path": "main.tex",
+        "before": "b4dd2a729f3ac09f5a1c5f07ebc5293b2c133e0ad1e9dec2539b9acba37f1ec8",
+        "after": "b834724f0132a246d25330d147dc5445fbba385ef3e9cb0a3a9cea8bcbb4c054"
+      }
+    ],
+    "new_scientific_review": false
+  },
+  "communication_heading_update": {
+    "baseline_commit": "8f8262809efd6f270fce6cf4e3aa9c6fd38747bc",
+    "baseline_snapshot_sha256": "d292cb99320c8aad186691fb0f889ad58a6085f8136a1709fce7e63bfe33c0c8",
+    "scope": "Only the AI section heading changes; the concise paragraph and every other manuscript source byte remain unchanged.",
+    "changed_section_hashes": [
+      {
+        "path": "main.tex",
+        "before": "b834724f0132a246d25330d147dc5445fbba385ef3e9cb0a3a9cea8bcbb4c054",
+        "after": "e6bbe6bf1c4d45796c97c40352ccc419452764a6b29fac8ede48acc319851f0c"
+      }
+    ],
+    "new_scientific_review": false
+  },
+  "presentation_label_update": {
+    "baseline_commit": "e9f102a9466ab1f261df3b210889ef7756ae0bf5",
+    "baseline_snapshot_sha256": "22c31f7385e5d1514c23394580419428ef179335a3d65ab82944629647fa8fce",
+    "scope": "Delete only the redundant paragraph label below the retained AI contribution statement section heading. The disclosure paragraph and every other manuscript byte remain unchanged.",
+    "changed_section_hashes": [
+      {
+        "path": "main.tex",
+        "before": "e6bbe6bf1c4d45796c97c40352ccc419452764a6b29fac8ede48acc319851f0c",
+        "after": "3f5aed70ec251706f80f7587afde2979358951439c18fa8b34bbc421661c7081"
+      }
+    ],
+    "new_scientific_review": false
+  },
+  "release_state_sentence_update": {
+    "baseline_commit": "9a5440d292b61db07df36fcd8bc2f5dae12542c1",
+    "baseline_snapshot_sha256": "5d257dc97b19dba123db09c5aec91f988ef26c30c518cf73d4e777f31ee961c1",
+    "scope": "Replace only the stale Introduction release-state sentence with the user-supplied sentence recording the existing final public-prior-art sweep. Scientific prose and every other manuscript byte remain unchanged. Source line count is retained.",
+    "changed_section_hashes": [
+      {
+        "path": "sections/01_introduction.tex",
+        "before": "ee013ae13df5f4b9d5f2b22fcfb524f51c3f4673641047ffc1b9a5955815d87d",
+        "after": "54a2878bfe8b9a4c9423bee0ffda938643453fafa8c683accd74dc63d001368a"
+      }
+    ],
+    "new_scientific_review": false,
+    "new_priority_search": false
+  }
+}

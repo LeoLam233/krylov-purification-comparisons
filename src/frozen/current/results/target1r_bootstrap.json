@@ -1,0 +1,26 @@
+{
+  "minimal_counterexample_dimension_1R": 3,
+  "qubit_general_ordering_identity": "-(z - 1)*(c*z + 1)/(2*(z + 1))",
+  "qubit_scope": "all density matrices, all time-independent Hermitian qubit Hamiltonians, all real times",
+  "structural_family_H": "Matrix([[0, 1, delta], [1, 0, 2*delta], [delta, 2*delta, 0]])",
+  "rho": "Matrix([[8/13, 0, 0], [0, 1/26, 0], [0, 0, 9/26]])",
+  "curvature_gap": "-4*(135*delta**2 - 1)/169",
+  "strict_range": "0<abs(delta)<1/sqrt(135)",
+  "irreducible_pair_example_delta": "1/20",
+  "irreducible_pair_curvature_gap": "53/3380",
+  "irreducible_pair_time": "1/20000",
+  "rigorous_finite_time_lower": "378247/21125000000000000",
+  "numerical_finite_time_gap": 3.9201184809704034e-11,
+  "complex_covariance_gaps": [
+    0.04072991365685663,
+    0.04072991365685685,
+    0.040729913656857075,
+    0.04072991365685774,
+    0.04072991365685641,
+    0.04072991365685685,
+    0.04072991365685619,
+    0.04072991365685752
+  ],
+  "all_assertions_pass": true,
+  "rng_seed": 19260922
+}

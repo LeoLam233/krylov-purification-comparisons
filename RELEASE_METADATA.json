@@ -1,0 +1,63 @@
+{
+  "version": "0.1",
+  "status": "FINAL PUBLIC v0.1 PACKAGE RE-FROZEN WITH CONJECTURE-1 COMMUNICATION NOTE — NOT YET PUBLISHED",
+  "assembly_date": "2026-09-23",
+  "author": "Dehao Lin",
+  "affiliation": "School of Physics, Sun Yat-sen University, Guangzhou, China",
+  "orcid": null,
+  "funding": "No specific funding",
+  "acknowledgements": null,
+  "doi": null,
+  "repository_url": null,
+  "published": false,
+  "code_license": "MIT",
+  "original_manuscript_documentation_license": "CC-BY-4.0",
+  "scientific_authority_v3_sha256": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+  "rc1_sha256": "82d7092dbecb7f3b795f2f92b1222f1196adc4f23489bf36a2e8cd5f8daa218a",
+  "release_claim_audit": "RELEASE_CLAIM_AUDIT: PASS",
+  "priority_gate": "PASS — PRIORITY SWEEP ONLY",
+  "git_coauthor_trailer": "Co-authored-by: Codex <noreply@openai.com>",
+  "git_attribution_is_not_paper_authorship": true,
+  "git_author": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
+  "git_committer": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
+  "refreeze_correction": {
+    "baseline_commit": "8ecd1b92eda2d7b14dee1a1d3faebbd6ede99e1f",
+    "baseline_zip_sha256": "f970cb2bf9ef0902d2435bcd3a2b00bfd501aa73b8f7440a195db22b77775fa0",
+    "paper_change": "Remove only the additional detailed AI workflow paragraph; retain the full concise contribution statement.",
+    "readme_unchanged": true,
+    "scientific_delta": "NONE"
+  },
+  "communication_microrefreeze": {
+    "baseline_commit": "8f8262809efd6f270fce6cf4e3aa9c6fd38747bc",
+    "baseline_zip_sha256": "4c8799f281dbbfd5db5349176578020d93099e0fa3017036f55234190a9279e6",
+    "baseline_manuscript_pdf_sha256": "c50bb26e723ce5c287c182c05e01745accd355b27e8691e6a4313e784af5657c",
+    "paper_change": "Only AI section heading renamed to AI contribution statement.",
+    "readme_change": "One compact link insertion; detailed AI workflow unchanged.",
+    "standalone_note": {
+      "classification": "DERIVATIVE SCIENTIFIC CONTENT ONLY — NO NEW CLAIM",
+      "markdown": "docs/CONJECTURE1_COUNTEREXAMPLES.md",
+      "source": "docs/conjecture1_counterexamples.tex",
+      "pdf": "release_assets/Conjecture1_exact_counterexamples.pdf",
+      "source_map": "provenance/CONJECTURE1_NOTE_SOURCE_MAP.md"
+    },
+    "scientific_delta": "NONE"
+  },
+  "presentation_label_correction": {
+    "baseline_commit": "e9f102a9466ab1f261df3b210889ef7756ae0bf5",
+    "baseline_zip_sha256": "1d13d1d07a7bc42d24b69471374d2a96c8b23945fcdcef3b945a4d013a525700",
+    "change": "Remove only the redundant paragraph label beneath the retained AI contribution statement section heading.",
+    "disclosure_and_readme_unchanged": true,
+    "standalone_note_files_unchanged": true,
+    "scientific_delta": "NONE"
+  },
+  "release_state_sentence_correction": {
+    "baseline_commit": "9a5440d292b61db07df36fcd8bc2f5dae12542c1",
+    "baseline_zip_sha256": "99a603aca80f4264e003e9b1d40f6dcc30b0664a17833234ff18eb49b0f4b12f",
+    "path": "paper/sections/01_introduction.tex",
+    "sentence": "A final fresh public-prior-art sweep before release found no matching public prior result; absolute priority is not claimed.",
+    "new_search_performed": false,
+    "existing_sweep_cutoff_renewed": false,
+    "readme_and_note_unchanged": true,
+    "scientific_delta": "NONE"
+  }
+}

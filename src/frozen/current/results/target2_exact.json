@@ -1,0 +1,50 @@
+{
+  "A-r": {
+    "classification": "T2-NOGO",
+    "rho": "Matrix([[1/2 - epsilon/2, 3/10 - 3*epsilon/10, 0, 0], [3/10 - 3*epsilon/10, 1/2 - epsilon/2, 0, 0], [0, 0, epsilon/2, 3*epsilon/10], [0, 0, 3*epsilon/10, epsilon/2]])",
+    "H": "Matrix([[0, 0, 0, 0], [0, 2, 0, 0], [0, 0, 3, 0], [0, 0, 0, 4]])",
+    "purity": "17*epsilon**2/25 + 17*(1 - epsilon)**2/25",
+    "loss_state": "epsilon*(-z/2 + 1 - 1/(2*z))/10 + (1 - epsilon)*(-z**2/2 + 1 - 1/(2*z**2))/10",
+    "loss_mixed": "9*(epsilon**2*(-z/2 + 1 - 1/(2*z)) + (1 - epsilon)**2*(-z**2/2 + 1 - 1/(2*z**2)))/(34*(epsilon**2 + (1 - epsilon)**2))",
+    "comparison_function": "(17*epsilon**2/45 + 17*(1 - epsilon)**2/45)*(c*(4 - 4*epsilon) + epsilon)/(4*c*(1 - epsilon)**2 + epsilon**2)",
+    "comparison_mean": "(17*epsilon**2/45 + 17*(1 - epsilon)**2/45)*((1 - 2*epsilon)/sqrt(epsilon**2 + 4*(1 - epsilon)**2) + 1)/(1 - epsilon)",
+    "parameter_range": "0<epsilon<=1/4",
+    "CV_squared_lower_bound": "289/132710400/(pi*epsilon)-1",
+    "finite_witness_epsilon": "1/10000000000",
+    "finite_witness_CV_strict_lower": 80,
+    "rational_lower_on_CV_squared": "790120327/114048"
+  },
+  "A-q": {
+    "classification": "T2-NOGO",
+    "positive_sqrt_unnormalized": "Matrix([[2*eta, eta, 0, 0], [eta, 2*eta, 0, 0], [0, 0, 1, eta**3], [0, 0, eta**3, 1]])",
+    "normalization_N": "2*epsilon**3 + 10*epsilon + 2",
+    "fourth_trace_T": "2*epsilon**6 + 12*epsilon**3 + 82*epsilon**2 + 2",
+    "rho": "Aeta^2/Tr(Aeta^2)",
+    "H": "Matrix([[0, 0, 0, 0], [0, 2, 0, 0], [0, 0, 3, 0], [0, 0, 0, 4]])",
+    "loss_state": "2*epsilon**3*(-z/2 + 1 - 1/(2*z))/(2*epsilon**3 + 10*epsilon + 2) + 2*epsilon*(-z**2/2 + 1 - 1/(2*z**2))/(2*epsilon**3 + 10*epsilon + 2)",
+    "loss_mixed": "8*epsilon**3*(-z/2 + 1 - 1/(2*z))/(2*epsilon**6 + 12*epsilon**3 + 82*epsilon**2 + 2) + 32*epsilon**2*(-z**2/2 + 1 - 1/(2*z**2))/(2*epsilon**6 + 12*epsilon**3 + 82*epsilon**2 + 2)",
+    "comparison_function": "epsilon*(16*c + epsilon)*(8*epsilon**3 + 40*epsilon + 8)/((4*c + epsilon**2)*(2*epsilon**6 + 12*epsilon**3 + 82*epsilon**2 + 2))",
+    "comparison_mean": "epsilon*((1 - 4*epsilon)/sqrt(epsilon**2 + 4) + 4)*(8*epsilon**3 + 40*epsilon + 8)/(2*epsilon**6 + 12*epsilon**3 + 82*epsilon**2 + 2)",
+    "parameter_range": "epsilon=eta^2, 0<epsilon<=1/16",
+    "CV_squared_lower_bound": "1/1679616/(pi*epsilon)-1",
+    "finite_witness_eta": "1/100000",
+    "finite_witness_CV_strict_lower": 40,
+    "rational_lower_on_CV_squared": "136646579/72171"
+  },
+  "B-P": {
+    "classification": "T2-NOGO",
+    "rho": "Matrix([[-epsilon/2 + sqrt(-59*epsilon**2/25 + 2*epsilon)/2 + 1/2, 0, 0, 0], [0, -epsilon/2 - sqrt(-59*epsilon**2/25 + 2*epsilon)/2 + 1/2, 0, 0], [0, 0, epsilon/2, 3*epsilon/10], [0, 0, 3*epsilon/10, epsilon/2]])",
+    "H": "diag(2,3,0,1)",
+    "dimension": 4,
+    "purity": "1/2",
+    "parameter_range": "0<epsilon<5/18",
+    "mu_K": "9*epsilon**2/25",
+    "mu_S": "epsilon/10",
+    "exact_ratio": "5*(x*(1 - epsilon/5) + 1)/(18*epsilon*(x*(1 - 18*epsilon**2/25) + 1))",
+    "uniform_lower": "(5/(18*epsilon))*(1-epsilon/10)",
+    "uniform_upper": "5/(18*epsilon)",
+    "recurrence_period": "2*pi"
+  },
+  "all_symbolic_assertions_pass": true,
+  "warning": "CV theorems are source-motivated no-go results, not a claim that the source asserted a universal 5% bound."
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Sol A1v2",
+    "container": "V3",
+    "path": "audits/sol_a1v2/original/Krylov_A1v2_AUDIT.md",
+    "sha256": "4d376d5ba0d92710d24f6a17b421fb29e4ec6acc9da7ffad51caf5b126d7885d"
+  },
+  {
+    "name": "Astra A1v2",
+    "container": "V3",
+    "path": "audits/astra_a1v2/extracted/AUDIT_REPORT.md",
+    "sha256": "cbef4037a38817436639b4f85490be4b6ef437ca6a9d9465c5594b17f245437c"
+  },
+  {
+    "name": "First CR0",
+    "container": "bundle",
+    "path": "clean_room/CR0_A_sol/CR0_REPORT.md",
+    "sha256": "9344920674b2039db5e2409ffaaf3de176fbd773abaf0b83aa21d69206b40a8a"
+  },
+  {
+    "name": "Second CR0",
+    "container": "bundle",
+    "path": "clean_room/CR0_B_fresh_agent/CR0_REPORT.md",
+    "sha256": "f3ae9ec77e94a323a518120182b79a11a439b9556a9ab59ec238ed957ff0e9bc"
+  },
+  {
+    "name": "CR-B comparison",
+    "container": "bundle",
+    "path": "comparison/CRB_COMPARISON.md",
+    "sha256": "666ba37b6272a4f1458e46261fe1aecb117e7b41cb66e5c2c3b66b6b7de08847"
+  },
+  {
+    "name": "Novelty audit",
+    "container": "V3",
+    "path": "certification/novelty/Krylov_PRL_NOVELTY_AUDIT_2026-09-22.md",
+    "sha256": "15144bbb862ae188be061a57d3ff2520f9252d95758389b3465e8d1dddd16e88"
+  },
+  {
+    "name": "Premise/provenance audit",
+    "container": "V3",
+    "path": "certification/premise_provenance/PREMISE_PROVENANCE_AUDIT.md",
+    "sha256": "196eadd4ce60781ed74fca278fc97f20f70db9f58a3aad521a8996bb53e11efb"
+  }
+]

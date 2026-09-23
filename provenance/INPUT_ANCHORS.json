@@ -1,0 +1,16 @@
+{
+  "input_paper_sha256": "1b86adc8616976725d5447958ca279a1f9d165781b61b385be0b75e0d23fc4e1",
+  "input_bundle_sha256": "d22ae659f8397d515beb1b6743a28113f8d9237fe6e93ca93ee3ca84bae72c70",
+  "v3_sha256": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+  "private_manifest_sha256": "6b6496aff119087f2c7e89da2de1c616b7e111e1950fbc1c37ef28a1e2096fca",
+  "expected_bundle_anchors": {
+    "authoritative/Krylov_PRL_WORK_FREEZE_2026-09-23_v3.zip": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+    "clean_room/CR0_input/Das_Mori_independent_reproduction_CR0_FINAL_2026-09-23.zip": "55e1af507da6b408150a0af8906fa0643b9ca7eed9fb133e67dddc60c0029254",
+    "clean_room/CR0_A_sol/CR0_OUTPUT_CR0_FROZEN_2026-09-23.tar.gz": "8db63b678b418803f7aac839828304f124d1b14bf3886b30e3165b114adfdae9",
+    "clean_room/CR0_A_sol/CR0_OUTPUT_SHA256SUMS.txt": "027ea0e0b92fb139f1af33e09f691bb0d68914f44ae8d6407d3143f351292b9a",
+    "clean_room/CR0_B_fresh_agent/CR0_2026-09-23_cf1ad252.zip": "433591e131fff416c3b492a7878c25dfa7988f25ad587f29c2fb57374131c966",
+    "publication_release_handoff/Krylov_publication_release_handoff_2026-09-23.zip": "73d97073b53de020d0f20af1165e36439db03c4ee318a4eb8234363f035fc91e",
+    "comparison/CRB_COMPARISON.md": "666ba37b6272a4f1458e46261fe1aecb117e7b41cb66e5c2c3b66b6b7de08847",
+    "comparison/CRB_COMPARISON.json": "c394455c4f07875059c43eee41520281e4a74ce271a23fc652d84ebb6020db15"
+  }
+}

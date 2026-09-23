@@ -1,0 +1,104 @@
+{
+  "status": "PASS",
+  "pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe",
+  "pages": 16,
+  "rendering": "Poppler pdftoppm, PNG, 95 dpi; all 16 pages rendered. Changed pages 2–9 directly inspected; pages 1 and 10–16 pixel-identical to the inspected baseline.",
+  "inspection": "PASS: the supplied final-sweep sentence appears in the Introduction. The shorter sentence causes pagination reflow through page 9; all changed pages are clean, with no clipping, overlap or missing glyph. Full extracted body text equals baseline after only the authorized sentence replacement, ignoring page footers, ligatures and whitespace.",
+  "latex_errors": [],
+  "undefined_references_or_citations": [],
+  "overfull_boxes": [],
+  "author_metadata": "Dehao Lin",
+  "required_disclosure_text_checked": true,
+  "individual_ai_products_named_in_paper_disclosure": false,
+  "rendered_page_sha256": [
+    {
+      "page": 1,
+      "sha256": "e75f9c71d74769fe11ab6aa481a41f327ebe4b25a7fc0e3cd2987c8ba6c1f4bc"
+    },
+    {
+      "page": 2,
+      "sha256": "eb9412db3c3e5b2b2e7bf6d9658679a357814fdcb6dc878c5ce8d58e79684c6c"
+    },
+    {
+      "page": 3,
+      "sha256": "2d8015001b7fa3840f4e27da94499f35025393a81ebd73288b42aeef1cb19d11"
+    },
+    {
+      "page": 4,
+      "sha256": "3c20104d754f4bd3ba2b4bba9ea62427ceea196dec920adeffee562559e72cb9"
+    },
+    {
+      "page": 5,
+      "sha256": "e08e359a8121f4dfa66a44909fa6534ca8a18cd57406ae7d8fa2961dc8b34a8c"
+    },
+    {
+      "page": 6,
+      "sha256": "870e12547a3ddb58ce2aae268d202b8b4a09da21aedf0e20b603b0ec36e032b5"
+    },
+    {
+      "page": 7,
+      "sha256": "58c9b6eb9ece51c672b0219a2b6a57d9bf871dd7ba69677db47e512839425c1e"
+    },
+    {
+      "page": 8,
+      "sha256": "92839cf51523ad48ad7474383ad9dcb4879afa24817523dda1eea93b4d899d34"
+    },
+    {
+      "page": 9,
+      "sha256": "a801d2a31a4d7de7c3c93010c617414b63b405b027c4e8bfae36b1576391c3f3"
+    },
+    {
+      "page": 10,
+      "sha256": "90542828165c20a32f557373631c44407d5b7b3d0b4913ce39187d7da1e40141"
+    },
+    {
+      "page": 11,
+      "sha256": "95ae325867da625678a5b6308034cd00ffb1cebf9e858a5bf854fe0a0eefac36"
+    },
+    {
+      "page": 12,
+      "sha256": "6e8a13818a95177f4da1fb549d799ba1a84b159a615388e0ed7e75f01c66dbe2"
+    },
+    {
+      "page": 13,
+      "sha256": "83dbbd02a04ff3f458fc73a19b2f32315a465d895d158fa74c01f04aadc94c05"
+    },
+    {
+      "page": 14,
+      "sha256": "4da2fd8c92f8bb2c84c8304f4241fc1158254884db3fb8aaef2270c0f049824d"
+    },
+    {
+      "page": 15,
+      "sha256": "994c32454a992ea3ffd2c773ff8a1b139450445da74877ba7eabb64f71057392"
+    },
+    {
+      "page": 16,
+      "sha256": "60dbea7da53b72c7b8acc76d6b809ed8e56da0bfc88280bba80ea920f129d031"
+    }
+  ],
+  "pixel_identical_baseline_pages": [
+    1,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "changed_pages_directly_visually_inspected": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "full_concise_statement_verified": true,
+  "additional_workflow_paragraph_absent": true,
+  "disclosure_text_unchanged_after_pdf_extraction_normalization": true,
+  "full_pdf_body_exact_after_authorized_sentence_replacement": true,
+  "pdf_text_normalization": "Remove page-number footer; normalize Unicode ligatures and whitespace only."
+}

@@ -1,0 +1,122 @@
+{
+  "target": "Eq. (4), lower bound; arXiv:2408.00826v4",
+  "status": "Internal exact falsification; external audit and novelty not certified",
+  "qutrit": {
+    "H": "Matrix([[2, 0, 0], [0, 0, 0], [0, 0, 1]])",
+    "rho": "Matrix([[16/21, 0, 0], [0, 5/42, 1/14], [0, 1/14, 5/42]])",
+    "sqrt_rho": "Matrix([[4*sqrt(21)/21, 0, 0], [0, sqrt(21)/14, sqrt(21)/42], [0, sqrt(21)/42, sqrt(21)/14]])",
+    "purity": "13/21",
+    "CK": {
+      "b_squared": [
+        "3/182",
+        "179/182"
+      ],
+      "krylov_dimension": 3,
+      "termination_residual_squared": "0",
+      "probabilities_at_pi": [
+        "7744/8281",
+        "0",
+        "537/8281"
+      ],
+      "complexity_at_pi": "1074/8281"
+    },
+    "CS": {
+      "b_squared": [
+        "1/42",
+        "41/42"
+      ],
+      "krylov_dimension": 3,
+      "termination_residual_squared": "0",
+      "probabilities_at_pi": [
+        "400/441",
+        "0",
+        "41/441"
+      ],
+      "complexity_at_pi": "82/441"
+    },
+    "gap_at_pi": "4192/74529"
+  },
+  "full_rank_qutrit_family": {
+    "m_domain": "m >= 4",
+    "purity": "(m**4 + 17)/(m**2 + 5)**2",
+    "muK": "9/(2*(m**4 + 17))",
+    "muS": "1/(2*(m**2 + 5))",
+    "muS_minus_muK": "(m**4 - 9*m**2 - 28)/(2*(m**2 + 5)*(m**4 + 17))",
+    "lim_CS_over_CK_divided_by_m_squared_at_pi": "1/9"
+  },
+  "symmetry_breaking": {
+    "H_delta": "Matrix([[2, delta, 2*delta], [delta, 0, 3*delta], [2*delta, 3*delta, 1]])",
+    "CS_minus_CK_t2_coefficient": "-2*(468*delta**2 - 1)/273",
+    "delta_1_100_coefficient": "2383/341250",
+    "meaning": "Exact positive curvature proves a nonempty small-time violation interval; no numerical limit argument needed.",
+    "finite_time_certificate": {
+      "time": "1/1000000",
+      "delta": "1/100",
+      "rigorous_lower_bound_on_CS_minus_CK": "20263/8531250000000000000",
+      "remainder_bound": "For each C, ||N|| <= 8, ||G|| <= 6, so |R3| <= 2304 |t|^3; difference remainder <= 4608 |t|^3."
+    }
+  },
+  "fixed_purity_family": {
+    "dimension": 4,
+    "epsilon_domain": "0 < eps < 5/18",
+    "eigenvalues": [
+      "(1-eps+sqrt(2*eps-59*eps**2/25))/2",
+      "(1-eps-sqrt(2*eps-59*eps**2/25))/2",
+      "4*eps/5",
+      "eps/5"
+    ],
+    "purity": "1/2",
+    "muK": "9*eps**2/25",
+    "muS": "eps/10",
+    "lim_CK_over_CS_at_pi": "0",
+    "epsilon_1_10": {
+      "rho": "Matrix([[33/50, 0, 0, 0], [0, 6/25, 0, 0], [0, 0, 1/20, 3/100], [0, 0, 3/100, 1/20]])",
+      "H": "Matrix([[2, 0, 0, 0], [0, 3, 0, 0], [0, 0, 0, 0], [0, 0, 0, 1]])",
+      "CK": {
+        "b_squared": [
+          "9/2500",
+          "2491/2500"
+        ],
+        "krylov_dimension": 3,
+        "termination_residual_squared": "0",
+        "probabilities_at_pi": [
+          "1540081/1562500",
+          "0",
+          "22419/1562500"
+        ],
+        "complexity_at_pi": "22419/781250"
+      },
+      "CS": {
+        "b_squared": [
+          "1/100",
+          "99/100"
+        ],
+        "krylov_dimension": 3,
+        "termination_residual_squared": "0",
+        "probabilities_at_pi": [
+          "2401/2500",
+          "0",
+          "99/2500"
+        ],
+        "complexity_at_pi": "99/1250"
+      }
+    }
+  },
+  "high_precision_90_digits": {
+    "CK": "0.1296944813428329911846395362878879362395845912329428812945296461779978263494747011",
+    "CK_absolute_error": "6.1363668e-92",
+    "CS": "0.1859410430839002267573696145124716553287981859410430839002267573696145124716553288",
+    "CS_absolute_error": "9.2045502e-92"
+  },
+  "numeric_cross_checks": {
+    "time_grid_points": 129,
+    "formula_comparisons": 258,
+    "maximum_formula_absolute_error": 2.220446049250313e-16,
+    "random_unitary_covariance_trials": 24,
+    "maximum_covariance_absolute_error": 8.604228440844963e-16,
+    "perturbed_H_at_pi": {
+      "CK": 0.13442109362590368,
+      "CS": 0.187082765495484
+    }
+  }
+}

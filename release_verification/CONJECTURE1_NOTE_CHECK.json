@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "engine": "Tectonic 0.17.0",
+  "offline": true,
+  "clean_initial_inputs": [
+    "conjecture1_counterexamples.tex"
+  ],
+  "independent_of_repository_and_private_archive": true,
+  "pages": 2,
+  "latex_failures": [],
+  "returncode": 0,
+  "source_sha256": "b7a5dda0c753c37cc15d1b5393385705c67b6f30ef000fcd3d069a5cba0bca1a",
+  "pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+  "classification": "DERIVATIVE SCIENTIFIC CONTENT ONLY — NO NEW CLAIM",
+  "baseline_commit": "8f8262809efd6f270fce6cf4e3aa9c6fd38747bc",
+  "derivative_content_audit": "PASS",
+  "mathematical_and_prose_blocks_shared_between_markdown_and_tex": true,
+  "display_count": 12,
+  "every_mathematical_statement_mapped": true,
+  "all_rational_literals_present_in_frozen_sources": true,
+  "exact_certificate_weights_probabilities_and_coefficients_copied": true,
+  "qubit_scope_preserved": true,
+  "new_claims": false,
+  "new_research_or_derivation": false,
+  "source_map": "provenance/CONJECTURE1_NOTE_SOURCE_MAP.md",
+  "source_map_sha256": "620efb2e5eff49f33a43354c05a5d1fbb909711e5d9d981f3dac2cf8704587eb",
+  "markdown_sha256": "f664e0fc228c5a8966294118d0bef664eacbb66308a50ceb72cf3bc6ed3826af",
+  "visual_inspection": "PASS: both pages rendered at 130 dpi and directly inspected; one counterexample per page; readable table, fractions, matrices, body text and footer; no clipping, overlap or missing glyph. One harmless underfull paragraph warning; no overfull boxes.",
+  "author": "Dehao Lin",
+  "individual_ai_products_named": false,
+  "rendered_page_sha256": [
+    {
+      "page": 1,
+      "sha256": "302b2b7662d550bc72649aaaa2bc1f8d46c77795956a1540f667dddc6f30fdf9"
+    },
+    {
+      "page": 2,
+      "sha256": "ce52150efdfbc2e3f3fa0c940d7d6f576095a4c3a8088524bb60dbd5ab612d47"
+    }
+  ],
+  "display_trace_records": [
+    {
+      "id": "N01",
+      "sha256": "ccf8ce888344f96ce1337d32e6f83e8d3c023ca6d8ddca3f5cefd33b39f70f18"
+    },
+    {
+      "id": "N02",
+      "sha256": "5ae9560ab20e2f9a22450e3016b75f9962dd0122c406d7dbeabe4e179ac6d519"
+    },
+    {
+      "id": "N03",
+      "sha256": "c34195d69b529cd57a64b3f160b21180bfba28473f3d572dd0effb83191339e6"
+    },
+    {
+      "id": "N04",
+      "sha256": "a4ff5523837277e1ebbee462eae9df721b9c727bf7a240cb19edd3654329244b"
+    },
+    {
+      "id": "N05",
+      "sha256": "230a5ee5b0e1599c33bdfdc3b60902b288625499f4c610b4517401bc8b62806e"
+    },
+    {
+      "id": "N06",
+      "sha256": "7ed062cf9fb28137b53a5ae643d4d3533cf3ba22eaef3ba037353e59b83d5bb4"
+    },
+    {
+      "id": "N07",
+      "sha256": "984fdfffb113e3610a0435a945ab40996319ea0a22e45e534bc94224daa6a2fe"
+    },
+    {
+      "id": "N08",
+      "sha256": "57737586651a4510ef7ea1451d26e6d5e034f0c9d4891ec2aa99f262dbb679af"
+    },
+    {
+      "id": "N09",
+      "sha256": "d72f41cc0028831d295f082c63c55030e2bf8eca51a5f57a739d6d670dbd3a8b"
+    },
+    {
+      "id": "N10",
+      "sha256": "0e0f490c96e0427bae43daeaa2ea84d1dec0f178a6689190f24a8f7fc31ce898"
+    },
+    {
+      "id": "N11",
+      "sha256": "df9c247ab0f78d0e62e6d0cd0127883c2fe734e62a448bde7aa08b1b91c6ad27"
+    },
+    {
+      "id": "N12",
+      "sha256": "97b89fe90a281c3c813f07f959948ba5b4c91eb88a678c5e6fe1d7a201085dbb"
+    }
+  ]
+}

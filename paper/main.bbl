@@ -1,0 +1,35 @@
+\begin{thebibliography}{1}
+
+\bibitem{Balasubramanian2022}
+Vijay Balasubramanian, Pawel Caputa, Javier~M. Magan, and Qingyue Wu.
+\newblock Quantum chaos and the complexity of spread of states.
+\newblock {\em Physical Review D}, 106:046007, 2022.
+\newblock \url{https://doi.org/10.1103/PhysRevD.106.046007}.
+
+\bibitem{Caputa2024}
+Pawel Caputa, Hyun-Sik Jeong, Sinong Liu, Juan~F. Pedraza, and Le-Chen Qu.
+\newblock {Krylov} complexity of density matrix operators.
+\newblock {\em Journal of High Energy Physics}, 05:337, 2024.
+\newblock \url{https://doi.org/10.1007/JHEP05(2024)337}.
+
+\bibitem{DasMori2026}
+Rathindra~Nath Das and Takato Mori.
+\newblock {Krylov} complexity of purification.
+\newblock {\em Physical Review Letters}, 136:030201, 2026.
+\newblock arXiv:2408.00826v4, published version.
+  \url{https://doi.org/10.1103/qgcx-wxpd}.
+
+\bibitem{MuruganVanZyl2026}
+Jeff Murugan and Hendrik J.~R. van Zyl.
+\newblock Superadditivity of {Krylov} complexity for tensor products, 2026.
+\newblock arXiv:2601.08723v1, 13 January 2026.
+  \url{https://arxiv.org/abs/2601.08723v1}.
+
+\bibitem{Parker2019}
+Daniel~E. Parker, Xiangyu Cao, Alexander Avdoshkin, Thomas Scaffidi, and Ehud
+  Altman.
+\newblock A universal operator growth hypothesis.
+\newblock {\em Physical Review X}, 9:041017, 2019.
+\newblock \url{https://doi.org/10.1103/PhysRevX.9.041017}.
+
+\end{thebibliography}

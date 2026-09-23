@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "full_original_paper_check": false,
+  "integrity": {
+    "status": "PASS",
+    "byte_identical_copies": 47,
+    "public_assets": 5,
+    "private_assets": null,
+    "curated_view_matches_sources": true,
+    "paper_source_archive_matches": true
+  },
+  "snapshot": {
+    "status": "PASS",
+    "reviewed_source_files_unchanged": 11,
+    "displays": 71,
+    "formal_statements": 14,
+    "scope_lines": 181,
+    "limit": "Replays the existing correspondence snapshot; not a new semantic or release-level claim audit."
+  },
+  "integrity_after": {
+    "status": "PASS",
+    "byte_identical_copies": 47,
+    "public_assets": 5,
+    "private_assets": null,
+    "curated_view_matches_sources": true,
+    "paper_source_archive_matches": true
+  }
+}

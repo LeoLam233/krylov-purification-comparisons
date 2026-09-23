@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "fresh_isolated_venv": true,
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0"
+  },
+  "offline_dependency_install": true,
+  "assertions_enabled": true,
+  "compiler": "Tectonic 0.17.0",
+  "compiler_sha256": "99ffcfdbf1ebf8bdda9e791942e3d06aedb12463fddc33f07de6f5211c8bf08d",
+  "tooling_cache": "384 cache entries and four dependency wheels verified against RC1 tooling fingerprints before use; compiler/cache/wheels excluded from public release.",
+  "clean_source_build": true,
+  "network_used_for_build_or_reproduction": false
+}

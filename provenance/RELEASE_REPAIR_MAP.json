@@ -1,0 +1,51 @@
+{
+  "scope": "Only changes to rows originally listed as byte-identical source copies. Other derived asset and documentation changes are listed in accompanying evidence/REPAIR_FILE_CHANGES.json.",
+  "original_copy_map_sha256": "c0a67f59a43871b2b0d15c9995210a5d5db82555768d0a8255481d257264bc04",
+  "original_rows": 58,
+  "unchanged_rows": 52,
+  "changed_rows": [
+    {
+      "path": "paper/checks/REVIEWED_CONTENT.json",
+      "original_source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/checks/REVIEWED_CONTENT.json",
+      "original_sha256": "3e448613a7723e62b0738e43f656e792aa8ea462124b69718060aecdd188dc99",
+      "current_sha256": "eaac69221d38d71737501c1cd3ebeac81d2126eeeed9e915b3f2395158d3579b",
+      "reason": "Refresh reviewed source fingerprints; preserve all original display/formal-statement hashes"
+    },
+    {
+      "path": "paper/main.pdf",
+      "original_source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/main.pdf",
+      "original_sha256": "def4c6b07a62f106cd653143aaf75fdba0fa582d1de55405dcafaae3d9f5aaad",
+      "current_sha256": "19dea18aa17d666ce567c0461d60ef5dfaccbb770d608880b7d586c70f9e3f31",
+      "reason": "Rebuilt PDF from the corrected TeX"
+    },
+    {
+      "path": "paper/sections/01_introduction.tex",
+      "original_source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/sections/01_introduction.tex",
+      "original_sha256": "b8386872f6dccf30943d9200236c0fcc66c10f42dc891427fdac2edb708b3239",
+      "current_sha256": "ee013ae13df5f4b9d5f2b22fcfb524f51c3f4673641047ffc1b9a5955815d87d",
+      "reason": "RR-02: remove the mistaken ordinal last"
+    },
+    {
+      "path": "paper/sections/04_factor_two.tex",
+      "original_source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/sections/04_factor_two.tex",
+      "original_sha256": "33143c0e3aed293dc339c8da28d0117e179407fd76cf3a3791b79f745b8d1cef",
+      "current_sha256": "3b9f7851a2ee490240057ea164bafb2d57e4b1f8fd5d2f648303efa45a3a04a8",
+      "reason": "RR-01: name C_K and C_S in the sharpness argument"
+    },
+    {
+      "path": "paper/TODO.md",
+      "original_source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/TODO.md",
+      "original_sha256": "3b252e3d8b53c54e4168ef88cb9869b4ea67af4842d56a3b25e7e9956894046b",
+      "current_sha256": "64ed73f936317fc2978fdf94dd8976d1bcbaf35b6a12efafdd1f793b150fec44",
+      "reason": "Update the completed release-audit status in the task list"
+    },
+    {
+      "path": "release_assets/manuscript.pdf",
+      "original_source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/main.pdf",
+      "original_sha256": "def4c6b07a62f106cd653143aaf75fdba0fa582d1de55405dcafaae3d9f5aaad",
+      "current_sha256": "19dea18aa17d666ce567c0461d60ef5dfaccbb770d608880b7d586c70f9e3f31",
+      "reason": "Rebuilt PDF from the corrected TeX"
+    }
+  ],
+  "scientific_delta_relative_to_V3": "NONE"
+}

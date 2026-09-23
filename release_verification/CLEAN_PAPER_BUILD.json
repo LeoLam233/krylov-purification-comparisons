@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "integrity_before": {
+    "status": "PASS",
+    "byte_identical_copies": 47,
+    "public_assets": 5,
+    "private_assets": null,
+    "curated_view_matches_sources": true,
+    "paper_source_archive_matches": true
+  },
+  "snapshot": {
+    "status": "PASS",
+    "reviewed_source_files_unchanged": 11,
+    "displays": 71,
+    "formal_statements": 14,
+    "scope_lines": 181,
+    "limit": "Replays the existing correspondence snapshot; not a new semantic or release-level claim audit."
+  },
+  "build": {
+    "status": "PASS",
+    "engine": "Tectonic 0.17.0",
+    "clean_build_directory": true,
+    "offline": true,
+    "clean_source_copy_excludes_generated_files": true,
+    "returncode": 0,
+    "latex_failures": [],
+    "bibliography_keys": [
+      "Balasubramanian2022",
+      "Caputa2024",
+      "DasMori2026",
+      "MuruganVanZyl2026",
+      "Parker2019"
+    ],
+    "all_bibliography_entries_resolved": true,
+    "command": [
+      "python",
+      "scripts/build_paper.py",
+      "--engine",
+      "<Tectonic 0.17.0>",
+      "--cache",
+      "<verified tooling cache>",
+      "--offline"
+    ],
+    "pdf_sha256": "dd7bdad1912b4660e231e507a0d8002d3077703ef8e4d6eefb6e139f19584efe"
+  },
+  "staged_manuscript_not_replaced": false,
+  "limit": "New empty compiler source/build directory admits only final TeX and unchanged BibTeX; no old PDF, .aux or .bbl input. Only the authorized Introduction release-state sentence changes. The existing verified tool environment is reused.",
+  "integrity_after": {
+    "status": "PASS",
+    "byte_identical_copies": 47,
+    "public_assets": 5,
+    "private_assets": null,
+    "curated_view_matches_sources": true,
+    "paper_source_archive_matches": true
+  },
+  "final_pdf_installed_after_successful_build": true,
+  "comparison_baseline_commit": "9a5440d292b61db07df36fcd8bc2f5dae12542c1"
+}

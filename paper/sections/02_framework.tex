@@ -1,0 +1,121 @@
+\section{Definitions and spectral measures}\label{sec:framework}
+\subsection{Seeds, generators, and normalization}
+Let $H$ be a time-independent Hermitian matrix on a physical Hilbert space
+of dimension $d$, and let $\rho$ be positive semidefinite with trace one.
+We set $\hbar=1$ and use
+\begin{equation}\label{eq:evolution}
+ U_t=e^{-itH},\qquad \rho(t)=U_t\rho U_t^\dagger,
+ \qquad P=\Tr\rho^2.
+\end{equation}
+For a Hermitian generator $G$ and a unit vector $v$, orthonormalize
+$v,Gv,G^2v,\ldots$ until exact termination. If $K_n$ is this basis, the
+complexity associated with the pair $(G,v)$ is
+\begin{equation}\label{eq:general-complexity}
+ C_{G,v}(t)=\sum_{n=0}^{m-1}n\,|\varphi_n(t)|^2,
+ \qquad \varphi_n(t)=\bra{K_n}e^{-itG}\ket{v},
+ \qquad \sum_{n=0}^{m-1}|\varphi_n(t)|^2=1.
+\end{equation}
+The integer $m$ is the cyclic dimension, not the physical dimension. The
+Lanczos phase convention does not affect these probabilities.
+
+For operator complexity the inner product is
+$(A|B)=\Tr(A^\dagger B)$, and the generator is the self-adjoint
+commutator map $\mathcal L_H A=[H,A]$. The normalized mixed seed is
+$\rho/\sqrt P$. In particular, unit trace does not imply unit
+Hilbert--Schmidt norm. This normalization agrees with
+Ref.~\cite[Supplemental Eqs.~(S.7)--(S.11)]{DasMori2026}.
+
+For full-rank $\rho$, fix row vectorization and define
+\begin{equation}\label{eq:purification}
+ \begin{aligned}
+ \vecr A&=\sum_{a,b}A_{ab}\ket a\otimes\ket b,
+ &s&=\vecr\sqrt\rho, &\norm{s}^2&=\Tr\rho=1,\\
+ G_I&=H\otimes I,
+ &G_{U^*}&=H\otimes I-I\otimes\overline H,
+ &s_X(t)&=e^{-itG_X}s .
+ \end{aligned}
+\end{equation}
+Thus $s_I(t)=\Psi_\rho^I(t)$ and
+$s_{U^*}(t)=\vecr\sqrt{\rho(t)}$. A bar denotes entrywise conjugation;
+for Hermitian $H$, $\overline H=H^T$. Both purifications have physical
+reduced density matrix $\rho(t)$. We abbreviate
+\begin{equation}\label{eq:abbreviations}
+ \CM=\CK(\rho(t)),\qquad
+ S_X=\CS(s_X(t)),\qquad
+ K_X=\CK\bigl(\ket{s_X(t)}\bra{s_X(t)}\bigr),
+ \quad X\in\{I,U^*\}.
+\end{equation}
+The seed for $K_X$ is $ss^\dagger$, with norm one, and its generator is
+$[G_X,\cdot]$. The source hierarchy is $\SU\le\CM\le\KI$.
+For rank-deficient states, statements about arbitrary purifications below
+use the actual normalized pure seed and its generator on a fixed enlarged
+space. No identification of canonical and minimal purifications is assumed.
+
+\subsection{The spectral representation}
+The pair $(G,v)$ determines a probability measure $\nu$ on the eigenvalues
+of $G$. Orthonormal polynomials $p_n$ with respect to $\nu$ represent the
+Krylov vectors, and
+\begin{equation}\label{eq:spectral-formula}
+ \varphi_n(t)=\int p_n(x)e^{-itx}\,d\nu(x).
+\end{equation}
+One may choose the polynomials real. Repeated spectral values are merged;
+the number of distinct atoms with positive weight is the exact chain length.
+In an energy basis of $H$, the mixed and time-dependent spread measures are
+\begin{equation}\label{eq:gap-measures}
+ \nu_{\mathrm M}=\sum_{a,b}\frac{|\rho_{ab}|^2}{P}\,
+       \delta_{E_a-E_b},\qquad
+ \nu_{S,U^*}=\sum_{a,b}|(\sqrt\rho)_{ab}|^2\,
+       \delta_{E_a-E_b}.
+\end{equation}
+For the time-independent purified vector the energy measure is
+$\nu_{S,I}=\sum_a\rho_{aa}\delta_{E_a}$. Its rank-one operator measure
+is the difference convolution of this measure with itself:
+\begin{equation}\label{eq:difference-convolution}
+ \nu_{K,I}=\sum_{a,b}\rho_{aa}\rho_{bb}\delta_{E_a-E_b}.
+\end{equation}
+More generally, a pure-state measure produces the difference convolution
+when its rank-one density matrix is vectorized. In contrast, the two measures
+in Eq.~\eqref{eq:gap-measures} have the same possible frequencies but
+different weights. Equality of frequency support does not order their
+complexities.
+
+\begin{lemma}[Three-atom chain]\label{lem:three}
+For $0<\mu<1$, the measure
+$\nu_\mu=(1-\mu)\delta_0+(\mu/2)(\delta_{-1}+\delta_1)$ has
+complexity
+\begin{equation}\label{eq:three-function}
+ F(\mu;t)=\mu\sin^2t+8\mu(1-\mu)\sin^4(t/2).
+\end{equation}
+The same expression holds at $\mu=0,1$ with the corresponding terminated
+chains. A frequency gap $\omega$ replaces $t$ by $\omega t$.
+\end{lemma}
+\begin{proof}
+The squared nonzero Lanczos coefficients are $b_1^2=\mu$ and
+$b_2^2=1-\mu$, and all diagonal coefficients vanish. The Jacobi matrix
+satisfies $J^3=J$. Its evolved seed has amplitudes
+\begin{equation}\label{eq:three-amplitudes}
+ \bigl(1-\mu+\mu\cos t,\;-i\sqrt\mu\sin t,\;
+ \sqrt{\mu(1-\mu)}(\cos t-1)\bigr).
+\end{equation}
+Their squared moduli sum to one, and their index-weighted sum gives
+Eq.~\eqref{eq:three-function}. At either endpoint the zero-coupling branch
+is simply omitted.
+\end{proof}
+
+\begin{lemma}[Return bound]\label{lem:return}
+For a normalized finite chain of length $m$ with return amplitude $A(t)$,
+\begin{equation}\label{eq:return-bound}
+ 1-|A(t)|^2\le C(t)\le(m-1)\bigl(1-|A(t)|^2\bigr).
+\end{equation}
+For the positive-matrix flows of $\rho$ or $\sqrt\rho$, $A(t)$ is real
+and lies in $[0,1]$. If $m\le5$ and $D(t)=1-A(t)$, then
+\begin{equation}\label{eq:loss-bound}
+ D(t)\le C(t)\le8D(t).
+\end{equation}
+\end{lemma}
+\begin{proof}
+The total probability away from node zero is $1-|A|^2$, and each of its
+indices lies between $1$ and $m-1$. Positivity of the matrix overlap and
+Cauchy--Schwarz give $0\le A\le1$ in the stated flows. Finally,
+$1-A^2=(1-A)(1+A)$ lies between $D$ and $2D$.
+\end{proof}

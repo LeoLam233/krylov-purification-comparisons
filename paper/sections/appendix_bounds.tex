@@ -1,0 +1,57 @@
+\section{Technical bounds}\label{app:technical}
+\subsection{Controlled finite-time Taylor remainders}
+For a complexity written in its finite cyclic space as
+$C(t)=\bra v e^{itL}N e^{-itL}\ket v$, with $N\ket v=0$, repeated
+commutators give
+\begin{equation}\label{eq:taylor-norm}
+ |C'''(t)|\le(2\norm L)^3\norm N,\qquad
+ |C(t)-kt^2|\le\frac{(2\norm L)^3\norm N}{6}|t|^3,
+\end{equation}
+where $k$ is the quadratic coefficient. For Eq.~\eqref{eq:right-state},
+both Liouvillian norms are at most two and the number-operator norms are
+two and four. Adding the two remainder estimates yields $64|t|^3$,
+proving Eq.~\eqref{eq:right-interval}.
+
+For $H_\delta$ at $\delta=1/20$, the maximal absolute row sum bounds
+$\norm{H_\delta}\le11/10$. Each operator chain has at most seven
+distinct energy-gap atoms, so each number-operator norm is at most six.
+The two Liouvillian norms are at most $11/5$. Hence
+\begin{equation}\label{eq:perturbed-remainder}
+ \CM(t)-\KI(t)
+ \ge\frac{53}{3380}t^2-\frac{21296}{125}|t|^3.
+\end{equation}
+At $t=1/20000$ this is exactly the positive rational lower bound in
+Eq.~\eqref{eq:robust-gap}. These are conservative finite-time bounds,
+not numerical estimates of the exact differences.
+
+\subsection{Period integral and mean estimates}
+For $a,b>0$, tangent substitution after splitting the interval at $\pi$
+gives
+\begin{equation}\label{eq:integral}
+ \frac1{2\pi}\int_0^{2\pi}
+ \frac{dt}{a\cos^2(t/2)+b}
+ =\frac1{\sqrt{b(a+b)}}.
+\end{equation}
+For the main-ratio family, $D_0\le1$, $1-\eps\ge3/4$, and
+$\sqrt{4(1-\eps)^2+\eps^2}\ge2(1-\eps)$ bound the mean in
+Eq.~\eqref{eq:main-mean} by $68/81$. On the peak window, its rational
+denominator is at most $2\eps^2$ while its numerator is at least
+$\eps$; together with $D_0\ge1/2$ this proves
+Eq.~\eqref{eq:main-window}.
+
+For the reciprocal family, the positive coefficients in
+Eq.~\eqref{eq:reciprocal-traces} show that $2\le N,T_4\le3$ on
+$0<\eps\le1/16$. The bracket in Eq.~\eqref{eq:reciprocal-mean} is at
+most $9/2$, so its prefactor bounds the mean by $27\eps$.
+On the window the denominator $4c+\eps^2$ is at most $2\eps^2$
+and the numerator $16c+\eps$ is at least $\eps$. This gives
+$g_\eps\ge2N/T_4\ge4/3$ and hence the second-moment estimate.
+
+\subsection{The fixed-purity endpoint bound}
+In Eq.~\eqref{eq:purity-ratio} the fractional-linear factor decreases
+because $\eps/5>18\eps^2/25$ for $0<\eps<5/18$. Its value at
+$x=0$ is one. At $x=1$ it is
+\begin{equation}\label{eq:purity-endpoint}
+ \frac{1-\eps/10}{1-9\eps^2/25}\ge1-\eps/10.
+\end{equation}
+This gives the lower bound in Eq.~\eqref{eq:purity-bounds}.

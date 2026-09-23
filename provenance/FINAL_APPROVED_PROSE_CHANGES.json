@@ -1,0 +1,167 @@
+{
+  "scope": "Exact authorized substitution record; no scientific edits.",
+  "substitutions": [
+    {
+      "path": "paper/main.tex",
+      "before": "% AUTHOR TODO: supply approved author names, order, affiliations and ORCIDs.\n\\author{}",
+      "after": "% Human author; no ORCID supplied.\n\\author{Dehao Lin\\\\{\\small School of Physics, Sun Yat-sen University, Guangzhou, China}}",
+      "reason": "Approved human author and affiliation; no AI author or invented ORCID."
+    },
+    {
+      "path": "paper/main.tex",
+      "before": "pdfauthor={},pdfsubject={Paper-stage draft from the authoritative V3 scientific freeze}",
+      "after": "pdfauthor={Dehao Lin},pdfsubject={Final public v0.1 package; not yet published; authoritative V3 scientific freeze}",
+      "reason": "Author and release metadata only."
+    },
+    {
+      "path": "paper/main.tex",
+      "before": "\\input{sections/appendix_reproducibility}\n\\bibliographystyle{plain}",
+      "after": "\\input{sections/appendix_reproducibility}\n\\section*{AI contribution and research workflow}\n\\paragraph{AI contribution statement.}\nAI systems played the primary and largest role in the scientific work reported here. They identified the source paper as a research target, developed the attacks on its conjectures, constructed the counterexamples, derived the proofs and auxiliary results, produced and checked the computational certificates, and assisted in the adversarial audits, clean-room reproductions, and preparation of the manuscript. Dehao Lin designed and supervised the overall research workflow, made the project and release decisions, reviewed the resulting artifacts, and assumes responsibility for the final manuscript.\n\nThe project used an AI-centered theoretical-physics workflow designed and\nsupervised by Dehao Lin. AI systems autonomously searched for research targets;\nthe workflow identified Das and Mori's \\emph{Krylov complexity of purification}\nand its conjectures. AI systems played the primary scientific role in attacking\nthe conjectures, constructing the exact counterexamples, deriving proofs and\nauxiliary results, writing and executing verification code, and carrying out\nhostile audits and clean-room reproductions. They also assisted with manuscript\nand repository preparation. Dehao Lin's role included workflow design and\nrefinement, standards of evidence, supervision, review, and final release decisions.\nAI-to-AI agreement is not presented as independent human peer review.\n\n\\paragraph{Funding.} This research received no specific funding.\n\\paragraph{Acknowledgements.} None.\n\\paragraph{License.} The original manuscript is licensed under\n\\href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International (CC BY 4.0)}.\nThis notice does not relicense third-party material.\n\\bibliographystyle{plain}",
+      "reason": "Approved AI contribution/workflow disclosure, funding and acknowledgement metadata, and original-manuscript license notice, after reproducibility."
+    },
+    {
+      "path": "paper/main.tex",
+      "before": "% ACKNOWLEDGEMENTS / FUNDING TODO: insert only supplied and approved information.\n% AI DISCLOSURE TODO: see AI_ASSISTANCE_DISCLOSURE_TODO.md; no disclosure invented.\n",
+      "after": "",
+      "reason": "Remove superseded metadata TODO comments."
+    },
+    {
+      "path": "paper/sections/appendix_reproducibility.tex",
+      "before": "The accompanying local manuscript project contains the complete supplied\r\ninput archive, an integrity verifier, a claim-to-source map, a notation\r\nmap, a display-by-display audit, and build instructions. The scientific",
+      "after": "The preserved internal manuscript archive contains the complete supplied input bundle,\r\nintegrity records, and certification materials. The public repository provides a curated\r\nreproducibility view and does not redistribute all internal archival or third-party materials. The scientific",
+      "reason": "User-approved Appendix C archival-boundary wording only; subsequent authority and certification text unchanged."
+    },
+    {
+      "path": "README.md",
+      "before": "Local repository staging for the [release-audited manuscript](paper/main.pdf), using the\nauthoritative V3 scientific freeze. This tree is proposed public content, pending\nauthorship, disclosure, license and later release gates. Nothing has been published.",
+      "after": "Final public v0.1 reproducibility package for the [release-audited manuscript](paper/main.pdf),\nusing the authoritative V3 scientific freeze.\n\n**FINAL PUBLIC v0.1 PACKAGE FROZEN — NOT YET PUBLISHED**\n\nAuthor: **Dehao Lin**. Affiliation: School of Physics, Sun Yat-sen University,\nGuangzhou, China. No ORCID; no specific funding; no acknowledgements.",
+      "reason": "Release status and user-supplied human metadata."
+    },
+    {
+      "path": "README.md",
+      "before": "## Evidence and status\n",
+      "after": "## AI contribution and research workflow\n\n**AI contribution statement.** AI systems played the primary and largest role in the scientific work reported here. They identified the source paper as a research target, developed the attacks on its conjectures, constructed the counterexamples, derived the proofs and auxiliary results, produced and checked the computational certificates, and assisted in the adversarial audits, clean-room reproductions, and preparation of the manuscript. Dehao Lin designed and supervised the overall research workflow, made the project and release decisions, reviewed the resulting artifacts, and assumes responsibility for the final manuscript.\n\nThe project used an AI-centered theoretical-physics workflow designed and supervised\nby Dehao Lin. AI systems autonomously searched for research targets. The workflow\nidentified Das and Mori's *Krylov complexity of purification* and its conjectures.\nAI systems played the primary scientific role in attacking those conjectures,\nconstructing the exact counterexamples, deriving proofs and auxiliary results,\nwriting and executing verification code, and carrying out hostile audits and\nclean-room reproductions. They also assisted with manuscript and repository preparation.\nThe human role included workflow design and refinement, standards of evidence,\nsupervision, review, and final release decisions. AI-to-AI agreement is not presented\nas independent human peer review.\n\n## Evidence and status\n",
+      "reason": "Dedicated AI workflow disclosure after headline scientific results and reproduction instructions."
+    },
+    {
+      "path": "README.md",
+      "before": "The supplied 2026-09-22 prior-art audit reported no matching public result for the\nretained hierarchy-counterexample and quantified ratio no-go claims. That dated\nsearch outcome is not an absolute priority claim. No fresh priority sweep was performed\nin this staging run; the prescribed later sweep remains pending.",
+      "after": "The supplied 2026-09-22 prior-art audit reported no matching public result for the\nretained hierarchy-counterexample and quantified ratio no-go claims. That dated\nsearch outcome is not an absolute priority claim. The attached final sweep records\n**PASS — PRIORITY SWEEP ONLY**, with a public-retrieval cutoff of 2026-09-23 09:25:29 UTC.\nNo matching public prior result was found in that finite sweep; absolute priority is\nnot claimed. Its qualifications and the frozen novelty positioning are preserved;\nsee [the release-gate summary](audits/RELEASE_GATES.md). No new search was performed in this assembly.",
+      "reason": "Record the supplied completed priority gate as release metadata without changing novelty positioning."
+    },
+    {
+      "path": "README.md",
+      "before": "The bibliography, equations and formal statements are preserved; two prose passages are\ncorrected and the PDF rebuilt. Its Appendix C and\nsome retained notes describe the paper-stage package; [staged path notes](docs/STAGING_PATHS.md)\nexplain the private archive locations. [Public/private decisions](PUBLIC_PRIVATE_BOUNDARY.md),\n[inventory](REPOSITORY_INVENTORY.md), [asset map](RELEASE_ASSET_MAP.md),\n[license TODO](LICENSE_TODO.md), and [remaining decisions](docs/TODO.md) govern this local handoff.\n",
+      "after": "The scientific content remains that of audited RC1. The two earlier release-audit\nprose repairs are preserved. This assembly changes only approved metadata, disclosure,\nlicensing and packaging; see [the final delta audit](FINAL_SCIENTIFIC_DELTA_AUDIT.md)\nand [the exact file-change inventory](FINAL_FILE_CHANGES.md).\n\n## Archival boundary and licenses\n\n**Archival boundary.** This public repository is a curated release view of a larger\nfrozen research archive. The internal archive contains historical freezes, raw audit\nand clean-room packages, workflow handoffs, third-party source PDFs, and other\nprovenance material. Those materials are retained separately and are not all\nredistributed here, either because they are internal archival records or because\nredistribution rights are not assumed. Publicly relevant results, exact certificates,\nreproduction scripts, scope statements, and cryptographic fingerprints are included\nin this repository.\n\nOriginal code is under the [MIT License](LICENSE). Original manuscript and\ndocumentation are under [CC BY 4.0](LICENSE-CC-BY-4.0.md). Third-party material is\nexcluded from these grants; see [the licensing scope](LICENSING.md).\nUse [CITATION.cff](CITATION.cff) for the supplied author and citation metadata.\nSee [the public/private boundary](PUBLIC_PRIVATE_BOUNDARY.md),\n[inventory](REPOSITORY_INVENTORY.md), [asset map](RELEASE_ASSET_MAP.md),\n[path notes](docs/STAGING_PATHS.md), and [release notes](RELEASE_NOTES.md).\n",
+      "reason": "Approved archival-boundary, licensing, release-status and delta-audit navigation."
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "before": "Run commands from `Krylov_Repository/`.",
+      "after": "Run commands from the public Git root `Krylov_purification_v0.1/`.",
+      "reason": "Current public directory metadata."
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "before": "see RELEASE_AUDIT_CHANGES.md. Historical reproduction/ records remain staging evidence.",
+      "after": "see RELEASE_AUDIT_CHANGES.md. Historical reproduction/ records remain in internal RC1;\nselected final run summaries are in release_verification/.",
+      "reason": "Public/internal evidence boundary."
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "before": "verifies the proposed public release assets",
+      "after": "verifies the public release assets",
+      "reason": "Final release status terminology."
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "before": "The public check verifies preserved manuscript source and its reviewed snapshot.",
+      "after": "The public check verifies the final manuscript source against its derived fingerprint\nsnapshot. Original scientific display, formal-statement and scope records remain unchanged;\nonly approved metadata/packaging source hashes are refreshed, as recorded in the final delta audit.",
+      "reason": "Explain derived snapshot hashes without implying a new scientific review."
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "before": "The historical paper-stage appendix describes the earlier local package. Its\ncomplete input ZIP is now private; see `docs/STAGING_PATHS.md`. No mathematical\ntext was altered to conceal that packaging distinction. Authorship, license,\nvenue-specific disclosure and final citation metadata remain pending. This local\ntest is not an RC1 freeze/replay, release-level claim audit or fresh priority sweep.\n",
+      "after": "Appendix C now states the approved internal/public archive boundary; see\n`docs/STAGING_PATHS.md`. Authorship, disclosure, licenses and citation metadata are\nsupplied for this package. Full original private-mode checks require a separately\nprovisioned private layout and are not required for the default public replay.\nThe final assembly is a metadata-only delta audit, clean build and engineering\nreplay. It does not repeat research, hostile audits, clean-room certification or\npriority searching. No publication action has been performed.\n",
+      "reason": "Approved packaging and release metadata only."
+    },
+    {
+      "path": "paper/BUILD.md",
+      "before": "# Build from the staged repository\n\nRun from `Krylov_Repository/`:",
+      "after": "# Build the final public manuscript\n\nRun from the public Git root `Krylov_purification_v0.1/`:",
+      "reason": "Current build-root metadata."
+    },
+    {
+      "path": "paper/main.tex",
+      "before": "The project used an AI-centered theoretical-physics workflow designed and\nsupervised by Dehao Lin. AI systems autonomously searched for research targets;\nthe workflow identified Das and Mori's \\emph{Krylov complexity of purification}\nand its conjectures. AI systems played the primary scientific role in attacking\nthe conjectures, constructing the exact counterexamples, deriving proofs and\nauxiliary results, writing and executing verification code, and carrying out\nhostile audits and clean-room reproductions. They also assisted with manuscript\nand repository preparation. Dehao Lin's role included workflow design and\nrefinement, standards of evidence, supervision, review, and final release decisions.\nAI-to-AI agreement is not presented as independent human peer review.\n\n",
+      "after": "",
+      "reason": "User-authorized paper-only removal of the additional detailed workflow paragraph; concise primary/largest AI contribution statement and README retained exactly."
+    },
+    {
+      "path": "paper/main.tex",
+      "before": "\\section*{AI contribution and research workflow}",
+      "after": "\\section*{AI contribution statement}",
+      "reason": "User-authorized heading-only correction; the concise AI contribution statement remains verbatim."
+    },
+    {
+      "path": "README.md",
+      "before": "## Reproduce and build\n\n",
+      "after": "[Quick verification of Conjecture 1](docs/CONJECTURE1_COUNTEREXAMPLES.md) ([standalone PDF](release_assets/Conjecture1_exact_counterexamples.pdf)).\n\n## Reproduce and build\n\n",
+      "reason": "User-authorized compact links to the communication derivative; all existing README bytes remain unchanged."
+    },
+    {
+      "path": "paper/main.tex",
+      "before": "\\paragraph{AI contribution statement.}\n",
+      "after": "",
+      "reason": "User-authorized presentation-only removal of the redundant paragraph label; section heading and complete disclosure paragraph preserved."
+    },
+    {
+      "path": "paper/sections/01_introduction.tex",
+      "before": "A broad\npublic-prior-art search recorded with the underlying certificates found no\nmatching counterexample or ratio no-go result, but no absolute priority claim\nis made; a fresh search remains necessary before public release.",
+      "after": "A final fresh\npublic-prior-art sweep before release found no matching\npublic prior result; absolute priority\nis not claimed.",
+      "reason": "User-authorized release-state correction reflecting the already recorded final sweep; no new search or absolute-priority claim."
+    }
+  ],
+  "disclosure_correction_baseline": {
+    "commit": "8ecd1b92eda2d7b14dee1a1d3faebbd6ede99e1f",
+    "zip_sha256": "f970cb2bf9ef0902d2435bcd3a2b00bfd501aa73b8f7440a195db22b77775fa0",
+    "only_new_scientific_document_prose_change": "The final substitution, deleting one paper workflow paragraph."
+  },
+  "communication_microrefreeze_baseline": {
+    "status": "PASS",
+    "exclusive_baseline_commit": "8f8262809efd6f270fce6cf4e3aa9c6fd38747bc",
+    "zip_sha256": "4c8799f281dbbfd5db5349176578020d93099e0fa3017036f55234190a9279e6",
+    "pdf_sha256": "c50bb26e723ce5c287c182c05e01745accd355b27e8691e6a4313e784af5657c",
+    "baseline_files": 109,
+    "readme_sha256": "2cedacb7073508041153437834e200694495021092d3426c8fa5e14d96479f71",
+    "author_and_committer": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>"
+  },
+  "presentation_correction_baseline": {
+    "status": "PASS",
+    "baseline_commit": "e9f102a9466ab1f261df3b210889ef7756ae0bf5",
+    "baseline_zip_sha256": "1d13d1d07a7bc42d24b69471374d2a96c8b23945fcdcef3b945a4d013a525700",
+    "baseline_pdf_sha256": "31dc26a3bd9386b9456437782a97cee85c8e2ef81602090b488a4471ec87b08f",
+    "standalone_note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+    "public_files": 114,
+    "manifest_entries": 113,
+    "git_clean": true,
+    "author_and_committer": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
+    "git_coauthor_trailer": "Co-authored-by: Codex <noreply@openai.com>",
+    "git_remotes": [],
+    "git_tags": []
+  },
+  "release_state_correction_baseline": {
+    "status": "PASS",
+    "baseline_commit": "9a5440d292b61db07df36fcd8bc2f5dae12542c1",
+    "baseline_zip_sha256": "99a603aca80f4264e003e9b1d40f6dcc30b0664a17833234ff18eb49b0f4b12f",
+    "baseline_pdf_sha256": "8c6b6183d8375cc0a87146809e7efa4799194da24d01d6eb95f17112a0695dbe",
+    "standalone_note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+    "public_files": 114,
+    "manifest_entries": 113,
+    "git_clean": true,
+    "author_and_committer": "Dehao Lin <115764367+LeoLam233@users.noreply.github.com>",
+    "git_coauthor_trailer": "Co-authored-by: Codex <noreply@openai.com>",
+    "git_remotes": [],
+    "git_tags": []
+  }
+}

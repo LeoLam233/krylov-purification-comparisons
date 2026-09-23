@@ -1,0 +1,16 @@
+{
+  "all_assertions_pass": true,
+  "qubit_ratio_range_factor": "17/27 + 7*sqrt(7)/27",
+  "qubit_CV_upper_bound": "(-10/27 + 7*sqrt(7)/27)/sqrt(68/27 + 28*sqrt(7)/27)",
+  "qubit_CV_upper_bound_decimal": 0.13756338852190694,
+  "scope": "Nonstationary qubits; r,q and Pq; any probability-weighted time average, removable recurrence limits.",
+  "classification": "T2-SURVIVES (restricted byproduct, not a new central attack statement)",
+  "symmetric_terminated_example": {
+    "state_chain": 3,
+    "operator_chain": 5,
+    "CS": "23*t**8/63000 - t**6/225 + t**4/75 + t**2/5",
+    "CK": "76*t**8/39375 - 2*t**6/225 + 2*t**4/75 + 2*t**2/5",
+    "t8_gap": "3/2500",
+    "formula_agrees": true
+  }
+}

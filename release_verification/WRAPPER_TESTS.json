@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "tests": [
+    "tampered_release_asset_rejected_before_execution",
+    "output_inside_frozen_source_rejected",
+    "exact_rational_mismatch",
+    "numerical_mismatch",
+    "nan_rejected",
+    "bool_integer_type_mismatch",
+    "zip_traversal_rejected"
+  ]
+}

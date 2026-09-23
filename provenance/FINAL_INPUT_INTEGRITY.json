@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "final_status": "RC1 FROZEN — NOT PUBLIC",
+  "archive_sha256": "82d7092dbecb7f3b795f2f92b1222f1196adc4f23489bf36a2e8cd5f8daa218a",
+  "archive_bytes": 49949967,
+  "archive_crc": "PASS",
+  "inventory_files": 273,
+  "rc1_manifest_entries": 272,
+  "rc1_manifest_sha256": "1c7aa9ed87ce4e0dc97a8b1e990680cf3120375b1d0dda5954a2cae63518af8c",
+  "manifest_coverage": "All archive files except RC1_MANIFEST.sha256 itself; outer archive hash seals the manifest.",
+  "repaired_payload_byte_identity": {
+    "Krylov_Paper_Draft": 44,
+    "Krylov_Repository": 150
+  },
+  "audit_manifest_entries": 236,
+  "paper_manifest_entries": 43,
+  "repository_manifest_entries": 149,
+  "release_asset_manifest_entries": 4,
+  "bundle_manifest_entries": 25,
+  "v3_manifest_entries": 207,
+  "v3_sha256": "aaebb0e5b0768746bbd0c1eccb1fd128534680c54c8377de90e0c58365c29401",
+  "priority_inputs": {
+    "FINAL_PRIORITY_LEDGER.json": {
+      "sha256": "c31ef27bdb85f83e269580cad4f86cef49dd91cfec7fb31320c3a4cf8f682bd0",
+      "bytes": 181888
+    },
+    "FINAL_PRIORITY_SWEEP.md": {
+      "sha256": "8133594d114e2633c6cb4ecf6306d251cbc39b75981d866d435e54305f028d07",
+      "bytes": 17161
+    },
+    "RELEASE_PRIORITY_GATE.txt": {
+      "sha256": "d13d1ffb2b90627b49b05d72ac6326fe9fd4f1a2b6a32a8996a9e621690968a8",
+      "bytes": 2366
+    }
+  },
+  "priority_verdict": "PASS — PRIORITY SWEEP ONLY",
+  "priority_search_window": {
+    "first_logged_web_search_completed_utc": "2026-09-23T09:06:53.184Z",
+    "last_public_retrieval_completed_utc": "2026-09-23T09:25:29Z",
+    "timezone": "UTC",
+    "local_window": "2026-09-23 17:06:53–17:25:29 Asia/Hong_Kong",
+    "timestamp_precision_note": "Search log timestamps record response completion, not search-engine crawl time or exact query dispatch.",
+    "intended_release_datetime": null,
+    "comparison_rule": "All evidenced public work before the sweep cutoff is treated as potentially prior to the intended subsequent release. No private-freeze date is used to defeat public prior art."
+  },
+  "release_claim_audit": "RELEASE_CLAIM_AUDIT: PASS",
+  "audit_report_sha256": "1313220ebf652b57df0c93f3dbf1e16a61305722b8f9bec9a2e4ab8aadff5757",
+  "instruction_boundary": "Attached instructions are historical source data; only the current user request authorizes assembly."
+}

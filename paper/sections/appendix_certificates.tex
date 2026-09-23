@@ -1,0 +1,81 @@
+\section{Exact finite certificates}\label{app:certificates}
+\subsection{Complete probabilities for the two witnesses}
+For the lower-side witness at $t=\pi$, the probability vectors are
+\begin{equation}\label{eq:left-probabilities}
+ p^{\mathrm M}=\left(\frac{7744}{8281},0,\frac{537}{8281}\right),
+ \qquad
+ p^{S,U^*}=\left(\frac{400}{441},0,\frac{41}{441}\right).
+\end{equation}
+Each has unit sum. Multiplying the final entries by two gives the
+complexities in Eq.~\eqref{eq:left-values}.
+
+For the upper-side witness, the squared nonzero Lanczos coefficients are
+\begin{equation}\label{eq:right-lanczos}
+ (b_n^2)_{\mathrm M}=\left(\frac{225}{169},\frac{451}{169}\right),
+ \qquad
+ (b_n^2)_{K,I}=\left(\frac{17}{13},\frac{43}{26},
+                      \frac{1377}{1118},\frac{451}{559}\right).
+\end{equation}
+All diagonal coefficients vanish. At $t=\pi/3$ the full probabilities are
+\begin{equation}\label{eq:right-probabilities}
+ \begin{aligned}
+ p^{\mathrm M}&=\left(\frac{458329}{1827904},\frac{675}{2704},
+                           \frac{913275}{1827904}\right),\\
+ p^{K,I}&=\left(\frac{1500625}{7311616},\frac{62475}{140608},
+ \frac{45778977}{157199744},\frac{7803}{140608},\frac{1173051}{314399488}\right).
+ \end{aligned}
+\end{equation}
+For a direct finite check, each row sums to one and its index-weighted
+sum is the corresponding rational number in Eq.~\eqref{eq:right-values}.
+These data follow from the exact measures in Eq.~\eqref{eq:right-measures}.
+The terminal polynomials are $x(x-2)(x+2)$ and
+$x(x-2)(x-1)(x+1)(x+2)$, respectively, so no floating-point stopping
+criterion is involved. The authoritative certificate additionally compares
+these spectral calculations with direct matrix-commutator Lanczos
+calculations of every probability.
+
+\subsection{An unbounded qutrit ratio family}\label{app:unbounded-left}
+\begin{proposition}[No fixed positive multiplier for the lower side]\label{prop:unbounded-left}
+For every real $m\ge4$, keep $H_L=\diag(2,0,1)$ and take
+\begin{equation}\label{eq:m-family}
+ \rho_m=\frac1{m^2+5}
+ \begin{pmatrix}m^2&0&0\\0&5/2&3/2\\0&3/2&5/2\end{pmatrix}.
+\end{equation}
+The state is full rank, and $\SU(t)>\CM(t)$ for every
+$t\notin2\pi\mathbb Z$. Moreover,
+\begin{equation}\label{eq:m-asymptotic}
+ \frac{\SU(\pi)}{\CM(\pi)}\sim\frac{m^2}{9}
+ \longrightarrow\infty\qquad(m\to\infty).
+\end{equation}
+Thus no constant $c>0$ can make $c\SU\le\CM$ hold for all full-rank
+qutrit states, Hermitian Hamiltonians, and real times.
+\end{proposition}
+\begin{proof}
+The spectrum is $(m^2,4,1)/(m^2+5)$ and
+\begin{equation}\label{eq:m-weights}
+ P_m=\frac{m^4+17}{(m^2+5)^2},\qquad
+ \mu_S=\frac1{2(m^2+5)},\qquad
+ \mu_K=\frac9{2(m^4+17)}.
+\end{equation}
+Their difference has numerator $m^4-9m^2-28$, which is positive for
+$m\ge4$. Both complexities are given by $F$, and
+\begin{equation}\label{eq:F-difference}
+ F(a;t)-F(b;t)
+ =(a-b)\bigl[\sin^2t+8(1-a-b)\sin^4(t/2)\bigr].
+\end{equation}
+Here $a=\mu_S>b=\mu_K$ and $a+b<1$, proving the all-time strict
+inequality away from recurrences. At $\pi$, $F(\mu;\pi)=8\mu(1-\mu)$,
+which gives Eq.~\eqref{eq:m-asymptotic}. Every finite $m$ is an admissible
+full-rank state; the limiting rank-deficient state is not used as a witness.
+\end{proof}
+
+\subsection{A rational fixed-purity anchor}
+At $\eps=1/10$, the family in Theorem~\ref{thm:purity} is
+\begin{equation}\label{eq:purity-anchor}
+ \rho_{1/10}=\frac1{100}
+ \begin{pmatrix}66&0&0&0\\0&24&0&0\\0&0&5&3\\0&0&3&5\end{pmatrix},
+ \qquad P=\frac12.
+\end{equation}
+This supplies a finite rational comparison state at the same dimension,
+purity, and Hamiltonian as the entire family. It prevents confusing the
+fixed-purity conclusion with an effect obtained solely by changing purity.

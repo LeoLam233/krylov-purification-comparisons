@@ -1,0 +1,8 @@
+.local/
+__pycache__/
+*.pyc
+.venv/
+private_assets/
+Krylov_Private_Assets/
+inputs/
+raw_papers/
