@@ -1,3 +1,15 @@
+# Post-v0.1.2 current-main note wording sync
+
+Two approved courtesy-only phrases in the standalone Conjecture-1 note changed in
+Markdown, TeX and the rebuilt two-page PDF. All twelve mathematical displays,
+both witnesses, exact values, intervals, and the source map's scientific mapping
+are unchanged. The full manuscript, source archive, mathematical scripts, results,
+certificates, bibliography, AI disclosure and priority positioning remain byte-identical
+to tagged v0.1.2. The historical v0.1.2 audit below describes the immutable tagged
+release, including its original note hash. **SCIENTIFIC DELTA: NONE.**
+
+---
+
 # v0.1.2 scientific delta audit
 
 **READER-FACING WORDING / PROVENANCE PATCH. SCIENTIFIC DELTA: NONE.**

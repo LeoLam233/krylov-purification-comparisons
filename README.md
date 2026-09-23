@@ -1,7 +1,7 @@
 # Exact limits of Krylov-complexity comparisons under purification
 
 Public v0.1.2 reproducibility package for the [release-audited manuscript](paper/main.pdf),
-using the authoritative V3 scientific freeze. The Conjecture-1 note remains byte-identical to v0.1.1; manuscript mathematics is unchanged.
+using the authoritative V3 scientific freeze. The standalone Conjecture-1 note on main includes a post-v0.1.2 courtesy-only wording sync; its mathematical content is unchanged. Tagged v0.1.2 remains the latest immutable release snapshot.
 
 **PUBLIC v0.1.2 RELEASED — 2026-09-24**
 

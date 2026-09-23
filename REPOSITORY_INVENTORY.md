@@ -1,8 +1,9 @@
-# Curated public v0.1.2 file inventory
+# Curated current-main file inventory after tagged v0.1.2
 
-This list is the distributable Git tree. It excludes .git/, .local/, .venv/ and
+This lists the current public Git tree. It excludes .git/, .local/, .venv/ and
 __pycache__/. PUBLIC_TREE.sha256 hashes every listed file except itself.
-The matching outer public ZIP contains exactly these paths under one root.
+The tagged v0.1.2 public ZIP remains an immutable earlier snapshot; no new
+release ZIP is published for this main-branch note sync.
 
 ```text
 .gitattributes

@@ -1,4 +1,7 @@
-# Public v0.1.2 assets (mathematical payload unchanged from v0.1.1)
+# Current main asset view after tagged v0.1.2 (no new release)
+
+The standalone note PDF on main reflects two courtesy-only prose substitutions;
+its mathematics is unchanged. The tagged v0.1.2 release and its assets are unchanged.
 
 | Location | Role and authority |
 |---|---|
@@ -14,7 +17,7 @@
 | RELEASE_NOTES.md; FINAL_SCIENTIFIC_DELTA_AUDIT.md; FINAL_FILE_CHANGES.md | Release status, scientific preservation evidence and exact packaging changes |
 
 release_assets/RELEASE_ASSETS.sha256 covers all files in release_assets/ except itself.
-The v0.1 publication commit and final asset hashes are inspectable in the [public-safe Markdown](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json) derivatives of the contemporaneous outer reports. The current v0.1.2 ZIP hash is in its checksum sidecar and GitHub Release. The exact v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`, tag target, and release-asset digests are publicly inspectable through [GitHub history](https://github.com/LeoLam233/krylov-purification-comparisons/commit/6362c93194b723fb397569882b4a9ca4de6f2b7c) and the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1).
+The v0.1 publication commit and final asset hashes are inspectable in the [public-safe Markdown](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json) derivatives of the contemporaneous outer reports. The tagged v0.1.2 ZIP hash is in its checksum sidecar and GitHub Release. The exact v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`, tag target, and release-asset digests are publicly inspectable through [GitHub history](https://github.com/LeoLam233/krylov-purification-comparisons/commit/6362c93194b723fb397569882b4a9ca4de6f2b7c) and the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1).
 
 The full RC1, complete input bundle, V3/V2 freezes, original mathematical archives,
 raw audit/clean-room packages, private prompts and third-party PDFs remain internal.

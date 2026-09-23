@@ -9,8 +9,8 @@
   "pages": 2,
   "latex_failures": [],
   "returncode": 0,
-  "source_sha256": "b7a5dda0c753c37cc15d1b5393385705c67b6f30ef000fcd3d069a5cba0bca1a",
-  "pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+  "source_sha256": "a06ea423cbbadbed4704378690311f497b693cdd2386d0c7282c074742f94a62",
+  "pdf_sha256": "8d6079f8ec1fcc83146a602a0024ce39c794651bf430143780cfd3421888ade6",
   "classification": "DERIVATIVE SCIENTIFIC CONTENT ONLY — NO NEW CLAIM",
   "baseline_commit": "8f8262809efd6f270fce6cf4e3aa9c6fd38747bc",
   "derivative_content_audit": "PASS",
@@ -23,19 +23,19 @@
   "new_claims": false,
   "new_research_or_derivation": false,
   "source_map": "provenance/CONJECTURE1_NOTE_SOURCE_MAP.md",
-  "source_map_sha256": "620efb2e5eff49f33a43354c05a5d1fbb909711e5d9d981f3dac2cf8704587eb",
-  "markdown_sha256": "f664e0fc228c5a8966294118d0bef664eacbb66308a50ceb72cf3bc6ed3826af",
-  "visual_inspection": "PASS: both pages rendered at 130 dpi and directly inspected; one counterexample per page; readable table, fractions, matrices, body text and footer; no clipping, overlap or missing glyph. One harmless underfull paragraph warning; no overfull boxes.",
+  "source_map_sha256": "aff4fd6cd4c9da24aef4d29934ea00ab351d8fce07db810ed5094504de11741a",
+  "markdown_sha256": "2b1a688e89938e903760aa29ff53864039604385713f0fc09a0db20a61bd4358",
+  "visual_inspection": "PASS: both pages directly inspected at 160 dpi; no clipping, overlap, missing glyph or pagination regression.",
   "author": "Dehao Lin",
   "individual_ai_products_named": false,
   "rendered_page_sha256": [
     {
       "page": 1,
-      "sha256": "302b2b7662d550bc72649aaaa2bc1f8d46c77795956a1540f667dddc6f30fdf9"
+      "sha256": "9295a17d8ab3e90f353f64cd02137a5c51de2ae69b1d9e7a84e34f9be93e5df8"
     },
     {
       "page": 2,
-      "sha256": "ce52150efdfbc2e3f3fa0c940d7d6f576095a4c3a8088524bb60dbd5ab612d47"
+      "sha256": "1d67dd93e787a7fee3e74e2c4fb11c59b7a8249994ad0b5c42baa798a710d3e8"
     }
   ],
   "display_trace_records": [
@@ -87,5 +87,24 @@
       "id": "N12",
       "sha256": "97b89fe90a281c3c813f07f959948ba5b4c91eb88a678c5e6fe1d7a201085dbb"
     }
-  ]
+  ],
+  "post_v0_1_2_main_note_sync": {
+    "classification": "COURTESY WORDING ONLY",
+    "baseline_commit": "e685f329eec483f1b349000ce15855ba2355cbf7",
+    "exact_substitutions": [
+      {
+        "old": "this yields the exact contradiction",
+        "new": "this yields the exact violation"
+      },
+      {
+        "old": "The full manuscript also certifies failure throughout",
+        "new": "The full manuscript also establishes the violation throughout"
+      }
+    ],
+    "mathematical_displays_byte_identical": 12,
+    "extracted_pdf_text_only_two_substitutions": true,
+    "tagged_v0_1_2_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+    "tagged_v0_1_2_unchanged": true,
+    "scientific_delta": "NONE"
+  }
 }

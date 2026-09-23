@@ -1,4 +1,7 @@
-# Public v0.1.2 release assets
+# Current main assets after tagged v0.1.2
+
+The Conjecture-1 note PDF on main incorporates a courtesy-only two-phrase wording
+sync. The tagged v0.1.2 release PDF and other release assets remain unchanged.
 
 - v3-reproduction-view.zip is the unchanged RC1 curated view of byte-identical V3
   verifiers and expected results. It is not the complete V3 archive or a new freeze.

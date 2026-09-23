@@ -106,5 +106,24 @@
     "manuscript_pdf_sha256": "869dcf86e21809016e2d22cda5fa8d38a827626a960c751c1c6f915af80a673c",
     "paper_source_zip_sha256": "05eda04fe12556e6fbb722ac1bf92ae69038cf1c4ef069ae10ae3cafa461e996",
     "conjecture1_note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de"
+  },
+  "post_v0_1_2_main_note_sync": {
+    "classification": "COURTESY WORDING ONLY",
+    "baseline_commit": "e685f329eec483f1b349000ce15855ba2355cbf7",
+    "substitutions": [
+      {
+        "old": "this yields the exact contradiction",
+        "new": "this yields the exact violation"
+      },
+      {
+        "old": "The full manuscript also certifies failure throughout",
+        "new": "The full manuscript also establishes the violation throughout"
+      }
+    ],
+    "new_note_pdf_sha256": "8d6079f8ec1fcc83146a602a0024ce39c794651bf430143780cfd3421888ade6",
+    "tagged_v0_1_2_note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+    "scientific_delta": "NONE",
+    "tagged_v0_1_2_unchanged": true,
+    "new_release_created": false
   }
 }

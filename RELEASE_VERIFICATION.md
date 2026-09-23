@@ -1,3 +1,19 @@
+# Post-v0.1.2 current-main note verification (no new release)
+
+The two approved standalone-note phrase substitutions are the only note source
+changes from tagged v0.1.2. The clean offline note build is two pages; both pages
+passed visual inspection. All 12 displayed mathematical blocks remain byte-identical,
+and normalized extracted PDF text differs only by the two phrases. The full manuscript,
+source ZIP, mathematical scripts, results and certificates are unchanged. Current-main
+asset and public-tree manifests were refreshed; public reproduction is **9/9 PASS**.
+The tagged v0.1.2 release and its assets remain unchanged. See the
+[note check](release_verification/CONJECTURE1_NOTE_CHECK.json) and
+[source map](provenance/CONJECTURE1_NOTE_SOURCE_MAP.md).
+
+**SCIENTIFIC DELTA: NONE**
+
+---
+
 # v0.1.2 reader-facing wording/provenance patch verification
 
 **PUBLIC v0.1.2 RELEASED — 2026-09-24.** Baseline: immutable public v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`. Classification: **READER-FACING WORDING / PROVENANCE PATCH**.

@@ -10,6 +10,17 @@ manuscript PDF SHA-256
 All three were verified before editing. The note Markdown, TeX, and PDF remained byte-identical through the eventual public v0.1 release at commit `4a637eaf0cd6beeaab72afca62f8069fa01793be`. No external source, private archive,
 new research, new proof, strengthened statement or new calculation supplies a claim.
 
+## Post-v0.1.2 main-branch courtesy wording sync
+
+Current main applies only two later prose substitutions to the standalone note:
+`this yields the exact contradiction` → `this yields the exact violation`, and
+`The full manuscript also certifies failure throughout` →
+`The full manuscript also establishes the violation throughout`.
+All twelve mathematical displays and the frozen claim/source mapping below remain unchanged.
+The tagged v0.1.2 release retains the earlier note bytes and PDF SHA-256
+`cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de`.
+**SCIENTIFIC DELTA: NONE.**
+
 The note is [Markdown](../docs/CONJECTURE1_COUNTEREXAMPLES.md),
 [independent TeX](../docs/conjecture1_counterexamples.tex), and
 [two-page PDF](../release_assets/Conjecture1_exact_counterexamples.pdf).

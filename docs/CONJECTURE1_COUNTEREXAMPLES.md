@@ -60,7 +60,7 @@ $$
 For a direct check, the three Krylov amplitudes are
 $(1-\mu+\mu\cos t,\,-i\sqrt\mu\sin t,\,\sqrt{\mu(1-\mu)}(\cos t-1))$;
 their squared moduli, weighted by indices $0,1,2$, give $F$.
-At $t=\pi$ this yields the exact contradiction
+At $t=\pi$ this yields the exact violation
 
 $$
 S_{U^*}(\pi)=\frac{82}{441},\qquad
@@ -131,7 +131,7 @@ C_{\mathrm M}(t)=\frac{225}{169}t^2+O(t^4),\qquad
 K_I(t)=\frac{221}{169}t^2+O(t^4).
 $$
 
-The full manuscript also certifies failure throughout $0<t<1/2704$.
+The full manuscript also establishes the violation throughout $0<t<1/2704$.
 
 ## Minimality and scope
 

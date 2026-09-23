@@ -1,5 +1,9 @@
 # Changelog
 
+## Post-v0.1.2 main-branch note wording sync — 2026-09-24 (no new release)
+
+Two non-scientific phrases in the standalone Conjecture-1 communication note were softened in Markdown and TeX, and its two-page PDF was rebuilt. Mathematical content and the full manuscript are unchanged. The tagged v0.1.2 release, release assets and history remain immutable. **SCIENTIFIC DELTA: NONE.**
+
 ## v0.1.2 reader-facing wording/provenance patch — 2026-09-24
 
 **PUBLIC v0.1.2 RELEASED — 2026-09-24** at [the repository](https://github.com/LeoLam233/krylov-purification-comparisons); [release v0.1.2](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2).
