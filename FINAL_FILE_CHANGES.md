@@ -1,3 +1,45 @@
+# Exact v0.1.2 reader-facing wording/provenance patch files
+
+Baseline: public v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`. **SCIENTIFIC DELTA: NONE.** The approved old/new prose is recorded in [the exact ledger](provenance/V0_1_2_WORDING_CHANGES.json); no mathematical scripts, results, certificates or Conjecture-1 note files changed.
+
+Changed paths relative to v0.1.1:
+
+- `CHANGELOG.md`
+- `CITATION.cff`
+- `FINAL_FILE_CHANGES.md`
+- `FINAL_SCIENTIFIC_DELTA_AUDIT.md`
+- `PUBLIC_PRIVATE_BOUNDARY.md`
+- `PUBLIC_TREE.sha256`
+- `README.md`
+- `RELEASE_ASSET_MAP.md`
+- `RELEASE_METADATA.json`
+- `RELEASE_NOTES.md`
+- `RELEASE_VERIFICATION.md`
+- `REPOSITORY_INVENTORY.md`
+- `REPRODUCIBILITY.md`
+- `audits/README.md`
+- `paper/AI_ASSISTANCE_DISCLOSURE_TODO.md`
+- `paper/SOURCE_AMBIGUITIES.md`
+- `paper/checks/REVIEWED_CONTENT.json`
+- `paper/main.pdf`
+- `paper/main.tex`
+- `paper/sections/appendix_reproducibility.tex`
+- `provenance/COPY_MAP.json`
+- `release_assets/README.md`
+- `release_assets/RELEASE_ASSETS.sha256`
+- `release_assets/manuscript.pdf`
+- `release_assets/paper-source.zip`
+
+Added paths:
+
+- `provenance/V0_1_2_COPY_MAP_DELTA.json`
+- `provenance/V0_1_2_WORDING_CHANGES.json`
+- `release_verification/V0_1_2_CHECKS.json`
+
+The PDF and source ZIP changed only because approved reader-facing manuscript prose was rebuilt; manifests, metadata and records changed as derived release artifacts. Historical v0.1.1 file changes follow.
+
+---
+
 # Exact v0.1.1 documentation/provenance patch files
 
 Baseline: public v0.1 commit `4a637eaf0cd6beeaab72afca62f8069fa01793be`. The v0.1 commit/tag/release remain historical. No scientific payload file changes. The current patch is **DOCUMENTATION / PROVENANCE PATCH ONLY**; **SCIENTIFIC DELTA: NONE**.
@@ -33,7 +75,7 @@ Baseline: public v0.1 commit `4a637eaf0cd6beeaab72afca62f8069fa01793be`. The v0.
 | `release_verification/PUBLICATION_VERIFICATION_REPORT.md` | Public-safe derivative of authentic contemporaneous v0.1 outer report. |
 | `provenance/V0_1_1_COPY_MAP_DELTA.json` | Record the two former copy rows, historical source SHA-256 and new documentation SHA-256. |
 
-All unchanged paths, including PDFs, source archive, mathematical code/certificates, expected results, claims, note source/content and bibliography, remain byte-identical to v0.1. Exact before/after hashes and new commit SHA are in the outer v0.1.1 publication report.
+All unchanged paths, including PDFs, source archive, mathematical code/certificates, expected results, claims, note source/content and bibliography, remain byte-identical to v0.1. Exact before/after hashes are recorded in the v0.1.1 Git history. The v0.1.1 commit is `6362c93194b723fb397569882b4a9ca4de6f2b7c`; asset digests are public in the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1).
 
 ---
 

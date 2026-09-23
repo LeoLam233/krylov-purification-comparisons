@@ -1,0 +1,25 @@
+{
+  "version": "0.1.2",
+  "classification": "READER-FACING WORDING / PROVENANCE PATCH",
+  "baseline_commit": "6362c93194b723fb397569882b4a9ca4de6f2b7c",
+  "scientific_delta": "NONE",
+  "clean_paper_build": "PASS",
+  "pdf_pages": 16,
+  "changed_pdf_pages": [
+    15
+  ],
+  "changed_pdf_page_visual_inspection": "PASS",
+  "unchanged_displayed_equations": 71,
+  "unchanged_formal_statements": 14,
+  "unchanged_proof_blocks": 14,
+  "unchanged_scope_rows": 181,
+  "bibliography_byte_identical": true,
+  "public_reproduction": "9/9 PASS",
+  "manuscript_pdf_sha256": "869dcf86e21809016e2d22cda5fa8d38a827626a960c751c1c6f915af80a673c",
+  "paper_source_zip_sha256": "05eda04fe12556e6fbb722ac1bf92ae69038cf1c4ef069ae10ae3cafa461e996",
+  "note_pdf_sha256": "cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de",
+  "note_byte_identical_to_v0_1_1": true,
+  "r01_v0_1_1_actual_commit": "6362c93194b723fb397569882b4a9ca4de6f2b7c",
+  "r01_v0_1_1_public_release_url": "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1",
+  "current_commit_tag_asset_authority": "Public GitHub main, annotated v0.1.2 tag, Release and ZIP checksum sidecar."
+}

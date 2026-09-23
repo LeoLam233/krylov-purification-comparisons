@@ -1,3 +1,17 @@
+# v0.1.2 reader-facing wording/provenance patch verification
+
+**PUBLIC v0.1.2 RELEASED — 2026-09-24.** Baseline: immutable public v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`. Classification: **READER-FACING WORDING / PROVENANCE PATCH**.
+
+The manuscript was rebuilt offline from a fresh source-only compiler directory. The approved source diff preserves 71/71 displayed equations, 14/14 formal statements, 14/14 proof blocks, 181/181 scope rows and the bibliography. The 16-page PDF was rendered against v0.1.1: only page 15 changed, and the changed page was visually inspected without clipping or overlap. The Conjecture-1 Markdown, TeX and PDF remain byte-identical. Public reproduction: **9/9 PASS**.
+
+The v0.1.1 R01 provenance pointer now gives the actual historical commit and public release URL. Current v0.1.2 commit, tag and assets are publicly authoritative through GitHub and the release checksum sidecar; no tracked v0.1.2 record depends on an outer report. See [current checks](release_verification/V0_1_2_CHECKS.json) and the [exact wording ledger](provenance/V0_1_2_WORDING_CHANGES.json).
+
+**SCIENTIFIC DELTA: NONE**
+
+---
+
+## Historical v0.1.1 verification
+
 # v0.1.1 documentation/provenance patch verification
 
 **PUBLIC v0.1.1 RELEASED — 2026-09-24**. This is a documentation/provenance patch to the public v0.1 commit `4a637eaf0cd6beeaab72afca62f8069fa01793be`. See the [A01–A05 closure record](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md).
@@ -12,7 +26,7 @@ For this v0.1.1 patch, repository-relative links, JSON, CFF 1.2.0 and sanitized 
 
 **DOCUMENTATION / PROVENANCE PATCH ONLY**
 
-The new patch commit SHA and final remote/asset checks are recorded in the outer `V0_1_1_PUBLICATION_REPORT.md` and `.json` after publication, avoiding a tracked self-reference. The historical v0.1 record follows unchanged except for the A01 public-pointer repair.
+The exact v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`, tag target, and release-asset digests are publicly inspectable through [GitHub history](https://github.com/LeoLam233/krylov-purification-comparisons/commit/6362c93194b723fb397569882b4a9ca4de6f2b7c) and the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1). The historical v0.1 record follows unchanged except for the A01 public-pointer repair.
 
 ---
 

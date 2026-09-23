@@ -66,7 +66,7 @@ their inclusion does not enlarge the manuscript's retained claim set. The origin
 combined entry point is not modified or run in a pristine tree; the new wrapper
 calls its component verifiers and additionally replays the first-run verifier.
 
-The two CR0s and hostile audits are retained evidence, not regenerated here. Their
+The two CR0s and adversarial audits are retained evidence, not regenerated here. Their
 hashes, coverage limits and original private locations are documented separately.
 
 ## Paper checks and clean build
@@ -80,7 +80,7 @@ python scripts/build_paper.py --engine /path/to/tectonic --cache /path/to/cache 
 
 The public check verifies the final manuscript source against its derived fingerprint
 snapshot. Original scientific display, formal-statement and scope records remain unchanged;
-only approved metadata/packaging source hashes are refreshed, as recorded in the final delta audit.
+only approved wording and release-metadata source hashes are refreshed, as recorded in the final delta audit.
 The private mode additionally replays the unchanged original integrity and paper
 check scripts against the complete bundle in a temporary paper project. This covers
 71 displays, 14 formal statements, 181 scope trigger lines, the mapped V3 hashes,
@@ -101,7 +101,7 @@ Appendix C now states the approved internal/public archive boundary; see
 `docs/STAGING_PATHS.md`. Authorship, disclosure, licenses and citation metadata are
 supplied for this package. Full original private-mode checks require a separately
 provisioned private layout and are not required for the default public replay.
-The final assembly is a metadata-only delta audit, clean build and engineering
-replay. It does not repeat research, hostile audits, clean-room certification or
+The current v0.1.2 assembly is a wording/provenance delta check, clean build and engineering
+replay. It does not repeat research, adversarial audits, clean-room certification or
 priority searching. Publication is external to the reproduction workflow; these commands perform no
 repository, release, author-contact, email, or submission actions.

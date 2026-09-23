@@ -1,0 +1,17 @@
+{
+  "release": "v0.1.2",
+  "baseline_commit": "6362c93194b723fb397569882b4a9ca4de6f2b7c",
+  "baseline_copy_map_sha256": "b4fcc75bcf14a7184de5d9208dd7f88c6a695bda2449605e0c76ab24e522cff5",
+  "reason": "Approved reader-facing wording changed one former byte-identical copied documentation file. The historical v0.1.1 copy map remains in its immutable commit.",
+  "removed_from_current_byte_identical_copy_map": [
+    {
+      "path": "paper/SOURCE_AMBIGUITIES.md",
+      "sha256": "a08884adc05c2964abfc173626175742c9c063a00e560ed1d834bfa5530c267b",
+      "source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/SOURCE_AMBIGUITIES.md"
+    }
+  ],
+  "current_public_path": "paper/SOURCE_AMBIGUITIES.md",
+  "current_public_sha256": "ca42f7790d45febc5d188d5332b37b0b897c611634974e83416d02c696538197",
+  "current_copy_map_rows": 44,
+  "scientific_delta": "NONE"
+}

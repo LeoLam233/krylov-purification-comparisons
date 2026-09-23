@@ -1,13 +1,13 @@
 # Exact limits of Krylov-complexity comparisons under purification
 
-Public v0.1.1 reproducibility package for the [release-audited manuscript](paper/main.pdf),
-using the authoritative V3 scientific freeze. The manuscript and Conjecture-1 note are byte-identical to v0.1.
+Public v0.1.2 reproducibility package for the [release-audited manuscript](paper/main.pdf),
+using the authoritative V3 scientific freeze. The Conjecture-1 note remains byte-identical to v0.1.1; manuscript mathematics is unchanged.
 
-**PUBLIC v0.1.1 RELEASED — 2026-09-24**
+**PUBLIC v0.1.2 RELEASED — 2026-09-24**
 
 Repository: [https://github.com/LeoLam233/krylov-purification-comparisons](https://github.com/LeoLam233/krylov-purification-comparisons)  
-Release: [v0.1.1](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1) ([v0.1 history](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1)).
-Documentation/provenance patch: [hostile-audit closure](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md); v0.1 publication evidence: [public-safe report](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json).
+Release: [v0.1.2](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2) ([v0.1.1 history](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1); [v0.1 history](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1)).
+Reader-facing wording/provenance patch: [audit-finding closure](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md); v0.1 publication evidence: [public-safe report](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json).
 
 Author: **Dehao Lin**. Affiliation: School of Physics, Sun Yat-sen University,
 Guangzhou, China. No ORCID; no specific funding; no acknowledgements.
@@ -72,14 +72,14 @@ See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for offline builds and result seman
 
 ## AI contribution and research workflow
 
-**AI contribution statement.** AI systems played the primary and largest role in the scientific work reported here. They identified the source paper as a research target, developed the attacks on its conjectures, constructed the counterexamples, derived the proofs and auxiliary results, produced and checked the computational certificates, and assisted in the adversarial audits, clean-room reproductions, and preparation of the manuscript. Dehao Lin designed and supervised the overall research workflow, made the project and release decisions, reviewed the resulting artifacts, and assumes responsibility for the final manuscript.
+**AI contribution statement.** AI systems played the primary and largest role in the scientific work reported here. They identified the source paper for further investigation, developed exact analyses of its conjectures, constructed the counterexamples, derived the proofs and auxiliary results, produced and checked the computational certificates, and assisted in the adversarial audits, clean-room reproductions, and preparation of the manuscript. Dehao Lin designed and supervised the overall research workflow, made the project and release decisions, reviewed the resulting artifacts, and assumes responsibility for the final manuscript.
 
 The project used an AI-centered theoretical-physics workflow designed and supervised
-by Dehao Lin. AI systems autonomously searched for research targets. The workflow
+by Dehao Lin. AI systems autonomously searched for research papers and questions to investigate. The workflow
 identified Das and Mori's *Krylov complexity of purification* and its conjectures.
-AI systems played the primary scientific role in attacking those conjectures,
+AI systems played the primary scientific role in investigating those conjectures,
 constructing the exact counterexamples, deriving proofs and auxiliary results,
-writing and executing verification code, and carrying out hostile audits and
+writing and executing verification code, and carrying out adversarial audits and
 clean-room reproductions. They also assisted with manuscript and repository preparation.
 The human role included workflow design and refinement, standards of evidence,
 supervision, review, and final release decisions. AI-to-AI agreement is not presented
@@ -87,7 +87,7 @@ as independent human peer review.
 
 ## Evidence and status
 
-Current certification consists of independent **AI hostile audits and AI clean-room
+Current certification consists of independent **adversarial AI audits and AI clean-room
 reproductions**. It is not human peer review or independent human/expert validation.
 The clean rooms reproduce seven supplied targets, not independent discovery of those
 witnesses or every V3 byproduct. See [audits](audits/README.md) and [clean-room summaries](clean_room/README.md).
@@ -101,8 +101,8 @@ not claimed. Its qualifications and the frozen novelty positioning are preserved
 see [the release-gate summary](audits/RELEASE_GATES.md). No new search was performed in this assembly.
 
 The scientific content remains that of audited RC1. The two earlier release-audit
-prose repairs are preserved. This assembly changes only approved metadata, disclosure,
-licensing and packaging; see [the final delta audit](FINAL_SCIENTIFIC_DELTA_AUDIT.md)
+prose repairs are preserved. The v0.1.2 patch changes only approved reader-facing wording, disclosure,
+provenance and derived release assets; see [the final delta audit](FINAL_SCIENTIFIC_DELTA_AUDIT.md)
 and [the exact file-change inventory](FINAL_FILE_CHANGES.md).
 
 ## Archival boundary and licenses

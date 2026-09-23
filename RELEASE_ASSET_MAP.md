@@ -1,8 +1,8 @@
-# Public v0.1.1 assets (scientific payload unchanged from v0.1)
+# Public v0.1.2 assets (mathematical payload unchanged from v0.1.1)
 
 | Location | Role and authority |
 |---|---|
-| paper/main.pdf; release_assets/manuscript.pdf | Identical PDF bytes, rebuilt from the approved metadata/disclosure/packaging edits to audited RC1 |
+| paper/main.pdf; release_assets/manuscript.pdf | Identical PDF bytes, cleanly rebuilt with approved reader-facing wording and unchanged mathematics |
 | paper/main.tex, paper/sections/, paper/references.bib | Complete manuscript source; scientific content unchanged |
 | release_assets/paper-source.zip | Source-only archive matching every current .tex and references.bib byte-for-byte |
 | release_assets/v3-reproduction-view.zip | Unchanged curated V3 verifier/result view; SHA-256 remains the RC1 value; not a full authoritative freeze |
@@ -14,7 +14,7 @@
 | RELEASE_NOTES.md; FINAL_SCIENTIFIC_DELTA_AUDIT.md; FINAL_FILE_CHANGES.md | Release status, scientific preservation evidence and exact packaging changes |
 
 release_assets/RELEASE_ASSETS.sha256 covers all files in release_assets/ except itself.
-The v0.1 publication commit and final asset hashes are inspectable in the [public-safe Markdown](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json) derivatives of the contemporaneous outer reports. The new v0.1.1 ZIP hash is in its checksum sidecar and GitHub Release. The v0.1.1 commit SHA is reported in the outer patch publication report, avoiding a tracked self-reference.
+The v0.1 publication commit and final asset hashes are inspectable in the [public-safe Markdown](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json) derivatives of the contemporaneous outer reports. The current v0.1.2 ZIP hash is in its checksum sidecar and GitHub Release. The exact v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`, tag target, and release-asset digests are publicly inspectable through [GitHub history](https://github.com/LeoLam233/krylov-purification-comparisons/commit/6362c93194b723fb397569882b4a9ca4de6f2b7c) and the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1).
 
 The full RC1, complete input bundle, V3/V2 freezes, original mathematical archives,
 raw audit/clean-room packages, private prompts and third-party PDFs remain internal.

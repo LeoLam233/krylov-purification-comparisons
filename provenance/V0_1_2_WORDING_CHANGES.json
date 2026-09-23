@@ -1,0 +1,353 @@
+{
+  "release": "v0.1.2",
+  "baseline_commit": "6362c93194b723fb397569882b4a9ca4de6f2b7c",
+  "classification": "READER-FACING WORDING / PROVENANCE PATCH",
+  "scientific_delta": "NONE",
+  "entries": [
+    {
+      "path": "paper/main.tex",
+      "old_text": "identified the source paper as a research target",
+      "new_text": "identified the source paper for further investigation",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/main.tex",
+      "old_text": "developed the attacks on its conjectures",
+      "new_text": "developed exact analyses of its conjectures",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "identified the source paper as a research target",
+      "new_text": "identified the source paper for further investigation",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "developed the attacks on its conjectures",
+      "new_text": "developed exact analyses of its conjectures",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/AI_ASSISTANCE_DISCLOSURE_TODO.md",
+      "old_text": "identified the source paper as a research target",
+      "new_text": "identified the source paper for further investigation",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/AI_ASSISTANCE_DISCLOSURE_TODO.md",
+      "old_text": "developed the attacks on its conjectures",
+      "new_text": "developed exact analyses of its conjectures",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "AI systems autonomously searched for research targets.",
+      "new_text": "AI systems autonomously searched for research papers and questions to investigate.",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "AI systems played the primary scientific role in attacking those conjectures",
+      "new_text": "AI systems played the primary scientific role in investigating those conjectures",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "carrying out hostile audits and",
+      "new_text": "carrying out adversarial audits and",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/AI_ASSISTANCE_DISCLOSURE_TODO.md",
+      "old_text": "AI systems autonomously searched for research targets.",
+      "new_text": "AI systems autonomously searched for research papers and questions to investigate.",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/AI_ASSISTANCE_DISCLOSURE_TODO.md",
+      "old_text": "AI systems played the primary scientific role in attacking those conjectures",
+      "new_text": "AI systems played the primary scientific role in investigating those conjectures",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/AI_ASSISTANCE_DISCLOSURE_TODO.md",
+      "old_text": "carrying out hostile audits and",
+      "new_text": "carrying out adversarial audits and",
+      "classification": "AI disclosure wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "[hostile-audit closure]",
+      "new_text": "[audit-finding closure]",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "independent **AI hostile audits and AI clean-room",
+      "new_text": "independent **adversarial AI audits and AI clean-room",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "Public v0.1.1 reproducibility package",
+      "new_text": "Public v0.1.2 reproducibility package",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "**PUBLIC v0.1.1 RELEASED — 2026-09-24**",
+      "new_text": "**PUBLIC v0.1.2 RELEASED — 2026-09-24**",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "Release: [v0.1.1](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1) ([v0.1 history](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1)).",
+      "new_text": "Release: [v0.1.2](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2) ([v0.1.1 history](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1); [v0.1 history](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1)).",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "Documentation/provenance patch: ",
+      "new_text": "Reader-facing wording/provenance patch: ",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "This assembly changes only approved metadata, disclosure,\nlicensing and packaging;",
+      "new_text": "The v0.1.2 patch changes only approved reader-facing wording, disclosure,\nprovenance and derived release assets;",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/main.tex",
+      "old_text": "Public v0.1 release; authoritative V3 scientific freeze",
+      "new_text": "Public v0.1.2 release; authoritative V3 scientific freeze",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/sections/appendix_reproducibility.tex",
+      "old_text": "two hostile AI audits",
+      "new_text": "two adversarial AI audits",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/sections/appendix_reproducibility.tex",
+      "old_text": "The hostile audits identified",
+      "new_text": "The adversarial audits identified",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/SOURCE_AMBIGUITIES.md",
+      "old_text": "a nearby figure reference also confuses the ratio.",
+      "new_text": "The nearby figure reference differs in its ratio wording.",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/SOURCE_AMBIGUITIES.md",
+      "old_text": "Following V3's TARGET2_SOURCE_CONTRACT.md, the manuscript uses the displayed equations and Fig. 6's mean-ratio convention: r, q = 1/r and R = Pq are distinct. It does not repair the source prose into an exact universal law.",
+      "new_text": "Following V3's TARGET2_SOURCE_CONTRACT.md, the manuscript keeps r, q = 1/r and R = Pq distinct using the displayed equations and Fig. 6's mean-ratio convention and does not infer an exact universal law from that prose.",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/SOURCE_AMBIGUITIES.md",
+      "old_text": "The hostile audits concern",
+      "new_text": "The adversarial audits concern",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "audits/README.md",
+      "old_text": "the hostile AI audit",
+      "new_text": "the adversarial AI audit",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "audits/README.md",
+      "old_text": "the hostile audits",
+      "new_text": "the adversarial audits",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "PUBLIC_PRIVATE_BOUNDARY.md",
+      "old_text": "Public hostile-audit and clean-room summaries",
+      "new_text": "Public adversarial-audit and clean-room summaries",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "PUBLIC_PRIVATE_BOUNDARY.md",
+      "old_text": "The current Git root and matching v0.1.1 ZIP are documentation/provenance patch artifacts.",
+      "new_text": "The v0.1.1 Git tree and matching ZIP remain historical documentation/provenance patch artifacts. The current Git root and matching v0.1.2 ZIP are reader-facing wording/provenance patch artifacts.",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "old_text": "The two CR0s and hostile audits",
+      "new_text": "The two CR0s and adversarial audits",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "old_text": "research, hostile audits, clean-room certification",
+      "new_text": "research, adversarial audits, clean-room certification",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "old_text": "only approved metadata/packaging source hashes are refreshed, as recorded in the final delta audit.",
+      "new_text": "only approved wording and release-metadata source hashes are refreshed, as recorded in the final delta audit.",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "REPRODUCIBILITY.md",
+      "old_text": "The final assembly is a metadata-only delta audit, clean build and engineering",
+      "new_text": "The current v0.1.2 assembly is a wording/provenance delta check, clean build and engineering",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "release_assets/README.md",
+      "old_text": "# Public v0.1 release assets",
+      "new_text": "# Public v0.1.2 release assets",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "RELEASE_VERIFICATION.md",
+      "old_text": "The new patch commit SHA and final remote/asset checks are recorded in the outer `V0_1_1_PUBLICATION_REPORT.md` and `.json` after publication, avoiding a tracked self-reference.",
+      "new_text": "The exact v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`, tag target, and release-asset digests are publicly inspectable through [GitHub history](https://github.com/LeoLam233/krylov-purification-comparisons/commit/6362c93194b723fb397569882b4a9ca4de6f2b7c) and the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1).",
+      "classification": "R01 provenance pointer",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "FINAL_FILE_CHANGES.md",
+      "old_text": "Exact before/after hashes and new commit SHA are in the outer v0.1.1 publication report.",
+      "new_text": "Exact before/after hashes are recorded in the v0.1.1 Git history. The v0.1.1 commit is `6362c93194b723fb397569882b4a9ca4de6f2b7c`; asset digests are public in the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1).",
+      "classification": "R01 provenance pointer",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "FINAL_SCIENTIFIC_DELTA_AUDIT.md",
+      "old_text": "Final publication commit and asset/download checks are in the outer v0.1.1 publication report.",
+      "new_text": "The exact v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`, tag target, and release-asset digests are publicly inspectable through [GitHub history](https://github.com/LeoLam233/krylov-purification-comparisons/commit/6362c93194b723fb397569882b4a9ca4de6f2b7c) and the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1).",
+      "classification": "R01 provenance pointer",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "RELEASE_ASSET_MAP.md",
+      "old_text": "The v0.1.1 commit SHA is reported in the outer patch publication report, avoiding a tracked self-reference.",
+      "new_text": "The exact v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`, tag target, and release-asset digests are publicly inspectable through [GitHub history](https://github.com/LeoLam233/krylov-purification-comparisons/commit/6362c93194b723fb397569882b4a9ca4de6f2b7c) and the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1).",
+      "classification": "R01 provenance pointer",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "RELEASE_ASSET_MAP.md",
+      "old_text": "# Public v0.1.1 assets (scientific payload unchanged from v0.1)",
+      "new_text": "# Public v0.1.2 assets (mathematical payload unchanged from v0.1.1)",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "RELEASE_ASSET_MAP.md",
+      "old_text": "Identical PDF bytes, rebuilt from the approved metadata/disclosure/packaging edits to audited RC1",
+      "new_text": "Identical PDF bytes, cleanly rebuilt with approved reader-facing wording and unchanged mathematics",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "RELEASE_ASSET_MAP.md",
+      "old_text": "The new v0.1.1 ZIP hash is in its checksum sidecar and GitHub Release.",
+      "new_text": "The current v0.1.2 ZIP hash is in its checksum sidecar and GitHub Release.",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "RELEASE_METADATA.json",
+      "old_text": "\"actual_v0_1_1_commit_sha_location\": \"Outer V0_1_1_PUBLICATION_REPORT.json/.md after release; no tracked self-reference.\"",
+      "new_text": "\"actual_v0_1_1_commit_sha\": \"6362c93194b723fb397569882b4a9ca4de6f2b7c\",\n    \"v0_1_1_release_url\": \"https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1\"",
+      "classification": "R01 provenance pointer",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "paper/SOURCE_AMBIGUITIES.md",
+      "old_text": "after the factor P is already included; The nearby figure reference",
+      "new_text": "after the factor P is already included. The nearby figure reference",
+      "classification": "reader-facing wording",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "README.md",
+      "old_text": "The manuscript and Conjecture-1 note are byte-identical to v0.1.",
+      "new_text": "The Conjecture-1 note remains byte-identical to v0.1.1; manuscript mathematics is unchanged.",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "CITATION.cff",
+      "old_text": "Public repository v0.1.1 was released on 2026-09-24; the preferred manuscript citation remains v0.1.",
+      "new_text": "Public repository v0.1.2 was released on 2026-09-24; cite the current v0.1.2 manuscript.",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "CITATION.cff",
+      "old_text": "version: \"0.1.1\"",
+      "new_text": "version: \"0.1.2\"",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "CITATION.cff",
+      "old_text": "url: \"https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1\"",
+      "new_text": "url: \"https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2\"",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "CITATION.cff",
+      "old_text": "  url: \"https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1\"\n  version: \"0.1\"",
+      "new_text": "  url: \"https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2\"\n  version: \"0.1.2\"",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    },
+    {
+      "path": "CITATION.cff",
+      "old_text": "The public v0.1 repository is available at https://github.com/LeoLam233/krylov-purification-comparisons.",
+      "new_text": "The current public v0.1.2 manuscript is available at https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2.",
+      "classification": "release metadata",
+      "scientific_delta": "NONE"
+    }
+  ],
+  "historical_quoted_entries_unmodified": "provenance/FINAL_APPROVED_PROSE_CHANGES.json",
+  "mathematical_certificates_unmodified": true
+}

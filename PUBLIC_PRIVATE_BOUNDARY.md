@@ -18,7 +18,7 @@ archival or third-party materials.
 |---|---|
 | Current manuscript PDF, TeX, bibliography, claim and notation maps | Complete 49,949,967-byte RC1 ZIP and full historical paper projects |
 | Exact V3 certificate views and unchanged mathematical verifiers/expected results | Complete V2/V3 freezes, original mathematical archives and raw workspaces |
-| Public hostile-audit and clean-room summaries with fingerprints | Full historical reports, raw AI exchanges, receipts and internal logs |
+| Public adversarial-audit and clean-room summaries with fingerprints | Full historical reports, raw AI exchanges, receipts and internal logs |
 | Final release-gate summary and hashes of the three priority-sweep inputs | Original priority ledger, detailed sweep and gate files, preserved unchanged |
 | Source-paper metadata, links and cryptographic fingerprints | Third-party source PDFs and source extracts; redistribution rights not assumed |
 | Public reproduction/build interface and sanitized final verification records | Tooling caches, dependency wheels, ephemeral execution directories and raw build logs |
@@ -32,6 +32,6 @@ private bundle. Retained hash-only manifests do not authorize redistribution of
 the files they identify. Historical scientific/certification records retain their
 dated meaning and are not instructions to perform new research or publication.
 
-The tagged v0.1 Git tree and matching ZIP remain the public v0.1 release artifacts. The current Git root and matching v0.1.1 ZIP are documentation/provenance patch artifacts.
+The tagged v0.1 Git tree and matching ZIP remain the public v0.1 release artifacts. The v0.1.1 Git tree and matching ZIP remain historical documentation/provenance patch artifacts. The current Git root and matching v0.1.2 ZIP are reader-facing wording/provenance patch artifacts.
 The ZIP excludes .git/, transient .local/ data, caches, and all internal archives.
 Third-party material is not silently relicensed: see LICENSING.md.

@@ -1,3 +1,17 @@
+# v0.1.2 scientific delta audit
+
+**READER-FACING WORDING / PROVENANCE PATCH. SCIENTIFIC DELTA: NONE.**
+
+Comparison baseline: public v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`. The exact manuscript-source diff changes only the approved AI-disclosure wording, descriptive Appendix C audit terminology and PDF release subject. The bibliography is byte-identical. Source extraction confirms 71/71 displayed equations, 14/14 formal statements, 14/14 proof blocks and 181/181 scope rows unchanged. Scientific constants, ranges, quantifiers, witnesses and theorem/proposition conclusions are unchanged. Mathematical scripts, results, certificates, V3 authority and novelty/priority conclusions are unchanged.
+
+Clean build: PASS, 16 pages. Page 15 alone reflowed and passed visual inspection. Public reproduction: **9/9 PASS**. All Conjecture-1 note files remain byte-identical; note PDF SHA-256 `cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de`.
+
+Current manuscript PDF SHA-256 `869dcf86e21809016e2d22cda5fa8d38a827626a960c751c1c6f915af80a673c`. Current source ZIP SHA-256 `05eda04fe12556e6fbb722ac1bf92ae69038cf1c4ef069ae10ae3cafa461e996`. Their changed bytes derive from approved prose and release metadata; this is not a scientific revision. The exact substitutions and R01 pointer corrections are recorded in [the wording ledger](provenance/V0_1_2_WORDING_CHANGES.json). Historical v0.1.1 and v0.1 audits follow.
+
+---
+
+## Historical v0.1.1 scientific delta audit
+
 # v0.1.1 scientific delta audit
 
 **DOCUMENTATION / PROVENANCE PATCH ONLY**
@@ -14,7 +28,7 @@ Every manuscript TeX/BibTeX source byte, the manuscript PDF, source ZIP, note Ma
 
 Manuscript PDF SHA-256: `9bf515806ad686a8a705ff09c35e44956d522ecd0a84557c39a512c6cefb7f5f`. Note PDF SHA-256: `cc6a7892b5fd3febff5d9d03cbbe75aed3c104075e6ed8925ae551b986fa39de`. Manuscript source ZIP SHA-256: `b129175942aa9de2f64849cc91fa91aad0da9074b21805021811ec7affe352c5`.
 
-Local public reproduction: **9/9 PASS**. The current v0.1.1 Git tree is sealed by `PUBLIC_TREE.sha256` and the versioned release ZIP/sidecar. Final publication commit and asset/download checks are in the outer v0.1.1 publication report. The earlier v0.1 scientific delta audit follows as a historical record.
+Local public reproduction: **9/9 PASS**. The current v0.1.1 Git tree is sealed by `PUBLIC_TREE.sha256` and the versioned release ZIP/sidecar. The exact v0.1.1 commit `6362c93194b723fb397569882b4a9ca4de6f2b7c`, tag target, and release-asset digests are publicly inspectable through [GitHub history](https://github.com/LeoLam233/krylov-purification-comparisons/commit/6362c93194b723fb397569882b4a9ca4de6f2b7c) and the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1). The earlier v0.1 scientific delta audit follows as a historical record.
 
 ---
 

@@ -1,10 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite the manuscript using preferred-citation. Public repository v0.1.1 was released on 2026-09-24; the preferred manuscript citation remains v0.1. Code: MIT; original manuscript/documentation: CC BY 4.0."
+message: "Please cite the manuscript using preferred-citation. Public repository v0.1.2 was released on 2026-09-24; cite the current v0.1.2 manuscript. Code: MIT; original manuscript/documentation: CC BY 4.0."
 title: "Exact limits of Krylov-complexity comparisons under purification"
 type: software
-version: "0.1.1"
+version: "0.1.2"
 repository-code: "https://github.com/LeoLam233/krylov-purification-comparisons"
-url: "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1"
+url: "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2"
 date-released: "2026-09-24"
 authors:
   - family-names: Lin
@@ -19,6 +19,6 @@ preferred-citation:
       given-names: Dehao
       affiliation: "School of Physics, Sun Yat-sen University, Guangzhou, China"
   year: 2026
-  url: "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1"
-  version: "0.1"
-  notes: "Manuscript not yet journal-published. Original manuscript and documentation licensed CC BY 4.0. No DOI is assigned. The public v0.1 repository is available at https://github.com/LeoLam233/krylov-purification-comparisons."
+  url: "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2"
+  version: "0.1.2"
+  notes: "Manuscript not yet journal-published. Original manuscript and documentation licensed CC BY 4.0. No DOI is assigned. The current public v0.1.2 manuscript is available at https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2."

@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.1.2 reader-facing wording/provenance patch — 2026-09-24
+
+**PUBLIC v0.1.2 RELEASED — 2026-09-24** at [the repository](https://github.com/LeoLam233/krylov-purification-comparisons); [release v0.1.2](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2).
+
+Refined several reader-facing wording choices and corrected the minor v0.1.1 provenance pointer R01. The AI contribution disclosure still states that AI systems played the primary and largest scientific role. Exact mathematical results, code, certificates and the Conjecture-1 note are unchanged. The manuscript PDF and source archive are newly built because approved prose changed. **SCIENTIFIC DELTA: NONE.** **READER-FACING WORDING / PROVENANCE PATCH.**
+
+The exact v0.1.1 commit is `6362c93194b723fb397569882b4a9ca4de6f2b7c`; its tag and asset digests remain publicly inspectable in [GitHub history](https://github.com/LeoLam233/krylov-purification-comparisons/commit/6362c93194b723fb397569882b4a9ca4de6f2b7c) and the [v0.1.1 Release](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1). Current v0.1.2 commit/tag/asset identity is authoritative through GitHub and the published SHA-256 sidecar; no tracked file depends on a private outer report.
+
+The full exact before/after wording record is [provenance/V0_1_2_WORDING_CHANGES.json](provenance/V0_1_2_WORDING_CHANGES.json). Historical v0.1.1 and v0.1 release records follow unchanged except the R01 pointer correction.
+
+---
+
 ## v0.1.1 documentation/provenance audit patch — 2026-09-24
 
 Published public-safe derivatives of the contemporaneous v0.1 publication reports, clarified the dated pre-publication priority and source-map language, and marked the private repair-audit outputs accurately. A01–A04 are closed in [the finding ledger](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md). A05 receives no action because the two README AI disclosures serve distinct intended purposes. The manuscript, note, source archive, mathematical code/certificates and scientific claims remain unchanged. **SCIENTIFIC DELTA: NONE**; **DOCUMENTATION / PROVENANCE PATCH ONLY**.

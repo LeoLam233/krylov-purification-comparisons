@@ -1719,7 +1719,7 @@
   "section_files": [
     {
       "path": "main.tex",
-      "sha256": "1a368b3d66e1a1cb41018ca738f6f2019f82ff5df11014282c2e9019da282eaa",
+      "sha256": "7f168f6644549b41dda1fc9c33cefb2f52ce707b3b2e68b2134d15690cc09992",
       "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
     },
     {
@@ -1769,7 +1769,7 @@
     },
     {
       "path": "sections/appendix_reproducibility.tex",
-      "sha256": "f0ea6537f8407f030a08e349198782320f43b9a4fabe60eae3217ab741a9528c",
+      "sha256": "e2c85502787950296d89c8671de45eb59e9ad0255fff4100daf46278306404e7",
       "review": "Entire section reviewed against the V3 scope and cited sources, including inline numbers and narrative claims."
     }
   ],
@@ -3153,5 +3153,27 @@
     ],
     "new_scientific_review": false,
     "new_priority_search": false
+  },
+  "reader_facing_wording_update_v0_1_2": {
+    "baseline_commit": "6362c93194b723fb397569882b4a9ca4de6f2b7c",
+    "baseline_snapshot_sha256": "1ce7491ff97fc3fb35d5bc650897d929cc8ed8e8b21b76d67f017d6444b3c746",
+    "scope": "Only approved AI contribution wording, Appendix C descriptive audit terminology and PDF release-subject metadata changed; mathematical review records are not revised.",
+    "changed_section_hashes": [
+      {
+        "path": "main.tex",
+        "before": "1a368b3d66e1a1cb41018ca738f6f2019f82ff5df11014282c2e9019da282eaa",
+        "after": "7f168f6644549b41dda1fc9c33cefb2f52ce707b3b2e68b2134d15690cc09992"
+      },
+      {
+        "path": "sections/appendix_reproducibility.tex",
+        "before": "f0ea6537f8407f030a08e349198782320f43b9a4fabe60eae3217ab741a9528c",
+        "after": "e2c85502787950296d89c8671de45eb59e9ad0255fff4100daf46278306404e7"
+      }
+    ],
+    "displayed_equations_unchanged": 71,
+    "formal_statements_unchanged": 14,
+    "proof_blocks_unchanged": 14,
+    "scope_rows_unchanged": 181,
+    "new_scientific_review": false
   }
 }

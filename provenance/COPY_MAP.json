@@ -60,11 +60,6 @@
     "source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/sections/appendix_certificates.tex"
   },
   {
-    "path": "paper/SOURCE_AMBIGUITIES.md",
-    "sha256": "a08884adc05c2964abfc173626175742c9c063a00e560ed1d834bfa5530c267b",
-    "source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/paper/SOURCE_AMBIGUITIES.md"
-  },
-  {
     "path": "scripts/paper_stage/build.py",
     "sha256": "a22dc8f983d85bda0568e77e8545de5437f84f70f335dc2e47ea7005050e8748",
     "source": "Krylov_Paper_Draft.zip::Krylov_Paper_Draft/scripts/build.py"
