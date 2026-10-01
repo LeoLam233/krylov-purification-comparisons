@@ -1,11 +1,11 @@
 cff-version: 1.2.0
-message: "Please cite the manuscript using preferred-citation. Public repository v0.1.2 was released on 2026-09-24; cite the current v0.1.2 manuscript. Code: MIT; original manuscript/documentation: CC BY 4.0."
+message: "Please cite the manuscript using preferred-citation. Repository v0.2.0 adds Lean verification on 2026-10-01; the preferred manuscript citation remains v0.1.2. Code: MIT; original manuscript/documentation: CC BY 4.0."
 title: "Exact limits of Krylov-complexity comparisons under purification"
 type: software
-version: "0.1.2"
+version: "0.2.0"
 repository-code: "https://github.com/LeoLam233/krylov-purification-comparisons"
-url: "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2"
-date-released: "2026-09-24"
+url: "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.2.0"
+date-released: "2026-10-01"
 authors:
   - family-names: Lin
     given-names: Dehao

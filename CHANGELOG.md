@@ -1,5 +1,20 @@
 # Changelog
 
+## v0.2.0 — Lean formalization and reproducible verification — 2026-10-01
+
+Adds the frozen Lean formalization at `formalization/`, with pinned Lean 4.19.0 and
+mathlib, source-only kernel builds, module-provenance axiom auditing, coverage/claim
+ledgers, and 22-root / 88-pair value-only semantic bridge gates. All 99 Lean inputs
+match the verified v4 RC2 payload; all 94 original v3 production modules are unchanged.
+The retained mathematical claims refer to manuscript commit
+`ea43fcc3fc033d7c6ce0887d5747c05868879508`; this is not every prose sentence or a
+claim of human peer review. See [formalization history](formalization/HISTORY.md).
+
+The public minor-version increment reflects a substantial new verification facility,
+not a change in manuscript mathematics or adoption of the internal v4 numbering.
+The full publication-layout CI gates run before merge and again on main. Historical
+v0.1.2 tag, release and assets remain unchanged. No manuscript/PDF rebuild is performed.
+
 ## Post-v0.1.2 main-branch note wording sync — 2026-09-24 (no new release)
 
 Two non-scientific phrases in the standalone Conjecture-1 communication note were softened in Markdown and TeX, and its two-page PDF was rebuilt. Mathematical content and the full manuscript are unchanged. The tagged v0.1.2 release, release assets and history remain immutable. **SCIENTIFIC DELTA: NONE.**
