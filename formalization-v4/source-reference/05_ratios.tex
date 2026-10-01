@@ -1,0 +1,225 @@
+\section{Limits of temporal concentration and purity-only control}\label{sec:ratios}
+\subsection{The source statement and the quantified questions}
+For nonstationary dynamics define, wherever the denominators are nonzero,
+\begin{equation}\label{eq:ratios}
+ r(t)=\frac{\SU(t)}{\CM(t)},\qquad
+ q(t)=\frac{\CM(t)}{\SU(t)}=\frac1{r(t)},\qquad R(t)=Pq(t).
+\end{equation}
+The main-text Conjecture~2 of Ref.~\cite{DasMori2026} concerns $r$.
+The supplement also considers the reciprocal $q$, and its Eq.~(S.32)
+defines the purity-rescaled reciprocal $R$. These quantities must not be
+interchanged when formulating a concentration statement.
+
+For a positive time series with common recurrence period $T$, use
+\begin{equation}\label{eq:cv-definition}
+ \avg f=\frac1T\int_0^T f(t)\,dt,\qquad
+ \CV(f)^2=\frac{\avg{f^2}}{\bigl(\avg f\bigr)^2}-1.
+\end{equation}
+The source uses the temporal standard deviation divided by the mean over
+a recurrence period. Its roughly five-percent observation refers to a
+particular Werner-state scan, not a uniform theorem. Its tabulated relative
+maximum fluctuation is a different quantity from the coefficient of
+variation. Nor does the source state an exact identity $r=f(P)$.
+
+We consider three explicitly stronger universal formulations. First, at
+fixed dimension and fixed Hamiltonian, could one finite constant bound
+$\CV(r)$ for every admissible nonstationary full-rank state? Second, could
+such a constant bound $\CV(q)$, and hence $\CV(R)$? Third, at fixed
+dimension, purity, and Hamiltonian, could $r$ or its period mean have a
+finite upper bound determined by purity alone? A separate construction
+answers each question negatively. Thus the results are no-go theorems for
+these source-motivated universal formulations. They do not assign a truth
+value to every possible reading of the qualitative conjecture.
+
+\subsection{Main-ratio concentration}
+\begin{theorem}[Unbounded recurrence-period variation of $r$]\label{thm:main-ratio}
+Fix the four-dimensional Hamiltonian and two-level block
+\begin{equation}\label{eq:main-family}
+ H=\diag(0,2,3,4),\qquad
+ B=\frac1{10}\begin{pmatrix}5&3\\3&5\end{pmatrix},\qquad
+ \rho_\eps=(1-\eps)B\oplus\eps B,
+ \quad 0<\eps\le\frac14.
+\end{equation}
+These states are full rank. With the uniform time average over $T=2\pi$,
+and with removable continuation at common recurrences,
+\begin{equation}\label{eq:main-cv}
+ \CV(r)^2\ge\frac{289}{132710400\pi\eps}-1
+ \ \longrightarrow\ \infty\qquad(\eps\to0^+).
+\end{equation}
+In particular, the rational choice $\eps=10^{-10}$ gives $\CV(r)>80$.
+\end{theorem}
+\begin{proof}
+The eigenvalues are $4(1-\eps)/5,(1-\eps)/5,4\eps/5,\eps/5$.
+Let $D_0=(1-\eps)^2+\eps^2$, so $P=17D_0/25$, and note that
+$\sqrt B=\left(\begin{smallmatrix}3&1\\1&3\end{smallmatrix}\right)/(2\sqrt5)$.
+The normalized return losses are
+\begin{equation}\label{eq:main-losses}
+ \begin{aligned}
+ D_S&=1-\Tr\bigl(\sqrt{\rho(t)}\sqrt\rho\bigr)
+ =\frac{(1-\eps)(1-\cos2t)+\eps(1-\cos t)}{10},\\
+ D_K&=1-\frac{\Tr(\rho(t)\rho)}P
+ =\frac9{34D_0}\bigl[(1-\eps)^2(1-\cos2t)+\eps^2(1-\cos t)\bigr].
+ \end{aligned}
+\end{equation}
+Both chains have exactly the five frequencies $0,\pm1,\pm2$ with positive
+weights. Lemma~\ref{lem:return} yields $f_\eps/8\le r\le8f_\eps$,
+where, writing $c=\cos^2(t/2)$,
+\begin{equation}\label{eq:main-f}
+ \begin{aligned}
+ f_\eps=\frac{D_S}{D_K}
+ &=\frac{17D_0}{45}
+ \frac{4(1-\eps)c+\eps}{4(1-\eps)^2c+\eps^2}\\
+ &=\frac{17D_0}{45(1-\eps)}
+ \left[1+\frac{\eps(1-2\eps)}{4(1-\eps)^2c+\eps^2}\right].
+ \end{aligned}
+\end{equation}
+The common recurrence factor has been cancelled. The elementary integral
+in Appendix~\ref{app:technical} gives
+\begin{equation}\label{eq:main-mean}
+ \avg{f_\eps}=\frac{17D_0}{45(1-\eps)}
+ \left[1+\frac{1-2\eps}{\sqrt{4(1-\eps)^2+\eps^2}}\right]
+ \le\frac{68}{81}<1,\qquad \avg r\le8.
+\end{equation}
+On the window $|t-\pi|\le\eps$, one has $c\le\eps^2/4$ and
+$D_0\ge1/2$. Consequently
+\begin{equation}\label{eq:main-window}
+ f_\eps\ge\frac{17}{180\eps},\qquad
+ r\ge\frac{17}{1440\eps},\qquad
+ \avg{r^2}\ge\frac{289}{2073600\pi\eps}.
+\end{equation}
+Combining the mean and second-moment bounds gives
+Eq.~\eqref{eq:main-cv}. At $\eps=10^{-10}$, the elementary estimate
+$\pi<22/7$ makes its lower bound exceed $80^2$.
+\end{proof}
+
+At $t=\pi$ the heavily populated block has returned, while the light block
+has not. The light coherent sector contributes order $\eps$ to the
+$\sqrt\rho$ measure and order $\eps^2$ to the normalized $\rho$ measure.
+The resulting excursion is narrow, but its second moment is large enough
+to rule out any finite uniform coefficient of variation.
+
+\subsection{Reciprocal and rescaled-reciprocal concentration}
+Inversion does not preserve relative temporal concentration. The preceding
+family therefore cannot substitute for a proof about the supplement's
+ratio.
+
+\begin{theorem}[Unbounded recurrence-period variation of $q$]\label{thm:reciprocal}
+Keep $H=\diag(0,2,3,4)$. Let $\eta>0$, put $\eps=\eta^2$, and assume
+$0<\eps\le1/16$. Define
+\begin{equation}\label{eq:reciprocal-family}
+ A_\eta=\eta\begin{pmatrix}2&1\\1&2\end{pmatrix}
+ \oplus\begin{pmatrix}1&\eta^3\\\eta^3&1\end{pmatrix},
+ \qquad \rho_\eta=\frac{A_\eta^2}{N},
+ \qquad N=\Tr A_\eta^2.
+\end{equation}
+For these full-rank states, using $T=2\pi$ and removable recurrence values,
+\begin{equation}\label{eq:reciprocal-cv}
+ \CV(q)^2\ge\frac1{1679616\pi\eps}-1
+ \ \longrightarrow\ \infty,\qquad \CV(R)=\CV(q).
+\end{equation}
+The rational choice $\eta=1/100000$ gives $\CV(q)>40$.
+\end{theorem}
+\begin{proof}
+The eigenvalues of $A_\eta$ are $3\eta,\eta,1+\eta^3,1-\eta^3$,
+which are positive in the stated range. Its normalization and fourth trace
+are
+\begin{equation}\label{eq:reciprocal-traces}
+ N=2+10\eps+2\eps^3,\qquad
+ T_4=\Tr A_\eta^4=2+82\eps^2+12\eps^3+2\eps^6,
+ \qquad P=\frac{T_4}{N^2}.
+\end{equation}
+The positive square root of $\rho_\eta$ is $A_\eta/\sqrt N$. Write
+$a=1-\cos2t$ and $b=1-\cos t$. Direct autocorrelation gives
+\begin{equation}\label{eq:reciprocal-losses}
+ D_S=\frac{2\eps}{N}a+\frac{2\eps^3}{N}b,\qquad
+ D_K=\frac{32\eps^2}{T_4}a+\frac{8\eps^3}{T_4}b.
+\end{equation}
+Again both chains have five positive-weight atoms. Thus
+$g_\eps/8\le q\le8g_\eps$, with
+\begin{equation}\label{eq:reciprocal-g}
+ g_\eps=\frac{D_K}{D_S}
+ =\frac{4N\eps}{T_4}\frac{16c+\eps}{4c+\eps^2},
+ \qquad c=\cos^2(t/2).
+\end{equation}
+On the specified range, $2\le N,T_4\le3$, and the period integral yields
+\begin{equation}\label{eq:reciprocal-mean}
+ \avg{g_\eps}=\frac{4N\eps}{T_4}
+ \left[4+\frac{1-4\eps}{\sqrt{4+\eps^2}}\right]
+ \le27\eps,\qquad \avg q\le216\eps.
+\end{equation}
+On $|t-\pi|\le\eps$, where $c\le\eps^2/4$,
+\begin{equation}\label{eq:reciprocal-window}
+ g_\eps\ge\frac{2N}{T_4}\ge\frac43,\qquad
+ q\ge\frac16,\qquad \avg{q^2}\ge\frac{\eps}{36\pi}.
+\end{equation}
+These inequalities prove Eq.~\eqref{eq:reciprocal-cv}; $\pi<22/7$ verifies
+the finite rational witness. Finally $P$ is positive and independent of
+time, so multiplication by $P$ leaves the coefficient of variation unchanged.
+\end{proof}
+
+Here the mean becomes small while finite excursions persist in a narrowing
+window. A decreasing absolute fluctuation is therefore compatible with
+unbounded fluctuation relative to the mean.
+
+\subsection{Recurrences and admissibility}
+In both temporal families, the return losses are positive combinations of
+$1-\cos t$ and $1-\cos2t$. They vanish together only at
+$t\in2\pi\mathbb Z$. For positive-matrix returns, the lower bound in
+Lemma~\ref{lem:return} then implies that these are precisely the
+zero-complexity points. At each such point the two complexities have
+positive quadratic coefficients, so the ratio has a finite positive
+removable limit. The point $t=\pi$ is not a global recurrence: the gap-one
+block remains active for every allowed positive parameter. Each temporal
+integral is finite at each fixed parameter. The divergence conclusions use
+the displayed inequalities and do not exchange a singular state limit
+with the time integral.
+
+\subsection{Fixed purity}
+\begin{theorem}[No finite purity-only upper control]\label{thm:purity}
+Fix $d=4$, $H=\diag(2,3,0,1)$, and $P=1/2$. For $0<\eps<5/18$, let
+\begin{equation}\label{eq:purity-family}
+ a_\pm=\frac{1-\eps\pm\sqrt{2\eps-59\eps^2/25}}2,
+ \qquad \rho_\eps=\diag(a_+,a_-)\oplus\eps B,
+\end{equation}
+with $B$ as in Eq.~\eqref{eq:main-family}. These states are full rank and
+have exactly the specified purity. Their main ratio satisfies, at every
+real time with removable continuation at recurrences,
+\begin{equation}\label{eq:purity-bounds}
+ \frac5{18\eps}\left(1-\frac\eps{10}\right)
+ \le r_\eps(t)\le\frac5{18\eps}.
+\end{equation}
+Thus $r_\eps$ and its recurrence-period mean diverge uniformly as
+$\eps\to0^+$, whereas $q_\eps$ and $Pq_\eps$ tend uniformly to zero.
+\end{theorem}
+\begin{proof}
+The eigenvalues are $a_+,a_-,4\eps/5,\eps/5$. The radicand is positive,
+and
+\begin{equation}\label{eq:purity-positive}
+ (1-\eps)^2-(2\eps-59\eps^2/25)
+ =(1-14\eps/5)(1-6\eps/5)>0.
+\end{equation}
+Therefore $a_->0$. Their sum is one and their squared sum is $1/2$.
+Only the last block carries coherence, with gap one. Its total
+nonzero-gap weights and exact ratio are
+\begin{equation}\label{eq:purity-ratio}
+ \begin{aligned}
+ \mu_K&=\frac{9\eps^2}{25},\qquad \mu_S=\frac\eps{10},
+ \qquad x=\sin^2(t/2),\\
+ r_\eps(t)&=\frac{F(\mu_S;t)}{F(\mu_K;t)}
+ =\frac5{18\eps}
+ \frac{1+(1-\eps/5)x}{1+(1-18\eps^2/25)x}.
+ \end{aligned}
+\end{equation}
+The reduced denominator is positive. For the stated parameter interval
+the last fraction decreases with $x\in[0,1]$; its endpoint estimates
+give Eq.~\eqref{eq:purity-bounds}. At $t\in2\pi\mathbb Z$ the removable
+value is $5/(18\eps)$. The uniform bounds also apply to the period mean.
+\end{proof}
+
+Because dimension, purity, and Hamiltonian are all fixed, the family
+excludes even a finite upper bound allowed to depend on those fixed data.
+In particular it excludes finite purity-only upper control of $r$ or its
+mean and positive purity-only lower control of $q$ or $Pq$.
+It leaves intact the weaker statement that purity influences these
+quantities together with additional spectral information. It does not
+contradict the reported behavior within the particular Werner family.

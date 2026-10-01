@@ -1,0 +1,66 @@
+{
+  "repository": "https://github.com/LeoLam233/krylov-purification-comparisons",
+  "commit": "ea43fcc3fc033d7c6ce0887d5747c05868879508",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "lean_version": "4.19.0",
+  "lean_linux_archive_url": "https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst",
+  "lean_linux_archive_sha256": "6fe3ce97a58f44e2b3567d455b994eacec5bfe9ae7774f2a573444480ba813fe",
+  "formalization_release": "v4",
+  "status": "candidate_under_kernel_verification",
+  "immutable_v3_archive_sha256": "e56c5281a10887efc745fdc80722cd0a5c359c0cd15c7794779a9839effaf1ae",
+  "coverage": "COVERAGE.md",
+  "gap_manifest": "GAP_MANIFEST.md",
+  "claim_ledger": "SOURCE_CLAIM_LEDGER.tsv",
+  "repair_report": "RELEASE_HARDENING_V4.md",
+  "v3_proof_modules_unchanged": 94,
+  "proof_modules": 96,
+  "built_modules_including_umbrella": 97,
+  "clean_project_build": false,
+  "independent_ci_success": false,
+  "inherited_v3_record": {
+    "repository": "https://github.com/LeoLam233/krylov-purification-comparisons",
+    "commit": "ea43fcc3fc033d7c6ce0887d5747c05868879508",
+    "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "lean_version": "4.19.0",
+    "lean_linux_archive_url": "https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst",
+    "lean_linux_archive_sha256": "6fe3ce97a58f44e2b3567d455b994eacec5bfe9ae7774f2a573444480ba813fe",
+    "formalization_release": "v3",
+    "status": "verified_v3_source_API_repairs_clean_build_module_audit",
+    "immutable_v2_archive_sha256": "7c4de9535dd6b7eba66a404e776afa54acad91eaee304ce5507cfba6f6d23963",
+    "coverage": "COVERAGE.md",
+    "gap_manifest": "GAP_MANIFEST.md",
+    "claim_ledger": "SOURCE_CLAIM_LEDGER.tsv",
+    "repair_report": "REPAIR_FROM_OPUS_AUDIT.md",
+    "semantic_review": [
+      "V3_SEMANTIC_REVIEW.md",
+      "V3_QUBIT_REVIEW.md"
+    ],
+    "clean_project_build": true,
+    "verified_at_utc": "2026-09-30T16:13:38Z",
+    "proof_modules": 94,
+    "built_modules_including_umbrella": 95,
+    "audited_kernel_safe_project_declarations": 3027,
+    "audited_theorem_constants_including_private_and_generated": 2556,
+    "runtime_only_unsafe_compiler_declarations": 933,
+    "logical_axiom_union": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "remaining_retained_mathematical_statements": [],
+    "unresolved_external_findings": [],
+    "mechanical_GS_dependency_paths": 17,
+    "source_reference_files": 18,
+    "independent_inventory_rows": 128,
+    "labeled_inventory": {
+      "displays": 71,
+      "named_statements": 14,
+      "categories": {
+        "A": 80,
+        "B": 4,
+        "C": 0,
+        "D": 1
+      }
+    }
+  }
+}
