@@ -5,6 +5,7 @@ import Krylov.PerturbedCubicCertificate
 No new dynamical estimate is introduced here. -/
 namespace Krylov.PerturbedSourceAPI
 open Matrix PerturbedDynamics
+open scoped ComplexOrder
 noncomputable section
 
 /-- The fixed density seed is normalized identically for every Hamiltonian. -/
