@@ -1,17 +1,71 @@
 # Exact limits of Krylov-complexity comparisons under purification
 
-Public v0.1.2 reproducibility package for the [release-audited manuscript](paper/main.pdf),
-using the authoritative V3 scientific freeze. The standalone Conjecture-1 note on main includes a post-v0.1.2 courtesy-only wording sync; its mathematical content is unchanged. Tagged v0.1.2 remains the latest immutable release snapshot.
+A mathematical-physics manuscript, exact computational certificates, and a Lean
+formalization of its retained mathematical claims. Repository version **v0.2.0**
+adds reproducible kernel compilation, axiom auditing, and executable semantic-bridge
+release gates. It leaves the manuscript mathematics and the frozen Lean proof
+payload unchanged.
 
-**PUBLIC v0.1.2 RELEASED — 2026-09-24**
+- [Manuscript PDF](paper/main.pdf) and [LaTeX source](paper/main.tex)
+- [Main claims and exact hypotheses](CLAIMS.md)
+- [Lean formalization and reproduction guide](formalization/README.md)
+- [Coverage and source-claim ledger](formalization/COVERAGE.md)
+- [Lean CI runs](https://github.com/LeoLam233/krylov-purification-comparisons/actions/workflows/lean-verification.yml)
+- [Successful frozen-payload verification](https://github.com/LeoLam233/krylov-purification-comparisons/actions/runs/36866846382)
+- [Changelog](CHANGELOG.md) and [releases](https://github.com/LeoLam233/krylov-purification-comparisons/releases)
 
-Repository: [https://github.com/LeoLam233/krylov-purification-comparisons](https://github.com/LeoLam233/krylov-purification-comparisons)  
-Release: [v0.1.2](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2) ([v0.1.1 history](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.1); [v0.1 history](https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1)).
-Reader-facing wording/provenance patch: [audit-finding closure](audits/V0_1_1_HOSTILE_AUDIT_CLOSURE.md); v0.1 publication evidence: [public-safe report](release_verification/PUBLICATION_VERIFICATION_REPORT.md) and [JSON](release_verification/PUBLICATION_VERIFICATION_REPORT.json).
+## Lean scope and verification
+
+The formalization targets the retained mathematical claims at manuscript commit
+[`ea43fcc3fc033d7c6ce0887d5747c05868879508`](https://github.com/LeoLam233/krylov-purification-comparisons/tree/ea43fcc3fc033d7c6ce0887d5747c05868879508).
+It is not a literal formalization of every prose sentence, proof paragraph,
+historical remark, novelty claim, or interpretation of the source conjectures.
+The [claim ledger](formalization/SOURCE_CLAIM_LEDGER.tsv) and
+[scope manifest](formalization/GAP_MANIFEST.md) distinguish exact statements,
+equivalent consequences, and excluded non-assertions.
+
+Lean **4.19.0**, mathlib commit
+`c44e0c8ee63ca166450922a373c7409c5d26b00b`, and all transitive Git revisions
+are pinned in [the toolchain](formalization/lean-toolchain) and
+[Lake manifest](formalization/lake-manifest.json). With Lean/Lake 4.19.0,
+Python 3, Git, Bash, and SHA-256 utilities installed, use a fresh source checkout:
+
+```sh
+git clone https://github.com/LeoLam233/krylov-purification-comparisons.git
+cd krylov-purification-comparisons
+python3 scripts/verify_assets.py
+cd formalization
+lake exe cache get
+python3 scripts/check_dependency_pins.py
+python3 scripts/check_reference.py ..
+python3 scripts/check_publication.py
+bash scripts/verify_v4.sh
+```
+
+The complete gate checks a zero-project-artifact start; ordinary kernel compilation
+of 97 modules; forbidden-source/trust constructs; module-origin axiom provenance;
+source/coverage ledger consistency; all 99 proof-input hashes; and preservation of
+94 original proof modules. `Audit.lean` checks 3,088 kernel-safe project declarations,
+including 2,606 theorem constants, and rejects safe-to-unsafe logical dependencies.
+Its reachable project axiom union is exactly `propext`, `Classical.choice`, and
+`Quot.sound`, the permitted standard Lean axioms; it adds no project-specific axiom.
+
+`SemanticDependencies.lean` traverses theorem bodies only, never declaration types.
+It requires 88 explicitly specified bridge paths from 22 final source roots and
+runs four negative controls. This establishes the required proof-body wiring;
+name reachability alone does not establish mathematical correspondence. The
+[reproduction guide](formalization/README.md) explains the separate evidence layers.
+
+The linked frozen-payload CI run is historical evidence. The publication workflow
+reruns all gates on the stable `formalization/` layout, on publication branches and
+on `main`; inspect the run for the exact published commit. These checks are not
+external human peer review or verification by a second independent Lean kernel.
+
+## Problem and results
 
 Author: **Dehao Lin**. Affiliation: School of Physics, Sun Yat-sen University,
 Guangzhou, China. No ORCID; no specific funding; no acknowledgements.
-Two recorded prose repairs and the rebuilt assets are described in [RELEASE_AUDIT_CHANGES.md](RELEASE_AUDIT_CHANGES.md).
+Earlier manuscript prose repairs are recorded in [RELEASE_AUDIT_CHANGES.md](RELEASE_AUDIT_CHANGES.md). The Lean publication does not rebuild or modify the manuscript or PDFs.
 
 The source problem is the comparison of normalized Hilbert--Schmidt operator
 Krylov complexity and purification spread complexity in Das and Mori,
@@ -44,7 +98,7 @@ and the [manuscript claim map](paper/CLAIM_SOURCE_MAP.md).
 
 [Quick verification of Conjecture 1](docs/CONJECTURE1_COUNTEREXAMPLES.md) ([standalone PDF](release_assets/Conjecture1_exact_counterexamples.pdf)).
 
-## Reproduce and build
+## Reproduce the original mathematical certificates
 
 Use Python 3.11 or newer and the frozen dependency pins:
 
@@ -57,8 +111,7 @@ python scripts/build_paper.py --engine tectonic
 
 The default replay verifies and extracts a curated **byte-identical file view**
 of V3's mathematical verifiers into a disposable directory. It is not a replacement
-authoritative freeze. The full local archive replay additionally verifies the
-private originals and extracts the original mathematical ZIPs:
+authoritative freeze. An optional archival replay can additionally verify private originals if the reader already has them; it is not required for the public replay or Lean verification:
 
 ```text
 python scripts/reproduce.py --private-assets ../Krylov_Private_Assets
@@ -87,8 +140,10 @@ as independent human peer review.
 
 ## Evidence and status
 
-Current certification consists of independent **adversarial AI audits and AI clean-room
-reproductions**. It is not human peer review or independent human/expert validation.
+The earlier manuscript evidence includes **adversarial AI audits and AI clean-room
+reproductions**. The Lean kernel compilation, axiom audit and semantic-bridge gates
+above add separate reproducible evidence. Neither is human peer review or independent
+human/expert validation.
 The clean rooms reproduce seven supplied targets, not independent discovery of those
 witnesses or every V3 byproduct. See [audits](audits/README.md) and [clean-room summaries](clean_room/README.md).
 
@@ -100,9 +155,9 @@ No matching public prior result was found in that finite sweep; absolute priorit
 not claimed. Its qualifications and the frozen novelty positioning are preserved;
 see [the release-gate summary](audits/RELEASE_GATES.md). No new search was performed in this assembly.
 
-The scientific content remains that of audited RC1. The two earlier release-audit
-prose repairs are preserved. The v0.1.2 patch changes only approved reader-facing wording, disclosure,
-provenance and derived release assets; see [the final delta audit](FINAL_SCIENTIFIC_DELTA_AUDIT.md)
+The manuscript scientific content remains that of the earlier audited RC1. Its two
+release-audit prose repairs are preserved. The historical v0.1.2 patch changed only
+reader-facing wording, disclosure, provenance and derived release assets; see [the final delta audit](FINAL_SCIENTIFIC_DELTA_AUDIT.md)
 and [the exact file-change inventory](FINAL_FILE_CHANGES.md).
 
 ## Archival boundary and licenses

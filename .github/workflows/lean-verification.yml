@@ -1,0 +1,65 @@
+name: Lean source-only release verification
+on:
+  push:
+    branches:
+      - main
+      - 'publication/**'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: krylov-lean-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  kernel-release-gates:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    defaults:
+      run:
+        working-directory: formalization
+    steps:
+      - name: Check out publication source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Check publication layout and frozen proof payload
+        run: |
+          python3 scripts/check_publication.py
+          cd ..
+          python3 scripts/verify_assets.py
+      - name: Install exact official Lean 4.19.0 binary
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(cat lean-toolchain)" = 'leanprover/lean4:v4.19.0'
+          curl --fail --location --retry 3 https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst -o "$RUNNER_TEMP/lean.tar.zst"
+          echo '6fe3ce97a58f44e2b3567d455b994eacec5bfe9ae7774f2a573444480ba813fe  '"$RUNNER_TEMP/lean.tar.zst" | sha256sum -c -
+          tar --use-compress-program=unzstd -xf "$RUNNER_TEMP/lean.tar.zst" -C "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/lean-4.19.0-linux/bin" >> "$GITHUB_PATH"
+      - name: Fetch locked dependencies and official mathlib cache
+        shell: bash
+        run: |
+          set -euo pipefail
+          lake exe cache get 2>&1 | tee verification/v4-cache.log
+          python3 scripts/check_dependency_pins.py | tee verification/v4-dependency-pins.json
+      - name: Check frozen authoritative source reference
+        shell: bash
+        run: |
+          set -euo pipefail
+          git init "$RUNNER_TEMP/source-authority"
+          git -C "$RUNNER_TEMP/source-authority" fetch --depth 1 https://github.com/LeoLam233/krylov-purification-comparisons.git ea43fcc3fc033d7c6ce0887d5747c05868879508
+          git -C "$RUNNER_TEMP/source-authority" checkout --detach FETCH_HEAD
+          test "$(git -C "$RUNNER_TEMP/source-authority" rev-parse HEAD)" = ea43fcc3fc033d7c6ce0887d5747c05868879508
+          python3 scripts/check_reference.py "$RUNNER_TEMP/source-authority" | tee verification/v4-source-reference.json
+      - name: Source-only build and all release gates
+        run: bash scripts/verify_v4.sh
+      - name: Upload precise run evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: krylov-lean-kernel-evidence-${{ github.sha }}-${{ github.run_attempt }}
+          path: |
+            formalization/verification/v4-*
+            formalization/verification/required-bridges.json
+            formalization/verification/proof-source-sha256.txt
+          if-no-files-found: error

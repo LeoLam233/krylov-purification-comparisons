@@ -1,0 +1,908 @@
+{
+  "base_commit": "ea43fcc3fc033d7c6ce0887d5747c05868879508",
+  "frozen_rc2_sha256": "eb2d23e61cdbe2bb5cd8469293f1c5d01f3086cbe7cdf66ab0b76f9bc898c7d7",
+  "lean_source_content_changes": [],
+  "path_migration": [
+    {
+      "old_path": "formalization-v4/.gitignore",
+      "path": "formalization/.gitignore",
+      "kind": "publication_documentation_or_check",
+      "sha256": "b1002b366ffeecb420dfe68450e660ba68429bee2f6962e387bc16b60e52addb"
+    },
+    {
+      "old_path": "formalization-v4/Audit.lean",
+      "path": "formalization/Audit.lean",
+      "kind": "path_only",
+      "sha256": "d887959a33ce1a52e948cacdbcef124b68dcad3f0528bfd6235f189208b58f6b"
+    },
+    {
+      "old_path": "formalization-v4/COVERAGE.md",
+      "path": "formalization/COVERAGE.md",
+      "kind": "publication_documentation_or_check",
+      "sha256": "1d58acabfd253f7758361bf191c7022a3e710b11c3ef7b911210282db3c762bb"
+    },
+    {
+      "old_path": "formalization-v4/GAP_MANIFEST.md",
+      "path": "formalization/GAP_MANIFEST.md",
+      "kind": "publication_documentation_or_check",
+      "sha256": "b9953d738e695e0d1c45cadb42619fcc0daa24698e7cf130e03ab37c74261ad8"
+    },
+    {
+      "old_path": null,
+      "path": "formalization/HISTORY.md",
+      "kind": "publication_documentation_or_check",
+      "sha256": "a0f259012e2133dfc52132904128a3ab067ba099e26af50e4bf8c738e978c7b0"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/ActualReturnBounds.lean",
+      "path": "formalization/Krylov/ActualReturnBounds.lean",
+      "kind": "path_only",
+      "sha256": "cb319c542e7ecb42fabe60148d813a9eca633335409652867c0a21b28620b297"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/AncillaNormCertificate.lean",
+      "path": "formalization/Krylov/AncillaNormCertificate.lean",
+      "kind": "path_only",
+      "sha256": "fab085bf9d64d2dd10b14989713087e5a7449ac84856ca7444e3e6a70ca5747d"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Annihilator.lean",
+      "path": "formalization/Krylov/Annihilator.lean",
+      "kind": "path_only",
+      "sha256": "f66739c987577c91a9b176697e0b52a2f0742734d3708e99849b5bded387d363"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/BasisPhaseInvariant.lean",
+      "path": "formalization/Krylov/BasisPhaseInvariant.lean",
+      "kind": "path_only",
+      "sha256": "84a7d8f82a681ddfc6a086be2ab1de3fcf3f96fbbefa937c7e3280c69ec07df4"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Bounds.lean",
+      "path": "formalization/Krylov/Bounds.lean",
+      "kind": "path_only",
+      "sha256": "bca9172c2cad1d0e1792c21aecb7f9e8f5de9204473b67cf9546f28492bd46b8"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CanonicalFamilySource.lean",
+      "path": "formalization/Krylov/CanonicalFamilySource.lean",
+      "kind": "path_only",
+      "sha256": "87102a142e2333c8108fba28d75fbc87a8966086ecb3567d2084632ee77a2e51"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CanonicalPurification.lean",
+      "path": "formalization/Krylov/CanonicalPurification.lean",
+      "kind": "path_only",
+      "sha256": "d3a77b166deea94ec2e8639a75da998fafc68f39bc180912ff8e9097eee91541"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CertifiedFamilyGS.lean",
+      "path": "formalization/Krylov/CertifiedFamilyGS.lean",
+      "kind": "path_only",
+      "sha256": "0f372856553610f682cadf5e2e72b62d39e871bc52a5e2df1d3e7bd711968a02"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CertifiedGS.lean",
+      "path": "formalization/Krylov/CertifiedGS.lean",
+      "kind": "path_only",
+      "sha256": "6e84ed07d8de8a7c8f6027cb50a48ddf32db6e23726298654f56cbfc0f857654"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CertifiedMatrixGS.lean",
+      "path": "formalization/Krylov/CertifiedMatrixGS.lean",
+      "kind": "path_only",
+      "sha256": "75e6dd79ca0c44d26d69c825cc052a3b8f47b7a6042c175e71294a07c34694b4"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CertifiedPolynomialDegrees.lean",
+      "path": "formalization/Krylov/CertifiedPolynomialDegrees.lean",
+      "kind": "path_only",
+      "sha256": "0c67dfacd9f21d2c7fab7684a6fe9dd2eae0d7b0384e1324593cdf3aa8d972b1"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CertifiedProbabilities.lean",
+      "path": "formalization/Krylov/CertifiedProbabilities.lean",
+      "kind": "path_only",
+      "sha256": "e82b4e6fe45dea26c1c5329663aafea933f833adda1efc17b1ca5d4f2effa14b"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CertifiedThreeAtomGS.lean",
+      "path": "formalization/Krylov/CertifiedThreeAtomGS.lean",
+      "kind": "path_only",
+      "sha256": "0df4e7982256b06f5cda73ceee381d03f7170377e5feed1ede2c1110fdc79445"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/ComplexAdmissibility.lean",
+      "path": "formalization/Krylov/ComplexAdmissibility.lean",
+      "kind": "path_only",
+      "sha256": "80fcd3c98cfea0352a96c201c7e833173d01309ac3f418badeb9a973869841e3"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/ConcreteChains.lean",
+      "path": "formalization/Krylov/ConcreteChains.lean",
+      "kind": "path_only",
+      "sha256": "d953630cc55f4e96d5595f36e859d4c484dd5319c456349d902d63685f77bc34"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CubicRemainder.lean",
+      "path": "formalization/Krylov/CubicRemainder.lean",
+      "kind": "path_only",
+      "sha256": "50035c7d97583b767eaf9e196773a146cf1b98993dc902b88cc0b9dc49fe3c1e"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CurvatureDisplayRepair.lean",
+      "path": "formalization/Krylov/CurvatureDisplayRepair.lean",
+      "kind": "path_only",
+      "sha256": "1d60f88eb529855e63731fc941f1984e838db350f91bb046e3736f6dbd5da26d"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CurvatureNecessary.lean",
+      "path": "formalization/Krylov/CurvatureNecessary.lean",
+      "kind": "path_only",
+      "sha256": "ebd864c31783e84dd990efce9e863bb5e058f083f0bd4d5664c8071004639ade"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/CyclicEvolution.lean",
+      "path": "formalization/Krylov/CyclicEvolution.lean",
+      "kind": "path_only",
+      "sha256": "0b4867ed5b63783d6e78612241181c899a34bb5ec407db40d886fe54941da6a3"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Evolution.lean",
+      "path": "formalization/Krylov/Evolution.lean",
+      "kind": "path_only",
+      "sha256": "f80910c3efe851dbe852ffe50b92d215190edbdcae6433af366800f442407a6c"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FactorTwo.lean",
+      "path": "formalization/Krylov/FactorTwo.lean",
+      "kind": "path_only",
+      "sha256": "b315aa77631d8dc29c48a6652bad2865e66c383e54d4b17fcc01ead1866fc4d3"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FactorTwoFinite.lean",
+      "path": "formalization/Krylov/FactorTwoFinite.lean",
+      "kind": "path_only",
+      "sha256": "ce7359ca01a2a83fb166cabac2c74eac79654e34f34bd7aae01dce5fc0d4f4c3"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FactorTwoSharpness.lean",
+      "path": "formalization/Krylov/FactorTwoSharpness.lean",
+      "kind": "path_only",
+      "sha256": "25eb9a262b770efe2aa764dc843c7b877737a7f7c116ac09122a01c5978d09d2"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FactorTwoSharpnessGS.lean",
+      "path": "formalization/Krylov/FactorTwoSharpnessGS.lean",
+      "kind": "path_only",
+      "sha256": "3bfc8ff943221d77a19fa4360b20b57bc3ff0a0474f0509a1e308ad51c12424c"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FactorTwoTheorem.lean",
+      "path": "formalization/Krylov/FactorTwoTheorem.lean",
+      "kind": "path_only",
+      "sha256": "d99ccbc0de22e715424d8ee26bc7ef1a4532c5817b159fd31b8703733631018e"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FamilyEigenvalues.lean",
+      "path": "formalization/Krylov/FamilyEigenvalues.lean",
+      "kind": "path_only",
+      "sha256": "c3925899935ff9d8042ee0bb17b8f3ab5d9b521b54ebadfda665964b29c9d4ad"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FamilySourceAPI.lean",
+      "path": "formalization/Krylov/FamilySourceAPI.lean",
+      "kind": "path_only",
+      "sha256": "2271a67bdbe47c5ed246a6b515f3042959fc1e64a043e36fbffbd09c5333c8b7"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FamilyStates.lean",
+      "path": "formalization/Krylov/FamilyStates.lean",
+      "kind": "path_only",
+      "sha256": "a15854fa4f49f70c5f9a8d2a9481364f488f74ab0597d508386420345144cde4"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FiniteOperator.lean",
+      "path": "formalization/Krylov/FiniteOperator.lean",
+      "kind": "path_only",
+      "sha256": "58eca09b98b290a6dc7e4ec28276ab601c121c2239a47ed66b8a7aa2e29d75a2"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FiniteSpectralSupport.lean",
+      "path": "formalization/Krylov/FiniteSpectralSupport.lean",
+      "kind": "path_only",
+      "sha256": "d2f17e0c3114234a1768bf3ff18a0a535404a2781bf5695feae01e839d4fad70"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FiveAtom.lean",
+      "path": "formalization/Krylov/FiveAtom.lean",
+      "kind": "path_only",
+      "sha256": "b000c37f68ce7e9a4330df6abdb1a3c13901c1d46c105c837a148edac873ea94"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FiveAtomFamilies.lean",
+      "path": "formalization/Krylov/FiveAtomFamilies.lean",
+      "kind": "path_only",
+      "sha256": "d7cde0d4b0f7838c9bbdd01c4de886ae5ecd1c035117ea32d5db19d52d4b0f92"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FiveAtomRemovable.lean",
+      "path": "formalization/Krylov/FiveAtomRemovable.lean",
+      "kind": "path_only",
+      "sha256": "62934312fa755ebc8f9e0e9d74e03dddec66d28df1e5f48a4a7677f48a7673d2"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/FixedPurityCompletion.lean",
+      "path": "formalization/Krylov/FixedPurityCompletion.lean",
+      "kind": "path_only",
+      "sha256": "f587d151d9ccf008e6831f68aaa5c165ebff03e0f4632f57e01418a7b6a50c36"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/GSUnitaryTransport.lean",
+      "path": "formalization/Krylov/GSUnitaryTransport.lean",
+      "kind": "path_only",
+      "sha256": "77de05c681bdf370d8e9618965d99a79440ce9adb5c6c514fd9b6e25b0306d4c"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/HermitianSpectralFormula.lean",
+      "path": "formalization/Krylov/HermitianSpectralFormula.lean",
+      "kind": "path_only",
+      "sha256": "078eca7ac068529eeb82b324a87e10ac7075aa3f9d415883290068d15dee9bca"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/HermitianSpectralSupport.lean",
+      "path": "formalization/Krylov/HermitianSpectralSupport.lean",
+      "kind": "path_only",
+      "sha256": "ac6580e02f21e6959d5cf993f204d0c4df6589f8b933652e1c0947db25990cef"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/KrylovTermination.lean",
+      "path": "formalization/Krylov/KrylovTermination.lean",
+      "kind": "path_only",
+      "sha256": "10c2c2b9745875399d585b9f9c8b8691263fb1004a56fc440277293504789de3"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/LanczosSourceAPI.lean",
+      "path": "formalization/Krylov/LanczosSourceAPI.lean",
+      "kind": "path_only",
+      "sha256": "db31173c620a4c66ff758d9e436bcc8bb405ade8e3d0d06067d88a125e7608f1"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/MatrixGSBridge.lean",
+      "path": "formalization/Krylov/MatrixGSBridge.lean",
+      "kind": "path_only",
+      "sha256": "edbbb81e0e42ee889e060196db18f30d9d56ce81f60c154faa78cda6160f4a34"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/NumberBoundSeven.lean",
+      "path": "formalization/Krylov/NumberBoundSeven.lean",
+      "kind": "path_only",
+      "sha256": "a0e89ce4d1f506dc57a0ee63a759a0005c98087ff0984afa038bab2a906b5900"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/OperatorBridge.lean",
+      "path": "formalization/Krylov/OperatorBridge.lean",
+      "kind": "path_only",
+      "sha256": "c57042fcb4c4c5f4f293f6d0b0e3fcfb11402e7c3c492802644ed1b4e83e1bdb"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PeriodIntegral.lean",
+      "path": "formalization/Krylov/PeriodIntegral.lean",
+      "kind": "path_only",
+      "sha256": "b990cf3bdf24001c18fcf944391f7175f9a270f2ec45299f9640cc515fbcb7ee"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Perturbation.lean",
+      "path": "formalization/Krylov/Perturbation.lean",
+      "kind": "path_only",
+      "sha256": "7168019f3fbf90a1ba72f2baa9a983fca500c872c0a1fbf0cec68777186c0737"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PerturbedCubicCertificate.lean",
+      "path": "formalization/Krylov/PerturbedCubicCertificate.lean",
+      "kind": "path_only",
+      "sha256": "c7e98baa713a371486ed9c6d9e85666bb876011383402f5481ddfdddb3495fbf"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PerturbedDynamics.lean",
+      "path": "formalization/Krylov/PerturbedDynamics.lean",
+      "kind": "path_only",
+      "sha256": "7f95605230578c92ff78cfb8cea7d56572b8f25cd4ec024bcfac452df91e99a5"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PerturbedSourceAPI.lean",
+      "path": "formalization/Krylov/PerturbedSourceAPI.lean",
+      "kind": "path_only",
+      "sha256": "68d028fcf615fde510d3afa56a923957bcbcfe978901611fcfd7bf098d7cd4e8"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PhysicalCurvatureNecessary.lean",
+      "path": "formalization/Krylov/PhysicalCurvatureNecessary.lean",
+      "kind": "path_only",
+      "sha256": "e59b86b3bc21f9bc0a746fdbf79e66bf0d6a328a54ea4f3d6fcc8cf750516167"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PhysicalFlagGap.lean",
+      "path": "formalization/Krylov/PhysicalFlagGap.lean",
+      "kind": "path_only",
+      "sha256": "a0556c4d7af8c8f98679a07c8889445fff878c3015ba08b418f24ba6ec0bc398"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PhysicalQubit.lean",
+      "path": "formalization/Krylov/PhysicalQubit.lean",
+      "kind": "path_only",
+      "sha256": "d4fd31ebc18342ef50b216348fdc78640d7284ae5f27dd4ae9e2947992ab95cc"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PhysicalQubitCV.lean",
+      "path": "formalization/Krylov/PhysicalQubitCV.lean",
+      "kind": "path_only",
+      "sha256": "fe6d06fb6cc6061b797cefd4e2824d1e04713aef801157156f855e802aeecaa5"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PhysicalRatios.lean",
+      "path": "formalization/Krylov/PhysicalRatios.lean",
+      "kind": "path_only",
+      "sha256": "bf7c5b383e2f8a4ba22c3746d228166d5c199df0afa88113236289da0411a3d4"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PhysicalReturnComparison.lean",
+      "path": "formalization/Krylov/PhysicalReturnComparison.lean",
+      "kind": "path_only",
+      "sha256": "417e56d28e1bce874ccfb87336e7cadc13a7ff289a35298fbc0650569584b529"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PhysicalSpectralPolynomials.lean",
+      "path": "formalization/Krylov/PhysicalSpectralPolynomials.lean",
+      "kind": "path_only",
+      "sha256": "1becda8de2336099fe4d3a9fc71739a721bb54ec94f29387d6e2581985c52495"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PhysicalTemporal.lean",
+      "path": "formalization/Krylov/PhysicalTemporal.lean",
+      "kind": "path_only",
+      "sha256": "86251b6f59bd3dd40c6fd23c46bff4b665adb14145f9a59090d36dd81cc2f2bb"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PowerNormCertificate.lean",
+      "path": "formalization/Krylov/PowerNormCertificate.lean",
+      "kind": "path_only",
+      "sha256": "742579f6bacf1af763dab31ddf9f958000d55c715f1240a8114bf172d84487ed"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PureShortTime.lean",
+      "path": "formalization/Krylov/PureShortTime.lean",
+      "kind": "path_only",
+      "sha256": "4fa01d8ea65427b9a04f6bb47e1af74ed4ac4048cda0237fc2b23892b96110b0"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Purification.lean",
+      "path": "formalization/Krylov/Purification.lean",
+      "kind": "path_only",
+      "sha256": "951ace8e1125165d41f7d290129a2ddfce8c4f9168fdeca48f082d69b7711fa6"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PurificationBranches.lean",
+      "path": "formalization/Krylov/PurificationBranches.lean",
+      "kind": "path_only",
+      "sha256": "0131f9e8179f5cfcf0e34ae7061a607984959e26ccf869403aa6feb21a4d9ac9"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PurifiedChain.lean",
+      "path": "formalization/Krylov/PurifiedChain.lean",
+      "kind": "path_only",
+      "sha256": "025128803f8ac9c23f63b9bb9adb36f544a73952593e169eebc9ab51d6168cd2"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PurifiedCovariance.lean",
+      "path": "formalization/Krylov/PurifiedCovariance.lean",
+      "kind": "path_only",
+      "sha256": "85031fc32c0f74a4c8965f17ade3a9c04f4d49cde39f6b88dde66c5a51bd8344"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/PurifiedCurvature.lean",
+      "path": "formalization/Krylov/PurifiedCurvature.lean",
+      "kind": "path_only",
+      "sha256": "b504522664d9a53af993b30852c71f5d324c05b30c9ceb73ceefc28384e5bc27"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Qubit.lean",
+      "path": "formalization/Krylov/Qubit.lean",
+      "kind": "path_only",
+      "sha256": "fe09a9e4385b72a48da2e137ff5538f00372b6a000f2a6748b123256b2589b78"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/QubitParameterization.lean",
+      "path": "formalization/Krylov/QubitParameterization.lean",
+      "kind": "path_only",
+      "sha256": "09707296d4948bc166fb87627affe93cb2db33c7132ce80748c9ad0502f74630"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/QubitRange.lean",
+      "path": "formalization/Krylov/QubitRange.lean",
+      "kind": "path_only",
+      "sha256": "2d92b950927ba5e524d334880f31ebdccc466ad7580fe34bad1ee08f0c308156"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/QubitSourceAPI.lean",
+      "path": "formalization/Krylov/QubitSourceAPI.lean",
+      "kind": "path_only",
+      "sha256": "e7e92c357890f2687f2ebb92a6590d06de4af0f96e6df45be9385167cae552b5"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/RationalPowerCertificates.lean",
+      "path": "formalization/Krylov/RationalPowerCertificates.lean",
+      "kind": "path_only",
+      "sha256": "06b8b72ad1c84734d0f454384764378bc295c7bbd8e11b74b5d02357b1f1456e"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Ratios.lean",
+      "path": "formalization/Krylov/Ratios.lean",
+      "kind": "path_only",
+      "sha256": "4bc45b6154c2469027fa38ee4e7825e456abaf886c644d1893e4c7271fe1d67f"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/RestrictedCV.lean",
+      "path": "formalization/Krylov/RestrictedCV.lean",
+      "kind": "path_only",
+      "sha256": "24700105cf602ff7b1823ac964661f8605bbd5c19aa3835ed6c59b7cf66fdea9"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/ReturnComparison.lean",
+      "path": "formalization/Krylov/ReturnComparison.lean",
+      "kind": "path_only",
+      "sha256": "6a4c61a04ea53cb289591c8f5d43b79fed6f6998f5aa9e46bd5a5d434bb636be"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/ReturnLoss.lean",
+      "path": "formalization/Krylov/ReturnLoss.lean",
+      "kind": "path_only",
+      "sha256": "317ddf542cc73a1999ba8e9590bd96d4b69179f547c9e36d0acd261b2c63e767"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/RightInterval.lean",
+      "path": "formalization/Krylov/RightInterval.lean",
+      "kind": "path_only",
+      "sha256": "e95ac8f95e63a4c941c52690916c871373f5792dc4eaa74c1788e8564d959530"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/RightIntervalBound.lean",
+      "path": "formalization/Krylov/RightIntervalBound.lean",
+      "kind": "path_only",
+      "sha256": "f9c136053503499cfd1574a9e5d6db445a2a14d0682a5a164aa7de250463726b"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/RightWitnessCurvature.lean",
+      "path": "formalization/Krylov/RightWitnessCurvature.lean",
+      "kind": "path_only",
+      "sha256": "f699589b26641cdd966565b306b713fb46dc7f4bb3c3aff4fef3f55f76231952"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/ShortTime.lean",
+      "path": "formalization/Krylov/ShortTime.lean",
+      "kind": "path_only",
+      "sha256": "42a29818cfa233e657c22ddaaf227853c97a901b609517881c74cf5e0522416e"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/SourceMomentBounds.lean",
+      "path": "formalization/Krylov/SourceMomentBounds.lean",
+      "kind": "path_only",
+      "sha256": "3d43c50f0fa41ef088d309e38e486ec0cc5c1d6e718b26b3558cdc73b4a305d5"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/SourceProse.lean",
+      "path": "formalization/Krylov/SourceProse.lean",
+      "kind": "path_only",
+      "sha256": "04c2db6cb9cf025d1152c9fc992ff347cb9cda35da0423564a936f77514d2736"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/SourceRecurrenceSets.lean",
+      "path": "formalization/Krylov/SourceRecurrenceSets.lean",
+      "kind": "path_only",
+      "sha256": "afede095be639e1bd6f0d9bebd8c28b6ef79debbbf5915ffe26599f804887d83"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Spectral.lean",
+      "path": "formalization/Krylov/Spectral.lean",
+      "kind": "path_only",
+      "sha256": "bdc9f8a50c6291f3ccafcab2de54ed60ee5d296e64278acbdc62451d8a66bdeb"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/States.lean",
+      "path": "formalization/Krylov/States.lean",
+      "kind": "path_only",
+      "sha256": "a97c346ca9c0e81bed660efc14188a2072cfd24ce35cee39f5c32cfac7cb82a2"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/TaylorRemainder.lean",
+      "path": "formalization/Krylov/TaylorRemainder.lean",
+      "kind": "path_only",
+      "sha256": "5d7dbc94b81ddb62b6a3cc82912ad0a026dba930be597778b0052f8c381399ec"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Temporal.lean",
+      "path": "formalization/Krylov/Temporal.lean",
+      "kind": "path_only",
+      "sha256": "7d32e5fec98c93857462900c24b645cfb496174f2098c2d5eef7d7e415ae589a"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/TemporalFamilies.lean",
+      "path": "formalization/Krylov/TemporalFamilies.lean",
+      "kind": "path_only",
+      "sha256": "48c75643df08d73a71d38ea128e716723bb9c66ed25d207eb9793e265b04ff70"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/TemporalMeasure.lean",
+      "path": "formalization/Krylov/TemporalMeasure.lean",
+      "kind": "path_only",
+      "sha256": "108154f95b0c6f586fa14270666a3e79d6b173ce3ddddc53631c9ca6b9be7c64"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/TemporalRemovable.lean",
+      "path": "formalization/Krylov/TemporalRemovable.lean",
+      "kind": "path_only",
+      "sha256": "3cd33e9f5c8255cb2d22e81c493d09c9a4837004a8b0eb114d009f7a96312525"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/TemporalStates.lean",
+      "path": "formalization/Krylov/TemporalStates.lean",
+      "kind": "path_only",
+      "sha256": "2737592d121fee95a05defadc208ff892697845752a5a21dd4685edabbad24e3"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/TerminalSourcePolynomials.lean",
+      "path": "formalization/Krylov/TerminalSourcePolynomials.lean",
+      "kind": "path_only",
+      "sha256": "6131116b2f1d50e096b98b53065b0f9c5de60987e5b5929778acd2bccffe11c3"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/ThreeAtomOperator.lean",
+      "path": "formalization/Krylov/ThreeAtomOperator.lean",
+      "kind": "path_only",
+      "sha256": "165367f6fa26196f745fa6c090e44f3d19eef233fafae2bd8928dd1bba18d8b6"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/ThreeAtomSourceAPI.lean",
+      "path": "formalization/Krylov/ThreeAtomSourceAPI.lean",
+      "kind": "path_only",
+      "sha256": "b844eca990a3d1a52b1dc82447ec31eff9ee10b8a8aaf0e7b89c1755b4c5a74f"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/UnitaryCovariance.lean",
+      "path": "formalization/Krylov/UnitaryCovariance.lean",
+      "kind": "path_only",
+      "sha256": "00f4d399a342e6a85b6e052c3a708f88699411c3988c593c84abd67bbb2e7823"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/UnitaryEvolution.lean",
+      "path": "formalization/Krylov/UnitaryEvolution.lean",
+      "kind": "path_only",
+      "sha256": "69cf2b4dd49379da5e2ab23017c0b9112612a390c4949bcd5eff98c0c65739c9"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/UniversalQubit.lean",
+      "path": "formalization/Krylov/UniversalQubit.lean",
+      "kind": "path_only",
+      "sha256": "9f24dd66574eae7fc4f4d91c3e773cb1825f1071025d2c112c7b89838fe57c72"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/Vectorization.lean",
+      "path": "formalization/Krylov/Vectorization.lean",
+      "kind": "path_only",
+      "sha256": "8dcb14af793d8f68af49a2edd703034e5f421cdaca146de483c37c2f4b6c492a"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/WitnessChainLengths.lean",
+      "path": "formalization/Krylov/WitnessChainLengths.lean",
+      "kind": "path_only",
+      "sha256": "9b21da2d2157d737032da258db1f8ee194627ac1539cdcd2011f9bab5f785f5b"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/WitnessProbabilityAPI.lean",
+      "path": "formalization/Krylov/WitnessProbabilityAPI.lean",
+      "kind": "path_only",
+      "sha256": "81612680fcc740973f1e2ec55bc0bf90f11307d7e2a7316a8473de00064ae4e1"
+    },
+    {
+      "old_path": "formalization-v4/Krylov/WitnessSourceAPI.lean",
+      "path": "formalization/Krylov/WitnessSourceAPI.lean",
+      "kind": "path_only",
+      "sha256": "8a080314597b724fe367c2a76ed041727ed4ecc8336e00488f57d3ea224db41b"
+    },
+    {
+      "old_path": "formalization-v4/Krylov.lean",
+      "path": "formalization/Krylov.lean",
+      "kind": "path_only",
+      "sha256": "b9b26fdb17389283a6f3348bd113d7b93eb6fec2a12ffa700b7e5b89bc69b6c6"
+    },
+    {
+      "old_path": "formalization-v4/README.md",
+      "path": "formalization/README.md",
+      "kind": "publication_documentation_or_check",
+      "sha256": "e9c0add91915808dae9334c6573be7aa2eda1b496cb8bb1ad51bb36bf1a4d694"
+    },
+    {
+      "old_path": "formalization-v4/SOURCE.json",
+      "path": "formalization/SOURCE.json",
+      "kind": "publication_documentation_or_check",
+      "sha256": "0e8e268baea0b2a0255b85e0eb5705829dee9c082208793174754eedf3558d41"
+    },
+    {
+      "old_path": "formalization-v4/SOURCE_CLAIM_LEDGER.tsv",
+      "path": "formalization/SOURCE_CLAIM_LEDGER.tsv",
+      "kind": "path_only",
+      "sha256": "b25211806b20d4e9e4773987a39abb2c457edb70322dc81547165e13281d5cfe"
+    },
+    {
+      "old_path": "formalization-v4/SemanticDependencies.lean",
+      "path": "formalization/SemanticDependencies.lean",
+      "kind": "path_only",
+      "sha256": "c0c98b4e22187ec68b77293039135b31000d72b16b81805edc4f27d5663ff660"
+    },
+    {
+      "old_path": "formalization-v4/external-audit/CLAIM_AUDIT.tsv",
+      "path": "formalization/external-audit/CLAIM_AUDIT.tsv",
+      "kind": "path_only",
+      "sha256": "0d52088c567a388c9b5a55206a11d03151681e581aefa39fd8cf8f35a740416d"
+    },
+    {
+      "old_path": null,
+      "path": "formalization/external-audit/README.md",
+      "kind": "publication_documentation_or_check",
+      "sha256": "db1037d64d72a63733f29cfaa61d13fcabfa39e1acf7887125f4ab55e3b1c21c"
+    },
+    {
+      "old_path": "formalization-v4/lake-manifest.json",
+      "path": "formalization/lake-manifest.json",
+      "kind": "path_only",
+      "sha256": "7bb8ce61eb12d5eec8ec7dfab51fb8ef517bad2312c1e57195ffe514bedb21e9"
+    },
+    {
+      "old_path": "formalization-v4/lakefile.toml",
+      "path": "formalization/lakefile.toml",
+      "kind": "path_only",
+      "sha256": "673fc907531af8d993a9e113c83668dd0551e9e1dfda748051b07a5f06d18e44"
+    },
+    {
+      "old_path": "formalization-v4/lean-toolchain",
+      "path": "formalization/lean-toolchain",
+      "kind": "path_only",
+      "sha256": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+    },
+    {
+      "old_path": "formalization-v4/scripts/check_coverage.py",
+      "path": "formalization/scripts/check_coverage.py",
+      "kind": "path_only",
+      "sha256": "0778e3c06408c3d1cc7d5d5408c7940a9ab9196ee4f279bf6f19ffeb42d7c341"
+    },
+    {
+      "old_path": "formalization-v4/scripts/check_dependency_pins.py",
+      "path": "formalization/scripts/check_dependency_pins.py",
+      "kind": "path_only",
+      "sha256": "562ff82a0e8683ea1aaacaece84277e6e45dc7e0ea218d0ff55bc79132e9c743"
+    },
+    {
+      "old_path": "formalization-v4/scripts/check_gate_controls.py",
+      "path": "formalization/scripts/check_gate_controls.py",
+      "kind": "path_only",
+      "sha256": "a82b12c573a7d2c957ff8c522048a9d51647796b280b1cb314897727aafa3b9a"
+    },
+    {
+      "old_path": null,
+      "path": "formalization/scripts/check_publication.py",
+      "kind": "publication_documentation_or_check",
+      "sha256": "821598c0ba31789100d213835d33eedc29faefa15a91963f0570d9ee706da40d"
+    },
+    {
+      "old_path": "formalization-v4/scripts/check_reference.py",
+      "path": "formalization/scripts/check_reference.py",
+      "kind": "publication_documentation_or_check",
+      "sha256": "b5e3f2744ee6082c90ca4e03c3c6d3abccfe4054071e0f644337fc34a5012457"
+    },
+    {
+      "old_path": "formalization-v4/scripts/check_source.py",
+      "path": "formalization/scripts/check_source.py",
+      "kind": "path_only",
+      "sha256": "b9745b3c49df14ae6a433c2d2de7c4844b0b00105a698bafef5f65474919066a"
+    },
+    {
+      "old_path": "formalization-v4/scripts/check_source_ledger.py",
+      "path": "formalization/scripts/check_source_ledger.py",
+      "kind": "path_only",
+      "sha256": "bff9e6f98a9fa42941b3d21c8f11b744817635f009d22a203382db8b6511ac11"
+    },
+    {
+      "old_path": "formalization-v4/scripts/check_v3_preservation.py",
+      "path": "formalization/scripts/check_v3_preservation.py",
+      "kind": "path_only",
+      "sha256": "8d273b0d54014ca856a665bb7e50405c2a08a0815f93c298b985e487bd3a834f"
+    },
+    {
+      "old_path": "formalization-v4/scripts/extract_dependency_matrix.py",
+      "path": "formalization/scripts/extract_dependency_matrix.py",
+      "kind": "path_only",
+      "sha256": "7544d76755ff930155974d063051539723cfd707a41730d5bf420ce21f98481e"
+    },
+    {
+      "old_path": "formalization-v4/scripts/generate_power_norms.py",
+      "path": "formalization/scripts/generate_power_norms.py",
+      "kind": "path_only",
+      "sha256": "fd2b3a829e5f497429d8e74a6e7f27140889641f8dea510593e841a10c49ae3d"
+    },
+    {
+      "old_path": "formalization-v4/scripts/hash_proofs.py",
+      "path": "formalization/scripts/hash_proofs.py",
+      "kind": "path_only",
+      "sha256": "80ab68d65816a02c95bae7438f6cd441f2c79ea5a57f58744181877e46273a4f"
+    },
+    {
+      "old_path": "formalization-v4/scripts/serial_build.py",
+      "path": "formalization/scripts/serial_build.py",
+      "kind": "path_only",
+      "sha256": "38c5d30847d88284e32b476fb161f91ed4aed006a37ab8c54dcf192a92c5e89f"
+    },
+    {
+      "old_path": "formalization-v4/scripts/verify_v4.sh",
+      "path": "formalization/scripts/verify_v4.sh",
+      "kind": "path_only",
+      "sha256": "66d180b6e40ca1eef4b7411e0b273067b6de83ef066c81e60f3fd4e23724ba25"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/01_introduction.tex",
+      "path": "formalization/source-reference/01_introduction.tex",
+      "kind": "path_only",
+      "sha256": "54a2878bfe8b9a4c9423bee0ffda938643453fafa8c683accd74dc63d001368a"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/02_framework.tex",
+      "path": "formalization/source-reference/02_framework.tex",
+      "kind": "path_only",
+      "sha256": "a6e371cbd0b91eceb6b60a2827a9b6e7a9972a09e50c88df700c01f6c3b31f25"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/03_hierarchy.tex",
+      "path": "formalization/source-reference/03_hierarchy.tex",
+      "kind": "path_only",
+      "sha256": "b592b8bd4311a509133e469c868ec829377da18268e415eddf0b46053ecd6a4d"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/04_factor_two.tex",
+      "path": "formalization/source-reference/04_factor_two.tex",
+      "kind": "path_only",
+      "sha256": "3b9f7851a2ee490240057ea164bafb2d57e4b1f8fd5d2f648303efa45a3a04a8"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/05_ratios.tex",
+      "path": "formalization/source-reference/05_ratios.tex",
+      "kind": "path_only",
+      "sha256": "17cc896347ab1d12b037f414b70b03cb18f18fb76f801d458ed45f0b15b10469"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/06_survivors.tex",
+      "path": "formalization/source-reference/06_survivors.tex",
+      "kind": "path_only",
+      "sha256": "d647a8cf7809ce3bd714a344612dda5c9a00b7743f7bb77798f5eb81c824fa2b"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/07_discussion.tex",
+      "path": "formalization/source-reference/07_discussion.tex",
+      "kind": "path_only",
+      "sha256": "29ab59bf7f264d0ccb630d7e4845b20ed8bcbe1e832e2d68acd866d1031dde37"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/CLAIMS.md",
+      "path": "formalization/source-reference/CLAIMS.md",
+      "kind": "path_only",
+      "sha256": "754faa28f77fef684bf8e531ebb5e9c25380f7947231fb0dacc74c03f60647ff"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/CLAIM_SOURCE_MAP.md",
+      "path": "formalization/source-reference/CLAIM_SOURCE_MAP.md",
+      "kind": "path_only",
+      "sha256": "9b69799662e9aa404b1bd30676da6ad22d5dca8d8ae71f920f702deb43c3b703"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/DISPLAY_AND_QUANTIFIER_AUDIT.md",
+      "path": "formalization/source-reference/DISPLAY_AND_QUANTIFIER_AUDIT.md",
+      "kind": "path_only",
+      "sha256": "c5949e652b26b920fbcc3dfc9e9ccdd9d301ea313918c5e56baf4623a7f78210"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/LICENSE",
+      "path": "formalization/source-reference/LICENSE",
+      "kind": "path_only",
+      "sha256": "8d77404df3fe9d155bac174cf7e04a72c6a8faf6724d75373bb454d15b16e41d"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/LICENSE-CC-BY-4.0.md",
+      "path": "formalization/source-reference/LICENSE-CC-BY-4.0.md",
+      "kind": "path_only",
+      "sha256": "ba7a68775980b95a2cd2d2deb0fe1ca833ff70745f18a1f398bbf9b3e6121999"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/NOTATION_MAP.md",
+      "path": "formalization/source-reference/NOTATION_MAP.md",
+      "kind": "path_only",
+      "sha256": "342bdf4b1c7be932d8483343d1c0d45f868885891bbbaae21edb3986e41fac6d"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/appendix_bounds.tex",
+      "path": "formalization/source-reference/appendix_bounds.tex",
+      "kind": "path_only",
+      "sha256": "f722fcf210f2d460950c9ac5c7c6b94fd13d3609032eacf221c4c49ea8fb84cf"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/appendix_certificates.tex",
+      "path": "formalization/source-reference/appendix_certificates.tex",
+      "kind": "path_only",
+      "sha256": "5ef63b9387ad6b1505d2c1cdf1cde947faa79b55d70837b5130f17e056dc5a11"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/appendix_reproducibility.tex",
+      "path": "formalization/source-reference/appendix_reproducibility.tex",
+      "kind": "path_only",
+      "sha256": "7a33bd48de0bd7726fbe26f46e1f60dba20940e62a27e07da038299ca446458a"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/communication/conjecture1_counterexamples.tex",
+      "path": "formalization/source-reference/communication/conjecture1_counterexamples.tex",
+      "kind": "path_only",
+      "sha256": "a06ea423cbbadbed4704378690311f497b693cdd2386d0c7282c074742f94a62"
+    },
+    {
+      "old_path": "formalization-v4/source-reference/main.tex",
+      "path": "formalization/source-reference/main.tex",
+      "kind": "path_only",
+      "sha256": "7f168f6644549b41dda1fc9c33cefb2f52ce707b3b2e68b2134d15690cc09992"
+    },
+    {
+      "old_path": "formalization-v4/verification/README.md",
+      "path": "formalization/verification/README.md",
+      "kind": "publication_documentation_or_check",
+      "sha256": "07a063c4d8b1e04b4041d059a7044274378f4452f83814dec603c532a846ec30"
+    },
+    {
+      "old_path": "formalization-v4/verification/proof-source-sha256.txt",
+      "path": "formalization/verification/proof-source-sha256.txt",
+      "kind": "path_only",
+      "sha256": "9c5a896800575a2aaf9f33f38d098708f6a4524fa874ccd2bf3cf4dabcc8ca8d"
+    },
+    {
+      "old_path": null,
+      "path": "formalization/verification/publication-baseline.json",
+      "kind": "publication_documentation_or_check",
+      "sha256": "90f594f7d38e9a293bf2627754afd5e72a65065a8a052bbbc510149a87f53a78"
+    },
+    {
+      "old_path": "formalization-v4/verification/required-bridges.json",
+      "path": "formalization/verification/required-bridges.json",
+      "kind": "path_only",
+      "sha256": "9f3957add4684978c43ca56bdeb64db60786432efd8453cf3eb516e68b0ca648"
+    },
+    {
+      "old_path": "formalization-v4/verification/v3-proof-baseline.json",
+      "path": "formalization/verification/v3-proof-baseline.json",
+      "kind": "path_only",
+      "sha256": "c9371b65cc6ceb36b48dff7185af262b6459f62244e923730727f7a12483915c"
+    }
+  ],
+  "preexisting_changes_between_v012_and_base": [
+    "M\tCHANGELOG.md",
+    "M\tFINAL_SCIENTIFIC_DELTA_AUDIT.md",
+    "M\tPUBLIC_TREE.sha256",
+    "M\tREADME.md",
+    "M\tRELEASE_ASSET_MAP.md",
+    "M\tRELEASE_METADATA.json",
+    "M\tRELEASE_VERIFICATION.md",
+    "M\tREPOSITORY_INVENTORY.md",
+    "M\tdocs/CONJECTURE1_COUNTEREXAMPLES.md",
+    "M\tdocs/conjecture1_counterexamples.tex",
+    "M\tprovenance/CONJECTURE1_NOTE_SOURCE_MAP.md",
+    "M\trelease_assets/Conjecture1_exact_counterexamples.pdf",
+    "M\trelease_assets/README.md",
+    "M\trelease_assets/RELEASE_ASSETS.sha256",
+    "M\trelease_verification/CONJECTURE1_NOTE_CHECK.json"
+  ],
+  "manuscript_publication_changes": [],
+  "notes": "Old verification scratch logs, internal handoffs and compiled artifacts are omitted. The proof/audit Lean files, pinned dependencies, source references and required gate inputs are preserved."
+}

@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/LeoLam233/krylov-purification-comparisons",
+  "commit": "ea43fcc3fc033d7c6ce0887d5747c05868879508",
+  "lean_version": "4.19.0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "formalization_development_revision": "v4 RC2",
+  "frozen_rc2_archive_sha256": "eb2d23e61cdbe2bb5cd8469293f1c5d01f3086cbe7cdf66ab0b76f9bc898c7d7",
+  "verified_development_commit": "3c766e5f5e94de3f8ec1e4138fb126eb8a8368ea",
+  "historical_ci_url": "https://github.com/LeoLam233/krylov-purification-comparisons/actions/runs/36866846382",
+  "historical_ci_artifact_sha256": "e307ff728de280dfd084d113fbe2f8f01598f65616fe04032f2d83dd6b07d730",
+  "scope": "Retained mathematical claims of the frozen manuscript commit; not every prose sentence or historical/interpretive assertion.",
+  "proof_source_files": 99,
+  "production_modules": 96,
+  "built_modules_including_umbrella": 97,
+  "v3_modules_preserved": 94,
+  "coverage": "COVERAGE.md",
+  "gap_manifest": "GAP_MANIFEST.md",
+  "claim_ledger": "SOURCE_CLAIM_LEDGER.tsv",
+  "history": "HISTORY.md",
+  "publication_ci": "https://github.com/LeoLam233/krylov-purification-comparisons/actions/workflows/lean-verification.yml"
+}

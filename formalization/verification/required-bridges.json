@@ -1,0 +1,203 @@
+{
+  "traversal": "value-only",
+  "requirements": [
+    {
+      "root": "Krylov.CanonicalFamilySource.main_continued_cv_lower",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.mainSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.main_continued_finite_witness",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.mainSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.main_continued_cv_unbounded",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.mainSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.main_continued_source_properties",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.mainSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.reciprocal_continued_cv_lower",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.reciprocalSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.reciprocal_continued_finite_witness",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.reciprocalSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.reciprocal_continued_cv_unbounded",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.reciprocalSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.reciprocal_continued_source_properties",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.reciprocalSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.reciprocal_scaled_continued_finite_witness",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.reciprocalSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.reciprocal_scaled_continued_cv_value",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.reciprocalSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.reciprocal_scaled_continued_cv_unbounded",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.reciprocalSpread_canonical",
+        "Krylov.CertifiedFamilyGS.five_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.fixed_uniform_bounds",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.fixedSpread_canonical",
+        "Krylov.CertifiedFamilyGS.three_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.fixed_periodMean_bounds",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.fixedSpread_canonical",
+        "Krylov.CertifiedFamilyGS.three_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.fixed_periodMean_unbounded",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.fixedSpread_canonical",
+        "Krylov.CertifiedFamilyGS.three_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.fixed_uniformly_diverges",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.fixedSpread_canonical",
+        "Krylov.CertifiedFamilyGS.three_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.qutrit_all_time_strict",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.qutritSpread_canonical",
+        "Krylov.CertifiedFamilyGS.three_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.qutrit_no_positive_multiplier",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.qutritSpread_canonical",
+        "Krylov.CertifiedFamilyGS.three_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.qutrit_peak_ratio",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.qutritSpread_canonical",
+        "Krylov.CertifiedFamilyGS.three_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.CanonicalFamilySource.qutrit_asymptotic",
+      "required_bridges": [
+        "Krylov.FamilySourceAPI.qutritSpread_canonical",
+        "Krylov.CertifiedFamilyGS.three_atom",
+        "Krylov.CertifiedGS.gramSchmidt_eq_inv_smul",
+        "Krylov.MatrixGSBridge.spread_eq_normalized"
+      ]
+    },
+    {
+      "root": "Krylov.PerturbedSourceAPI.robust_qutrit_witness",
+      "required_bridges": [
+        "Krylov.PerturbedSourceAPI.mixed_canonical",
+        "Krylov.PerturbedSourceAPI.purified_canonical",
+        "Krylov.PureShortTime.operatorComplexity_physical",
+        "Krylov.PerturbedDynamics.actualComplexity_eq_expectation"
+      ]
+    },
+    {
+      "root": "Krylov.PerturbedSourceAPI.finite_certificate",
+      "required_bridges": [
+        "Krylov.PerturbedSourceAPI.mixed_canonical",
+        "Krylov.PerturbedSourceAPI.purified_canonical",
+        "Krylov.PureShortTime.operatorComplexity_physical",
+        "Krylov.PerturbedDynamics.actualComplexity_eq_expectation"
+      ]
+    },
+    {
+      "root": "Krylov.PerturbedSourceAPI.cubic_certificate",
+      "required_bridges": [
+        "Krylov.PerturbedSourceAPI.mixed_canonical",
+        "Krylov.PerturbedSourceAPI.purified_canonical",
+        "Krylov.PureShortTime.operatorComplexity_physical",
+        "Krylov.PerturbedDynamics.actualComplexity_eq_expectation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+\section{Exact failures of the two-sided hierarchy}\label{sec:hierarchy}
+\subsection{The lower inequality}
+\begin{proposition}[Full-rank qutrit lower-side witness]\label{prop:left}
+For
+\begin{equation}\label{eq:left-state}
+ H_L=\diag(2,0,1),\qquad
+ \rho_L=\frac1{42}\begin{pmatrix}32&0&0\\0&5&3\\0&3&5\end{pmatrix},
+\end{equation}
+the lower inequality in Eq.~\eqref{eq:source-hierarchy} fails at $t=\pi$:
+\begin{equation}\label{eq:left-values}
+ \SU(\pi)=\frac{82}{441},\qquad
+ \CM(\pi)=\frac{1074}{8281},\qquad
+ \SU(\pi)-\CM(\pi)=\frac{4192}{74529}>0.
+\end{equation}
+\end{proposition}
+\begin{proof}
+The eigenvalues of $\rho_L$ are $16/21,4/21,1/21$, all positive, and
+\begin{equation}\label{eq:left-root}
+ \sqrt{\rho_L}=\frac1{2\sqrt{21}}
+ \begin{pmatrix}8&0&0\\0&3&1\\0&1&3\end{pmatrix},
+ \qquad P_L=\frac{13}{21}.
+\end{equation}
+Only the second and third levels carry coherence, with energy gap one.
+Equation~\eqref{eq:gap-measures} therefore reduces both problems to
+Lemma~\ref{lem:three}, with
+\begin{equation}\label{eq:left-weights}
+ \mu_S=\frac1{42},\qquad \mu_K=\frac3{182},\qquad
+ \SU(t)=F(\mu_S;t),\qquad \CM(t)=F(\mu_K;t).
+\end{equation}
+Evaluation at $\pi$ gives Eq.~\eqref{eq:left-values} exactly. The full
+probability vectors appear in Appendix~\ref{app:certificates}.
+\end{proof}
+
+The witness involves neither a rank-deficient limit nor a numerical
+truncation. The light coherent sector carries a larger relative weight in
+$\sqrt\rho$ than in $\rho/\sqrt P$. Appendix~\ref{app:unbounded-left}
+embeds it in a full-rank qutrit family for which $\SU(\pi)/\CM(\pi)$ is
+unbounded, ruling out a repair of the lower side by a fixed positive
+state-independent multiplier.
+
+\subsection{The upper inequality}
+\begin{proposition}[Full-rank qutrit upper-side witness]\label{prop:right}
+For
+\begin{equation}\label{eq:right-state}
+ \rho_R=\frac1{26}\diag(16,1,9),\qquad
+ H_R=\begin{pmatrix}0&1&0\\1&0&0\\0&0&0\end{pmatrix},
+\end{equation}
+the upper inequality in Eq.~\eqref{eq:source-hierarchy} fails at $t=\pi/3$:
+\begin{equation}\label{eq:right-values}
+ \CM(\pi/3)=\frac{1141425}{913952},\qquad
+ \KI(\pi/3)=\frac{2967537}{2456246},\qquad
+ \CM(\pi/3)-\KI(\pi/3)=\frac{1600683}{39299936}>0.
+\end{equation}
+It also fails throughout the explicit interval $0<t<1/2704$.
+\end{proposition}
+\begin{proof}
+The state is strictly positive, has purity $P_R=1/2$, and has positive
+square root $\diag(4,1,3)/\sqrt{26}$. In the energy basis of $H_R$, the
+normalized mixed-operator measure and the purified-operator measure are
+\begin{equation}\label{eq:right-measures}
+ \begin{array}{c|c|c}
+ &\text{ordered spectral support}&\text{ordered weights}\\ \hline
+ \CM&(-2,0,2)&(225/1352,\ 451/676,\ 225/1352)\\[2pt]
+ \KI&(-2,-1,0,1,2)&(289/2704,\ 153/676,\ 451/1352,\ 153/676,\ 289/2704)
+ \end{array}
+\end{equation}
+For the second row the purified vector has energy weights $17/52,9/26,17/52$
+on $-1,0,1$; taking their difference convolution gives the stated row.
+All weights are positive, so the chains terminate exactly at lengths three
+and five. The rational probabilities obtained from
+Eq.~\eqref{eq:spectral-formula} are listed in
+Appendix~\ref{app:certificates}; their weighted sums prove the finite-time
+claim.
+
+The leading coefficients give a separate short-time certificate:
+\begin{equation}\label{eq:right-curvatures}
+ \CM(t)=\frac{225}{169}t^2+O(t^4),\qquad
+ \KI(t)=\frac{221}{169}t^2+O(t^4).
+\end{equation}
+They are $\norm{[H_R,\rho_R]}_{\HS}^2/P_R$ and
+$2\Var_{\rho_R}(H_R)$, respectively. A norm estimate for the Taylor
+remainder, proved in Appendix~\ref{app:technical}, gives
+\begin{equation}\label{eq:right-interval}
+ \CM(t)-\KI(t)\ge\frac4{169}t^2-64t^3>0,
+ \qquad 0<t<\frac1{2704}.
+\end{equation}
+\end{proof}
+
+These are separate witnesses for separate inequalities. No assertion is
+made that one displayed state violates both sides, or that every mixed state
+violates either side.
+
+\subsection{Qubits and minimal physical dimension}
+\begin{theorem}[Qubit hierarchy]\label{thm:qubit}
+For every qubit density matrix, every time-independent Hermitian Hamiltonian,
+and every real time, $\SU(t)\le\CM(t)\le\KI(t)$. Consequently, physical
+dimension three is minimal for failure of either side of
+Eq.~\eqref{eq:source-hierarchy}.
+\end{theorem}
+\begin{proof}
+Let $p_1,p_2$ be the density-matrix eigenvalues, and let $\theta$ be the
+polar rotation angle between its eigenbasis and the energy basis. Put
+$z=(p_1-p_2)^2$ and $c=\cos^2\theta$, both in $[0,1]$. With
+$\tau=(E_2-E_1)t$, the source's qubit formulas
+\cite[Eq.~(18), Supplemental Eqs.~(S.24)--(S.31)]{DasMori2026} have the
+three-atom form
+\begin{equation}\label{eq:qubit-mus}
+ \begin{aligned}
+ \SU&=F(\mu_S;\tau),&\mu_S&=\frac{(1-\sqrt{1-z})(1-c)}2,\\
+ \CM&=F(\mu_K;\tau),&\mu_K&=\frac{z(1-c)}{1+z},\\
+ \KI&=F(\mu_I;\tau),&\mu_I&=\frac{1-zc}{2}.
+ \end{aligned}
+\end{equation}
+All three parameters lie in $[0,1/2]$. The lower ordering follows, for
+nonzero $\mu_S$, from
+\begin{equation}\label{eq:qubit-order}
+ \frac{\mu_K}{\mu_S}
+ =\frac{(\sqrt{p_1}+\sqrt{p_2})^2}{p_1^2+p_2^2}\ge1,
+ \qquad
+ \mu_I-\mu_K=\frac{(1-z)(1+zc)}{2(1+z)}\ge0.
+\end{equation}
+When $\mu_S=0$, the first ordering follows directly from
+Eq.~\eqref{eq:qubit-mus}. The function $F(\mu;\tau)$ is nondecreasing in
+$\mu$ on $[0,1/2]$, since its derivative is
+$\sin^2\tau+8(1-2\mu)\sin^4(\tau/2)\ge0$.
+This proves the hierarchy. Pure, maximally mixed, zero-gap, and stationary
+endpoints are included by the displayed expressions with their actual
+terminated chains. In particular, stationary mixed dynamics need not imply
+stationary $I$-purification dynamics, but the ordering still holds.
+Dimension one is stationary, and Propositions~\ref{prop:left} and
+\ref{prop:right} supply the dimension-three failures.
+\end{proof}
+
+\subsection{Failure without a reducing spectator sector}
+\begin{proposition}[Upper-side perturbation]\label{prop:robust}
+Keep $\rho_R$ fixed and replace $H_R$ by
+\begin{equation}\label{eq:perturbed-H}
+ H_\delta=\begin{pmatrix}0&1&\delta\\1&0&2\delta\\\delta&2\delta&0\end{pmatrix}.
+\end{equation}
+For $0<|\delta|<1/\sqrt{135}$, the pair has no nontrivial common reducing
+projection and the upper inequality fails at sufficiently small positive
+times. At $\delta=1/20$ and $t=1/20000$ one has the explicit certificate
+\begin{equation}\label{eq:robust-gap}
+ \CM(t)-\KI(t)\ge\frac{378247}{21125000000000000}>0.
+\end{equation}
+\end{proposition}
+\begin{proof}
+The exact difference of the quadratic coefficients is
+\begin{equation}\label{eq:robust-curvature}
+ k_K-k_I=\frac{4-540\delta^2}{169}>0.
+\end{equation}
+Finite-dimensional analyticity proves the short-time statement. Since
+$\rho_R$ has simple spectrum, a common reducing projection must select a
+subset of its eigenvectors. Every off-diagonal entry of $H_\delta$ is
+nonzero, so no proper nonempty subset reduces it. The finite-time estimate
+follows from the explicit norm bound in Appendix~\ref{app:technical}.
+\end{proof}

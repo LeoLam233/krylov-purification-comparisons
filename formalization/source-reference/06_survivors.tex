@@ -1,0 +1,102 @@
+\section{Restricted survivors and the spectral mechanism}\label{sec:survivors}
+\subsection{A uniform qubit bound for relative variation}
+The failure of uniform concentration in dimension four coexists with a
+restricted theorem for qubits.
+
+\begin{proposition}[Qubit coefficient-of-variation bound]\label{prop:qubit-cv}
+For a nonstationary qubit under a time-independent Hermitian Hamiltonian,
+extend $r,q,R$ through their removable recurrence values. For any
+probability-weighted time average,
+\begin{equation}\label{eq:qubit-cv}
+ \CV(r),\ \CV(q),\ \CV(R)
+ \ \le\ \frac{\kappa_*-1}{2\sqrt{\kappa_*}},
+ \qquad \kappa_*=\frac{17+7\sqrt7}{27}.
+\end{equation}
+The upper bound is approximately $0.1375633885$. No claim is made that
+this value is attained by a qubit trajectory and averaging measure.
+\end{proposition}
+\begin{proof}
+Put $y=2\sqrt{p_1p_2}\in[0,1)$ and $h=\sin^2\theta>0$; nonstationarity
+also requires a nonzero energy gap. The coefficients in
+Eq.~\eqref{eq:qubit-mus} become
+\begin{equation}\label{eq:qubit-range}
+ \mu_S=\frac{(1-y)h}{2},\qquad
+ \mu_K=\frac{(1-y^2)h}{2-y^2},\qquad
+ \kappa=\frac{\max_t r(t)}{\min_t r(t)}
+ =\frac{1-\mu_S}{1-\mu_K}.
+\end{equation}
+The same range factor applies to $q$ and $R$. It increases with $h$, so
+\begin{equation}\label{eq:kappa-max}
+ \kappa\le\frac{(1+y)(2-y^2)}2
+ \le\frac{17+7\sqrt7}{27},\qquad
+ y_{\max}=\frac{\sqrt7-1}{3}.
+\end{equation}
+The second derivative of the middle expression is $-1-3y<0$, and its
+endpoint values are one. For a positive random variable $X\in[m,M]$,
+the inequality $\mathbb E[(X-m)(M-X)]\ge0$ implies
+\begin{equation}\label{eq:bounded-variance}
+ \Var(X)\le(M-\mathbb EX)(\mathbb EX-m),\qquad
+ \CV(X)\le\frac{M-m}{2\sqrt{mM}}
+ =\frac{\kappa-1}{2\sqrt\kappa}.
+\end{equation}
+The last step maximizes the relative variance over the allowed mean.
+Apply this bound to each of the three ratios.
+\end{proof}
+
+Completely stationary $0/0$ ratios are excluded from this proposition.
+Dimension four suffices for the temporal no-go constructions, while the
+qubit bound excludes dimension two. Whether dimension three suffices for
+unbounded temporal variation is not settled here. No minimum-dimension
+claim is made for the fixed-purity no-go theorem.
+
+\subsection{State-dependent comparisons}
+The return bound yields useful comparisons retaining the two spectral
+measures. Let $m_S,m_K$ be the finite lengths of the $\SU$ and $\CM$
+chains and define
+\begin{equation}\label{eq:returns}
+ A_S=\Tr\bigl(\sqrt{\rho(t)}\sqrt\rho\bigr),\qquad
+ A_K=\frac{\Tr(\rho(t)\rho)}P.
+\end{equation}
+\begin{corollary}[Return comparison]\label{cor:return-comparison}
+When both return losses are nonzero,
+\begin{equation}\label{eq:state-dependent}
+ \frac{1-A_S^2}{(m_K-1)(1-A_K^2)}
+ \le r(t)\le
+ \frac{(m_S-1)(1-A_S^2)}{1-A_K^2}.
+\end{equation}
+\end{corollary}
+\begin{proof}
+Divide the lower return bound for the numerator by the upper one for
+the denominator, and conversely.
+\end{proof}
+
+These bounds involve return amplitudes and cyclic dimensions, rather
+than purity alone. Similarly, a necessary short-time condition for the
+source hierarchy would be
+\begin{equation}\label{eq:curvature-necessary}
+ \norm{[H,\sqrt\rho]}_{\HS}^2
+ \le\frac{\norm{[H,\rho]}_{\HS}^2}{P}
+ \le2\Var_\rho(H),\qquad
+ \Var_\rho(H)=\Tr(\rho H^2)-(\Tr\rho H)^2.
+\end{equation}
+The displayed counterexamples violate the respective comparisons.
+Satisfying these necessary curvature inequalities is not claimed to be
+sufficient for an all-time hierarchy.
+
+\subsection{Why the comparisons separate}
+The mixed seed and the square-root seed give different powers of a
+population weight to a coherent sector. Hilbert--Schmidt normalization
+then introduces the global purity into only the former. A highly populated
+stationary sector can suppress mixed-state operator complexity more strongly
+than purification spread complexity. Independent block frequencies permit
+partial recurrences that amplify this mismatch in time. Holding the total
+purity fixed does not fix the distribution of population among these sectors.
+
+By comparison, a pure density matrix is a tensor product after
+vectorization. Its difference-convolution measure comes with the nested
+polynomial subspaces of Section~\ref{sec:factor}. No corresponding
+containment is generally available for the $\rho$ and $\sqrt\rho$
+measures. Qubits are protected by their common three-atom form and the
+monotone ordering of the three coefficients. The loss of these structures,
+rather than an inconsistency between state and operator definitions,
+explains the different outcomes.

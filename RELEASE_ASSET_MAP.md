@@ -1,3 +1,9 @@
+# v0.2.0 additions
+
+v0.2.0 adds a clean formalization source archive, SHA-256 sidecar and verification summary. Exact filenames and hashes are recorded on the new release. Earlier assets below remain historical records and are not replaced.
+
+## Historical inventory
+
 # Current main asset view after tagged v0.1.2 (no new release)
 
 The standalone note PDF on main reflects two courtesy-only prose substitutions;
