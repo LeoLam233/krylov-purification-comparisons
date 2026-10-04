@@ -1,6 +1,7 @@
 # Exact qutrit counterexamples to Conjecture 1 of Das and Mori
 
 **Dehao Lin**  
+ORCID: [0009-0001-4551-8490](https://orcid.org/0009-0001-4551-8490)<br>
 School of Physics, Sun Yat-sen University, Guangzhou, China
 
 Das and Mori's Conjecture 1 proposes the two-sided hierarchy (their Eq. (4))

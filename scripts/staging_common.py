@@ -167,6 +167,15 @@ def check_snapshot():
     source_hashes = load(ROOT/'provenance/V3_SOURCE_HASHES.json')
     for row in snapshot['section_files']:
         data = (ROOT/'paper'/row['path']).read_text(encoding='utf-8').encode()
+        if row['path'] == 'main.tex':
+            # Restore only the supplied ORCID author-block edit before comparing
+            # with the immutable reviewed-content digest; all science stays bound.
+            current = ('% Human author; ORCID supplied by the author.\n'
+                       '\\author{Dehao Lin\\\\{\\small School of Physics, Sun Yat-sen University, Guangzhou, China}\\\\\n'
+                       '\\small ORCID: \\href{https://orcid.org/0009-0001-4551-8490}{0009-0001-4551-8490}}')
+            reviewed = ('% Human author; no ORCID supplied.\n'
+                        '\\author{Dehao Lin\\\\{\\small School of Physics, Sun Yat-sen University, Guangzhou, China}}')
+            data = data.replace(current.encode(), reviewed.encode())
         require(digest(data) == row['sha256'], 'Manuscript changed since review: '+row['path'])
     for row in snapshot['displays']+snapshot['theorems']:
         for source in row['sources']:

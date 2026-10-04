@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-04",
+  "scope": "Bibliography/author metadata maintenance only; no scientific re-audit or new release.",
+  "baseline_commit": "3186316e940728b765d468bcd42c7137e64f8d82",
+  "scientific_payload_changed": false,
+  "versions_tags_releases_changed": false,
+  "orcid_uri": "https://orcid.org/0009-0001-4551-8490",
+  "citation_added": null,
+  "primary_source": null,
+  "attribution_scope": "No scientific references added; all five original keys retained.",
+  "build": {
+    "status": "PASS",
+    "command": "scripts/build_paper.py --engine Tectonic-0.17.0 --cache populated-cache --offline",
+    "clean_source_only_directory": true,
+    "pdf_sha256": "ff13122a3adf16e3b86b586009723974a6d39626812ac220feb8c2da5ab5235b",
+    "source_sha256": {
+      "paper\\main.tex": "26983d576d0613a16767cc024837139d74e626488bc6500edb5e7605f2b959ee",
+      "paper/references.bib": "e7964b6af2acf9b0f7b11dc4e1a68a2dc5a5f16fa3f1e881a991060dcc7138d1"
+    },
+    "pages": 16,
+    "previous_pages": 16,
+    "latex_failures": [],
+    "log_sha256": "e48a8594fb1bea24e52c9bedca9b28b0c7c44f73463cc7135b10adc55ad59445",
+    "bibliography_keys": [
+      "DasMori2026",
+      "MuruganVanZyl2026",
+      "Caputa2024",
+      "Parker2019",
+      "Balasubramanian2022"
+    ],
+    "pdf_author_orcid_count": 1,
+    "added_reference_visible": false,
+    "visual_review": "All pages inspected as rendered contact sheets; title/ORCID and reference pages checked. No clipping, overlap or unexpected blank pages.",
+    "historical_build_receipts": "Preserved with their original source/PDF identities; this receipt describes current main."
+  },
+  "historical_records": "Old provenance, audit evidence, release metadata snapshots, tags and published release assets retained; historical no-ORCID descriptions refer to their original dates.",
+  "publication_metadata_hash_updates": {
+    "docs/CONJECTURE1_COUNTEREXAMPLES.md": {
+      "before": "2b1a688e89938e903760aa29ff53864039604385713f0fc09a0db20a61bd4358",
+      "after": "50a9c51453238905d6fdc95263307ef609506f5366e0f28707750d13d62c4f6b"
+    },
+    "docs/conjecture1_counterexamples.tex": {
+      "before": "a06ea423cbbadbed4704378690311f497b693cdd2386d0c7282c074742f94a62",
+      "after": "b7797bb22f321bf583a06c7debb4ab65bec7b9869804640a703afd7f1bda575e"
+    },
+    "paper/main.pdf": {
+      "before": "869dcf86e21809016e2d22cda5fa8d38a827626a960c751c1c6f915af80a673c",
+      "after": "ff13122a3adf16e3b86b586009723974a6d39626812ac220feb8c2da5ab5235b"
+    },
+    "paper/main.tex": {
+      "before": "7f168f6644549b41dda1fc9c33cefb2f52ce707b3b2e68b2134d15690cc09992",
+      "after": "26983d576d0613a16767cc024837139d74e626488bc6500edb5e7605f2b959ee"
+    },
+    "release_assets/Conjecture1_exact_counterexamples.pdf": {
+      "before": "8d6079f8ec1fcc83146a602a0024ce39c794651bf430143780cfd3421888ade6",
+      "after": "3f30ec23033f0653e4fed7cd8e0668ac03a703257d3e243640bbd65475f43749"
+    },
+    "release_assets/README.md": {
+      "before": "5db387db8f18116fc368080237ba9d8145e36753bb89944744a4e44948a9cbba",
+      "after": "760902c3563cdd6cdade5e0f1cf76d4bf8832975f969caa81bcb915ce54d47b4"
+    },
+    "release_assets/RELEASE_ASSETS.sha256": {
+      "before": "2d184e40e55893ea901f007da1514be9dc0312b3bfdef662925fc76bbab7757c",
+      "after": "ad84754584cce80481b70ca703258cfc920339ff49e1b6dea7a2a2c208b97c67"
+    },
+    "release_assets/manuscript.pdf": {
+      "before": "869dcf86e21809016e2d22cda5fa8d38a827626a960c751c1c6f915af80a673c",
+      "after": "ff13122a3adf16e3b86b586009723974a6d39626812ac220feb8c2da5ab5235b"
+    },
+    "release_assets/paper-source.zip": {
+      "before": "05eda04fe12556e6fbb722ac1bf92ae69038cf1c4ef069ae10ae3cafa461e996",
+      "after": "6690b7c9d8f27574b416a0cd927708e70dfc1dd7cbd5f5bc660d6e3a8c52efd5"
+    },
+    "scripts/staging_common.py": {
+      "before": "2a4f74547637268127699505e2f5e7ca660b3f79351a70baae9a26b489582422",
+      "after": "9a994a356f87959ab85701fc5bb18bbc6d08038b8ed57e6fa94bad72010364da"
+    }
+  },
+  "snapshot_check": "Reviewed main.tex hash is checked after reverting exactly the ORCID comment/author block; section sources, 71 displays, 14 formal statements and frozen proof hashes stay bound to the original reviewed snapshot.",
+  "final_checks": {
+    "citation_cff_unique_fields": "PASS",
+    "all_author_records_orcid": "PASS",
+    "incorrect_orcid_values": [],
+    "preserved_historical_no_orcid_context_files": [
+      "RELEASE_NOTES.md",
+      "formalization/source-reference/main.tex",
+      "provenance/FINAL_APPROVED_PROSE_CHANGES.json",
+      "provenance/V0_1_2_RELEASE_METADATA.json",
+      "scripts/staging_common.py"
+    ],
+    "theorem_proof_source_comparison": "PASS: unchanged outside introduction/author/bibliography edits",
+    "pdf_rendering": "PASS"
+  }
+}

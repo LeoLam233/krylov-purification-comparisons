@@ -9,6 +9,7 @@ date-released: "2026-10-01"
 authors:
   - family-names: Lin
     given-names: Dehao
+    orcid: "https://orcid.org/0009-0001-4551-8490"
     affiliation: "School of Physics, Sun Yat-sen University, Guangzhou, China"
 license: MIT
 preferred-citation:
@@ -17,6 +18,7 @@ preferred-citation:
   authors:
     - family-names: Lin
       given-names: Dehao
+      orcid: "https://orcid.org/0009-0001-4551-8490"
       affiliation: "School of Physics, Sun Yat-sen University, Guangzhou, China"
   year: 2026
   url: "https://github.com/LeoLam233/krylov-purification-comparisons/releases/tag/v0.1.2"

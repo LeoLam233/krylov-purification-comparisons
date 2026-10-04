@@ -1,7 +1,8 @@
 # Current main assets after tagged v0.1.2
 
-The Conjecture-1 note PDF on main incorporates a courtesy-only two-phrase wording
-sync. The tagged v0.1.2 release PDF and other release assets remain unchanged.
+Current main incorporates the 2026-10-04 ORCID maintenance in the manuscript and
+Conjecture-1 note. The source ZIP and PDF mirrors below match current main.
+Tagged releases and remotely published historical assets remain unchanged.
 
 - v3-reproduction-view.zip is the unchanged RC1 curated view of byte-identical V3
   verifiers and expected results. It is not the complete V3 archive or a new freeze.

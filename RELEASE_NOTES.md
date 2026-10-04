@@ -1,5 +1,7 @@
 # v0.2.0 publication
 
+Current main (2026-10-04): author ORCID is 0009-0001-4551-8490; the manuscript and author-bearing companion note were rebuilt. Historical release notes below retain their original author-metadata state; tagged releases/assets are unchanged. See [maintenance receipt](provenance/BIBLIOGRAPHY_ORCID_2026-10-04.json).
+
 ## v0.2.0 — Lean formalization and reproducible verification — 2026-10-01
 
 Adds the frozen Lean formalization at `formalization/`, with pinned Lean 4.19.0 and

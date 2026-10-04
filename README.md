@@ -64,7 +64,7 @@ external human peer review or verification by a second independent Lean kernel.
 ## Problem and results
 
 Author: **Dehao Lin**. Affiliation: School of Physics, Sun Yat-sen University,
-Guangzhou, China. No ORCID; no specific funding; no acknowledgements.
+Guangzhou, China. ORCID: [0009-0001-4551-8490](https://orcid.org/0009-0001-4551-8490); no specific funding; no acknowledgements.
 Earlier manuscript prose repairs are recorded in [RELEASE_AUDIT_CHANGES.md](RELEASE_AUDIT_CHANGES.md). The Lean publication does not rebuild or modify the manuscript or PDFs.
 
 The source problem is the comparison of normalized Hilbert--Schmidt operator
