@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-06",
+  "scope": "Documentation/provenance cleanup only; no new scientific release.",
+  "baseline_commit": "0ee3223133673f77671cb4ddb12016dcbc1a3d24",
+  "baseline_working_tree": "clean",
+  "v0.2.0_tag_target": "3186316e940728b765d468bcd42c7137e64f8d82",
+  "scientific_delta": "none",
+  "lean_proof_payload_delta": "none",
+  "frozen_certificate_delta": "none",
+  "historical_releases_tags": "unchanged",
+  "changes": [
+    "Replace two dangling coverage pointers with existing authoritative records.",
+    "Clarify that the semantic matrix is a runtime-generated workflow output.",
+    "Distinguish historical frozen-v4-RC2 evidence from v0.2.0 release-commit verification.",
+    "Identify this maintenance record alongside the historical inventory; regenerate the current-main public manifest."
+  ],
+  "release_commit_verification": {
+    "run_id": 36889200785,
+    "url": "https://github.com/LeoLam233/krylov-purification-comparisons/actions/runs/36889200785",
+    "path": ".github/workflows/lean-verification.yml",
+    "head_sha": "3186316e940728b765d468bcd42c7137e64f8d82",
+    "status": "completed",
+    "conclusion": "success",
+    "verified_via": "GitHub Actions REST API before documentation edits"
+  },
+  "documentation_hash_updates": {
+    "README.md": {
+      "before": "8568367a6998ecb57d8b573b548580008d183cd0995ebfe0c25ba578bc5fdbe1",
+      "after": "f7742ad56b325a2f270e6a386b49c88488d40ab68aaff96b806096c441f77013"
+    },
+    "formalization/COVERAGE.md": {
+      "before": "1d58acabfd253f7758361bf191c7022a3e710b11c3ef7b911210282db3c762bb",
+      "after": "dc47d1e96015bba7183a8f5ada396e6fa0bc4eea05e6276e49c057f8f386998e"
+    },
+    "REPOSITORY_INVENTORY.md": {
+      "before": "ead38745454cf7812275bebab8b24908d66bd53b48644e387ddfda9a71e166b2",
+      "after": "1069f60cf49992d94428ed64dd24827a21d31b5eaf435db0c0afbb5216f7d67c"
+    }
+  },
+  "publication_baseline": "Historical baseline and all verification gates preserved; no maintenance exception required.",
+  "historical_evidence": "Historical PDF/build receipts, release manifests, proof-source manifests and release assets preserved with their original identities."
+}

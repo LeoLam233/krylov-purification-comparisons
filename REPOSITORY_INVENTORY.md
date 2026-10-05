@@ -2,6 +2,8 @@
 
 The Lean formalization is in `formalization/`; its production modules, source maps, pinned dependencies and verification scripts are documented in [formalization/README.md](formalization/README.md). The workflow is `.github/workflows/lean-verification.yml`.
 
+Current-main documentation maintenance is recorded in [the dated audit cleanup record](provenance/FINAL_AUDIT_CLEANUP_2026-10-06.json). `PUBLIC_TREE.sha256` remains the complete current-main file manifest; the inventory below is historical.
+
 ## Historical inventory
 
 # Curated current-main file inventory after tagged v0.1.2

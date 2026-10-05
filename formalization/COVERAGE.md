@@ -56,15 +56,15 @@ Family functions are transparent instantiations of existing `actualComplexity` /
 
 Finite atomic integrals are represented by exact finite sums. The unperturbed interval and qubit monotonicity/optimization use alternative polynomial/factorization arguments; replaced intermediate norm/calculus steps are not claimed as standalone formalized lemmas. Explicit source results, constants, domains and physical definitions remain unchanged.
 
-Quoted conjectures, history, provenance, priority/novelty and non-authoritative archives are excluded. No CV-attainment claim, all-interpretations Conjecture-2 refutation, or three-dimensional temporal-CV minimality is introduced. See `REMAINING_RETAINED_STATEMENTS.md` for final residual status.
+Quoted conjectures, history, provenance, priority/novelty and non-authoritative archives are excluded. No CV-attainment claim, all-interpretations Conjecture-2 refutation, or three-dimensional temporal-CV minimality is introduced. See `GAP_MANIFEST.md` and `SOURCE_CLAIM_LEDGER.tsv` for authoritative residual/coverage status, and `SOURCE.json` for the recorded validation state.
 
 ## V4 release gate and subsidiary derivations
 
 The canonical endpoint transport section of `GAP_MANIFEST.md` specifies exact function equalities for each group and how every subsidiary v3 display is mechanically transported. Final temporal roots include continuous, scaled, finite and unbounded declarations. The fixed-purity endpoints preserve the full parameter interval; the qutrit endpoint preserves every real m>=4 and all nonrecurrence times. The delta-general bridges hold for every real delta/time.
 
-`SemanticDependencies.lean` traverses proof values only and requires each final family root to reach its own canonical spread bridge, the appropriate `CertifiedFamilyGS` bridge, generic GS uniqueness, and `MatrixGSBridge.spread_eq_normalized`. Perturbed roots instead require both delta-general bridges, the genuine pure-operator transport and actual-GS expectation bridge. This tailored gate does not demand irrelevant certified-chain mathematics of perturbative estimates. Runtime matrix: `verification/v4-required-bridge-matrix.json`.
+`SemanticDependencies.lean` traverses proof values only and requires each final family root to reach its own canonical spread bridge, the appropriate `CertifiedFamilyGS` bridge, generic GS uniqueness, and `MatrixGSBridge.spread_eq_normalized`. Perturbed roots instead require both delta-general bridges, the genuine pure-operator transport and actual-GS expectation bridge. This tailored gate does not demand irrelevant certified-chain mathematics of perturbative estimates. Runtime matrix: `verification/v4-required-bridge-matrix.json` is a runtime-generated verification output, produced by `scripts/extract_dependency_matrix.py` during `scripts/verify_v4.sh` in the verification workflow; it is not expected to be checked into the source tree.
 
-F-16 is retained/category B in the 128-row ledger; its exact derivation is recorded there and in the gap manifest. All 94 v3 proof modules must remain byte-identical. Counts and logs are evidence only after the corresponding gate has run; `RELEASE_HARDENING_V4.md` distinguishes local and independent CI execution.
+F-16 is retained/category B in the 128-row ledger; its exact derivation is recorded there and in the gap manifest. All 94 v3 proof modules must remain byte-identical. Counts and logs are evidence only after the corresponding gate has run; `HISTORY.md` and `SOURCE.json` record formalization history, historical CI identity, and publication verification context.
 
 ## Executed v4 evidence
 

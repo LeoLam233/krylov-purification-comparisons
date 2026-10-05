@@ -11,7 +11,8 @@ payload unchanged.
 - [Lean formalization and reproduction guide](formalization/README.md)
 - [Coverage and source-claim ledger](formalization/COVERAGE.md)
 - [Lean CI runs](https://github.com/LeoLam233/krylov-purification-comparisons/actions/workflows/lean-verification.yml)
-- [Successful frozen-payload verification](https://github.com/LeoLam233/krylov-purification-comparisons/actions/runs/36866846382)
+- [Historical frozen-v4-RC2 verification](https://github.com/LeoLam233/krylov-purification-comparisons/actions/runs/36866846382)
+- [v0.2.0 release-commit verification](https://github.com/LeoLam233/krylov-purification-comparisons/actions/runs/36889200785)
 - [Changelog](CHANGELOG.md) and [releases](https://github.com/LeoLam233/krylov-purification-comparisons/releases)
 
 ## Lean scope and verification
