@@ -21,7 +21,7 @@ Notation: r=S_U*/C_M, q=1/r, R=Pq. Common recurrence values use removable contin
 | Unbounded left ratio | Full-rank qutrit family, real m>=4; all t outside 2pi integers; r(pi)/m^2 -> 1/9; no fixed positive state-independent multiplier repairs the entire class | prop:unbounded-left |
 
 Conjecture 2 is qualitative. Only the displayed universal formulations are ruled out.
-No typicality result, absolute priority, unconditional infinite-dimensional theorem,
+No typicality result, unconditional infinite-dimensional theorem,
 minimum temporal-CV dimension, or fixed-purity minimum dimension is claimed here.
 The factor-two theorem has broader public prior art. The qubit source result is reconstructed.
 
