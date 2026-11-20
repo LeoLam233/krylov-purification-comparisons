@@ -149,12 +149,11 @@ The clean rooms reproduce seven supplied targets, not independent discovery of t
 witnesses or every V3 byproduct. See [audits](audits/README.md) and [clean-room summaries](clean_room/README.md).
 
 The supplied 2026-09-22 prior-art audit reported no matching public result for the
-retained hierarchy-counterexample and quantified ratio no-go claims. That dated
-search outcome is not an absolute priority claim. The attached final sweep records
-**PASS — PRIORITY SWEEP ONLY**, with a public-retrieval cutoff of 2026-09-23 09:25:29 UTC.
-No matching public prior result was found in that finite sweep; absolute priority is
-not claimed. Its qualifications and the frozen novelty positioning are preserved;
-see [the release-gate summary](audits/RELEASE_GATES.md). No new search was performed in this assembly.
+retained hierarchy-counterexample and quantified ratio no-go claims. The attached
+final sweep records **PASS — PRIORITY SWEEP ONLY**, with a public-retrieval cutoff
+of 2026-09-23 09:25:29 UTC. The search scope and frozen novelty positioning are
+documented in [the release-gate summary](audits/RELEASE_GATES.md). No new search
+was performed in this assembly.
 
 The manuscript scientific content remains that of the earlier audited RC1. Its two
 release-audit prose repairs are preserved. The historical v0.1.2 patch changed only
